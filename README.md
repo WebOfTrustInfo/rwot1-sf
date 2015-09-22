@@ -13,7 +13,7 @@ In advance of the November DesignShop, all participants are requested to post in
 *  A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
 These papers include:
-* [Linked Local Names](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/tree/master/topics-and-advance-readings) — by Christopher Allen ChristopherA@LifeWithAlacrity.com
+* [Linked Local Names](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/linked-local-names.md) — by Christopher Allen ChristopherA@LifeWithAlacrity.com
 
 ### Invitations
 
