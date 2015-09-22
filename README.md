@@ -4,7 +4,7 @@ This repository contains documents related to the "Rebooting the Web-of-Trust" s
 
 ## DesignShop November 3rd & 4th, 2015
 
-The first DesignShop event, to be held in the Bay Area on November 2nd & 3rd, is a facilitated, invite-only event focused on creating the next generation of decentralized web-of-trust based identity systems. The goal of this initial DesignShop is to generate 5 technical white papers and/or proposals on topics decided by the group that will have the greatest impact on the future.
+The first DesignShop event, to be held in the Bay Area on November 3rd & 4th 2015, is a facilitated, invite-only event focused on creating the next generation of decentralized web-of-trust based identity systems. The goal of this initial DesignShop is to generate 5 technical white papers and/or proposals on topics decided by the group that will have the greatest impact on the future.
 
 ### Topics & Advance Readings
 
