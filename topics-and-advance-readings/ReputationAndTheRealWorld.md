@@ -66,7 +66,7 @@ The new wealth of digital reputation is created in large part by software. This 
 Second, reputation system abuse becomes lucrative. As a score increases in influence, the cost to manipulate that score is less than the value created. Spammers and hackers learned this more than fifteen years ago, and current reputation systems are already under constant attack. SEO (search engine optimization) is already a billiondollar business created solely to influence search ranking reputation. Likewise, public relations and marketing agencies may create buzz and social networking attention by creating façades of seemingly unbiased individuals.
 
 Potential Solutions
- -- -- -- -- -- -- -- -- -- -
+-------------------
 
 Given the difficulties surrounding digital reputation and the problems of abuse and unreliable code, one wonders who would be brave enough to propose and build a next generation reputation system. There are lessons from previous systems that can help eliminate -- or at least mitigate -- the risks.
 
@@ -106,7 +106,7 @@ In Farmer and Bryce (2010a), we detail a Yahoo! Answers case study in which an i
 Tip: If users are creating and evaluating your mission-critical content, consider using reputation-based moderation and metamoderation techniques to enable your community to cross-check your content, identify the best content, and deal with abuse.
 
 New Solutions, New Problems
- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+---------------------------
 
 Future reputation system designers will hopefully apply narrow context to their data, ensure that publicly displayed karma is generated based on quality of actions and contributions, and mitigate abuse through reputation mechanisms such as metamoderation. But whenever a new technology comes into prominence, techno-optimists emerge who see it as a possible solution to contemporary social ills. So it should come as little surprise that many people have high hopes for the socially transformative power of digital reputation systems.
 Though exciting possibilities, these trends require critical evaluation through the filter of experience. Important new problems to address are also likely. Lessons taken from the social evolution of other real-life institutions may apply to digital reputation systems as they increase in real-world influence.
