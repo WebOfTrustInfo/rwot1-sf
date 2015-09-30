@@ -1,78 +1,47 @@
-Schnorr Signatures: An Overview
-===============================
-By Christopher Allen - <ChristopherA@LifeWithAlacrity.com> & Shannon Appelcline - <ShannonA@skotos.net>
+Progressive Trust
+=================
+By Christopher Allen - ChristopherA@LifeWithAlacrity.com
 
-Digital signatures have been around since Whitfield Diffie and Martin Hellman first described them in 1976. Early implementations based on the prime-number based RSA algorithm were dominant in the ‘90s. In recent years discrete logarithm and elliptic curve approaches have become more popular because they allow for improved computational efficiency and smaller key size without diminishing security.
+*Originally published 2004-08-16 at http://www.lifewithalacrity.com/2004/08/progressive_tru.html with minor edits and a technical and historical updates in 2015.*
 
-In the discrete logarithm space, ElGamal-based signature schemes have been the most deployed — thanks in large part to the National Institute of Standards and Technology (NIST) releasing their patented DSA under a royalty-free license when implementing the FIPS 186 standard in '93. Even Bitcoin as adopted a variant of DSA: the elliptic-curve based ECDSA, which uses the secp256k1 elliptic curve.
+I believe that as we evolve social software to better serve our needs and the needs of the groups that we are involved in, we need to figure out how to apply an understanding of how human groups behave and work.
 
-However, DSA isn’t the only answer for modern digital signatures. Schnorr signatures are an alternative that’s less widely used — primarily because they were under patent until 2008. Schnorr signatures offer numerous benefits over traditional methodologies, including:
+One useful concept I use I call "Progressive Trust". The basic idea is to model how trust works in the real world, between real people, rather then solely relying on mathematical or cryptographic trust.
 
-* Strong Security. They have a stronger security proof.
+This is how I typically explain progressive trust when I meet someone in-person at a conference:
 
-* Nice Simplicity. They’re considered the simplest form of digital signature.
+You are now spending your most precious resource, your most unrenewable commodity -- time, in order to listen and understand what I have to say.
 
-* Fast & Efficient. They can be implemented in blindingly quick ways on Intel hardware.
+Why do you do so? Because by the act of us being here in this common space, at this conference, you have found a very simple credential from me -- that I'm willing to spend time here in a place that you are interested in as well. In turn, I'm willing to spend more time chatting with you for the same reason.
 
-* NIKE (aka "Non-Interactive Key Exchange"). A Diffie-Helman secret between two parties can be created without any additional round-trips.
+Why do we continue to chat, and not move on to other people to discuss with? Because as we chat we are exchanging a number of credentials -- people we know in common, common interests, meaningful ideas, etc. We may also present credentials typically issued by others, like our business cards, or explain our relationship to the host.
 
-Schnorr signatures can also be added together in a very simple manner, which creates a number of interesting multisignature (aka "multisig") possibilities. These multisigs look exactly like a single signature, which means among other things that these mulitisig approaches have high privacy and low accountability:
+As our unspoken agreement to continue discussion evolves, we typically will unconsciously check to see if others are listening, and adapt our conversation thereafter. If the discussion becomes more personal or serious, we will often find ourselves moving to a more private portion of the room. As our discussions become deeper, we may begin to speak of things that hint at a mutual respect for confidentiality.
 
-High privacy. Third parties can’t see the participants, and only the participants can see the policy.
+Also early on we'll begin to scope out the nature of our time together. Is it only professional, or a potential friendship? Even intimate relationships go through this phase -- are we with someone who wants to date? Is is possible that a future date might lead to something more?
 
-Low accountability. For an M of N multisig that only requires some parties to sign, you can’t see who the signors are. For example, in a 3 of 5 multisig, you can see that 3 of the allowed parties signed, but not who they are.
+If we agree to meet later to discuss more, before we meet again we may go authenticate some of the credentials given us. We'll not authenticate all of them, only enough to substantiate the level of assurance that we need for the risk we are taking (which may only be the future loss due to wasted time, but even that is a form of risk.) This authentication can consist simply of confirming information given, or it can be as complex as asking for an endorsement from a mutual colleague.
 
-This high privacy is seen as an almost-universal win, but the low accountability has both advantages and disadvantages. It supports the implementation of group and ring signatures, both of which depend on anonymity, but it might be a deficit when used for financial multisigs. Fortunately, some recent implementations of Schnorr signatures are beginning to demonstrate new ways to adjust these cryptographic choices.
+As our collaboration grows, we will find ourselves seeking more and more credentials, endorsements, etc., but they will not be enough. The next level of trust can only be established by experience of commitment -- for instance do we call back when we said we would? These tests typically start with small things, and then grow to larger things. At some point this may ultimately grow to form simple verbal contracts; over time richer, deeper social contracts are agreed upon that might not be written down.
 
-Much of the recent deployment of Schnorr signatures has come thanks to stream of non-NIST-based cryptographic work: in the early ‘00s, Daniel J. Bernstein and his team were working on Curve25519 (2006). This elliptic curve offers a number of advantages over curve secp256k1 including CM field discriminants, ladders, completeness, and indistinguishability from uniform random strings. Curve25519 also has a birationally equivalent Twisted Edwards Curve that can be implemented very efficiently on Intel hardware.
+Ultimately we may bring in third parties to witness, and thus possibly enforce our mutual obligations, whether it is just having a mutual colleague view our handshake or friends see us kiss, or whether it is having a legal, signed document.
 
-Bernstein applied his elliptic curve work to Schnorr signatures after their patent expired in order to create a new signature standard: EdDSA (2011), the Edwards-curve Digital Signature Algorithm. The recommended curve for EdDSA is Bernstein’s Curve25519; using it results in a variant of EdDSA called Ed25519. It combines the speed, security, and simplicity of Schnorr signatures with the size advantages of Elliptic Curve Cryptography, using all non-NIST algorithms, producing an enviable system for digital signatures.
+At some point our mutual interests may be so large that we decide not just to collaborate, but to share assets, whether through a partnership, a corporation, or a marriage. Before this is complete there will be more credentials and authentication of those credentials and endorsements (talk to former employees, engage in credit checks, visit each others' families, take blood tests), as well as less risky tests of the full contract (signing a term sheet, or a marriage engagement).
 
-Since its creation, Ed25519 has been implemented in a few different toolkits. Bernstein produced the first implementation for SUPERCOP. He then created the NaCl crypto library (2012) and the shorter and simpler TweetNaCl (2013), which is intended to be an auditable “crypto library in 100 tweets”.  Meanwhile, user-oriented software has begun to appear based on Ed25519, including the OpenBSD OpenSSH 6.5 (2014) and the miniLock file encryption software (2014).
+This is the way human trust works. It also very similar to the way that groups work -- a corporation will collaborate with another corporation in the same way, starting with small trust, going on to tests, and leading ultimately up to partnerships and mergers.
 
-Though Curve25519 researchers have initiated much of the recent work on Schnorr signatures, it’s also entering the Bitcoin world thanks to Greg Maxwell and Pieter Wuille who created a fork of the secp256k1 source library called secp256k1-zkp. Their Schnorr signature code allows Bitcoin multisigs to support more signers and to be less costly than the Threshold ECDA signature scheme that was introduced in 2014.
+Computer trust rarely works the way that human trust does. It starts with mathematical proofs -- that such and such a mathematical algorithm is extremely difficult, thus something built on it must also be difficult. These are then built on top of each other until a system is created. It often seeks a level of "perfect trust" that is rarely required by human trust.
 
-In fact, the Bitcoin community appears to be currently on the leading edge of Schnorr multisig development. Maxwell and Wuille are looking for ways to make Schnorr multisig more accountable. They’re also trying to solve usability issues, as M of N Schnorr multisigs currently require too many round trips.
+One of the reasons why I chose to back the then nascent SSL (Secure Sockets Layer) Standard back in 1992-3, was that I felt that it much better mapped to the progressive trust model, and thus to human trust, then did its competitors.
 
-Polycheck Signatures offer one intriguing possibility. They implement M of N multisigs as mathematical formulas; the formulas can be manipulated to zero out some of their factors, removing some signers from the (literal) equation.
+At the time, the SET standard was backed by all the major players -- Visa, Mastercard, Microsoft, etc. However, it not only required strong mutual authentication, but it also require multiple authentications. SHTTP was backed by RSA, required digital signatures, preferably by both parties. SSL was not necessarily a clear winner.
 
-However, Pieter Wuille’s Tree Signatures appear to offer even more capabilities. Tree signatures implement M of N multisigs as a Merkle tree filled with N of N multisigs; together, this combined structure represents many additional options for multisigs, as as "Either A and B signed, or 2 out of C, D and E signed".
+But SSL starts out very simple -- first it just connects two parties with an integrity check, then it establishes simple confidentiality between them. If one party wants more confidentiality, they can upgrade to a stronger algorithm. Then one party can request a credential from the other, or both can. Either party has the option to request authentication of those credentials. This now prevents a man-in-the-middle. We could even ultimately choose to move into advanced options such as perfect-forward-secrecy, or non-repudiation.
 
-Though these methodologies offer some changes to Schnorr multisig accountability and usability, the hunt for the perfect way to widely adopt Schnorr signatures continues. In order to reach this goal, we’ll need to answer a number of questions:
+Ultimately you could use SSL to come close to the level trust that SET tried to establish, but SSL isn't generally used that way because the market decided that only one party needed to send a credential -- the merchant. SSL also proved to be more flexible then for use just with web pages or credit cards -- now it is used for things like securing email and text messages, creating VPNs, and playing online games.
 
-* What specific identity problems can only be solved by adopting Schnorr signatures? Which problems, when addressed, will have the biggest impact on the community?
+Yet advanced options such as client authentication, perfect forward secrecy, etc are still available. As needs or the marketplace evolves, these features can be enabled in the future, as recently happened after Snowden revelations.
 
-* Should our identity work switch from secp256k1 to make use of the non-NIST Ed25519? Or should we instead use secp256k1 for better compatibility with existing bitcoin-based crypto?
+Thus progressive trust is a useful conceptual model for understanding how trust might be built using online tools. Look at the tools that you are using now -- do they support various levels of trust, and a natural path between them? Or is trust more binary -- someone is only trusted, or not trusted. Are there implicit levels of progressive trust that are part of the culture of your group that might not embodied in the software itself?
 
-* What are the tradeoffs? What exactly are the differences between Bitcoin’s secp256k1-zkp and EdDSA? What do we loose by choosing Schnorr on secp256k1 vs Ed25519?
-
-* Can we parallel the development approach and APIs of NaCl, TweetNaCl, and TweetNaCl-js, but with secp256k1-zkp?
-
-* Can Tree Signatures be brought to Ed25519? Can HD ("Hierarchical Deterministic") keys be brought to Curve25519?
-
-* What other opportunities with Schnorr signatures should be be exploring? Group and ring signatures? What libraries and languages should we be targeting first?
-
-References
-----------
-
-Bernstein, Daniel J. “A state-of-the-art Diffie-Hellman function”. 2006. http://cr.yp.to/ecdh.html.
-
-Bernstein, Daniel J. “Curve25519: new Diffie-Hellman speed records”. February http://cr.yp.to/ecdh/curve25519-20060209.pdf.
-
-Bernstein, Daniel J., et al. “Ed25519: high-speed high-security signatures”.  September 2011. http://ed25519.cr.yp.to.
-
-Bernstein, Daniel J., et al. “High-speed high-security signatures”. September 2011. http://ed25519.cr.yp.to/ed25519-20110926.pdf.
-
-Bernstein, Daniel J., et al. “TweetNaCl: A crypto library in 100 tweets “. September 2014. http://tweetnacl.cr.yp.to/tweetnacl-20140917.pdf.
-
-Maxwell, Greg. “A Crypto-detour”. SF Bitcoin Devs Seminar: A Deep Dive with Bitcoin Core Developer Greg Maxwell. April 2015. https://www.youtube.com/watch?v=TYQ-3VvNCHE&feature=youtu.be&t=21m50s.
-
-Kobeissi, Nadim. “miniLock”. Hackfest 2014: Nadim Kobeissi presented "miniLock - Advances in Usable Cryptography"‬. November 2014. https://www.youtube.com/watch?v=izHUQ73i-5U&feature=youtu.be&t=24m5s.
-
-Schnorr, Claus-Peter. “Efficient identification and signatures for smart cards”. Advances in Cryptology — CRYPTO ’89. 1990.
-
-Seurin, Yannick. “On the Exact Security of Schnorr-Type Signatures in the Random Oracle Model”. January 2012. https://eprint.iacr.org/2012/029.pdf.
-
-Wuille, Pieter. SF Bitcoin Devs Seminar: Key Tree Signatures. August 2015. https://www.youtube.com/watch?v=gcQLWeFmpYg.
-
-‪Wuille, Peter. “Tree Signatures”. August 2014. https://blockstream.com/2015/08/24/treesignatures/.
+Progressive trust also maps well to an user-interface design technique called *Progressive Disclosure*. It sequences information and actions across several different windows in order not overwhelm the user. You disclose basic information and choices first, then revealing progressively more complex information and choices. Thus you help the user manage the complexity of the application. Navigating group interactions and culture is also complex, thus progressive trust allows you to hide some of initial complexity of the trust model behind your tools, and thus lower barriers of entry to your software.
