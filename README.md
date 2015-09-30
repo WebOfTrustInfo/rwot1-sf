@@ -14,6 +14,7 @@ In advance of the November DesignShop, all participants are requested to post in
 
 These papers include:
 * [Linked Local Names](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/linked-local-names.md) — by Christopher Allen ChristopherA@LifeWithAlacrity.com
+* [Reputation and the Real World](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/ReputationAndTheRealWorld.md) - by Randy Farmer randy.farmer@pobox.com
 
 ### Invitations
 
