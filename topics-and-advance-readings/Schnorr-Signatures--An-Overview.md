@@ -30,7 +30,7 @@ Bernstein applied his elliptic curve work to Schnorr signatures after their pate
 
 Since its creation, Ed25519 has been implemented in a few different toolkits. Bernstein produced the first implementation for SUPERCOP. He then created the NaCl crypto library (2012) and the shorter and simpler TweetNaCl (2013), which is intended to be an auditable “crypto library in 100 tweets”.  Meanwhile, user-oriented software has begun to appear based on Ed25519, including the OpenBSD OpenSSH 6.5 (2014) and the miniLock file encryption software (2014).
 
-Though Curve25519 researchers have initiated much of the recent work on Schnorr signatures, it’s also entering the Bitcoin world thanks to Greg Maxwell and Pieter Wuille who created a fork of the secp256k1 source library called secp256k1-zkp. Their Schnorr signature code allows Bitcoin multisigs to support more signers and to be less costly than the Threshold ECDA signature scheme that was introduced in 2014.
+Though Curve25519 researchers have initiated much of the recent work on Schnorr signatures, it’s also entering the Bitcoin world thanks to Greg Maxwell and Pieter Wuille who implemented them in libsecp256k1, a library that is planned to replace Bitcoin's use of elliptic curve cryptography. Their Schnorr signature code allows Bitcoin multisigs to support more signers and to be less costly than the Threshold ECDSA signature scheme that was introduced in 2014.
 
 In fact, the Bitcoin community appears to be currently on the leading edge of Schnorr multisig development. Maxwell and Wuille are looking for ways to make Schnorr multisig more accountable. They’re also trying to solve usability issues, as M of N Schnorr multisigs currently require too many round trips.
 
@@ -44,9 +44,9 @@ Though these methodologies offer some changes to Schnorr multisig accountability
 
 * Should our identity work switch from secp256k1 to make use of the non-NIST Ed25519? Or should we instead use secp256k1 for better compatibility with existing bitcoin-based crypto?
 
-* What are the tradeoffs? What exactly are the differences between Bitcoin’s secp256k1-zkp and EdDSA? What do we loose by choosing Schnorr on secp256k1 vs Ed25519?
+* What are the tradeoffs? What exactly are the differences between Bitcoin’s libsecp256k1 and EdDSA? What do we loose by choosing Schnorr on secp256k1 vs Ed25519?
 
-* Can we parallel the development approach and APIs of NaCl, TweetNaCl, and TweetNaCl-js, but with secp256k1-zkp?
+* Can we parallel the development approach and APIs of NaCl, TweetNaCl, and TweetNaCl-js, but with libsecp256k1?
 
 * Can Tree Signatures be brought to Ed25519? Can HD ("Hierarchical Deterministic") keys be brought to Curve25519?
 
@@ -75,4 +75,4 @@ Seurin, Yannick. “On the Exact Security of Schnorr-Type Signatures in the Rand
 
 Wuille, Pieter. SF Bitcoin Devs Seminar: Key Tree Signatures. August 2015. https://www.youtube.com/watch?v=gcQLWeFmpYg.
 
-‪Wuille, Peter. “Tree Signatures”. August 2014. https://blockstream.com/2015/08/24/treesignatures/.
+‪Wuille, Pieter. “Tree Signatures”. August 2015. https://blockstream.com/2015/08/24/treesignatures/.
