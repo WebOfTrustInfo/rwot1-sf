@@ -16,7 +16,7 @@ Or any other "thing". Protocols are how the _things_ themselves behave.
 
 ##### Q: Why Are You Telling Me This?
 
-Because the Internet needs blockchains, and it needs to be able to access them securely from mobile devices.
+Because the Internet needs blockchains, and it needs to be able to access them securely from mobile devices. At the same time, it would be unwise for the entire Internet to rely on any _specific_ blockchain.
 
 ##### Q: Why Does The Internet Need Blockchains?
 
