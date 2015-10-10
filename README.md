@@ -18,7 +18,7 @@ These papers include:
 * [Schnorr Signatures: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Schnorr-Signatures--An-Overview.md) - by Christopher Allen ChristopherA@LifeWithAlacrity.com & Shannon Appelcline ShannonA@skotos.net
 * [PGP Paradigm](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/PGP-Paradigm.pdf) - by Jon Callas - jon@crypto.expert & Phil Zimmerman - prz@mit.edu
 * [Progressive Trust](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/progressive-trust.md) - by Christopher Allen - ChristopherA@LifeWithAlacrity.com
-
+* [The Need For A Generic Thin Client Protocol](topics-and-advance-readings/thin-clients.md) - by Greg Slepak - hi@okturtles.com
 
 ### Invitations
 
