@@ -12,7 +12,7 @@ In advance of the November DesignShop, all participants are requested to post in
 * A specific problem that you'd like to solve with a web-of-trust solution, and why current solutions (pgp or ca-based pki) can't address the problem?
 *  A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
-These papers include:
+These papers include (so far):
 
 * **[Avoiding Confused Deputy Attack Using Capabilities](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities.md)** - by Tyler Close *\<tyler.close@gmail.com\>*
 * **[Linked Local Names](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/linked-local-names.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
