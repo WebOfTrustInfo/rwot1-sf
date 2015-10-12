@@ -14,4 +14,4 @@ These papers include (so far):
 * **[Schnorr Signatures: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Schnorr-Signatures--An-Overview.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[Thin Clients](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/thin-clients.md)** - by Greg Slepak *[@TaoEffect](https://twitter.com/TaoEffect) \<hi@okturtles.com\>*
 
-We ask that participants use this repository's [Issues](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues) pages for comments and questions. We also invite [Pull Requests] with clarifications and additional links.
+We ask that participants use this repository's [Issues](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues) pages for comments and questions. We also invite [Pull Requests](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/pulls) with clarifications and additional links.
