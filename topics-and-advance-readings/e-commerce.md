@@ -1,6 +1,6 @@
 # Building a web of trust for decentralized e-commerce platforms (e.g. OpenBazaar)
 
-By [Michael Folkson](https://twitter.com/michaelfolkson), (https://michaelfolkson.com/).
+By [Michael Folkson](https://twitter.com/michaelfolkson), (http://michaelfolkson.com/).
 
 OpenBazaar is a decentralized network for peer-to-peer online commerce. Cryptographic keys establish an identity, digital signatures prove an identity agreed to the contract and a cryptographic hash of the contract acts as a tamper-proof record of the contract. Products are paid for using multi-signature escrow contracts with arbiters digitally signing transfer of funds to the seller or back to the buyer in case of disagreement over the quality or specifications of the goods delivered.
 
