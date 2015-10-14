@@ -4,7 +4,7 @@ By [Michael Folkson](https://twitter.com/michaelfolkson), (https://michaelfolkso
 
 OpenBazaar is a decentralized network for peer-to-peer online commerce. Cryptographic keys establish an identity, digital signatures prove an identity agreed to the contract and a cryptographic hash of the contract acts as a tamper-proof record of the contract. Products are paid for using multi-signature escrow contracts with arbiters digitally signing transfer of funds to the seller or back to the buyer in case of disagreement over the quality or specifications of the goods delivered.
 
-The upside of bypassing centralized services such as eBay, Kickstarter or Uber is that no third party can charge excessive fees, impose restrictive policies, prohibit Bitcoin payments or present a single point of failure in the storing of users’ personal data. However, the downside is that no organization is responsible for maintaining the integrity of the system and guard against Sybil attacks and fake ratings.
+The upside of bypassing centralized services such as eBay or Uber is that no third party can charge excessive fees, impose restrictive policies, prohibit Bitcoin payments or present a single point of failure in the storing of users’ personal data. However, the downside is that no organization is responsible for maintaining the integrity of the system and guard against Sybil attacks and fake ratings.
 
 Webs of trust (such as the PGP web of trust) have historically been used to bind cryptographic keys and an identity. However, they can also potentially be used to build broader reputation or trust systems for users of platforms such as OpenBazaar so that they can assess the likelihood of promises made on the marketplace being fulfilled.
 
