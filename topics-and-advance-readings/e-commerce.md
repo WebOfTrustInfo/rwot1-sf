@@ -18,7 +18,7 @@ This web of trust solution is vulnerable to man-in-the-middle attacks where an h
 
 Questions to discuss:
 
-* What Is A Protocol?
+* How should webs of trust be phased in when they require strong network effects?
 
 References
 ----------
