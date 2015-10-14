@@ -20,7 +20,7 @@ OpenBazaar is not currently using a web of trust solution. Its current reputatio
 
 Questions to discuss:
 
-* How should webs of trust be phased in when they require strong network effects?
+* How should webs of trust be phased in when they require strong network effects to be useful?
 * Is there any way of avoiding the trade off between privacy and resistance to Sybil attacks?
 
 References
