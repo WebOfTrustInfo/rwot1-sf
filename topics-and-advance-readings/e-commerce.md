@@ -16,7 +16,9 @@ Unlike projected trust, global trust in a node will be consistent across users. 
 
 This web of trust solution is vulnerable to man-in-the-middle attacks where an honest vendor is impersonated for the purposes of building up trust. It is currently difficult to guard against such attacks though the physical delivery of the product may be used to verify that there is no man-in-the-middle.
 
-##### Q: What Is A Protocol?
+Questions to discuss:
+
+* What Is A Protocol?
 
 References
 ----------
