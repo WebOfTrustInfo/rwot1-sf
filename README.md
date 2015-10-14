@@ -22,6 +22,7 @@ These papers include (so far):
 * **[Reputation and the Real World](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/ReputationAndTheRealWorld.md)** - by Randy Farmer *[@FRandallFarmer](https://twitter.com/FRandallFarmer) \<randy.farmer@pobox.com\>*
 * **[Schnorr Signatures: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Schnorr-Signatures--An-Overview.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[Thin Clients](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/thin-clients.md)** - by Greg Slepak *[@TaoEffect](https://twitter.com/TaoEffect) \<hi@okturtles.com\>*
+* **[Building a web of trust for e-commerce](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/e-commerce.md)** - by Michael Folkson *[@michaelfolkson](https://twitter.com/michaelfolkson) \<michaelfolkson@gmail.com\>*
 
 
 ### Invitations
