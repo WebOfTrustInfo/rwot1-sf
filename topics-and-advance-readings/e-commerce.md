@@ -19,9 +19,9 @@ This web of trust solution is vulnerable to man-in-the-middle attacks where an h
 References
 ----------
 
-Zindros, Dionysis. “A pseudonymous trust system for a decentralized anonymous marketplace”. 2014. https://gist.github.com/dionyziz/e3b296861175e0ebea4b.
+Sanchez, Washington. “Decentralized Reputation in OpenBazaar”. 2015 https://blog.openbazaar.org/decentralized-reputation-in-openbazaar/.
 
-Bernstein, Daniel J. “Curve25519: new Diffie-Hellman speed records”. February http://cr.yp.to/ecdh/curve25519-20060209.pdf.
+Zindros, Dionysis. “A pseudonymous trust system for a decentralized anonymous marketplace”. 2014. https://gist.github.com/dionyziz/e3b296861175e0ebea4b.
 
 
 OK Turtles file
