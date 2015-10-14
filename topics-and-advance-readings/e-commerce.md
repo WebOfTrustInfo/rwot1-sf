@@ -16,6 +16,13 @@ Unlike projected trust, global trust in a node will be consistent across users. 
 
 This web of trust solution is vulnerable to man-in-the-middle attacks where an honest vendor is impersonated for the purposes of building up trust. It is currently difficult to guard against such attacks though the physical delivery of the product may be used to verify that there is no man-in-the-middle.
 
+References
+----------
+
+Zindros, Dionysis. “A pseudonymous trust system for a decentralized anonymous marketplace”. 2014. https://gist.github.com/dionyziz/e3b296861175e0ebea4b.
+
+Bernstein, Daniel J. “Curve25519: new Diffie-Hellman speed records”. February http://cr.yp.to/ecdh/curve25519-20060209.pdf.
+
 
 OK Turtles file
 
