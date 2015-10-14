@@ -16,11 +16,12 @@ Unlike projected trust, global trust in a node will be consistent across users. 
 
 This web of trust solution is vulnerable to man-in-the-middle attacks where an honest vendor is impersonated for the purposes of building up trust. It is currently difficult to guard against such attacks though the physical delivery of the product may be used to verify that there is no man-in-the-middle.
 
-OpenBazaar is not currently using a web of trust solution.
+OpenBazaar is not currently using a web of trust solution. Its current reputation system is similar to Ebay's in that it is transaction based. 
 
 Questions to discuss:
 
 * How should webs of trust be phased in when they require strong network effects?
+* Is there any way of avoiding the trade off between privacy and resistance to Sybil attacks?
 
 References
 ----------
