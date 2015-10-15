@@ -16,7 +16,7 @@ Unlike projected trust, global trust in a node will be consistent across users. 
 
 This web of trust solution is vulnerable to man-in-the-middle attacks where an honest vendor is impersonated for the purposes of building up trust. It is currently difficult to guard against such attacks though the physical delivery of the product may be used to verify that there is no man-in-the-middle.
 
-OpenBazaar is not currently using a web of trust solution. Its current reputation system is similar to Ebay's in that it is transaction based. 
+OpenBazaar is not currently using a web of trust solution. Its current reputation system is similar to Ebay's in that it is transaction based and ratings are made according to multiple criteria. Sellers are rated by buyers but not vice versa.
 
 Questions to discuss:
 
