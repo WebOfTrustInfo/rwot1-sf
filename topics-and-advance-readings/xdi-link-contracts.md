@@ -1,5 +1,6 @@
 # XDI Link Contracts: An Overview
 By Drummond Reed, Co-Chair, OASIS XDI Technical Committee, drummond@respect.network
+
 One of the challenges in a distributed peer-to-peer data network, such as a web of trust, is how any two peers can quickly and easily negotiate a data sharing agreement, i.e., a human- and machine-understandable (and enforceable) description of what data the publisher is sharing with the subscriber under what permissions and conditions. Additional challenges include:
 
 1. How can the parties to the data sharing agreement identify and authenticate each other such that they can safely interact for the period of time it is effective?
@@ -7,7 +8,9 @@ One of the challenges in a distributed peer-to-peer data network, such as a web 
 3. How can such a data sharing agreement be adaptable to different security and privacy policies, so it is not obsoleted as new technologies arrive?
 
 This paper briefly describes the solution to these problems developed by the [OASIS XDI (Extensible Data Interchange) Technical Committee] (http://www.oasis-open.org/committees/xdi/) as part of the XDI 1.0 suite of specifications for semantic data interchange.
+
 ## The Four Steps to an XDI Link Contract
+
 ### Step 1) XDI Graphs: Addressable Semantic JSON
 The first step is to establish a semantic graph model that provides a standard way to persistently address any data asset (from a single data element to an entire database) in the context of any data authority, container, or context for that data asset. To do this, the XDI graph model uses the same subject-predicate-object triples model as RDF, but adds: a) a standard predicate for modeling context, and b) the requirement that all contextual predicates be unique in the scope of their parent node. This addressable semantic tree model is the heart of XDI.
 
@@ -58,6 +61,7 @@ Following is an example XDI graph with some typical profile data for a person (A
 }
 ```
 ### Step 2) XDI Link Contracts: Standard Subgraphs for Authorization
+
 The second step is to use this addressable semantic tree model to represent data sharing agreements. Each such agreement is between the publisher of the data, called the authorizing authority, and a party who wants to access the data, called the requesting authority. Because the agreement links these parties to the data covered by the agreement—and also binds them to the terms of the agreement just like a real-world contract—the XDI Technical Committee calls this XDI subgraph a link contract.
 
 The root node of an XDI link contract is an XDI entity identified with the reserved class name `$do` (chosen because a link contract is a machine-readable description of what an authorizing authority permits a requesting authority to do with the described data).
@@ -65,6 +69,7 @@ The root node of an XDI link contract is an XDI entity identified with the reser
 A `$do` node may appear anywhere inside the subgraph of an authorizing authority node. Such a link contract is owned and controlled by that authorizing authority. Like a real-world contract, the contract terms control if it the terms fixed (no changes can be made by any party), unilateral (only the authorizing authority can make changes), or bilateral (changes require the consent of all parties).
 
 ### Step 3) XDI Permissions: Semantic Relations to Data Nodes
+
 With an addressable semantic tree model, permissions can be represented by XDI relations between the `$do` node and the XDI subgraph(s) containing the data that is the object of the permission. This can be thought of as the graph-based equivalent of an [ACL](https://en.wikipedia.org/wiki/Access_control_list), but with much richer and more extensible semantics. For example, the following XDI statement (using i-names for simplicity) is how a link contract from Alice could provide permission to read (`$get`) her home phone number.
 
 
@@ -89,6 +94,7 @@ $do | Authorize other operations
 XDI developers can specialize the $do operation to extend the XDI operation vocabulary to encompass any operation for which a link contract needs to control permission.
 
 ### Step 4) XDI Policies: Semantic Logic Trees for Authorization
+
 The final step is to express the set of policies that an requesting authority must satisfy in order to be authorized under a link contract. This is the XDI equivalent of [XACML](https://en.wikipedia.org/wiki/XACML), the XML-based policy expression language published by the OASIS XACML Technical Committee. In fact, XDI link contracts can reference external policies and policy engines like XACML to make policy evaluations. Alternatively, policies can be expressed and evaluated directly in XDI.
 
 XDI policies may specify any set of terms and conditions relevant to making an authorization decision, including requirements for identification, authentication, encryption, digital signatures, synchronization, and termination of the link contract. They can also govern privacy by specifying authorized uses of shared data.
@@ -147,12 +153,15 @@ Note that the i-number UUIDs have been shortened to x-alice and x-bob for readab
 }
 ```
 ## Negotiation of XDI Link Contracts
+
 Although any XDI authority can write a link contract directly into its graph to grant permissions to any other XDI authority, in practice link contracts are produced via an exchange of XDI messages between the requesting and authorizing authorities. This is the machine equivalent of how most real world contracts are negotiated. This exchange of messages has enough permutations that it is being defined in a separate specification from the XDI Technical Committee called XDI Connections 1.0.
 
 ## Conclusion
+
 Building on the “flat” RDF semantic graph model, XDI defines an addressable semantic tree of data. This semantic tree enables a special type of subgraph, an XDI link contract, that can standardize how any two peers can arrive at an interoperable, portable data sharing agreement. This agreement can authorize any operation that can be defined with an XDI relation and can govern any data that can be referenced with the XDI graph model, including pointers to any Web-addressable resource. A link contract can also be governed by policies written in XDI or in any Web-addressable policy engine. The XDI protocol will also specify how link contracts can be negotiated between arbitrary peers, enabling a fully decentralized web-of-trust.
 
 ## References
+
 Joseph Boyle, Drummond Reed, Markus Sabadello. "XDI Core 1.0 Working Draft 05". OASIS XDI Technical Committee. October 2015. http://xdi.org/xdi-spec-docbook/xdi/xdi-core-1.0/xdi-core-1.0-wd05-2015-10-14.xml
 
 Richard Cyganiak, David Wood, Markus Lanthaler. "RDF 1.1 Concepts and Abstract Syntax". W3C Recommendation. February 2014. http://www.w3.org/TR/rdf11-concepts
