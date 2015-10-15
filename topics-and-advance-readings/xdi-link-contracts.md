@@ -160,6 +160,14 @@ Although any XDI authority can write a link contract directly into its graph to 
 
 Building on the “flat” RDF semantic graph model, XDI defines an addressable semantic tree of data. This semantic tree enables a special type of subgraph, an XDI link contract, that can standardize how any two peers can arrive at an interoperable, portable data sharing agreement. This agreement can authorize any operation that can be defined with an XDI relation and can govern any data that can be referenced with the XDI graph model, including pointers to any Web-addressable resource. A link contract can also be governed by policies written in XDI or in any Web-addressable policy engine. The XDI protocol will also specify how link contracts can be negotiated between arbitrary peers, enabling a fully decentralized web-of-trust.
 
+## Questions for the Web-of-Trust Group
+
+* How can we best can we use link contracts and XDI graphs to facilitate your web-of-trust needs?
+
+* Link contracts are currently express policy statements, enforced by legal agreements and law. How best can we adapt them to use more cryptography to enforce the contracts? Are there smart contract and ring and threshold signature possibilities?
+
+* Link contracts have additional value when supplemented by proof-of-existence. How best can we anchor link contracts in blockchain to add PoE?
+
 ## References
 
 Joseph Boyle, Drummond Reed, Markus Sabadello. "XDI Core 1.0 Working Draft 05". OASIS XDI Technical Committee. October 2015. http://xdi.org/xdi-spec-docbook/xdi/xdi-core-1.0/xdi-core-1.0-wd05-2015-10-14.xml
