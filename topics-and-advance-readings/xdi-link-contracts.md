@@ -62,11 +62,11 @@ Following is an example XDI graph with some typical profile data for a person (A
 ```
 ### Step 2) XDI Link Contracts: Standard Subgraphs for Authorization
 
-The second step is to use this addressable semantic tree model to represent data sharing agreements. Each such agreement is between the publisher of the data, called the authorizing authority, and a party who wants to access the data, called the requesting authority. Because the agreement links these parties to the data covered by the agreement—and also binds them to the terms of the agreement just like a real-world contract—the XDI Technical Committee calls this XDI subgraph a link contract.
+The second step is to use this addressable semantic tree model to represent data sharing agreements. Each such agreement is between the publisher of the data, called the *authorizing authority*, and a party who wants to access the data, called the *requesting authority*. Because the agreement links these parties to the data covered by the agreement—and also binds them to the terms of the agreement just like a real-world contract—the XDI Technical Committee calls this XDI subgraph a *link contract*.
 
 The root node of an XDI link contract is an XDI entity identified with the reserved class name `$do` (chosen because a link contract is a machine-readable description of what an authorizing authority permits a requesting authority to do with the described data).
 
-A `$do` node may appear anywhere inside the subgraph of an authorizing authority node. Such a link contract is owned and controlled by that authorizing authority. Like a real-world contract, the contract terms control if it the terms fixed (no changes can be made by any party), unilateral (only the authorizing authority can make changes), or bilateral (changes require the consent of all parties).
+A `$do` node may appear anywhere inside the subgraph of an authorizing authority node. Such a link contract is owned and controlled by that authorizing authority. Like a real-world contract, the contract terms control if it the terms are fixed (no changes can be made by any party), unilateral (only the authorizing authority can make changes), or bilateral (changes require the consent of all parties).
 
 ### Step 3) XDI Permissions: Semantic Relations to Data Nodes
 
@@ -101,7 +101,7 @@ XDI policies may specify any set of terms and conditions relevant to making an a
 
 XDI policies may also bind the authorizing authority. For example, a link contract may require that the authorizing authority sign and encrypt XDI messages containing data updates that are pushed to a requesting authority.
 
-XDI policies are specified in the `$do$if` branch of a link contract. Policies may be combined into a boolean logic tree of arbitrary complexity using and/or/not statements. In the following example, Alice’s graph has added a link contract that gives Bob `$get` access to her home email address provided Bob’s XDI request satisfies two policy conditions:
+XDI policies are specified in the `$do$if` branch of a link contract. Policies may be combined into a boolean logic tree of arbitrary complexity using `$and`, `$or`, and `$not` statements. In the following example, Alice’s graph has added a link contract that gives Bob `$get` access to her home email address provided Bob’s XDI request satisfies two policy conditions:
 
 1. Alice’s graph asserts that Bob is a friend of Alice.
 2. Bob’s XDI message has a valid signature.
@@ -154,7 +154,7 @@ Note that the i-number UUIDs have been shortened to x-alice and x-bob for readab
 ```
 ## Negotiation of XDI Link Contracts
 
-Although any XDI authority can write a link contract directly into its graph to grant permissions to any other XDI authority, in practice link contracts are produced via an exchange of XDI messages between the requesting and authorizing authorities. This is the machine equivalent of how most real world contracts are negotiated. This exchange of messages has enough permutations that it is being defined in a separate specification from the XDI Technical Committee called XDI Connections 1.0.
+Although any XDI authority may write a link contract directly into its graph to grant permissions to any other XDI authority, in practice link contracts are produced via an exchange of XDI messages between the requesting and authorizing authorities. This is the machine equivalent of how most real world contracts are negotiated. This exchange of messages has enough permutations that it is being defined in a separate specification from the XDI Technical Committee called *XDI Connections 1.0*.
 
 ## Conclusion
 
