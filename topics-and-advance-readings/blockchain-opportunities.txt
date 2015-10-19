@@ -68,7 +68,7 @@ seal mechanism however we can guarantee revocation reception in two ways:
 We can also support key rotation analogously, either by proving a key has not
 been rotated, or by rotation on a fixed schedule driven by expiry dates. (e.g.
 through a globally unique mapping(2)) In both cases the single-use-seal
-mechanism guarnatees that all verifiers are using the correct key.
+mechanism guarantees that all verifiers are using the correct key.
 
 
 Timestamps
