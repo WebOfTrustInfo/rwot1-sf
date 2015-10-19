@@ -26,6 +26,7 @@ These papers include (so far):
 * **[Schnorr Signatures: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Schnorr-Signatures--An-Overview.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[Thin Clients](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/thin-clients.md)** - by Greg Slepak *[@TaoEffect](https://twitter.com/TaoEffect) \<hi@okturtles.com\>*
 * **[XDI Link Contracts: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/xdi-link-contracts.md)** - by Drummond Reed *[@DrummondReed](https://twitter.com/DrummondReed) \<drummond@respect.network\>*
+* **[Blockchain-based Trust for Software Components](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/code-and-file-signing.adoc)** - by Sean Gilligan *[@msgilligan](https://twitter.com/msgilligan) \<sean@msgilligan.com\>*
 
 
 ### Invitations
