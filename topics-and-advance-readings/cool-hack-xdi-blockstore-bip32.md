@@ -156,8 +156,8 @@ Given these XDI numbers, we set up a PoC where one XDI peer creates a link contr
 Example link contract at =julia's XDI endpoint:
 
 	(=julia/=romeo)$do/$get/=julia<#email>
-	(=julia/=romeo)($do$if$and$or/$true){$from}/$is/=!:cid-2:1GpKLiTq79fFgdHLvFyAz2tdpzSjtcGs2M
-	(=julia/=romeo)($do$if$and$or/$true){$from}/$is#derived$key/=!:cid-2:1GpKLiTq79fFgdHLvFyAz2tdpzSjtcGs2M
+	(=julia/=romeo)($do$if$and$or/$true){$from}/$is/=!:cid-2:xpub6F9Ytjev4vdChPvABxd645LspyrQhQq...
+	(=julia/=romeo)($do$if$and$or/$true){$from}/$is#derived$key/=!:cid-2:xpub6F9Ytjev4vdChPvABxd645LspyrQhQ...
 	(=julia/=romeo)($do$if$and/$true){$msg}<$sig><$valid>/&/true
 
 Example XDI message from =romeo's XDI agent to =julia's XDI endpoint:
