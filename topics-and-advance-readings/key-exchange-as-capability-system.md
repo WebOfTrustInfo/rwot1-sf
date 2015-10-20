@@ -2,7 +2,7 @@
 
 By Dominic Tarr - dominic.tarr@gmail.com
 
-_originally published July 10, 2015, at http://dominictarr.github.io/secret-handshake-paper/shs.pdf)_
+_(full paper published July 10, 2015, at http://dominictarr.github.io/secret-handshake-paper/shs.pdf)_
 
 Secret Handshake is a key exchange with the properties of a capability system -
 a conceptual framework for the construction of decentralized access control systems.
