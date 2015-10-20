@@ -3,7 +3,7 @@ Sean Gilligan <https://github.com/msgilligan>
 v0.1
 :description: Rough draft of topic paper for Rebooting Web of Trust.
 
-== Zooko Stalks the Bazaar
+== Zooko's Triangle Stalks the Bazaar
 
 A computing device cannot be secure if an attacker is able to surreptitiously insert malicious code on it. Current solutions for signing and verifying computer software -- both source code and binaries -- generally rely on the same flawed, hierarchical systems as our network connections do.
 
