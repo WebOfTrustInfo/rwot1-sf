@@ -13,10 +13,10 @@ In advance of the November DesignShop, all participants are requested to post in
 *  A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
 These papers include (so far):
-
 * **[Avoiding Confused Deputy Attack Using Capabilities](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities.md)** - by Tyler Close *\<tyler.close@gmail.com\>*
 * **[Blockchain Tech Opportunities in the Web-of-Trust](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/blockchain-opportunities.txt)** - by Peter Todd *[@PeterToddBTC](https://twitter.com/PeterToddBTC) \<pete@petertodd.org\>*
 * **[Building a Web of Trust for E-commerce](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/decentralized_e-commerce.md)** - by Michael Folkson *[@michaelfolkson](https://twitter.com/michaelfolkson) \<michaelfolkson@gmail.com\>*
+* **[Cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/cool-hack-xdi-blockstore-bip32.md)** - by Markus Sabadello *[@peacekeeper](https://twitter.com/peacekeeper) \<markus@projectdanube.org\>*
 * **[Hierarchical Deterministic Keys: BIP32 & Beyond](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[Key Transparency for End Users](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/key-transparency-for-end-users.md)** — by Joseph Bonneau *[@JosephBonneau](https://twitter.com/josephbonneau) \<jbonneau@cs.stanford.edu\>*
 * **[Linked Local Names](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/linked-local-names.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
@@ -25,10 +25,10 @@ These papers include (so far):
 * **[Progressive Trust](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/progressive-trust.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[Reputation and the Real World](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/ReputationAndTheRealWorld.md)** - by Randy Farmer *[@FRandallFarmer](https://twitter.com/FRandallFarmer) \<randy.farmer@pobox.com\>*
 * **[Schnorr Signatures: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Schnorr-Signatures--An-Overview.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
+* **[Secret Handshake: Key Exchange as a Capability System](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/key-exchange-as-capability-system.md)** - by Dominic Tarr *[@DominicTarr](https://twitter.com/DominicTarr) \<dominic.tarr@gmail.com\>*
 * **[Thin Clients](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/thin-clients.md)** - by Greg Slepak *[@TaoEffect](https://twitter.com/TaoEffect) \<hi@okturtles.com\>*
 * **[XDI Link Contracts: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/xdi-link-contracts.md)** - by Drummond Reed *[@DrummondReed](https://twitter.com/DrummondReed) \<drummond@respect.network\>*
 * **[Blockchain-based Trust for Software Components](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/code-and-file-signing.adoc)** - by Sean Gilligan *[@msgilligan](https://twitter.com/msgilligan) \<sean@msgilligan.com\>*
-
 
 ### Invitations
 
