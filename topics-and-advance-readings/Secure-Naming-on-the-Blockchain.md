@@ -8,7 +8,7 @@ Note: This document uses a few sections from a paper that is currently under pee
 + Bitcoin + Blockstore
 + Other Blockchains
 
-### Namecoin
+### Background on Namecoin
 
 [Namecoin](https://namecoin.info/) provides a blockchain-based key/value store and is
 originally credited for solving the [Zooko's Triangle](https://en.wikipedia.org/wiki/Zooko%27s_triangle) since it
@@ -43,9 +43,15 @@ value of the key/value pair in this operation as well.
 *name_update* transaction. It also happens to renew the key registration by
 another fixed amount of time (currently 36,000 blocks).
 
-#### Additional Resources
+#### Lessons from Namecoin
 
-+ [Namecoin Wiki](https://wiki.namecoin.org/index.php?title=Welcome)
+The security of name ownership on a blockchain is tied to the security of both the underlying blockchain and the software powering it. There are three security issues to take into consideration:
+
+1. Cost of attack for taking over 51% mining power
+2. Software vulnerabilities
+3. Network attacks
+
+For details on these security concerns and other experiences from a large-scale production deployment on Namecoin see [this post](http://blog.onename.com/namecoin-to-bitcoin/). Further, the pricing policy for name registrations is very important for enabling a spam-free namespace. See [this paper](http://randomwalker.info/publications/namespaces.pdf) for a detailed discussion of pricing mechanisms and analysis of Namecoin namespaces.
 
 ### Bitcoin + Blockstore
 
