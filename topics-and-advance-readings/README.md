@@ -7,6 +7,7 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](https://github.com/Web
 
 These papers include (so far):
 * **[Avoiding Confused Deputy Attack Using Capabilities](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities.md)** - by Tyler Close *\<tyler.close@gmail.com\>*
+* **[Blockchain-based Trust for Software Components](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/code-and-file-signing.adoc)** - by Sean Gilligan *[@msgilligan](https://twitter.com/msgilligan) \<sean@msgilligan.com\>*
 * **[Blockchain Tech Opportunities in the Web-of-Trust](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/blockchain-opportunities.txt)** - by Peter Todd *[@PeterToddBTC](https://twitter.com/PeterToddBTC) \<pete@petertodd.org\>*
 * **[Building a Web of Trust for E-commerce](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/decentralized_e-commerce.md)** - by Michael Folkson *[@michaelfolkson](https://twitter.com/michaelfolkson) \<michaelfolkson@gmail.com\>*
 * **[Cool hack with XDI graphs, blockstore, link contracts, and cryptographic identifiers](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/cool-hack-xdi-blockstore-bip32.md)** - by Markus Sabadello *[@Peacekeper](https://twitter.com/Peacekeeper) \<markus@projectdanube.org\>*
@@ -21,6 +22,5 @@ These papers include (so far):
 * **[Secret Handshake: Key Exchange as a Capability System](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/key-exchange-as-capability-system.md)** - by Dominic Tarr *[@DominicTarr](https://twitter.com/DominicTarr) \<dominic.tarr@gmail.com\>*
 * **[Thin Clients](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/thin-clients.md)** - by Greg Slepak *[@TaoEffect](https://twitter.com/TaoEffect) \<hi@okturtles.com\>*
 * **[XDI Link Contracts: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/xdi-link-contracts.md)** - by Drummond Reed *[@DrummondReed](https://twitter.com/DrummondReed) \<drummond@respect.network\>*
-* **[Blockchain-based Trust for Software Components](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/code-and-file-signing.adoc)** - by Sean Gilligan *[@msgilligan](https://twitter.com/msgilligan) \<sean@msgilligan.com\>*
 
 We ask that participants use this repository's [Issues](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues) pages for comments and questions. We also invite [Pull Requests](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/pulls) with clarifications and additional links.
