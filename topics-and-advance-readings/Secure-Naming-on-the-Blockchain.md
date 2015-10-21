@@ -1,5 +1,7 @@
 # Secure Naming on the Blockchain
 
+Note: This document uses a few sections from a paper that is currently under peer-review. Please contact the authors (Muneeb Ali, Ryan Shea, Jude Nelson) if you want a copy of the full paper pre-print.
+
 ### Blockchain Naming Systems
 
 + Namecoin
@@ -8,9 +10,38 @@
 
 ### Namecoin
 
-From [namecoin.info](https://namecoin.info/):
+[Namecoin](https://namecoin.info/) provides a blockchain-based key/value store and is
+originally credited for solving the [Zooko's Triangle](https://en.wikipedia.org/wiki/Zooko%27s_triangle) since it
+provides a) human-readable names, b) without requiring central or trusted
+parties, and c) users can securely own the names with their private keys.
+Namecoin is one of the first forks of Bitcoin and is the oldest cryptocurrency
+blockchain that is still operational.
 
-Namecoin was the first fork of Bitcoin. It was first to implement merged mining and a decentralized DNS. Namecoin squares Zooko's Triangle!
+The main motivation for starting Namecoin was to create an alternate DNS-like
+system which uses a blockchain as the primary ledger for storing information on
+registered domain names, instead of relying on ICANN DNS. Namecoin is derived from
+Bitcoin code, and keeps most functionality identical to Bitcoin, with the exception of
+support for registering key/value pairs.
+
+Namecoin supports multiple namespaces, with same rules for pricing and name
+expiration for all namespaces. By convention, the *d/* namespace is used for domain
+names which are mapped to .bit domain name.  For example, to register yahoo.bit, one
+must register the key *d/yahoo* and then put the value as the IP
+address of the Yahoo! website. The key registration process works as follows: 
+
+**Pre-order:** A user first announces the hash(key) without
+revealing what is it that she is trying to register. This is done by the
+*name_new* operation in a new transaction and pre-orders the name.
+
+**Reveal:** After the *name_new* transaction has been confirmed by
+the network i.e., everyone has confirmed that they have seen and accepted the
+*name_new* transaction, the user can reveal what was the key she was actually
+trying to register in a *name_firstupdate* operation. The user can include the
+value of the key/value pair in this operation as well.
+
+**Update:** The value associated with the key can be updated by a
+*name_update* transaction. It also happens to renew the key registration by
+another fixed amount of time (currently 36,000 blocks).
 
 #### Additional Resources
 
