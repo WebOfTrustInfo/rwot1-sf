@@ -6,9 +6,9 @@ Identity fragmentation and selective disclosure has huge benefits for privacy. I
 
 ### Signed Identity Tokens
 
-With v3 of the Blockchain ID schema, user profile information is split up into individual signed statements that are expressed as JSON Web Tokens. The tokens are each individually signed with different keys, so that each identity statement has a different issuing cryptographic identity. Then, to reconstruct the profile, the user presents all of the tokens and presents proof that he/she signed those tokens.
+With [v3 of the Blockchain ID schema](https://github.com/blockstack/blockchain-id/wiki/Profile-Schema-v3), [user profile information](https://github.com/blockstack/blockchain-id-js/blob/master/docs/profile.md) is split up into individual signed statements that are expressed as JSON Web Tokens and packed up in a ["token file"](https://github.com/blockstack/blockchain-id-js/blob/master/docs/token-file.md). The tokens are each individually signed with different keys, so that each identity statement has a different issuing cryptographic identity. Then, to reconstruct the profile, the user presents all of the tokens and presents proof that he/she signed those tokens.
 
-The way we do this is have each Blockchain ID username registered in Blockstore be tied to a hierarchical deterministic public key. Then, for each token presented, the derivation path (aka the chain path which is expressed as a hash) is provided that leads from the parent HD public key to the descendant HD public key (via unhardened key derivation) that has an accompanying public key that matches the issuer. Each derivation path has a very high amount of entropy, ensuring that the descendants cannot be discovered via brute force derivations from the master key. The chain path is required.
+The way we do this is have each Blockchain ID username registered be tied to a hierarchical deterministic public key. Then, for each token presented, the derivation path (aka the chain path which is expressed as a hash) is provided that leads from the parent HD public key to the descendant HD public key (via unhardened key derivation) that has an accompanying public key that matches the issuer. Each derivation path has a very high amount of entropy, ensuring that the descendants cannot be discovered via brute force derivations from the master key. The chain path is required.
 
 Interesting implications of this:
 
@@ -21,6 +21,7 @@ A name is securely linked to a zone file in Blockstore. The hash of the zone fil
 
 ### Resources
 
++ [JSON Web Tokens](http://jwt.io/)
 + [Blockchain ID Profile Schema v3](https://github.com/blockstack/blockchain-id/wiki/Profile-Schema-v3)
 + [Reconstructed Profile Example](https://github.com/blockstack/blockchain-id-js/blob/master/docs/profile.md)
 + [Profile Token File Example](https://github.com/blockstack/blockchain-id-js/blob/master/docs/token-file.md)
