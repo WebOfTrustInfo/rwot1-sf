@@ -1,5 +1,7 @@
 # Secure Naming on the Blockchain
 
+*by Muneeb Ali [@muneeb](https://twitter.com/muneeb) \<muneeb@onename.com\> and Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
+
 Note: This document uses a few sections from a paper that is currently under peer-review. Please contact the authors (Muneeb Ali, Ryan Shea, Jude Nelson) if you want a copy of the full paper pre-print.
 
 ### Blockchain Naming Systems

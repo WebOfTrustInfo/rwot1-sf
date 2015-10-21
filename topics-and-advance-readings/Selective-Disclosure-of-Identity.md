@@ -1,5 +1,7 @@
 # Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens
 
+*by Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
+
 Identity information can be packaged together, as it is with traditional forms of identification like passports and driver's licenses, or it can be fragmented and selectively disclosed.
 
 Identity fragmentation and selective disclosure has huge benefits for privacy. If a service only requires a singly piece of information on a user, like a liquor site that needs to know if a user is of age, the service can ask the user to present a statement of age that has been self-attested AND has been attested to by a party that the service trusts, whether that be a DMV, a corporation or an individual. This allows the person to prove he/she is of age without revealing his/her identity.

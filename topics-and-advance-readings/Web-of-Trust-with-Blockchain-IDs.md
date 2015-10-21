@@ -1,5 +1,7 @@
 # Web of Trust with Blockchain IDs
 
+*by Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
+
 Signed statements with a clearly defined schema can be used to have people and companies refer to one another and make attestations about their identities and their relationships.
 
 PGP's web of trust uses a form of this, but it is fairly primitive and lacks widely accepted standards.
