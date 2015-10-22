@@ -1,14 +1,15 @@
 # Secure Naming on the Blockchain
 
-*by Muneeb Ali [@muneeb](https://twitter.com/muneeb) \<muneeb@onename.com\> and Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
+*by Muneeb Ali [@muneeb](https://twitter.com/muneeb) \<muneeb@onename.com\>, Ryan Shea [@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>, and Jude Nelson [@judecnelson](https://twitter.com/judecnelson) \<jcnelson@cs.princeton.edu>\*
 
-Note: This document uses a few sections from a paper that is currently under peer-review. Please contact the authors (Muneeb Ali, Ryan Shea, Jude Nelson) if you want a copy of the full paper pre-print.
+Note: This document uses a few sections from a paper that is currently under peer-review. Please contact the authors if you want a copy of the full paper pre-print.
 
-### Blockchain Naming Systems
+### Introduction
 
-+ Namecoin
-+ Bitcoin + Blockstore
-+ Other Blockchains
+The Domain Name system (DNS) and Public-key infrastructure components like certificate authorities (CAs) are critical components of today's Internet. Security of most online communication and web traffic depends on the security of these systems. Current PKI systems usually require trusting a central party like Verisign and [DNS has many security issues](http://web.mit.edu/6.033/www/papers/dnssec.pdf) e.g., DNS cache poisoning. 
+
+Crypotocurrency blockchains are a potential alternative to traditional DNS and PKI systems that can provide better security and decentralization guarantees. The technology is relatively new and evolving rapidly, little production data or experience is available to guide design tradeoffs. In this paper, we summarize our experience with running a large-scale production deployment of a naming system on top of a cryptocurrency (Namecoin), and discuss how our experience informed the
+design of a new blockchain-based naming and PKI system called Blockstore. 
 
 ### Background on Namecoin
 
@@ -55,17 +56,19 @@ The security of name ownership on a blockchain is tied to the security of both t
 
 For details on these security concerns and other experiences from a large-scale production deployment on Namecoin see [this post](http://blog.onename.com/namecoin-to-bitcoin/). Further, the pricing policy for name registrations is very important for enabling a spam-free namespace. See [this paper](http://randomwalker.info/publications/namespaces.pdf) for a detailed discussion of pricing mechanisms and analysis of Namecoin namespaces.
 
-### Bitcoin + Blockstore
+### Design of Blockstore
 
 Blockstore enables human-readable name registrations on the Bitcoin blockchain, along with the ability to store associated data in external datastores. You can use it to register globally unique names, associate data with those names, and transfer them between Bitcoin addresses. Anyone can perform lookups on those names and securely obtain the data associated with them.
 
-Blockstore uses the Bitcoin blockchain for storing name operations and data hashes, and the Kademlia-based distributed hash table (DHT) and other external datastores for storing the full data files outside of the blockchain.
+Blockstore uses the Bitcoin blockchain for storing name operations and data hashes, and a Kademlia-based distributed hash table (DHT) and other external datastores for storing the full data files outside of the blockchain.
 
 <img src="https://s3.amazonaws.com/onenameblog/openname-bitcoin-dht-diagram-4.png" width="650"/>
 
-#### Blockstore Capabilities
+Blockstore is designed to implement Namecoin-like functionality in the layer above the blockchain. It leverages the blockchain to achieve consensus on the state of the system at the time of each block discovery, but otherwise offloads its control logic and state to an external process.  Critically, Blockstore embeds a *virtual blockchain* within the blockchain's transactions, which any peer can audit to determine whether or not one Blockstore peer has processed the same name operations as another.  In doing so, Blockstore keeps its control plane (the virtual blockchain), its data plane (external storage), and its external storage providers logically separate from one another.  We believe this is a significant improvement over alt-coin designs, because it allows the developers of each component to evolve and innovate independently for the benefit of all.
 
-Blockstore is extremely sophisticated in it's abilities. For example, it can:
+#### Blockstore Implementation
+
+The current reference implementation of Blockstore is in Python and is released as GPLv3 [open-source code](https://github.com/blockstack/blockstore). In the current implementation users can:
 
 + define namespaces and set parameters for those namespaces
 + register names that can be owned by a Bitcoin address
@@ -81,10 +84,13 @@ In the future, it will support the ability to:
 + reset name ownership (to allow users to recover from either name loss or theft)
 + pay name registration fees to miners instead of having them burned (once OP_CHECKLOCKTIMEVERIFY becomes standard)
 
+The easiest way to get started with Blockstore is:
+
+> pip install blockstore
+
 #### Additional resources
 
 + [Blockstore design decisions](https://github.com/blockstack/blockstore/wiki/Design-Decisions)
-+ [Why to use Blockstore over Namecoin](http://blog.onename.com/namecoin-to-bitcoin/)
 + [Blockstore usage docs](https://github.com/blockstack/blockstore/wiki/Usage)
 + [Blockstore name and namespace operations](https://github.com/blockstack/blockstore/tree/master/blockstore/lib/operations)
 
