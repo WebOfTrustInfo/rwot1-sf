@@ -14,6 +14,7 @@ In advance of the November DesignShop, all participants are requested to post in
 
 These papers include (so far):
 
+* **[Authorities vs. Peers: Pain Points in Security](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[Avoiding Confused Deputy Attack Using Capabilities](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities.md)** - by Tyler Close *\<tyler.close@gmail.com\>*
 * **[Blockchain-based Trust for Software Components](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/code-and-file-signing.adoc)** - by Sean Gilligan *[@msgilligan](https://twitter.com/msgilligan) \<sean@msgilligan.com\>*
 * **[Blockchain Tech Opportunities in the Web-of-Trust](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/blockchain-opportunities.txt)** - by Peter Todd *[@PeterToddBTC](https://twitter.com/PeterToddBTC) \<pete@petertodd.org\>*
