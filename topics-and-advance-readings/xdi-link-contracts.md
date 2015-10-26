@@ -170,7 +170,7 @@ Building on the “flat” RDF semantic graph model, XDI defines an addressable 
 
 ## References
 
-Joseph Boyle, Drummond Reed, Markus Sabadello. "XDI Core 1.0 Working Draft 05". OASIS XDI Technical Committee. October 2015. http://xdi.org/xdi-spec-docbook/xdi/xdi-core-1.0/xdi-core-1.0-wd05-2015-10-14.xml
+Joseph Boyle, Drummond Reed, Markus Sabadello. "XDI Core 1.0 Working Draft 06" (in ballot to become Committee Specification Draft 01). OASIS XDI Technical Committee. October 2015. http://xdi.org/xdi-spec-docbook/xdi/xdi-core-1.0/xdi-core-1.0-wd06.xml
 
 Richard Cyganiak, David Wood, Markus Lanthaler. "RDF 1.1 Concepts and Abstract Syntax". W3C Recommendation. February 2014. http://www.w3.org/TR/rdf11-concepts
 
