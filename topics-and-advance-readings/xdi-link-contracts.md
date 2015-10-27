@@ -66,7 +66,7 @@ The second step is to use this addressable semantic tree model to represent data
 
 The root node of an XDI link contract is an XDI entity identified with the reserved class name `$do` (chosen because a link contract is a machine-readable description of what an authorizing authority permits a requesting authority to do with the described data).
 
-A `$do` node may appear anywhere inside the subgraph of an authorizing authority node. Such a link contract is owned and controlled by that authorizing authority. Like a real-world contract, the contract terms control if it the terms are fixed (no changes can be made by any party), unilateral (only the authorizing authority can make changes), or bilateral (changes require the consent of all parties).
+A `$do` node may appear anywhere inside the subgraph of an authorizing authority node. Such a link contract is owned and controlled by that authorizing authority. Like a real-world contract, the contract terms control if the terms are fixed (no changes can be made by any party), unilateral (only the authorizing authority can make changes), or bilateral (changes require the consent of all parties).
 
 ### Step 3) XDI Permissions: Semantic Relations to Data Nodes
 
@@ -170,7 +170,7 @@ Building on the “flat” RDF semantic graph model, XDI defines an addressable 
 
 ## References
 
-Joseph Boyle, Drummond Reed, Markus Sabadello. "XDI Core 1.0 Working Draft 06" (in ballot to become Committee Specification Draft 01). OASIS XDI Technical Committee. October 2015. http://xdi.org/xdi-spec-docbook/xdi/xdi-core-1.0/xdi-core-1.0-wd06.xml
+Joseph Boyle, Drummond Reed, Markus Sabadello. "XDI Core 1.0 Working Draft 06" (voted to become Committee Specification Draft 01). OASIS XDI Technical Committee. October 2015. http://xdi.org/xdi-spec-docbook/xdi/xdi-core-1.0/xdi-core-1.0-wd06.xml
 
 Richard Cyganiak, David Wood, Markus Lanthaler. "RDF 1.1 Concepts and Abstract Syntax". W3C Recommendation. February 2014. http://www.w3.org/TR/rdf11-concepts
 
