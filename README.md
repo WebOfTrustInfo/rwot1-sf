@@ -25,6 +25,7 @@ These papers include (so far):
 * **[Distributed multi-ledger model for financial industry](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/DistributedMulti-ledgerModelForFinancialIndustry.md)** - by Pavel Kravchenko *[@kravchenkopo](https://twitter.com/kravchenkopo) \<kravchenkopo@gmail.com\>*
 * **[First Encounters with PGP](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/FirstEncountersWithPGP.md)** - by Kiara Robles *[@anarchoass](https://twitter.com/anarchoass) \<kiara.robles@gmail.com\>*
 * **[Hierarchical Deterministic Keys: BIP32 & Beyond](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
+* **[Key revocation of lost and stolen keys](https://github.com/WebOfTrustInfo/https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys.md)** - by Martin Koeppelmann *[@koeppelmann](https://twitter.com/koeppelmann) \<martin.koeppelmann@consensys.net \>*
 * **[Key Transparency for End Users](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/key-transparency-for-end-users.md)** — by Joseph Bonneau *[@JosephBonneau](https://twitter.com/josephbonneau) \<jbonneau@cs.stanford.edu\>*
 * **[Lightning Network and Web of Trust](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/lightning-network-and-web-of-trust.md)** — by Joseph Poon *\<joseph@lightning.network\>*
 * **[Linked Local Names](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/linked-local-names.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
@@ -40,7 +41,6 @@ These papers include (so far):
 * **[Trust Exchange: An Architecture for a Permanent Open Trust Network](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network.md)** - byHarlan T. Wood *[@HarlanTWood](https://twitter.com/harlantwood) \<h@rlan.me \>*
 * **[Web of Trust with Blockchain IDs](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Web-of-Trust-with-Blockchain-IDs.md)** - by Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
 * **[XDI Link Contracts: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/xdi-link-contracts.md)** - by Drummond Reed *[@DrummondReed](https://twitter.com/DrummondReed) \<drummond@respect.network\>*
-
 
 ### Invitations
 
