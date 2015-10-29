@@ -6,7 +6,7 @@ When Bitcoin debuted it revealed one characteristic that was very different from
 
 Instead, to maximize privacy Bitcoin rapidly cycles through keys, discarding old keys from past transactions as soon as the public key is revealed and the coins are spent. Since each address is hashed from a public key, this means that a Bitcoin user needs to deal with a large lot of keypairs. The traditional answer for this problem has been wallets — which collect and manage keys so that users don’t have to.
 
-The earliest Bitcoin wallets still faced challenges. That’s because the Bitcoin Core and early clients generated each key randomly. Unfortunately, this methodology requires careful (and constant) backups to ensure continued access to all funds. It also opens some privacy loopholes; because new key generation wasn’t trivial, single keys were often reused when they should have. Transactions could be correlated if they used the same address (and thus keypair) for change, requiring even more keys.
+The earliest Bitcoin wallets still faced challenges. That’s because the Bitcoin Core and early clients generated each key randomly. Unfortunately, this methodology requires careful (and constant) backups to ensure continued access to all funds. It also opens some privacy loopholes; because new key generation wasn’t trivial, single keys were often reused when they shouldn't have been. Transactions could be correlated if they used the same address (and thus keypair) for change, requiring even more keys.
 
 A bit over two years ago, this standard methodology began to change with the advent of BIP32, which laid out a new model for Hierarchical Deterministic Keys (HDKs).
 
