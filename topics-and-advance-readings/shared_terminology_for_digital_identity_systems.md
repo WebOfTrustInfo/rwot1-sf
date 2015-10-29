@@ -14,8 +14,8 @@ to point out errors or other areas that should be covered.
 
 I will try to be general and to not introduce language specific to any
 particular implementation or technology stack. In the examples I will
-cover specific implementation stacks such as Ethereum, Blockstack or a
-CA-based centralized approach.
+cover specific implementation stacks such as PGP, Ethereum, Blockstack
+or a CA-based centralized approach.
 
 ## Names and keys
 
