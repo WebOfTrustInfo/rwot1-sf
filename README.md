@@ -14,6 +14,7 @@ In advance of the November DesignShop, all participants are requested to post in
 
 These papers include (so far):
 
+* **[Attempts at common terminology for digital identity systems](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/shared_terminology_for_digital_identity_systems.md)** - by ChristianLundkvist - *[@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net>*
 * **[Authorities vs. Peers: Pain Points in Security](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/authorities-vs-peers--pain-points-in-security.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[Avoiding Confused Deputy Attack Using Capabilities](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities.md)** - by Tyler Close *\<tyler.close@gmail.com\>*
 * **[Blockchain-based Trust for Software Components](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/code-and-file-signing.adoc)** - by Sean Gilligan *[@msgilligan](https://twitter.com/msgilligan) \<sean@msgilligan.com\>*
