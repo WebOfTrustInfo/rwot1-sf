@@ -1,5 +1,7 @@
 # Key revocation of lost and stolen keys
 
+By Martin Koeppelmann - martin.koeppelmann@consensys.net
+
 ## Introduction
 
 If we usually speak about key revocation we have compromised keys in mind. Compromised means that an unauthorized third party has or even just might have access to a key. For professional entities it is a reasonable assumption that this is worst that can happen. However, a web of trust solutions that aims for broader use of average users has to deal with two even more problematic scenarios: lost and stolen keys. In both cases does the original owner do not have any longer access, while in the second case the key is additionally compromised.
