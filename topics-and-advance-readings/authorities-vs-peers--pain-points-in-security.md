@@ -10,7 +10,7 @@ However, both centralized authority-based services as well as peer-to-peer decen
 Pain Points of Authorities
 --------------------------
 
-DNS Registrars and Certificate Authorities (CAs) offer examples of centralized authorities of trust on the Internet — and they also offer examples of problems with that centralization as well. Anyone who has tried to move a domain or renew a certificate can personally identify many of the pain points in these systems.
+Individual DNS Registrars and Certificate Authorities (CAs) offer examples of centralized authorities of trust on the Internet — and they also offer examples of problems with that centralization as well. Anyone who has tried to move a domain or renew a certificate can personally identify many of the pain points in these systems. Though these examples are drawn from the specifics of CAs and registrars, they're mostly pain points for any sort of authority.
 
 ### Purchase Pain
 
@@ -26,11 +26,11 @@ To start with, putting any price on a certificate or record only increases secur
 
         Pain Points: confusing products (customers), decision fatigue (customers), unnecessary sales (customers)
 
-**Authorities fail to offer follow-up services as promised.** After they’ve sold their products authorities often become very reluctant to provide follow-up services, because they no longer have a profit incentive. Many CAs don’t properly revoke certificates, while domain registrars won’t transfer domains without extensive bureaucratic wrangling. Getting CAs to reissue certificates was also a problem until recent issues with Heartbleed and SHA1, but even now only some CAs make this sort of reissuance easy.
+**Profit-motivated Authorities fail to offer follow-up services as promised.** After they’ve sold their products authorities often become very reluctant to provide follow-up services, because they no longer have a profit incentive. Many CAs don’t properly revoke certificates, while domain registrars won’t transfer domains without extensive bureaucratic wrangling. Getting CAs to reissue certificates was also a problem until recent issues with Heartbleed and SHA1, but even now only some CAs make this sort of reissuance easy.
 
         Pain Points: poor follow-up support from authorities (administrators, customers)
 
-**Authorities overly bundle services.** Even when they only manage to sell you a single product, authorities still tend to bundle numerous services together that do not necessarily belong together. CAs offer the best example. The main purpose of a certificate in the world of Internet commerce is to protect against man-in-the-middle attacks. However, CAs also prevent sybil attacks with the friction they introduce due to monetary and time costs, which prevents abusers from getting an infinite number of certificates. CAs also bundle certification and validation into their products. Finally, CAs accept revocation requests and distribute that information to others. Not all of these services need to be bundled together.
+**Authorities overly bundle services.** Even when they only manage to sell you a single product, authorities still tend to bundle numerous services together that do not necessarily belong together. CAs offer the best example. The main purpose of a certificate in the world of Internet commerce is to protect against man-in-the-middle attacks. However, CAs also prevent Sybil attacks with the friction they introduce due to monetary and time costs. CAs also bundle certification and validation into their products. Finally, CAs accept revocation requests and distribute that information to others. Not all of these services need to be bundled together.
 
 Bundling so many different services increases the costs of certificates and simultaneously reduces the time and effort being spent on the real security issues.
 
@@ -44,27 +44,26 @@ The differentiation of DV, OV and  EV (Domain, Organizational and Extended Valid
 
 ### Security Pain
 
-**Authorities are obvious targets for attacks.** Unfortunately, authorities have the potential to be big targets. Even if an authority is trustworthy, that doesn’t mean that it’s secure. A break-in could compromise an entire authority and every certificate they’ve ever issued. To look at it another way: every CA is a potential point of failure for the entire internet.
+**Authorities are obvious targets for attacks.** Unfortunately, authorities have the potential to be big targets. Even if an authority is trustworthy, that doesn’t mean that it’s secure. A break-in at a CA could compromise an entire authority and every certificate they’ve ever issued. To look at it another way: every CA is a potential point of failure for the entire internet. A break-in at a domain registrar is just as scary, because it undermines everyone visiting those domains.
 
         Pain Points: broken security (authorities, users), potential for data theft (users)
 
 **Authorities failures cascade.**
-Broken security at a single intermediary CA certificate can cascade to the need for tens of thousands of sites to replace their certificates because they’re wholly dependent on the CA above them in their chain.
+Broken security at a single intermediary CA certificate can cascade to the need for tens of thousands of sites to replace their certificates because they’re wholly dependent on the CA above them in their chain. Broken security at a domain registrar could similarly cascade to users and registered domains alike.
 
-        Pain Points: need to replace certificates (authorities, users)
+        Pain Points: broken security (users), need to replace certificates (authorities, users)
 
-**Authorities disclose unecessary information.** Validation is one of the many products bundled into a typical certificate. However, validation also tends to bundle a lot of information of its own — not all of which is necessary in all situations. This means that casual use of certificates can expose excessive information. This also makes the possibility of authority insecurity that much worse.
-
-        Pain Points: information exposure (users)
-
-**Authorities are subvertible.** Centralization itself causes some problems, such as the fact that authorities can be subverted by other agencies. Governments and corporations have already taken advantage of this, using centralized authorities as levers to influence large groups of people. Domain names and websites alike have been snatched away due to shaky claims of ownership. The broad abuse of DMCA notices is another example of powerful actors targeting authorities to the deficit of other Internet users.
-	    Pain Points: loss of services or even livelihood (users)
+**Authorities are subvertible.** Centralization itself causes some problems, such as the fact that authorities including ICANN, individual domain registrars, and even web hosts can all be subverted by other agencies. Governments and corporations have already taken advantage of this, using centralized authorities as levers to influence large groups of people. Domain names and websites alike have been snatched away due to shaky claims of ownership, while web hosts have bowed to the broad abuse of Digitical Millennium Copyright Act (DMCA) take-down notices. The possibility of CAs being subverted may be even scarier, as we might never know if certificate were being authorized based on secretive backroom deals instead of trust.
+	
+	Pain Points: loss of services or even livelihood (users)
 
 ### Non-Centralization Pain
 
-**Authorities have become a web.** The strengths of centralization have been somewhat lost with the proliferation of authorities. You wouldn’t want to put all of your trust in a single authority, but most browsers trust over a hundred root certificates from over fifty organizations. This means that the average user is forced to trust the assessments of companies whose motives are not the same or are unknown. In other words, centralized authorities have practically become a web of trust, but without the advantages of such a web.
+**Authorities have become a web.** The strengths of centralization have been somewhat lost with the proliferation of authorities. You wouldn’t want to put all of your trust in a single authority, but the theoretically centralized worlds of CAs and registrars are actually quite scattered.
 
-Worse, this dramatically increases the chance of security problems: if your browser trusts 100 certificates that each have a 1% chance of a breach over the course of  year, the chance that you’re exposed to a breach over the course of a year [1-.99^100] is 63%!
+For CAs, most browsers trust over a hundred root certificates from over fifty authorities. This means that the average user is forced to have faith in the assessments of companies whose motives are not the same or are unknown. In other words, CAs have practically become a web of trust, but without the advantages of such a web. Worse, this dramatically increases the chance of security problems: if your browser trusts 100 certificates that each have a 1% chance of a breach over the course of  year, the chance that you’re exposed to a breach over the course of a year [1-.99^100] is 63%!
+
+For domain registrars, many different domains have been allocated to so many different countries and organizations. A decade or two ago, there might be questions about trusting a particular country's DNS records. Now, the proliferation of new ICANN domains like .biz and .horse has made things worse. Though users don't blindly trust web sites in the same way they do CAs, there could still be major problems if a single registrar was compromised or subverted. For example, the compromise of the .parakeet domain could cause bird owners all over the world to be go to incorrect sites, to lose information to phishing, and to load up malware without their knowledge.
 
         Pain Points: broken security (users), lack of trust (users)
 
@@ -137,7 +136,7 @@ Finally, a number of problems appear in both classic centralized schemes and new
 **Trust revocation is difficult.** The trust offered by CAs and PGP is too often de facto irrevocable. CAs theoretically can invalidate certificates, but most historically respond poorly to such requests. Revoking a PGP certificate across a web of trust can be even more problematic.
 	    Pain Points: lack of support when things go bad (administrators)
 
-**Privacy is weak.** Generally, CAs and peer-to-peer services alike give out too much information. For CAs, this is a general problem of bundling too many different services together. However, domain registries are even worse: they require users to pay additional fees to keep their private information private. Similarly, in PGP the very act of key signing reveals information about social networks. If you care about privacy, then both systems have issues.
+**Privacy is weak.** Generally, CAs and peer-to-peer services alike give out too much information. For CAs, this is a general problem of validation services bundling too many different information together — not all of which is necessary in all situations. This means that casual use of certificates can expose excessive information. However, domain registries are even worse: they require users to pay additional fees to keep their private information private. Similarly, in PGP the very act of key signing reveals information about social networks. If you care about privacy, then both systems have issues.
 
         Pain Points: information exposure (users)
 
