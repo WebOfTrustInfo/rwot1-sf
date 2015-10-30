@@ -1,12 +1,16 @@
 # Rebooting the Web-of-Trust
 
-[![Join the chat at https://gitter.im/WebOfTrustInfo/rebooting-the-web-of-trust](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/WebOfTrustInfo/rebooting-the-web-of-trust?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 This repository contains documents related to the "Rebooting the Web-of-Trust" series of events in the fall of 2015 and early 2106.
 
 ## DesignShop November 3rd & 4th, 2015
 
 The first DesignShop event, to be held in the Bay Area on November 3rd & 4th 2015, is a facilitated, invite-only event focused on creating the next generation of decentralized web-of-trust based identity systems. The goal of this initial DesignShop is to generate 5 technical white papers and/or proposals on topics decided by the group that will have the greatest impact on the future.
+
+### Gitter
+
+We will be using Gitter for chat during this event:
+
+[![Join the chat at https://gitter.im/WebOfTrustInfo/rebooting-the-web-of-trust](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/WebOfTrustInfo/rebooting-the-web-of-trust?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Topics & Advance Readings
 
