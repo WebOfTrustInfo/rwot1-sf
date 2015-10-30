@@ -1,5 +1,7 @@
 # Rebooting the Web-of-Trust
 
+[![Join the chat at https://gitter.im/WebOfTrustInfo/rebooting-the-web-of-trust](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/WebOfTrustInfo/rebooting-the-web-of-trust?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository contains documents related to the "Rebooting the Web-of-Trust" series of events in the fall of 2015 and early 2106.
 
 ## DesignShop November 3rd & 4th, 2015
