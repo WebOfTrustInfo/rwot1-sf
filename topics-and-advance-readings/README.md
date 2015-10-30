@@ -38,3 +38,10 @@ These papers include (so far):
 * **[XDI Link Contracts: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/xdi-link-contracts.md)** - by Drummond Reed *[@DrummondReed](https://twitter.com/DrummondReed) \<drummond@respect.network\>*
 
 We ask that participants use this repository's [Issues](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues) pages for comments and questions. We also invite [Pull Requests](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/pulls) with clarifications and additional links.
+
+### Gitter
+
+We will be using Gitter for chat during this event:
+
+[![Join the chat at https://gitter.im/WebOfTrustInfo/rebooting-the-web-of-trust](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/WebOfTrustInfo/rebooting-the-web-of-trust?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
