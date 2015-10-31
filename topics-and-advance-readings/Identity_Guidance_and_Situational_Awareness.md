@@ -14,6 +14,7 @@ A skier who is unaware of the situation they are facing is at high risk for deat
 Situational awareness is developed by layer of pattern recognition upon layer of pattern recognition. This can be gained from three sources: direct experience, indirect experience and contemplation.
 
 1) DIRECT EXPERIENCE
+
 Direct experience leads to improved situational awareness through a process of experimentation that yields an understanding (whether conscious or unconscious) of what “works” and what doesn’t.  As we discover “patterns that work,” the neural pathways that lead to predictive success get reinforced and our likelihood of responding in that way to similar stimuli in the future increases. This is the wet-ware that determines which “patterns” and “predictions” we will find “trustworthy” and will rely upon.  
 
 All of the practice that Rachel has put in over the years has built up neural pathways that let her to respond to emerging situations on the slope with what is often described as “muscle memory” -- but is more accurately described as interconnected neural pathways “that have proven successful in the past.”  These neurological structures that perform complex pattern recognition -- give her the ability to identify situations and to take actions to navigate them.  
@@ -23,6 +24,7 @@ Like Rachel, with direct experience, new layers of pattern recognition build upo
 However, we are not limited to relying upon just our direct experience.
 
 2) INDIRECT (mediated) EXPERIENCE
+
 As humans we rely upon guides constantly. Sometimes they take the form of direct verbal (or non-verbal) advice: Guido’s nod at the top of the slopes is one example. Rachel’s friend Heather saying "Don't even think about dating Guido. He’s been a jerk to every woman he’s ever dated." would be another example.
 
 Other times, guidance takes the form of media, such as a map that marks out hazards or instructions on a product that help us understand how to use it. 
@@ -39,6 +41,7 @@ Of course, if the guests were experienced skiers, my complete lack of knowledge 
 In fact, not only would they recognize my ineptitude, they would probably point it out to others, thus helping to improve the “situational awareness” of those other skiers -- bringing to their attention that I was not a reliable guide -- and should be avoided.
 
 3) CONTEMPLATION
+
 In addition to direct experience and indirect experience, our inner-thought world influences our understanding of our environment as well.  Each of us has had that “ah-ha!” moment where suddenly something is clear, that before was not.  This mental reasoning and pattern finding activity plays an important role in helping us interpret phenomena and make decisions.  It plays an important role alongside direct and indirect experience in building up mental models -- and of reinforcing them -- through visualization.
 Situational Awareness and Digital Interactions
 In the digital realm, where we are interacting through machines, existing identity systems like PGP and SSL, while not perfect, are relatively good at giving us confidence that:
