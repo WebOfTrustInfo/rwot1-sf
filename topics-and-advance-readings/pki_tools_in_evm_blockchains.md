@@ -1,5 +1,7 @@
 # PKI Tools in EVM-based Blockchains
 
+By Christian Lundkvist [@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>
+
 ## Introduction
 
 A blockchain can provide a good foundation for a PKI since it acts as a distributed well-publicized ledger whose integrity can be validated through the proof-of-work mechanism. A blockchain with a fully featured virtual machine such as [Ethereum][] (with its Ethereum VM or EVM) or the recent Bitcoin sidechain project [Rootstock][] (also EVM-based) provides a rich scripting language with which to build tools that can be used in a PKI.

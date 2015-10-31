@@ -1,5 +1,6 @@
-
 # Attempts at common terminology for Digital Identity systems
+
+By Christian Lundkvist [@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net\>
 
 ## Introduction
 
@@ -36,7 +37,7 @@ point-to-point messages, or messages or certificates enabling access
 control. We denote the private key holder the **agent** or **user** of
 the name, or simply the **keyholder**. The keys associated to the name
 do not neccessarily need to be persistent, they could be swapped out
-using a key revocation or key rotation system that links the names to
+using a key revocation or key rotation system that links the name to
 the keys.
 
 The public key(s) are tied to the name through a publicly accessible
@@ -75,9 +76,20 @@ In Blockchain ID the cryptographic name is unique but also
 human-meaningful. A longer description of the system is
 [here][blockchainIdNames].
 
+#### Ethereum-based identity systems
+
+The flexibility of the Ethereum smart contract system allows most kinds
+of naming systems to be utilized (public-key, human-meaningful, random
+hash, etc). So the question becomes one of selecting desirable
+properties. Human-meaningful naming systems have the problem of
+[namesquatting](https://forum.namecoin.info/viewtopic.php?f=2&t=2387),
+that Namecoin tries to solve by paying fees for names which is
+difficult to do in a decentralized fashion. Instead a
+non-human-meaningful random hash cryptographically linked to public
+keys could be a better cryptographic name to use.
+
 #### Other systems
 
-* Ethereum
 * X.509?
 * PEP?
 
@@ -133,8 +145,16 @@ The Schemas outlined in [schema.org/Person][schemaperson] give a good example of
 "name": "Christian Lundkvist",
 "givenName": "Christian",
 "familyName": "Lundkvist",
-"description": "Some guy",
-"address" : 
+"description": "Blockchain nerd",
+"address": [
+        {
+            "@type": "PostalAddress",
+            "streetAddress": "49 Bogart St",
+            "addressLocality": "Brooklyn, NY",
+            "postalCode": "11206",
+            "addressCountry": "United States"
+        }
+    ]
 }
 ```
 
@@ -142,22 +162,34 @@ The Schemas outlined in [schema.org/Person][schemaperson] give a good example of
 
 In the basic implementation of PGP the attributes are email addresses and attached User ID strings.
 
-## Attestations
+#### Blockchain ID
 
-An attestation is a statement about an attribute of a name (or
-possibly about the name itself), signed by (a key associated to)
-another identity. This is a very general notion that can apply in many
-different contexts. Some attestations could be about relationships
-between identities: Company ABC makes an attestation that Person XYZ
-is employed there, and Person XYZ can make the corresponding
-attestation about Company ABC. There will probably need to be some
-standardization around how to format these attestations in order to
-maintain compatibility. Attestations are very close to the
-"web-of-trust" of PGP but could be more granular and contain more
-information.  A simple example of an attestation is a "link", i.e. a
-simple two-way mutual connection between two identities, signed by
-both of the identities. One could also imagine a one-way simple
-attestation similar to the "follow" used by Twitter.
+The [Blockchain ID][blockchainIdAttr] attributes are based on the schema.org attributes above but enhance them with additional attributes for things like social media accounts etc.
+
+## Claims/Attestations
+
+A **claim** or **attestation** is a statement about a name or an
+attribute of a name, signed by (a key associated to) another
+name. This is a very general notion that can apply in many different
+contexts. Some attestations could be about relationships between
+identities: Company ABC makes an attestation that Person XYZ is
+employed there, and Person XYZ can make the corresponding attestation
+about Company ABC. There will need to be some standardization around
+how to format these attestations in order to maintain
+compatibility. The [JSON Web Token][jwt] standard could be a good
+starting point for this. In this standard the name making the claim is
+called the **issuer**, and the subject of the claim is called the
+**subject**.
+
+Attestations are very close to the "web-of-trust" of PGP but could be
+more granular and contain more information. A simple example of an
+attestation is a "link", i.e. a simple two-way mutual connection
+between two identities, signed by both of the identities. One could
+also imagine a one-way simple attestation similar to the "follow" used
+by Twitter.
+
+Attestations could also be used for reputation systems, e.g. you can
+have an attestation giving 1-5 stars in an online shopping context.
 
 ### Examples
 
@@ -178,7 +210,7 @@ relationships between people. In the spec there are the fields
 In the spec these attestations are also attributes, i.e. my identity
 has an attribute that I know someone.
 
-```json
+```
 {
 "follows": [person0, person1],
 "knows": [person2]
@@ -188,10 +220,54 @@ has an attribute that I know someone.
 The schema.org spec does not have any cryptographic anchoring of the
 relationship, so it needs to be augmented with cryptographic
 signatures. This can be done either by adding signatures to the
-attestation schema, making it in effect a certificate as is done by
-the [BlockchainID Token][blockchainIdToken]. Another way that can be
-used in Ethereum-based systems is to embed the attestation in a smart
-contract directly on the blockchain.
+attestation schema (using JSON web tokens), making it in effect a
+certificate as is done by the [BlockchainID
+Token][blockchainIdToken]. Another way that can be used in
+Ethereum-based systems is to embed the attestation in a smart contract
+directly on the blockchain. The transactions that put the data in the
+smart contract provides the cryptographic anchoring in this case.
+
+#### JSON Web Token (JWT)
+
+A JWT is a JSON data structure containing a **claim**, together with a
+**subject** which is the subject of the claim and an **issuer**, which
+is the entity that issued and signed the token. Often in our
+discussions around user-owned identitiy the subject and issuer will be
+the same entity. The JWT can be digitally signed and/or encrypted. An
+example from the Blockchain ID spec:
+
+```
+  {
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJjbGFpbSI6eyJrbm93cyI6W3siQHR5cGUiOiJQZXJzb24iLCJpZCI6Im11bmVlYi5pZCJ9XX0sInN1YmplY3QiOnsiQHR5cGUiOiJQZXJzb24iLCJwdWJsaWNLZXkiOiIwMzJlY2RlNDM5N2ZhNDczZjFjZTQ4MmNlYTYyMzVlYjBjMjBiM2NlNGMwMTBhNjY5MDM0NDIyODAwYmJjZDQ5MWQifSwiaXNzdWVyIjp7IkB0eXBlIjoiUGVyc29uIiwicHVibGljS2V5IjoiMDMyZWNkZTQzOTdmYTQ3M2YxY2U0ODJjZWE2MjM1ZWIwYzIwYjNjZTRjMDEwYTY2OTAzNDQyMjgwMGJiY2Q0OTFkIn19.snFhetKhj3uwoVDXXKk5w7wxVpkeTBFjhE-J0s9zkqM9-ZcG7oD1_hi7fBXiLdvgwgbqQJ9VvbYQfTukaiedaQ",
+        "data": {
+            "header": {
+                "typ": "JWT",
+                "alg": "ES256"
+            },
+            "payload": {
+                "claim": {
+                    "knows": [
+                        {
+                            "@type": "Person",
+                            "id": "muneeb.id"
+                        }
+                    ]
+                },
+                "subject": {
+                    "@type": "Person",
+                    "publicKey": "032ecde4397fa473f1ce482cea6235eb0c20b3ce4c010a669034422800bbcd491d"
+                },
+                "issuer": {
+                    "@type": "Person",
+                    "publicKey": "032ecde4397fa473f1ce482cea6235eb0c20b3ce4c010a669034422800bbcd491d"
+                }
+            },
+            "signature": "snFhetKhj3uwoVDXXKk5w7wxVpkeTBFjhE-J0s9zkqM9-ZcG7oD1_hi7fBXiLdvgwgbqQJ9VvbYQfTukaiedaQ"
+        },
+        "chainPath": "2643afc402f51102d49ee70496354b53f753978c127656ab10fb24a699a842e6",
+        "encrypted": false
+    }
+```
 
 
 ## Identity
@@ -209,7 +285,7 @@ keys.
 
 #### Blockchain ID
 
-The blockchain ID system uses a human-meaningful name together with
+The Blockchain ID system uses a human-meaningful name together with
 attributes and attestations stored in a distributed storage system
 like a DHT and hashed into a blockchain.
 
@@ -220,7 +296,7 @@ non-human-meningful random hash name embedded in an Ethereum
 contract. This contract contains hashes of attribute information
 stored in IPFS, along with reputational attestations stored in the
 contract itself. This gives the flexibility to do key revocation, key
-rotation and [decentralized key recovery][decentralizedkeyrecovery]
+rotation and [decentralized key resets][decentralizedkeyrecovery]
 while maintaining a persistent cryptographic name. The reputational
 attestations can be read and processed by other smart contracts.
 
@@ -235,5 +311,6 @@ attestations can be read and processed by other smart contracts.
 [zookos]: https://en.wikipedia.org/wiki/Zooko%27s_triangle
 [spki]: ftp://ftp.isi.edu/in-notes/rfc2693.txt
 [blockchainidnames]: https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Secure-Naming-on-the-Blockchain.md
+[blockchainidattr]: https://github.com/blockstack/blockchain-id-js/blob/master/docs/profile.md
 [schemaperson]: http://schema.org/Person
 [decentralizedkeyrecovery]: https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys.md
