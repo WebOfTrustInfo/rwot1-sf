@@ -103,9 +103,11 @@ This technique may offer some useful security properties, as well as allowing fo
 
 Imagine a certificate that has embedded in it this bytecode:
 
+```
 OP_MY-HASH
 OP_MY-SIGNATURE
 OP_VERIFY
+```
 
 The OP_MY-HASH would tell the virtual machine to create a new hash of this object and push it on the stack. OP_MY-SIGNATURE would place the digital signature for this object and push it on the stack. OP_VERIFY would pop both of those values and return 0 if they are equal.
 
