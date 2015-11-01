@@ -1,7 +1,7 @@
 Advanced Web of Trust Concepts
 ==============================
 
-There are a number of advanced security concepts that may be relevant to #RebootingWebOfTrust
+There are a number of advanced cryptographic concepts that may be relevant to #RebootingWebOfTrust
 
 * Trust agility
 * Translucency
@@ -9,6 +9,7 @@ There are a number of advanced security concepts that may be relevant to #Reboot
 * Selective disclosure
 * Self-validating certificates
 * Store & Forward Perfect Forward Secrecy
+* Random Thoughts
 
 Trust Agility
 -------------
@@ -144,3 +145,14 @@ https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-
 
 * Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens
 https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/d662c0e41c8493feb997da264cee38d0fae842c2/topics-and-advance-readings/Selective-Disclosure-of-Identity.md
+
+
+Random Thoughts
+---------------
+
+* Eigentrust++ from the peer-to-peer world looks very interesting http://www.cc.gatech.edu/~lingliu/papers/2012/XinxinFan-EigenTrust++.pdf
+  * Reportedly NEM altcoin (New Economy Movement) is now using Eigentrust++ http://nem.io/
+
+* For master keys, should we be looking at increasing from 256 byte to 512? The 25519 curve has a double-sized companion 41417 http://eprint.iacr.org/2014/526.pdf
+
+* Or maybe we should move to having master keys use quantum resistant math. Eduarda Freire's thesis on multilinear map-based HD keys claims to be proven secure: http://eprint.iacr.org/2014/526.pdf, Programmable Hash Functions in the Multilinear Setting http://link.springer.com/chapter/10.1007/978-3-642-40041-4_28, and Forward Secure Non-Interactive Key Exchange by David Pointcheval, Olivier Sanders http://link.springer.com/chapter/10.1007%2F978-3-319-10879-7_2
