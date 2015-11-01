@@ -7,7 +7,7 @@ In advance of the [Rebooting the Web-of-Trust DesignShop](https://github.com/Web
 
 The topic papers submitted were:
 
-* **[Advanced Web-of-Trust Concepts](topics-and-advance-readings/advanced-web-of-trust-concepts.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
+* **[Advanced Web-of-Trust Concepts](advanced-web-of-trust-concepts.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[Attempts at common terminology for digital identity systems](shared_terminology_for_digital_identity_systems.md)** - by Christian Lundkvist - *[@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net>*
 * **[Authorities vs. Peers: Pain Points in Security](authorities-vs-peers--pain-points-in-security.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[Avoiding Confused Deputy Attack Using Capabilities](AvoidingConfusedDeputyAttackUsingCapabilities.md)** - by Tyler Close *\<tyler.close@gmail.com\>*
