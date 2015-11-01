@@ -1,6 +1,7 @@
 Identity, Guidance and Situational Awareness
 ============================================
-by Matthew Schutte
+
+by Matthew Schutte - matt@calabs.org
 
 Rachel’s skis poke over the edge and she peers down.  She is over 5000 feet up this unfamiliar mountain.  Looking seemingly straight down, she turns to Guido and says: “that formation on the left is the big one that I need to ski under, right?”
 
