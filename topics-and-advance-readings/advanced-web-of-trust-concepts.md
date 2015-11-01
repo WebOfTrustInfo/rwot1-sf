@@ -71,7 +71,7 @@ The concept of minimizing disclosure is to reveal only the amount of information
 
 There are a number of approaches to minimizing disclosure:
 
-* Progressive Disclosure: With progressive disclosure, only the minimum information is offered. For instance, a request for age would result in that the issuer has a claim about the holder's, a second request might reveal that they are older than 13, a third over 18, a fourth over 21, the fifth the actual age in years, the sixth a birth year, and the last a birthday. By policy, a relying party would never ask more than  needed to make a decision about the credential holder.
+* Progressive Disclosure: With progressive disclosure, only the minimum information is offered. For instance, the first request for the holder's age would only result in that the issuer does have a claim regarding the holder's age — the info exists. A second request might reveal that they are older than 13, a third over 18, a fourth over 21, the fifth the actual age in years, the sixth a birth year, and the last a birthday. By policy, a relying party would never ask more than  needed to make a decision about the credential holder.
 
 * Relying Party Profiles: If a relying party desires a credential from someone, they present a profile representing their authority to make such a request. By policy, such profiles only are authorized if they minimize disclosure. Example of this approach:
    * YOTI https://www.yoti.com/
