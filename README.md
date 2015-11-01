@@ -20,6 +20,7 @@ In advance of the November DesignShop, all participants were requested to post i
 
 The topic papers submitted were:
 
+* [Advanced Web-of-Trust Concepts](topics-and-advance-readings/advanced-web-of-trust-concepts.md)
 * [Attempts at common terminology for digital identity systems](topics-and-advance-readings/shared_terminology_for_digital_identity_systems.md)
 * [Authorities vs. Peers: Pain Points in Security](topics-and-advance-readings/authorities-vs-peers--pain-points-in-security.md)
 * [Avoiding Confused Deputy Attack Using Capabilities](topics-and-advance-readings/AvoidingConfusedDeputyAttackUsingCapabilities.md)
