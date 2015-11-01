@@ -1,6 +1,8 @@
 Advanced Web of Trust Concepts
 ==============================
 
+By Christopher Allen - ChristopherA@LifeWithAlacrity.com
+
 There are a number of advanced cryptographic concepts that may be relevant to #RebootingWebOfTrust
 
 * Trust agility
