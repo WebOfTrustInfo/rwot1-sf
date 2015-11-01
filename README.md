@@ -52,6 +52,7 @@ These papers include (so far):
 * **[Thin Clients](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/thin-clients.md)** - by Greg Slepak *[@TaoEffect](https://twitter.com/TaoEffect) \<hi@okturtles.com\>*
 * **[Trust Exchange: An Architecture for a Permanent Open Trust Network](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network.md)** - by Harlan T. Wood *[@HarlanTWood](https://twitter.com/harlantwood) \<h@rlan.me \>*
 * **[Web of Trust with Blockchain IDs](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/Web-of-Trust-with-Blockchain-IDs.md)** - by Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
+* **[White Papers, Specifications & Proofs of Concept](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/white-papers--specifications---and-proof-of-concept-code.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[XDI Link Contracts: An Overview](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/xdi-link-contracts.md)** - by Drummond Reed *[@DrummondReed](https://twitter.com/DrummondReed) \<drummond@respect.network\>*
 
 ### Invitations
