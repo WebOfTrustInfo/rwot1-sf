@@ -1,4 +1,9 @@
-##How distributed trust systems can solve the Kenysian beauty problem and create a more efficient startup ecosystem
+Distributed Trust Systems and the Kenyesian Beauty Contest
+==========================================================
+
+By Joel Dietz - jdietz@gmail.com
+
+How distributed trust systems can solve the Kenysian beauty problem and create a more efficient startup ecosystem
 
 One of the most persistent in modern market systems is the Kenysian beauty contest. In short, when asked to pick the most beautiful person, the most profitable and efficient strategy is to predict what other people will predict, not attempt to converge on what is actually the most beautiful.  Modern market systems inevitably follow this trajectory.
 
