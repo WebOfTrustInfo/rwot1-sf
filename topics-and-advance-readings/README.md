@@ -46,6 +46,10 @@ The topic papers submitted were:
 
 We ask that participants use this repository's [Issues](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues) pages for comments and questions. We also invite [Pull Requests](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/pulls) with clarifications and additional links.
 
+### LICENSE
+
+Unless otherwise noted, the contents of the files in this directory are the property of each individual author. No grant of license to copy or reuse is made or implied.
+
 ### Gitter
 
 We will be using Gitter for chat during this event:
