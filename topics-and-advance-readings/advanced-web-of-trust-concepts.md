@@ -11,6 +11,7 @@ There are a number of advanced cryptographic concepts that may be relevant to #R
 * Selective disclosure
 * Self-validating certificates
 * Store & Forward Perfect Forward Secrecy
+* Unbundling Revocation and Other Services
 * Random Thoughts
 
 Trust Agility
@@ -97,7 +98,7 @@ Another approach to minimize disclosure, these are a cryptographic zero-knowledg
 Self-Validating Certificates
 ----------------------------
 
-Bitcoin's non-Turing complete, forth-like language known as [Script](https://en.bitcoin.it/wiki/Script) could be thought of as a form of digital signature system. Greg Maxwell and Christopher Allen have proposed that this may allow for a new form of self-validating certificate, where the bytecode for verifying the certificate is signed and embedded in the certificate itself.
+Bitcoin's non-Turing complete, forth-like language known as [Script](https://en.bitcoin.it/wiki/Script) could be thought of as a form of digital signature system. Greg Maxwell and Christopher Allen have proposed that this may allow for a new form of self-validating certificate, where the bytecode for verifying the certificate is signed and embedded inside the certificate itself.
 
 This technique may offer some useful security properties, as well as allowing for some sophisticated smart contracts opportunities.
 
@@ -115,11 +116,11 @@ This represents the simplest object, that is valid if its signature is valid. Ba
 
 More complex scripts could replicate CA-style infrastructures, web-of-trust approaches, or using multisig to create certain useful kinds of smart contracts.
 
-Having the script be inside the certificate ensures that the same method is used to evaluate it on all devices. A refactoring of certificate policies into scripts that are executed, and a standard tested virtual machine that executes those scripts, may help avoid many of the common errors in certificate policy code in various apps.
+Having the script be inside the certificate ensures that the same method is used to evaluate it on all devices. A refactoring of certificate policies into scripts that are executed, and a standard tested virtual machine that executes those scripts, may help avoid many of the common errors in certificate policy code in various apps and services.
 
 The script inside a certificate can be inspected and evaluated. Like Bitcoin today, there may emerge some standard scripts that are trusted at a higher level than arbitrary written scripts.
 
-At this point, self-validating is only a rough proposal — there is no specification nor has a proof-of-concept been created.
+At this point, self-validating certificates only exist as a rough "on the napkin" proposal — there is no specification nor has a proof-of-concept been created.
 
 Store & Forward Perfect Forward Secrecy
 ---------------------------------------
@@ -149,6 +150,47 @@ https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-
 
 * Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens
 https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/d662c0e41c8493feb997da264cee38d0fae842c2/topics-and-advance-readings/Selective-Disclosure-of-Identity.md
+
+Unbundling Revocation & Other Services
+--------------------------------------
+
+Earlier this year Christopher Allen demonstrated that it may be useful to unbundle revocation services from certification services:
+
+> In the traditional X.509 Public Key Infrastructure (PKI), Identity Certificates are used to demonstrate ownership of a public key, and are signed by a Certificate Authority (CA) who asserts that the authority has verified that the information in the Identity Certificate is correct. This CA Certificate is, in turn, signed by another Certificate Authority that asserts that the CA Certificate itself is valid. Ultimately this certificate "chain" leads to the "root" certificate with a well known public key that is considered to be strong and uncompromised.
+
+> This is the real power of PKI over other identity protocols —- Identity Certificates are “self-authenticating” and you don't need any network operations to validate a certificate chain.
+
+> A challenge is that Identity Certificates are typically intended to persist for a long period of time, and thus are valid until their expiration date, or until they are terminated through “revocation”.
+
+> Unfortunately, Identity Certificates may become compromised before they expire. This may happen due to a compromise by exposure of the the user's private key, but can also happen due to bugs in software or other exploits. In addition, Certificate Authority’s keys may also be compromised through exposure of private keys and/or bugs. Finally, the "root" key itself may become compromised.
+
+> Theoretically, each time an Identity Certificate is presented, not only is the signature checked on that key and of all the Certificate Authorities above it, each key is to be checked to see if the Certificate Authority has issued an early “revocation” of that certificate in a Certificate Revocation List (CRL). Unfortunately, this part of the Public Key Infrastructure has never really worked. In order to validate an Identity Certificate you would need to connect to the CA to get the list of CRLs, which may be themselves be compromised or be subject to denial-of-service attacks. Thus requiring CRL validation of Identity Certificates removes many of the advantages of “self-authentication” of certificates, so few use them.
+
+> Instead most applications using PKI implement some form of CA Certificate “pinning”. In a somewhat simplified explanation, when an Identity or CA Certificate (or sometimes the public key or hash of the key) is first seen, that Certificate is “pinned” to the host in a “pinset”. The presumption is that this initial validation is correct, and any subsequent changes may be an attack that require additional validation. Often these “pinsets” are hard-coded into software, requiring an update to the software itself if there is a compromise in one of the keys.
+
+> Another solution could include implementing Webs-of-Trust, PGP-style, but this approach has not seen much activity.
+
+> Finally, another approach is to replace CRLs with some type of service that are more distributed and less subject to a denial-of-service attack. The Online Certificate Status Protocol (OCSP) protocol has been used and does help with revocation of CA Certificates, but is not very effective in compromised server private keys. In addition it has privacy issues (CAs can learn your browsing habits), and it also has scaling and performance issues.
+
+> In 2013 Mozilla reported that of 1774 CRL servers, ~1/2 did not respond to requests, and for that those that did report offered over 2.66 million revoked certificates taking up ~98MB. For OCSP Mozilla reported 1,292 servers with a response time of ~200ms per certificate, and every certificate in the chain needs to be checked! Now in 2015, due to Snowden revelations and Google “HTTPS Everywhere” SEO changes we are being asked to use TLS for every server on the internet, so the scaling challenges today are even greater!
+
+> There are some possible solutions on the horizon, CRLsets & OCSP stapling (basically certificate pinning approaches applied to OCSP), and a new Certificate Transparency proposal from Google. Unfortunately these approaches are unproven, are not decentralized, and may also have other undiscovered issues.
+
+> The underlying technology of Bitcoin that is known as the blockchain has some interesting properties when thinking about the revocation problem.
+
+> Fundamentally the blockchain is a decentralized, consensus-based, time-stamped ledger. It is used in Bitcoin for financial transactions — in a sense a double-entry bookkeeping system where virtual coins are moved off one account and moved onto another, in such a way that no one can double-spend those coins.
+
+> The beauty of this system is that there are hundreds of thousands of copies of these ledgers, all of which are updated within 10 minutes of each other. The blockchain is also very good for something called “proof-of-existence” at a particular time. This is because of how important it is to have all transactions properly in order to prevent double-spending.
+
+> A lot of thought has been put into making this system reliable, safe against attack, and fast. There is no “root” in the blockchain, instead it functions as a decentralized authority with no center. The system is very heterogeneous, meaning that there are many redundant versions of the code, APIs, and services making denial-of service and other technical compromises more difficult.
+
+> The blockchain is not an identity system. Each account (a Bitcoin address) has a private key associated with it that only exists until that account is spent (has a zero balance), and then that key is thrown away. This is very unlike X.509 PKI use of keys which may be kept for years.
+
+> I would like to take advantage of these throw-away keys. I propose that one possible solution to the Revocation Problem is to consider using blockchain technology as a solution.
+
+For more information on this proof-of-concept, see: https://github.com/ChristopherA/revocable-self-signed-tls-certificates-hack
+
+One lesson learned from from this hack is the general idea that there may be other aspects of current cryptographic services are traditionally considered to be a single service, that in fact could be unbundled into separate services. For instance, why do we have to have ICANN be the only one that can mediate domain name dispute? Other communities may decide to have EFF be a more fair mediator, so users can choose. Thus we could unbundle this subtle portion of a naming service to enable pointing to user or community choice of mediation, rather than a single arbitrary one.
 
 
 Random Thoughts
