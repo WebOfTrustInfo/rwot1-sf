@@ -67,11 +67,11 @@ There are a number of variants of translucency, including have the keys to decry
 Minimizing Disclosure
 ---------------------
 
-The concept of minimizing disclosure is to reveal only the amount of information about the certificate holder that is needed for the relying party to make a decision, and no more. The classic example is that when you wish to enter a bar in the US to buy a drink, you currently offer a credential that reveals your full name, address, identifying numbers, birthday, etc. This despite all the bouncer legally needs to do is verify that you are over 21. A minimum disclosure credential would offer only that information.
+The concept of minimizing disclosure is to reveal only the amount of information about the certificate holder that is needed for the relying party to make a decision, and no more. The classic example is that when you wish to enter a bar in the US to buy a drink, you currently offer a credential that reveals your full name, address, identifying numbers, birthday, etc. This even though all the bouncer legally needs to do is verify that you are over 21. A minimum disclosure credential would offer only the age information.
 
 There are a number of approaches to minimizing disclosure:
 
-* Progressive Disclosure: With progressive disclosure, only the minimum information is offered. For instance, a request for age would result in that the issuer has a claim about the holder's, a second request might reveal that they are older than 13, a third over 18, a fourth over 21, the fifth the actual age in years, the sixth a birth year, and the last a birthday. By policy, a relying party never ask more than you needed to make a decision about the credential holder.
+* Progressive Disclosure: With progressive disclosure, only the minimum information is offered. For instance, a request for age would result in that the issuer has a claim about the holder's, a second request might reveal that they are older than 13, a third over 18, a fourth over 21, the fifth the actual age in years, the sixth a birth year, and the last a birthday. By policy, a relying party would never ask more than  needed to make a decision about the credential holder.
 
 * Relying Party Profiles: If a relying party desires a credential from someone, they present a profile representing their authority to make such a request. By policy, such profiles only are authorized if they minimize disclosure. Example of this approach:
    * YOTI https://www.yoti.com/
@@ -85,7 +85,7 @@ There are a number of approaches to minimizing disclosure:
 Selective Disclosure
 --------------------
 
-Another approach to minimize disclosure, these are a cryptographic zero-knowledge and blinding techniques to prevent the relying parties from linking attribute certificates with the same person. There are a number of variations, many patented, including:
+Another approach to minimize disclosure; this is a cryptographic zero-knowledge and blinding techniques to prevent the relying parties from linking attribute certificates with the same person. There are a number of variations, many patented, including:
 
   * Ben Laurie's Selective Disclosure for Laymen: http://www.links.org/files/selective-disclosure.pdf
   * Jason Holt's Blinded Credential Sets: https://eprint.iacr.org/2002/151.pdf
@@ -98,11 +98,11 @@ Another approach to minimize disclosure, these are a cryptographic zero-knowledg
 Self-Validating Certificates
 ----------------------------
 
-Bitcoin's non-Turing complete, forth-like language known as [Script](https://en.bitcoin.it/wiki/Script) could be thought of as a form of digital signature system. Greg Maxwell and Christopher Allen have proposed that this may allow for a new form of self-validating certificate, where the bytecode for verifying the certificate is signed and embedded inside the certificate itself.
+Bitcoin's non-Turing complete, Forth-like language known as [Script](https://en.bitcoin.it/wiki/Script) could be thought of as a form of digital signature system. Greg Maxwell and Christopher Allen have proposed that this may allow for a new form of self-validating certificate, where the bytecode for verifying the certificate is signed and embedded inside the certificate itself.
 
 This technique may offer some useful security properties, as well as allowing for some sophisticated smart contracts opportunities.
 
-Imagine a certificate that has embedded in it this bytecode:
+Imagine a certificate that has this bytecode embedded in it:
 
 ```
 OP_MY-HASH
@@ -110,13 +110,13 @@ OP_MY-SIGNATURE
 OP_VERIFY
 ```
 
-The OP_MY-HASH would tell the virtual machine to create a new hash of this object and push it on the stack. OP_MY-SIGNATURE would place the digital signature for this object and push it on the stack. OP_VERIFY would pop both of those values and return 0 if they are equal.
+The OP_MY-HASH would tell the virtual machine to create a new hash of this object and push it on the stack. OP_MY-SIGNATURE would create the digital signature for this object and push it on the stack. OP_VERIFY would pop both of those values and return 0 if they are equal.
 
-This represents the simplest object, that is valid if its signature is valid. Basically the same as a self-signed certificate, except the rules for its validity is INSIDE the certificate.
+This represents the simplest object, that is valid if its signature is valid. Basically it's the same as a self-signed certificate, except the rules for its validity are INSIDE the certificate.
 
 More complex scripts could replicate CA-style infrastructures, web-of-trust approaches, or using multisig to create certain useful kinds of smart contracts.
 
-Having the script be inside the certificate ensures that the same method is used to evaluate it on all devices. A refactoring of certificate policies into scripts that are executed, and a standard tested virtual machine that executes those scripts, may help avoid many of the common errors in certificate policy code in various apps and services.
+Having the script be inside the certificate ensures that the same method is used to evaluate it on all devices. Putting a refactoring of certificate policies into scripts that are executed and including a standard-tested virtual machine that executes those scripts may help avoid many of the common errors in certificate policy code in various apps and services.
 
 The script inside a certificate can be inspected and evaluated. Like Bitcoin today, there may emerge some standard scripts that are trusted at a higher level than arbitrary written scripts.
 
@@ -125,21 +125,21 @@ At this point, self-validating certificates only exist as a rough "on the napkin
 Store & Forward Perfect Forward Secrecy
 ---------------------------------------
 
-PFS (Perfect Forward Secrecy) is a feature of protocols like TLS that offer assurance that if a long-term private key is compromised, the adversary can't also compromise all prior encrypted sessions that may have been archived by the adversary that used that compromised key. See http://vincent.bernat.im/en/blog/2011-ssl-perfect-forward-secrecy.html & https://lwn.net/Articles/572926/
+PFS (Perfect Forward Secrecy) is a feature of protocols like TLS that offers assurance that if a long-term private key is compromised, the adversary can't also compromise all prior encrypted sessions that used that compromised key even if they've been archived by the adversary. See http://vincent.bernat.im/en/blog/2011-ssl-perfect-forward-secrecy.html & https://lwn.net/Articles/572926/
 
 However, it is much more difficult to offer PFS with store and forward systems like email, as unlike TLS they rarely make a direct connection between the message sender and the recipient.
 
-There are a number of methods of doing this, all with problems.
+There are a number of methods for doing this, all with problems.
 
 * Short-lived keys: a series of keys are created, with short expiration dates. The private key is deleted as soon as it expires.
 
-* One-use keys: Every key is used once, each discarded after use. A directory of public keys is available where keys are deleted after use.
+* One-use keys: Each key is used once, then discarded after use. A directory of public keys is available where keys are deleted after use.
 
 * End-to-End Transport: The store and forward agent of the sender delivers directly to the agent of the recipient, without any intermediaries.
 
-These ideas about perfect forward secrecy an PGP were proposed at https://tools.ietf.org/html/draft-brown-pgp-pfs-01
+These ideas about perfect forward secrecy in PGP were proposed at https://tools.ietf.org/html/draft-brown-pgp-pfs-01
 
-Alternatively, it may also be possible offer a form of PFS by creating one-use HD (Hierarchical Deterministic) keys and a chain path.
+Alternatively, it may also be possible to offer a form of PFS by creating one-use HD (Hierarchical Deterministic) keys and a chain path.
 
 * Hierarchical Deterministic Keys: BIP32 & Beyond
 https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond.md
@@ -190,7 +190,7 @@ Earlier this year Christopher Allen demonstrated that it may be useful to unbund
 
 For more information on this proof-of-concept, see: https://github.com/ChristopherA/revocable-self-signed-tls-certificates-hack
 
-One lesson learned from from this hack is the general idea that there may be other aspects of current cryptographic services are traditionally considered to be a single service, that in fact could be unbundled into separate services. For instance, why do we have to have ICANN be the only one that can mediate domain name dispute? Other communities may decide to have EFF be a more fair mediator, so users can choose. Thus we could unbundle this subtle portion of a naming service to enable pointing to user or community choice of mediation, rather than a single arbitrary one.
+One lesson learned from from this hack is the general idea that there may be other aspects of current cryptographic services are traditionally considered to be a single service, that in fact could be unbundled into separate services. For instance, why do we have to have ICANN be the only one that can mediate domain name disputes? Other communities may decide to have EFF be a more fair mediator, so users can choose. Thus we could unbundle this subtle portion of a naming service to enable pointing to user or community choice of mediation, rather than a single arbitrary one.
 
 
 Random Thoughts
