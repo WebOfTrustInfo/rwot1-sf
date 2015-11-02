@@ -6,15 +6,15 @@ When Bitcoin debuted it revealed one characteristic that was very different from
 
 Instead, to maximize privacy Bitcoin rapidly cycles through keys, discarding old keys from past transactions as soon as the public key is revealed and the coins are spent. Since each address is hashed from a public key, this means that a Bitcoin user needs to deal with a large lot of keypairs. The traditional answer for this problem has been wallets — which collect and manage keys so that users don’t have to.
 
-The earliest Bitcoin wallets still faced challenges. That’s because the Bitcoin Core and early clients generated each key randomly. Unfortunately, this methodology requires careful (and constant) backups to ensure continued access to all funds. It also opens some privacy loopholes; because new key generation wasn’t trivial, single keys were often reused when they should have. Transactions could be correlated if they used the same address (and thus keypair) for change, requiring even more keys.
+The earliest Bitcoin wallets still faced challenges. That’s because the Bitcoin Core and early clients generated each key randomly. Unfortunately, this methodology requires careful (and constant) backups to ensure continued access to all funds. It also opens some privacy loopholes; because new key generation wasn’t trivial, single keys were often reused when they shouldn't have been. Transactions could be correlated if they used the same address (and thus keypair) for change, requiring even more keys.
 
 A bit over two years ago, this standard methodology began to change with the advent of BIP32, which laid out a new model for Hierarchical Deterministic Keys (HDKs).
 
-* **Deterministic** means that keys are no longer created randomly, but instead generated as part of a linked chain. Regular backups are no longer required as long as the private-key seed that created the chain is safe. This makes key management very simple, and even allows easy caching the master key in a paper wallet or cold storage--only having child keys stored on more vulnerable computer hardware.
+* **Deterministic** means that keys are no longer created randomly, but instead generated as part of a linked chain. Regular backups are no longer required as long as the private-key seed that created the chain is safe. This makes key management very simple, and even allows easy caching of the master key in a paper wallet or cold storage--only having child keys stored on more vulnerable computer hardware.
 
 * **Hierarchical** means that the chain of keys is ranked so that lower-rank keys cannot reveal information about their higher-ranked brethren. This also allows selective sharing of public keys for auditing purposes.
 
-BIP32 implements HDKs using the secp256k1 curve to create an ordered tree of 512-bit extended keys — each of which contains both a 256-bit public key and a 256-bit chain code. Below the root of the tree are extended child keys that are derived from a parent public key, a parent chain code, and an index number. New-style HD wallets are then be used to hold these extended keys.
+BIP32 implements HDKs using the secp256k1 curve to create an ordered tree of 512-bit extended keys — each of which contains both a 256-bit public key and a 256-bit chain code. Below the root of the tree are extended child keys that are derived from a parent public key, a parent chain code, and an index number. New-style HD wallets are then used to hold these extended keys.
 
 One of the advantages of BIP32 is that new child public keys can be created exclusively from the child’s extended key (its public key + its chain code), allowing for considerable expandability without ever knowing any private key. Of course, the parent’s private key can also be used to create this derivation (and to determine child private keys).
 
@@ -28,7 +28,7 @@ A number of additional Bitcoin Improvement Proposals have built on the ideas of 
 
 **BIP43** expands on the structure that was introduced for HD wallets in BIP32. It suggests that the first tier should always be used to define a “purpose”, which describes the structure of the other tiers and the keys in the hierarchy.
 
-**BIP44** then offers a default structure (“purpose”) for HD wallets, to help standardize their usage. Combining the ideas from BIP32 and BIP43, it lays out the following organization:
+**BIP44**  offers a default structure (“purpose”) for HD wallets, to help standardize their usage. Combining the ideas from BIP32 and BIP43, it lays out the following organization:
 
     m / purpose' / coin_type' / account' / change / address_index
 
@@ -55,7 +55,7 @@ Though BIP44 nicely brings together much of the previous work on HDKs, there is 
 
 We can  improve the core functionality of HDKs:
 
-* **Different Curves:** HDKs should be possible with curves other than secp256k1. They would be particularly useful with curve 25519. There also has been some interesting provably secure concepts by Eduarda Friere for HD keys that use quantum-resistant lattice cryptography, some of maybe can be brought into elliptic curves.
+* **Different Curves:** HDKs should be possible with curves other than secp256k1. They would be particularly useful with curve 25519. There also have been some interesting provably secure concepts by Eduarda Friere for HD keys that use quantum-resistant lattice cryptography, some of which maybe can be brought into elliptic curves.
 
 * **HDK Security:** There’s been some research into preventing key leakage when multiple keys are revealed. Using M of N multisignatures might resolve the security issues that rise up when both a key and a chain code are revealed. Gutoski and Stebila propose a different technique. These approaches need more examination and analysis.
 

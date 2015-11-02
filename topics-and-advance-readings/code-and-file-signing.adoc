@@ -47,7 +47,7 @@ The issues are grouped into short-term (roughly corresponding with the coming "R
 
 === Longer-term
 
-* How do validate older, existing releases.
+* How to validate older, existing releases.
 * Tools for languages and repositories other than Java
 * How to handle name expiration
 * Solutions for blockchains other than Namecoin
