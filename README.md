@@ -42,6 +42,7 @@ The topic papers submitted were:
 * [Key Transparency for End Users](topics-and-advance-readings/key-transparency-for-end-users.md)
 * [Lightning Network and Web of Trust](topics-and-advance-readings/lightning-network-and-web-of-trust.md)
 * [Linked Local Names](topics-and-advance-readings/linked-local-names.md)
+* [Modern PKI: Identity Assertions Forming Trust Networks](topics-and-advance-readings/modern-pki-identity-assertions.md)
 * [PGP Paradigm](topics-and-advance-readings/PGP-Paradigm.pdf)
 * [PKI Tools in EVM-based blockchains](topics-and-advance-readings/pki_tools_in_evm_blockchains.md)
 * [Progressive Trust](topics-and-advance-readings/progressive-trust.md)

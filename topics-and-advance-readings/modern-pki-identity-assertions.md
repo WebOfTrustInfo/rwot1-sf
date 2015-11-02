@@ -1,4 +1,5 @@
 # Modern PKI: Identity Assertions Forming Trust Networks
+by Duke Dorje - *[@dukedorje](https://twitter.com/dukedorje) <duke@citizencode.io>*
 
 Current public key infrastructure for personal communication is limited, hard to use, and harder to use correctly. User adoption is very low, even in relation to the userbase already using OpenPGP-based software for communication.  A PKI can and must be created which does not require expert-level knowledge of public-key encryption to use properly.
 
