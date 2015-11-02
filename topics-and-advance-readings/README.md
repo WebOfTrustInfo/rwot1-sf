@@ -29,6 +29,7 @@ The topic papers submitted were:
 * **[Key Transparency for End Users](key-transparency-for-end-users.md)** — by Joseph Bonneau *[@JosephBonneau](https://twitter.com/josephbonneau) \<jbonneau@cs.stanford.edu\>*
 * **[Lightning Network and Web of Trust](lightning-network-and-web-of-trust.md)** — by Joseph Poon *\<joseph@lightning.network\>*
 * **[Linked Local Names](linked-local-names.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
+* **[Modern PKI: Identity Assertions Forming Trust Networks](modern-pki-identity-assertions.md)** — by Duke Dorje  *[@dukedorje](https://twitter.com/dukedorje) \<duke@citizencode.io\>*
 * **[PGP Paradigm](PGP-Paradigm.pdf)** - by Jon Callas - *[@JonCallas](https://twitter.com/joncallas) \<jon@crypto.expert>* & Phil Zimmerman - *\<prz@mit.edu\>*
 * **[PKI Tools in EVM-based blockchains](pki_tools_in_evm_blockchains.md)** - by ChristianLundkvist - *[@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net>*
 * **[Progressive Trust](progressive-trust.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
