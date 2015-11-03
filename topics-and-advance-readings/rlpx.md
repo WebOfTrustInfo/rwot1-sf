@@ -31,14 +31,14 @@ The current version of RLPx provides a network layer for Ethereum. Roadmap:
 	* Peer Persistence
 	* Encrypted/Authenticated TCP
 	* TCP Framing
-* May '15: Beta
+* Beta
 	* Node Discovery for single protocol
 	* Transport is feature complete
 	* Encrypted UDP
-* July '15: Beta
+* Released Candidate
 	* Revisit node table algorithm
 	* Discovery support for multiple protocols
-* Winter '15: 1.0
+* 1.0
 	* Node Discovery for multiple protocols
 	* Feature complete UDP
 
