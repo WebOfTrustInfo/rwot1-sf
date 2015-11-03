@@ -19,6 +19,7 @@ The topic papers submitted were:
 * **[Dealing with key loss in digital identity systems](dealing_with_key_loss_in_digital_identity.md)** - by Christian Lundkvist - *[@ChrisLundkvist](https://twitter.com/chrislundkvist) \<christian.lundkvist@consensys.net>*
 * **[Decentralized Authentication with Blockchain Auth](Decentralized-Authentication-with-Blockchain-Auth.md)** - by Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
 * **[Decentralized Cooperation Needs Decentralized Reputation](DecentralizedCooperationNeedsDecentralizedReputation.md)** - by Noah Thorp *[@noahthorp](https://twitter.com/noahthorp) \<noah@citizencode.io\>*
+* **[Different Models for Trust](different-models-for-trust.md)** - by Kaliya Hamlin *[@IdentityWoman](https://twitter.com/identitywoman) \<kaliya@identitywoman.net\>*
 * **[Distributed multi-ledger model for financial industry](DistributedMulti-ledgerModelForFinancialIndustry.md)** - by Pavel Kravchenko *[@kravchenkopo](https://twitter.com/kravchenkopo) \<kravchenkopo@gmail.com\>*
 * **[Distributed Receptor-Based Computing](Distributed_Receptor-Based_Computing.md)** - by Arthur Brock - *[@ArtBrock](https://twitter.com/artbrock) \<artbrock@gmail.com>*
 * **[Distributed Trust Systems and the Kenyesian Beauty Contest](Distributed-Trust-Systems-and-the-Kenyesian-Beauty-Contest.md)** - by Joel Dietz *[@fractastical](https://twitter.com/fractastical) \<jdietz@gmail.com\>*
