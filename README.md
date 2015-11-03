@@ -32,6 +32,7 @@ The topic papers submitted were:
 * [Dealing with key loss in digital identity systems](topics-and-advance-readings/dealing_with_key_loss_in_digital_identity.md)
 * [Decentralized Authentication with Blockchain Auth](topics-and-advance-readings/Decentralized-Authentication-with-Blockchain-Auth.md)
 * [Decentralized Cooperation Needs Decentralized Reputation](topics-and-advance-readings/DecentralizedCooperationNeedsDecentralizedReputation.md)
+* [Different Models for Trust](topics-and-advance-readings/different-models-for-trust.md)
 * [Distributed multi-ledger model for financial industry](topics-and-advance-readings/DistributedMulti-ledgerModelForFinancialIndustry.md)
 * [Distributed Receptor-Based Computing](topics-and-advance-readings/Distributed_Receptor-Based_Computing.md)
 * [Distributed Trust Systems and the Kenyesian Beauty Contest](topics-and-advance-readings/Distributed-Trust-Systems-and-the-Kenyesian-Beauty-Contest.md)
