@@ -61,3 +61,4 @@ The topic papers submitted were:
 * [Web of Trust with Blockchain IDs](topics-and-advance-readings/Web-of-Trust-with-Blockchain-IDs.md)
 * [White Papers, Specifications & Proofs of Concept](topics-and-advance-readings/white-papers--specifications---and-proof-of-concept-code.md)
 * [XDI Link Contracts: An Overview](topics-and-advance-readings/xdi-link-contracts.md)
+* [RLPx: Network for Decentralized Applications](topics-and-advanced-readings/rlpx.md)
