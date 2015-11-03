@@ -39,6 +39,7 @@ The topic papers submitted were:
 * [First Encounters with PGP](topics-and-advance-readings/FirstEncountersWithPGP.md)
 * [Hierarchical Deterministic Keys: BIP32 & Beyond](topics-and-advance-readings/hierarchical-deterministic-keys--bip32-and-beyond.md)
 * [Identity, Guidance and Situational Awareness](topics-and-advance-readings/Identity_Guidance_and_Situational_Awareness.md)
+* [Identity, Property and Simulation](topics-and-advance-readings/Identity-Property-Simulation.md)
 * [Key revocation of lost and stolen keys](topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys.md)
 * [Key Transparency for End Users](topics-and-advance-readings/key-transparency-for-end-users.md)
 * [Knowing When Your Digital Identity Has Been Compromised](topics-and-advance-readings/knowing-when-your-identity-has-been-compromised.md)
