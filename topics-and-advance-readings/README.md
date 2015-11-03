@@ -26,6 +26,7 @@ The topic papers submitted were:
 * **[First Encounters with PGP](FirstEncountersWithPGP.md)** - by Kiara Robles *[@anarchoass](https://twitter.com/anarchoass) \<kiara.robles@gmail.com\>*
 * **[Hierarchical Deterministic Keys: BIP32 & Beyond](hierarchical-deterministic-keys--bip32-and-beyond.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
 * **[Identity, Guidance and Situational Awareness](Identity_Guidance_and_Situational_Awareness.md)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
+*  **[Identity, Property and Simulation](Identity-Property-Simulation.md)** - by Patrick Deegan *\<pdeegan@gmail.com\>*
 * **[Key revocation of lost and stolen keys](Key-revokation-of-lost-and-stolen-keys.md)** - by Martin Koeppelmann *[@koeppelmann](https://twitter.com/koeppelmann) \<martin.koeppelmann@consensys.net \>*
 * **[Key Transparency for End Users](key-transparency-for-end-users.md)** — by Joseph Bonneau *[@JosephBonneau](https://twitter.com/josephbonneau) \<jbonneau@cs.stanford.edu\>*
 * **[Knowing When Your Digital Identity Has Been Compromised](knowing-when-your-identity-has-been-compromised.md)** — by Justin Newton *[@JustinwNewton](https://twitter.com/justinwnewton) \<justin@netki.com\>*
