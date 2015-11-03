@@ -44,6 +44,7 @@ The topic papers submitted were:
 * [Knowing When Your Digital Identity Has Been Compromised](topics-and-advance-readings/knowing-when-your-identity-has-been-compromised.md)
 * [Lightning Network and Web of Trust](topics-and-advance-readings/lightning-network-and-web-of-trust.md)
 * [Linked Local Names](topics-and-advance-readings/linked-local-names.md)
+* [Multiplexed: a 'slightly radical' framing of identity](multiplexed--a-slightly-radical-framing-of-identity.md)
 * [Modern PKI: Identity Assertions Forming Trust Networks](topics-and-advance-readings/modern-pki-identity-assertions.md)
 * [PGP Paradigm](topics-and-advance-readings/PGP-Paradigm.pdf)
 * [PKI Tools in EVM-based blockchains](topics-and-advance-readings/pki_tools_in_evm_blockchains.md)
