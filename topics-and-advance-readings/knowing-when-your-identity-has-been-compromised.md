@@ -1,4 +1,5 @@
 Knowing When Your Digital Identity Has Been Compromised
+=======================================================
 
 by Justin Newton @justinwnewton <justin@netki.com>
 
