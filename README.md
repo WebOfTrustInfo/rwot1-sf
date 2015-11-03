@@ -40,6 +40,7 @@ The topic papers submitted were:
 * [Identity, Guidance and Situational Awareness](topics-and-advance-readings/Identity_Guidance_and_Situational_Awareness.md)
 * [Key revocation of lost and stolen keys](topics-and-advance-readings/Key-revokation-of-lost-and-stolen-keys.md)
 * [Key Transparency for End Users](topics-and-advance-readings/key-transparency-for-end-users.md)
+* [Knowing When Your Digital Identity Has Been Compromised](topics-and-advance-readings/knowing-when-your-identity-has-been-compromised.md)
 * [Lightning Network and Web of Trust](topics-and-advance-readings/lightning-network-and-web-of-trust.md)
 * [Linked Local Names](topics-and-advance-readings/linked-local-names.md)
 * [Modern PKI: Identity Assertions Forming Trust Networks](topics-and-advance-readings/modern-pki-identity-assertions.md)
