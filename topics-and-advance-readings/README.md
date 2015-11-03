@@ -40,6 +40,7 @@ The topic papers submitted were:
 * **[Secret Handshake: Key Exchange as a Capability System](key-exchange-as-capability-system.md)** - by Dominic Tarr *[@DominicTarr](https://twitter.com/DominicTarr) \<dominic.tarr@gmail.com\>*
 * **[Secure Naming on the Blockchain](Secure-Naming-on-the-Blockchain.md)** - by Muneeb Ali *[@muneeb](https://twitter.com/muneeb) \<muneeb@onename.com\>* and Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
 * **[Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens](Selective-Disclosure-of-Identity.md)** - by Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
+* **[Tensions related to identity and community regulation](tensions-related-to-identity-and-community-regulation.md)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
 * **[The Naming of Things](The-Naming-of-Things.txt)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
 * **[Thin Clients](thin-clients.md)** - by Greg Slepak *[@TaoEffect](https://twitter.com/TaoEffect) \<hi@okturtles.com\>*
 * **[Trust Exchange: An Architecture for a Permanent Open Trust Network](Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network.md)** - by Harlan T. Wood *[@HarlanTWood](https://twitter.com/harlantwood) \<h@rlan.me \>*
