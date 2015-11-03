@@ -1,6 +1,8 @@
 Different Models for Trust
 ==========================
 
+or "Trust, trust, trust? Accountability. Plus 11 Models of Trust, Social Justice, Understanding Lifecycle's and a Lexicon"
+
 by Kaliya Hamlin - kaliya@identitywoman.net @IdentityWoman 
 
 Two quotes stuck out for me reading the papers submitted to the Rebooting the Web of Trust conference - both in The PGP Paradigm.
