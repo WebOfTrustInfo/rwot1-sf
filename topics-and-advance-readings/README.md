@@ -27,6 +27,7 @@ The topic papers submitted were:
 * **[Identity, Guidance and Situational Awareness](Identity_Guidance_and_Situational_Awareness.md)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
 * **[Key revocation of lost and stolen keys](Key-revokation-of-lost-and-stolen-keys.md)** - by Martin Koeppelmann *[@koeppelmann](https://twitter.com/koeppelmann) \<martin.koeppelmann@consensys.net \>*
 * **[Key Transparency for End Users](key-transparency-for-end-users.md)** — by Joseph Bonneau *[@JosephBonneau](https://twitter.com/josephbonneau) \<jbonneau@cs.stanford.edu\>*
+* **[Knowing When Your Digital Identity Has Been Compromised](knowing-when-your-identity-has-been-compromised.md)** — by Justin Newton *[@JustinwNewton](https://twitter.com/justinwnewton) \<justin@netki.com\>*
 * **[Lightning Network and Web of Trust](lightning-network-and-web-of-trust.md)** — by Joseph Poon *\<joseph@lightning.network\>*
 * **[Linked Local Names](linked-local-names.md)** — by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[Modern PKI: Identity Assertions Forming Trust Networks](modern-pki-identity-assertions.md)** — by Duke Dorje  *[@dukedorje](https://twitter.com/dukedorje) \<duke@citizencode.io\>*
