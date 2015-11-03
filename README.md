@@ -53,6 +53,7 @@ The topic papers submitted were:
 * [Secret Handshake: Key Exchange as a Capability System](topics-and-advance-readings/key-exchange-as-capability-system.md)
 * [Secure Naming on the Blockchain](topics-and-advance-readings/Secure-Naming-on-the-Blockchain.md)
 * [Selective Disclosure of Identity with Hierarchical Deterministic Keys and JSON Web Tokens](topics-and-advance-readings/Selective-Disclosure-of-Identity.md)
+* [Tensions related to identity and community regulation](topics-and-advance-readings/tensions-related-to-identity-and-community-regulation.md)
 * [The Naming of Things](topics-and-advance-readings/The-Naming-of-Things.txt)
 * [Thin Clients](topics-and-advance-readings/thin-clients.md)
 * [Trust Exchange: An Architecture for a Permanent Open Trust Network](topics-and-advance-readings/Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network.md)
