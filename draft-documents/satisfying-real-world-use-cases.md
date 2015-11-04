@@ -26,7 +26,7 @@ solution sketch is offered. Finally, common themes are examined in discussion,
 and future prospects are summarized.
 
 
-### Use Case 1.1 - Selective Disclosure of Age
+### Use Case 1.1 - Selective Disclosure: Proof of Age
 
 Beth wants to go to the club with her friends, but lately they've been
 photographing all IDs at entry for 'reasons of liability.' Both club owners and
@@ -50,7 +50,7 @@ Basic needs:
 Technical components that may meet part of these needs: blind signatures,
 cryptographic envelopes.
 
-### Use Case 1.2 - Distributed AirBnB
+### Use Case 1.2 - Short-Term Contracts With Memory: Distributed AirBnB
 
 Tisha wants to rent an apartment from Joe for 2 weeks. They each need enough
 validated information (such as a home address) about each other, to establish
@@ -73,7 +73,7 @@ result of that contract (fulfilled or broken) can later be used in a similar
 fashion for subsequent stays with others.
 
 
-### Use Case 2.1 - Building Credit History
+### Use Case 2.1 - Bootstrapping Long-Term Identity: Creating a Record of Credit
 
 The systemic approach is to check first the Know Your Client and Anti-Money
 Laundering regulations of the jurisdiction or country that one aims to
@@ -162,7 +162,7 @@ Basic need:
 financial regulatory burdens in the user's locality.
 
 
-### Use Case 3.1 - Refugee
+### Use Case 3.1 - Starting From Zero: Refugee
 
 Yevgeni is a member of a persecuted or targeted class in his nation of
 citizenship and residence. He cannot guarantee that he can transport identity
@@ -210,7 +210,7 @@ outlines the enrollment processes needed to comply with HSPD-12:
   members enrolled in the same system.
 
 
-### Use Case 3.2 - Trafficking / Safe Houses
+### Use Case 3.2 - Recovering From Victimhood: Trafficking / Safe Houses
 
 Marsha is a victim of human trafficking who has been rescued by a local group
 and conveyed to a safe house. She may have an identity card/identifier issued to
