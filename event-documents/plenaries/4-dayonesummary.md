@@ -1,4 +1,9 @@
-1. A FRAMEWORK FOR SMART SIGNATURES
+Day One Summary
+===============
+
+(unedited notes of interim report outs by #RebootingWebOfTrust teams)
+
+### 1a. A FRAMEWORK FOR SMART SIGNATURES
 
 Bitcoin has extended idea of a signature for smart contracting and other ideas. So how can it be extended?
 
@@ -10,14 +15,14 @@ Came up with specific uses
 - Creating conditions on software releases
 - Defining user-specific revocation
 
-2a. DPKI: IDENTIFIERS
+### 2a. DPKI: IDENTIFIERS
 
 Identity should be an immutable key
 Multiple methods of discovery
 Identity stored in a registry
 - Creates multiple sorts of keys
 
-2b. DPKI: SECURITY
+### 2b. DPKI: SECURITY
 
 Want an SIF. Security Internet, Finally.
 Minimum number of techniques to create maximum amount of security
@@ -35,16 +40,19 @@ Any system of DPKI must manage private keys for users in a way that's semi-autom
 Methodology:
 - Break up key into shards on multiple devices
 
-3. WHAT DO WE MEAN BY TRUST?
+### 3. WHAT DO WE MEAN BY TRUST?
 
-The PGP term Web of Trust is overloaded
-Classic PGP is just Decentalized Key Validation
-We need a new term or to redefine Web of Trust
-Rename or Reclaim?
+- The PGP term Web of Trust is overloaded
 
-4. QUICK SPEC FOR KEYS MISUSED ON THE BLOCK CHAIN
+- Classic PGP is just Decentralized Key Validation
 
-5. SYBIL-RESILIENT REPUTATION AGGREGATION
+- We need a new term or to redefine Web of Trust
+
+- Rename or Reclaim?
+
+## 4. QUICK SPEC FOR KEYS MISUSED ON THE BLOCK CHAIN
+
+## 5. SYBIL-RESILIENT REPUTATION AGGREGATION
 
 Use Case:
 - Decentralized commerce platform
@@ -59,18 +67,18 @@ Consumers can detect "bad" behavior
 System would bounce back when there's a Sybil attack
 
 Reputation Aggregation:
-How we aggregate events is important to allow users to detect bad behavior
+- How we aggregate events is important to allow users to detect bad behavior
 
 Result:
 - Let users route themselves to actors who behave in ways that causes them to trust
 
-6. SATISFYING THE REAL WORLD: WEB OF TRUST USE CASES
+### 6. SATISFYING THE REAL WORLD: WEB OF TRUST USE CASES
 
 Three themes
 - Selective Disclosure
--- Ex) Proving age without showing rest of info
+  - Ex) Proving age without showing rest of info
 - People who don't have identity
--- Ex) Refugee 
--- Ex) Someone with pieces of an identity (e.g., victim of domestic violence who has shed part of identity)
+  - Ex) Refugee
+  - Ex) Someone with pieces of an identity (e.g., victim of domestic violence who has shed part of identity)
 - Augumenting different identities
--- Ex) If don't have enough ID for a bank account, how do you get to bigger stuff?
+  - Ex) If don't have enough ID for a bank account, how do you get to bigger stuff?
