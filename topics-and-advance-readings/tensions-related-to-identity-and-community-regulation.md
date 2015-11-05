@@ -23,8 +23,10 @@ The name enabled me to quickly communicate information and -- more importantly -
 
 ####Beyond Ketchup -- The Identity of Actors####
 When it comes to actors -- humans, for example -- identity is a mechanism that fosters a balancing of two objectives that are always in tension within any community:
-1) The autonomy of an individual to determine which contexts she shows up in, which portion of her history (if any) she will provide for reference and how she will present herself more generally
-2) the ability for other members of the community to track and share information about that particular individual so that each of them are better able to readily assess their own context, and navigate their own circumstances.  
+
+1) The autonomy of an individual to determine which contexts she shows up in, which portion of her history (if any) she will provide for reference and how she will present herself more generally.
+
+2) The ability for other members of the community to track and share information about that particular individual so that each of them are better able to readily assess their own context, and navigate their own circumstances.  
 
 Together these represent the tension that exists between the autonomy of individuals and the functioning of a reputation system within any social context.  My ability to control what you can find out about me impacts your ability to make decisions with regard to how you will interact with me.  Similarly, your preference for accessing information about me impacts my my ability to exercise autonomy over my own life.
 
