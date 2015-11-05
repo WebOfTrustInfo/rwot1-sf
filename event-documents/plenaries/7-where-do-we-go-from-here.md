@@ -43,6 +43,7 @@ FUNDING
 - Collaborate on writing various grant proposals
 - Use Case + Impact + Tech for ID 2020 Hardware [ $250M ]
 - Create Use Case for End-to-End Encrypted Email
+- Donations from High-Capital Tech People
 
 - We need to be COMPELLING
 
@@ -52,5 +53,7 @@ DECISIONS
 - Use WebOfTrust.info to continue efforts
 
 PLATFORM creation is difficult
-- It's extensive
+- It's expensive
 - But it needs to be global
+- Separate the global platform from individual Apps
+- 
