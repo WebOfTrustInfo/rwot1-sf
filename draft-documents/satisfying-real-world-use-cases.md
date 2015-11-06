@@ -1,11 +1,16 @@
 Rebooting the Web of Trust
 
-Title: Satisfying the Real World: WoT Use Cases & Edge Conditions
+# Opportunities Created by WoT to Control and Leverage Personal Data
 
-Overview
+## Overview
 
-<Opening remarks on Facebook's new public value and how identity understanding
-is still very incomplete>
+This month (Nov 2015), Facebook's share price broke 100USD/share, for a total
+valuation of 290 billion USD. This is evidence that both Facebook and the market
+understand the value of controlling and leveraging personal data. On the other
+hand, the now-conventional, absorb-everything design of Facebook in which users
+are a passive producer to be milked, with no control of their data, is a blunt
+one that only scratches the surface of what is possible with networks of
+information and identity.
 
 Distributed, self-sovereign, or cryptographic protocols and structures offer
 potential guarantees and applications that offer significantly more robustness,
@@ -18,19 +23,26 @@ to members of the informal or unregulated economy, urgently need to participate
 in otherwise privileged economic and political fora, but they face technical,
 economic, and political barriers to entry.
 
+
+
 >> Decentralization produces a *more* trusted system (if well-designed)--WoT
 >produces a system that can eventually be trusted; central actors can never gain
 >that much trust. (e.g. balance of power against states, corporations etc.)
 
-In this paper, we present five use cases, from two relatively simple cases of
-selective disclosure, to the most extreme case of establishing
-government-verifiable credentials from zero for a stateless refugee. Basic
-technical/implementation needs are identified for each case, and a brief
-solution sketch is offered. Finally, common themes are examined in discussion,
-and future prospects are summarized.
+The essential problem is to connect burgeoning new technological developments
+with unmet consumer needs, and vice-versa. In this paper, we present five use
+cases, from two relatively simple cases of selective disclosure, to the most
+extreme case of establishing government-verifiable credentials from zero for a
+stateless refugee. Basic technical/implementation needs are identified for each
+case, and a brief solution sketch is offered. Finally, we examine common themes
+in discussion, and summarize future prospects.
 
 >> list use cases briefly as bulleted bold text > Each use case should include
->"why WoT" Use Case 1.1 - Selective Disclosure: Proof of Age
+>"why WoT"
+
+## Use Cases
+
+### Use Case 1 - Selective Disclosure: Proof of Age ###
 
 Beth wants to go to the club with her friends, but lately they've been
 photographing all IDs at entry for 'reasons of liability.' Both club owners and
@@ -58,7 +70,7 @@ cryptographic envelopes.
 >> define selective disclosure canonically > also define directed disclosures >
 >mention BC case as needed (DPKI paper links, reference)
 
-Use Case 1.2 - Short-term Contracts with Memory: Distributed AirBnB
+### Use Case 2 - Short-term Contracts with Memory: Distributed AirBnB ###
 
 Tisha wants to rent an apartment from Joe for 2 weeks. They each need enough
 validated information (such as a home address) about each other, to establish
@@ -84,8 +96,9 @@ fashion for subsequent stays with others.
 >maybe mention smart contracts > explain issues with phone number or airbnb app
 >comms > contrast with craigslist+email obfuscation
 
->> consider changing numbering Use Case 2.1 - Bootstrapping Long-Term Identity:
-Creating a Record of Credit
+>> consider changing numbering
+
+### Use Case 3 - Bootstrapping Long-Term Identity: Creating a Record of Credit 
 
 The systemic approach is to check first the Know Your Client and Anti-Money
 Laundering regulations of the jurisdiction or country that one aims to
@@ -158,8 +171,9 @@ maintaining accessibility.
 >empowers user and enables efficient detection of possibly fraudulent activity:
 >sunshine+transparency
 
->> delete this, mention cumulative quality of this next use cases Use Case 2.2 -
-Establishing Institutional Financial Credentials
+>> delete this, mention cumulative quality of this next use cases
+
+#### Establishing Institutional Financial Credentials in Non-G20 Countries ####
 
     Farhad is a migrant worker at a mine in, with no fixed address, yet receives
     a regular wage in cash, which he would like to store in a bank account. He
@@ -192,7 +206,7 @@ to satisfy financial regulatory burdens in the user's locality.
 
 >> key need: interoperability of credentials
 
-Use Case 3.1 - Starting from Zero: Refugee
+### Use Case 4 - Starting from Zero: Refugee ###
 
 Yevgeni is a member of a persecuted or targeted class in his nation of
 citizenship and residence. He cannot guarantee that he can transport identity
@@ -260,7 +274,7 @@ outlines the enrollment processes needed to comply with HSPD-12:
 
 >> technical: blockchain(-like) structure, XDI for semantic interoperability, provable claims, biometric-type identification, attestations (by refugee workers for example)
 
-Use Case 3.2 - Trafficking / Safe Houses
+### Use Case 5 - Trafficking / Safe Houses ###
 
 Marsha is a victim of human trafficking who has been rescued by a local group
 and conveyed to a safe house. She may have an identity card/identifier issued to
@@ -320,7 +334,7 @@ from a different department of level of government.
 >establishing new identity needs to provide *extremely* robust bridge to old
 >identity attributes as desired
 
-Discussion
+## Discussion
 
 
 Unsolved problems and (technical) edge cases: >> human, policy, technical
