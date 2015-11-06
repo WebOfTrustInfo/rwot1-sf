@@ -37,10 +37,18 @@ stateless refugee. Basic technical/implementation needs are identified for each
 case, and a brief solution sketch is offered. Finally, we examine common themes
 in discussion, and summarize future prospects.
 
->> list use cases briefly as bulleted bold text > Each use case should include
->"why WoT"
-
 ## Use Cases
+
+1. Selective Disclosure: Proof of Age
+2. Short-term Contracts with Memory: Distributed AirBnB
+3. Bootstrapping Long-Term Identity: Creating A Record of Credit
+    4. Concerns in Non-G20 Nations
+5. Starting From Zero: Refugee
+6. Human Trafficking: Exiting Safe Houses
+
+```
+below: Each use case should include "why WoT"
+```
 
 ### Use Case 1 - Selective Disclosure: Proof of Age ###
 
@@ -173,7 +181,7 @@ maintaining accessibility.
 
 >> delete this, mention cumulative quality of this next use cases
 
-#### Establishing Institutional Financial Credentials in Non-G20 Countries ####
+#### Concerns in Non-G20 Nations
 
     Farhad is a migrant worker at a mine in, with no fixed address, yet receives
     a regular wage in cash, which he would like to store in a bank account. He
@@ -206,7 +214,7 @@ to satisfy financial regulatory burdens in the user's locality.
 
 >> key need: interoperability of credentials
 
-### Use Case 4 - Starting from Zero: Refugee ###
+### Use Case 4 - Starting From Zero: Refugee ###
 
 Yevgeni is a member of a persecuted or targeted class in his nation of
 citizenship and residence. He cannot guarantee that he can transport identity
