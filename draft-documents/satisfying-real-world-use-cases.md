@@ -252,15 +252,13 @@ outlines the enrollment processes needed to comply with HSPD-12:
       family members enrolled in the same system.
 
 
->> make sure definition of WoT and identities registered to it are clear >
->consider using Kaliya's topologies of identity models > explain threat models
->at each point of refugee's journey > make sure biometrics can be later disabled
->or deleted as desired (ask christopher) > explain how motes of refugee's
->identity can be maintained (while respecting privacy) by NGOs and governments
+>> make sure definition of WoT and identities registered to it are clear
+>> consider using Kaliya's topologies of identity models
+>> explain threat models at each point of refugee's journey
+>> make sure biometrics can be later disabled or deleted as desired (ask christopher)
+>> explain how motes of refugee's identity can be maintained (while respecting privacy) by NGOs and governments
 
->> technical: blockchain(-like) structure, XDI for semantic interoperability,
->provable claims, biometric-type identification, attestations (by refugee
->workers for example)
+>> technical: blockchain(-like) structure, XDI for semantic interoperability, provable claims, biometric-type identification, attestations (by refugee workers for example)
 
 Use Case 3.2 - Trafficking / Safe Houses
 
