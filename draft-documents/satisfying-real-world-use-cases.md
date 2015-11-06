@@ -68,18 +68,54 @@ personally identifying information (PII). The local government would like to
 establish a minimum degree of verifiability of the club's records without
 creating an undue liability issue for the club owner.
 
-Basic needs:
-    - Selective and directed disclosure of identifiers. People need to be able
-      to issue claims about time- and context-limited attributes or identifiers.
-    - A persistent store for such time-limited (i.e., expirable) identifiers
-      that is acceptable to multiple stakeholders (i.e.: individuals,
-      businesses, and governments)
+*Selective disclosure* refers to the process by which a credential holder like
+Beth offers *only* the information actually needed by a service provider, for
+only the scope (i.e., the amount of time) required for that information to serve
+its purpose. Typically, this involves the substitution of a *verifiable claim*
+for the actual credential itself; in the case of "proof of age", Beth could
+submit a one-time claim responding to a request from the club that her age is in
+fact over 21. The club owner need only check that the claim is valid.
 
-Technical components that may meet part of these needs: blind signatures,
-cryptographic envelopes.
+A simple sketch of one process satisfying this requirement works as follows:
 
->> define selective disclosure canonically > also define directed disclosures >
->mention BC case as needed (DPKI paper links, reference)
+```
+DRAFT--THIS SKETCH WILL BE REVISED REPEATEDLY
+- [ ] Needs decentralization
+- [x] define selective disclosure canonically
+- [ ] also define directed disclosures
+- [ ] mention BC case as needed (DPKI paper links, reference)
+```
+
+1. Beth receives a request from the club owner, containing a random unique
+   number generated only for this purpose (a 'nonce').
+2. Beth signs this number with a private key associated with her driver's
+   license as well as a description of the claim she wants to make (i.e.,
+   "birthdate earlier than 21 years prior to now"), creating a 'digest'.
+3. Beth submits the resulting digest through secure channels to the state
+   database where the record is kept.
+4. The state checks the request to see if it is valid (that it came from Beth
+   and makes sense as a request), then signs the result and the nonce, returning
+   them both as a new digest to Beth over secure channels.
+5. Beth provides the new digest to the club owner, who can then verify that the
+   result was signed by the right authority.
+
+Note that at the end of this process, each of the third parties involved know
+very little about Beth:
+
+- The state agency storing Beth's driver's license data only knows that Beth
+  needed to claim she was older than 21--not where that request came from
+  (assuming communications metadata has been dealt with).
+- The club owner only knows that the state agency agrees or disagrees with
+  Beth's claim, and perhaps which state agency it is.
+
+Expiry dates can be added to the data during each of the steps, ensuring that
+data generated at any step is only meaningful in a certain time-limited context,
+subject to the regulatory and social needs of stakeholders.
+
+Variations on this theme have been published in academic literature for decades,
+beginning with the "blind signatures" of David Chaum et al. (1983) and the "zero
+knowledge proofs" of Goldwasser et al. (1985).
+
 
 ### Use Case 2 - Short-term Contracts with Memory: Distributed AirBnB ###
 
