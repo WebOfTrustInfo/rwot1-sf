@@ -15,19 +15,22 @@ information and identity.
 Distributed, self-sovereign, or cryptographic protocols and structures offer
 potential guarantees and applications that offer significantly more robustness,
 portability, and versatility than centralized, escrowed, or less-secure
-conventional processes. It is thus appropriate to consider use cases with
-stringent demands, and a fortunate tragedy that there is no shortage of
+conventional processes. Over the long term, there are limits to the amount of
+'trust' (in almost any sense of the word) a centralized authority can garner:
+democracies come with the expectation that citizens be forever watchful of their
+government, and the imbalance of power between consumers and corporations is
+offset by class action suits and regulatory bureaus--both punitive postures. A
+decentralized system engineered *not* to accumulate power as it grows in size
+avoids this; web of trust networks in fact increase their credibility as more
+users provide their assessments as input.
+
+It is thus appropriate to consider use cases with stringent demands that require
+such robust systems, and a fortunate tragedy that there is no shortage of
 real-life examples of those in the world today. A large spectrum of individuals,
 from marginalized persons like stateless refugees, victims of human trafficking,
 to members of the informal or unregulated economy, urgently need to participate
 in otherwise privileged economic and political fora, but they face technical,
 economic, and political barriers to entry.
-
-
-
->> Decentralization produces a *more* trusted system (if well-designed)--WoT
->produces a system that can eventually be trusted; central actors can never gain
->that much trust. (e.g. balance of power against states, corporations etc.)
 
 The essential problem is to connect burgeoning new technological developments
 with unmet consumer needs, and vice-versa. In this paper, we present five use
