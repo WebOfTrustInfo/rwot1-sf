@@ -195,11 +195,11 @@ that regard the user as the initial and final arbiter of information exchange.
 
 The systemic approach is to check first the Know Your Client and Anti-Money
 Laundering regulations of the jurisdiction or country that one aims to
-approach. The once the regulatory compliance idenitity criteria are established,
-establish the delta between the existing quality of identity and the required
-quality of identity. Then build common processes for improving idenity to a
-level that passes the KYC/AML tests; which are the barriers to accessing
-established financial services.
+approach. Once the regulatory compliance identity criteria are established,
+establish the delta between the existing and demanded quality of
+credentials. Then build common processes for improving identity to a level that
+passes the KYC/AML tests; which are the barriers to accessing established
+financial services.
 
 Preserving low cost of access and progressive reputation are essential to
 maintaining accessibility.
