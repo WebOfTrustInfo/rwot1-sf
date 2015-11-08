@@ -2,6 +2,8 @@
 
 by Juan Benet, Christopher Allen, Noah Thorp, Harlan T Wood, Markus Sabadello, Drummond Reed, Duke Dorje
 
+**STATUS: UNFINISHED FIRST DRAFT**
+
 ## Introduction
 
 Today we trust people's root keys.  What if the root key is compromised? What if there is an algorithmic break and all keys become easily crackable overnight? We should be able to keep some global identifier which we bind to root keys (or some other useful value).
