@@ -56,9 +56,7 @@ discussion, and summarize future prospects.
 5. Starting From Zero: Refugee
 6. Human Trafficking: Exiting Safe Houses
 
-```
-below: Each use case should include "why WoT"
-```
+``` below: Each use case should include "why WoT" ```
 
 ### Use Case 1 - Selective Disclosure: Proof of Age ###
 
@@ -66,14 +64,14 @@ Beth wants to go to the club with her friends, but lately they've been
 photographing all IDs at entry for 'reasons of liability.' Both club owners and
 privacy-minded individuals like Beth are understandably concerned about how that
 data will be stored and used. The current system requires that the individual
-share an ID that gives not only their age but their name, address and additional
-information unneeded in that context. Beth would like to provide the minimum
-information needed to get in (proof that she is over 21 years of age). The club
-owner would like to be able to prove later that all attendees were over 21 years
-of age if needed, without incurring the liability of securing the irrelevant
-personally identifying information (PII). The local government would like to
-establish a minimum degree of verifiability of the club's records without
-creating an undue liability issue for the club owner.
+share an ID that gives not only their exact age but their name, address and
+additional information unneeded in that context. Beth would like to provide the
+minimum information needed to get in (proof that she is over 21 years of
+age). The club owner would like to be able to prove later that all attendees
+were over 21 years of age if needed, without incurring the liability of securing
+the irrelevant personally identifying information (PII). The local government
+would like to establish a minimum degree of verifiability of the club's records
+without creating an undue liability issue for the club owner.
 
 *Selective disclosure* refers to the process by which a credential holder like
 Beth offers *only* the information actually needed by a service provider, for
