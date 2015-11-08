@@ -153,14 +153,45 @@ between them, at least initially) that sets out the terms of Tisha's stay. The
 result of that contract (fulfilled or broken) can later be used in a similar
 fashion for subsequent stays with others.
 
->> XDI link contracts applicable--define, explain meeting economic application
->with expirable permissions (pseudonym w/ private+secure+distributed comms) >
->maybe mention smart contracts > explain issues with phone number or airbnb app
->comms > contrast with craigslist+email obfuscation
+A simple sketch of a system that could satisfy these requirements is as follows:
 
->> consider changing numbering
+1. Tisha maintains basic demographic identifiers securely as in Use Case 1, in a
+   distributed, cryptographically verifiable, append-only repository.
+2. Tisha and other users can 'bootstrap' some limited degree of reputability by
+   having friends issue 'letters of reference' on her behalf, which could be as
+   simple as ratings or actual letters submitted to the repository attached to
+   their accounts.
+3. Anytime Tisha arranges a short-term contract herself and relative strangers,
+   she invites them to submit proof of the contract and its result, with a
+   rating or comment, to the same repository. Contracts created in this fashion
+   are linked in the data repository by incorporating signatures (or signature
+   transactions) of all parties, once at establishment, and (optionally) once on
+   fulfillment.
 
-### Use Case 3 - Bootstrapping Long-Term Identity: Creating a Record of Credit 
+Technology Possibilities
+
+Contracts as mentioned above are a common application for decentralized
+verifiable data stores: implementations targeting this area include the 'smart'
+contracts of [Eris Industries](https://erisindustries.com/) and
+[Ethereum](https://www.ethereum.org/), and the 'link' contracts of
+[XDI](http://xdi.org/). Both of these types of offerings include expirable
+permissions, and context-limited pseudonyms.
+
+Users are both ready and willing to protect their identities in this fashion
+during short-term arrangements: the AirBnB app collects an
+[inordinate](http://www.theguardian.com/money/blog/2014/nov/14/airbnb-wont-let-book-room-facebook-friends)
+and
+[unacceptable amount](http://www.huffingtonpost.ca/kris-constable/airbnb-privacy-security-id-jumio_b_4887509.html)
+of
+[personally identifying information](http://www.smh.com.au/business/turbulence-for-airbnb-over-privacy-concerns-20150216-13g8tm.html)
+from its users. On the other hand, craigslist has included per-listing email
+obfuscation for years now, and the Berkman Center for Internet & Society at
+Harvard maintains
+[a massive list of services and frameworks](http://blogs.law.harvard.edu/vrm/development/)
+that regard the user as the initial and final arbiter of information exchange.
+
+
+### Use Case 3 - Bootstrapping Long-Term Identity: Creating a Record of Credit
 
 The systemic approach is to check first the Know Your Client and Anti-Money
 Laundering regulations of the jurisdiction or country that one aims to
