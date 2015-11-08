@@ -90,17 +90,21 @@ DRAFT--THIS SKETCH WILL BE REVISED REPEATEDLY
 - [ ] also define directed disclosures
 - [ ] mention BC case as needed (DPKI paper links, reference)
 ```
+Basic technical/implementation needs / Solution
 
 1. Beth receives a request from the club owner, containing a random unique
    number generated only for this purpose (a 'nonce').
 2. Beth signs this number with a private key associated with her driver's
    license as well as a description of the claim she wants to make (i.e.,
    "birthdate earlier than 21 years prior to now"), creating a 'digest'.
-3. Beth submits the resulting digest through secure channels to the state
-   database where the record is kept.
-4. The state checks the request to see if it is valid (that it came from Beth
-   and makes sense as a request), then signs the result and the nonce, returning
-   them both as a new digest to Beth over secure channels.
+3. Beth submits the resulting digest through secure channels to a decentralized
+   store whose record of truth (and therefore credibility) is out of the control
+   of any one actor, whether government or business. The only guarantee the
+   store needs externally provisioned is availability (i.e., uptime).
+4. The state checks the request from its end (perhaps by polling for requests)
+   to see if it is valid (that it came from Beth and makes sense as a request),
+   then signs the result and the nonce, inserting them both into the data store
+   as a new digest available to Beth.
 5. Beth provides the new digest to the club owner, who can then verify that the
    result was signed by the right authority.
 
@@ -115,11 +119,17 @@ very little about Beth:
 
 Expiry dates can be added to the data during each of the steps, ensuring that
 data generated at any step is only meaningful in a certain time-limited context,
-subject to the regulatory and social needs of stakeholders.
+subject to the regulatory and social needs of stakeholders. Beth may make
+adjustments to the request to ensure that the club owner and government are not
+in collusion to deanonymize her from either direction. In this way, each of the
+mechanisms that provide 'ground truth' or 'trust' are located in different parts
+of the system, making it highly resistant to malicious action at any single
+point or even a collection of points.
 
 Variations on this theme have been published in academic literature for decades,
 beginning with the "blind signatures" of David Chaum et al. (1983) and the "zero
 knowledge proofs" of Goldwasser et al. (1985).
+
 
 
 ### Use Case 2 - Short-term Contracts with Memory: Distributed AirBnB ###
