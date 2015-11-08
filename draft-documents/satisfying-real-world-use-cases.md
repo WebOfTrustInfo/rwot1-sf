@@ -31,14 +31,26 @@ from marginalized persons like stateless refugees, victims of human trafficking,
 to members of the informal or unregulated economy, urgently need to participate
 in otherwise privileged economic and political fora, but they face technical,
 economic, and political barriers to entry.
+We are considering use cases with stringent demands that require such robust
+systems, and a fortunate tragedy that there is no shortage of real-life examples
+of those in the world today. A large spectrum of individuals, from marginalized
+persons like stateless refugees, victims of human trafficking, to members of the
+informal or unregulated economy, urgently need to participate in otherwise
+privileged economic and political fora, but they face technical, economic, and
+political barriers to entry.
 
 The essential problem is to connect burgeoning new technological developments
 with unmet consumer needs, and vice-versa. In this paper, we present five use
 cases, from two relatively simple cases of selective disclosure, to the most
 extreme case of establishing government-verifiable credentials from zero for a
-stateless refugee. Basic technical/implementation needs are identified for each
-case, and a brief solution sketch is offered. Finally, we examine common themes
-in discussion, and summarize future prospects.
+stateless refugee.
+
+Basic technical/implementation needs are identified for each case, and a brief
+solution sketch is offered. The potential user-experience for each use case is
+also outlined. It should be noted that often this "last mile" of any solution
+requires intensive research and field testing to ensure the sucessful adoption
+by real people and institutions. Finally, we examine common themes in
+discussion, and summarize future prospects.
 
 ## Use Cases
 
