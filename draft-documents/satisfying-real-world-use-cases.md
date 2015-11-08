@@ -193,41 +193,29 @@ that regard the user as the initial and final arbiter of information exchange.
 
 ### Use Case 3 - Bootstrapping Long-Term Identity: Creating a Record of Credit
 
-The systemic approach is to check first the Know Your Client and Anti-Money
-Laundering regulations of the jurisdiction or country that one aims to
-approach. Once the regulatory compliance identity criteria are established,
-establish the delta between the existing and demanded quality of
-credentials. Then build common processes for improving identity to a level that
-passes the KYC/AML tests; which are the barriers to accessing established
-financial services.
+Darla is a citizen of a G20 nation, but has limited credit history and possibly
+a fixed address. She can afford a secure digital device however, and through it,
+she can sign up for an account (whose marginal cost is close to zero). She would
+like to be able to store money with a bank or other institution and build a
+credit rating, but can't meet current minimum requirements set by the bank
+through conventional channels.
 
-Preserving low cost of access and progressive reputation are essential to
-maintaining accessibility.
+    - To increase her network reputation
+      [why does this increase her network reputation?], she voluntarily verifies
+      her legal identity to comply with anti money laundering and know your
+      customer laws (AML/KYC). Note that this ideally comes after storing money
+      in the account. Also, the mechanism for verification of legal identity
+      should be the subject of several separate use cases.
 
-    - Darla doesn't have much money, has limited credit history.
-
-    - Darla gets access to a secure digital device.
-
-    - Darla signs up for an account. To grant universal access, she is not
-      required to prove her legal identity and the cost of the account is $0.
-
-    - She earns money through work and is able to store these funds in a way
-      that is associated with her account.
-
-    - To increase her network reputation, she voluntarily verifies her legal
-      identity to comply with anti money laundering and know your customer laws
-      (AML/KYC). Note that this ideally comes after storing money in the
-      account. Also, the mechanism for verification of legal identity should be
-      the subject of several separate use cases.
-
-    - She makes payments for services at local merchants and online.
+    - She makes payments for services at local merchants
+      [won't she be paying in person if they are local?] and online.
 
     - Her balance of funds and payment history information is stored in a way
       that is associated with the account.
 
     - A Creditor can ask her if her account history meets certain criteria. All
       of her purchase history should not be exposed. Creditor needs to be sure
-      that the relevant information is not fradulent.
+      that the relevant information is not fraudulent.
 
     - Local thieves and internet hackers are interested in knowing who in has
       funds - but they are not able to determine who in the community has funds.
@@ -255,6 +243,20 @@ maintaining accessibility.
       revealing individual purchases or credit information of specific
       individuals who have not requested credit from Creditor.
 
+The systemic approach is to check first the Know Your Client and Anti-Money
+Laundering regulations of the jurisdiction or country that one aims to
+approach. The once the regulatory compliance identity criteria are established,
+establish the delta between the existing quality of identity and the required
+quality of identity. Then build common processes for improving identity to a
+level that passes the KYC/AML tests; which are the barriers to accessing
+established financial services.
+
+Preserving low cost of access and progressive reputation are essential to
+maintaining accessibility.
+
+
+
+Technology Possibilities
 
 >> XDI feature: link contracts are p2p agreements about disclosure, sharing, and
 >time of data > in this particular case, user is covered by protective
