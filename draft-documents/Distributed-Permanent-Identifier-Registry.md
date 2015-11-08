@@ -1,6 +1,6 @@
 # Distributed Permanent Identifier Registry
 
-by Juan Benet, Noah Thorp, Harlan T Wood, Markus Sabadello, Drummond Reed, Duke Dorje
+by Juan Benet, Christopher Allen, Noah Thorp, Harlan T Wood, Markus Sabadello, Drummond Reed, Duke Dorje
 
 ## Introduction
 
