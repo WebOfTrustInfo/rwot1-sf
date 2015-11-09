@@ -63,8 +63,6 @@ future prospects.
 5. Starting From Zero: Refugee
 6. Human Trafficking: Exiting Safe Houses
 
-``` below: Each use case should include "why WoT" ```
-
 ### Use Case 1 - Selective Disclosure: Proof of Age ###
 
 Beth wants to go to the club with her friends, but lately they've been
@@ -451,71 +449,48 @@ from a different department of level of government.
 
 ## Discussion
 
+### Opportunities/Unsolved problems
 
-Unsolved problems and (technical) edge cases: >> human, policy, technical
-divisions: add remaining issues from above
+See talking points at
+https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues/51#issuecomment-154965991.
 
-- Bootstrapping from self-affirmed identity attributes
-- Swapping in 'proof of X' for 'X' in (all) transactions where someone's
-  identity is read
-- Manageable and portable equipment for storing identity information and making
-  strong (yet opaque) claims with precise scope
+#### Technical
 
->> list unsolved problems
+#### Political
 
+#### Human
 
-Basic needs:
-    - Public-facing interfaces for initial identity creation (no hardware
-      requirements imposed on refugee)
-    - No storage/infrastructure requirements imposed on refugee (cost of
-      storage/transactions subsidized)
-    - No risk creation by a central data store that could be comprimised
-      creating physical risk (Citizens religion identified through hospital
-      records, to then be traced and exterminated due to clash with dominant
-      powers religion)
-    - Concordance between amount of information provided by refugee and amount
-      initially required by accepting government
-
-Implementations that meet these needs center around the process of
-enrollment. In other words, how does an identity for a person become
-instantiated in a technical system?
-
-    - Person presents - doesn't have an ID in ID2020 system
-    - What are they asked for? name etc...
-    - How is this record in a database/digital system linked to "them"
-     - Is a biometric captured to alow them to present themselves again in the
-       future and be authenticated. could this be voice?
-    - The digital root of this ID is rooted in a decentralized network - The
-      identifiers are "validated" by workers at the NGO and potentially also
-      family members enrolled in the same system.
-
+### Near-term prospects
 
 Although the demands illustrated by the use cases we present are quite serious,
 we note that there have never been so many legally unencumbered technical and
 expert resources for this application as there are at present. We believe that
 the main challenges ahead are those of systems integration and widespread
 adoption, for which the prospects are good. Given adequate funding, we are
-certain that the challenges illustrated above can be met, >> come up with nice
-wording here later.
+certain that the challenges illustrated above can be met, with good outcomes
+throughout the process.
 
->> unprecedented historical opportunity--evolution not only of internet as
->infrastructure but turning point of human culture: first time in history
->identities can be represented and communicated in a fashion that transcends any
->centralized authority, empowering every actor in the system to be a unique
->person, community, company or government, obtaining the assurances they need to
->operate and engage in interactions that require peristance across time and
->space - a trust of sameness, including the underprivileged and marginalized to
->realize an incredibly economically and socially beneficial improvement for
->humankind.
+Moreover, we recognize that we are presented with an unprecedented historical
+opportunity--the evolution not only of the internet as infrastructure but a
+turning point of human culture. Development of self-sovereign identities rooted
+in a decentralized, distributed, verifiable data store will bring us to the
+first time in history identities can be represented and communicated in a
+fashion that transcends any centralized authority, enfranchising every actor in
+the system as a unique person, community, company or government, obtaining the
+assurances they need to operate and engage in interactions that require
+peristance across time and space - a trust of sameness, including the
+underprivileged and marginalized to realize incredible economic and social
+improvements for humankind.
 
 Privacy-respecting, secure (in the senses defined above) distributed systems are
 uniquely able to both accurately chart this experience, as well as empower us to
 foster or develop identities that have never been possible before. While this is
 great news from a technological standpoint, the same systems can certainly also
-be employed in a coercive manner. At worst, large-scale information
-systems,whether centralized databases with essentially unlimited storage
-ordecentralized append-only structures, could near-permanently foreclose the
-disjoint, varied, and possibly contradictory nascent identities of masses
-ofpeople going forward. (Imagine if a government ID system was coupled with an
-undeniable append-only log, fed by a ubiquitous surveillance system--then
-placeit at different points in history.)
+be employed in a coercive manner. At worst, large-scale information systems,
+whether centralized databases with essentially unlimited storage or
+decentralized append-only structures, if mobilized at the will of a single
+interest group, could near-permanently foreclose the disjoint, varied, and
+possibly contradictory nascent identities of masses of people going
+forward. (Imagine if a government ID system was coupled with an undeniable
+append-only log, fed by a ubiquitous surveillance system--then place it at
+different points in history.)
