@@ -337,70 +337,72 @@ manner. Phone numbers are rented from the phone companies and are re-assigned
 ### Use Case 4 - Starting From Zero: Refugee ###
 
 Yevgeni is a member of a persecuted or targeted class in his nation of
-citizenship and residence. He cannot guarantee that he can transport identity
-documents or corroborating information about his situation when he flees the
-country. He needs a self-sovereign identity for initiating the asylum/refugee
-process in a foreign nation. His newly registered identity
+citizenship and residence. He does not feel safe carrying identity documents
+with him when he flees--information asserting his grounds for asylum must bypass
+local centralized data stores, as it could be used to harm him (i.e., records
+identifying or locating individuals could be seized by a new hostile regime).
 
->> verb usage: registered::established::declared (verifiably?)::registered WoT
->identity(?)
+In order to meet this need, a secure, privacy-respecting data store must be made
+available to the legal jurisdiction of the host government. Since refugees often
+move through multiple state territories, and would prefer to avoid setting out
+new permanent personal records in a new nation under complete surveillance, said
+data store should be maintained independently (as in the previous use cases)
+from the states themselves.
+ 
+Such a technology can empower Yevgeni to create a self-sovereign 'anchor' of
+identity--whatever documentation or information he has can be stored as
+statements or photographs to be used for claims later. A prospective host
+government can poll the store, obtaining proof of identity attributes that only
+he can access directly, satisfying the host government's documentation
+requirements. Yevgeni is able to leave his country on the accepting government's
+terms without excessive risk, and at immigration uses his self-sovereign
+identity to enter.
 
- information asserting his grounds for asylum must bypass local centralized data
- stores, as it could be exploited to harm him (i.e., records identifying or
- locating individuals could be seized by a new hostile regime). In order to meet
- this need, an identity exchange
+
+
+
+Commentary
+
+
+Despite what is sometimes assumed the identity of people does not from
+states. People get identity documents from the state that enable/empower them to
+iteract with states over their life cycles. States issue to/provide for the
+citizen identifiers that is for that context. One way to "prove" an identity is
+to present identity documents from a state but what happens when there isn't a
+functioning state to issue such documents or an individual is not privileged
+enough to get access getting these documents.
+
+
+People share social contexts the are in community with each other and through
+social relations we create webs of human connection. It is possible with
+self-sovereign identities for different people - each with their own
+self-soverign identities.  It is possible for this web of connection to be
+documented digitally by people vouching for each other and establishing this web
+of connection digitally.  Creating this type of network to socially validate an
+identity is why this aspect of the technology is called a Web of Trust.
+
+This network of connection that can be documented securely between individual's
+sovereign source identities could serve as another seed to bootstrap an identity
+with a new jurisdiction and document circumstance.
+
  
- >> explain 'identity exchange': mere infrastructure supporting WoT transactions
- >and electronic function
  
- supported in a legal jurisdiction that will take responsibility for WoT service
- availability *over a given period*, is implemented. The 'accepting' government
- polls the exchange, obtaining identity attributes that satisfy the host
- government's documentation requirements. Yevgeni is able to leave his country
- on the accepting government's terms without excessive risk, and at immigration
- uses his self-sovereign identity to enter.
 
 >> double-check government terms-labels > explain self-sovereign identity
 
-Basic needs:
-    - Public-facing interfaces for initial identity creation (no hardware
-      requirements imposed on refugee)
-    - No storage/infrastructure requirements imposed on refugee (cost of
-      storage/transactions subsidized)
-    - No risk creation by a central data store that could be comprimised
-      creating physical risk (Citizens religion identified through hospital
-      records, to then be traced and exterminated due to clash with dominant
-      powers religion)
-    - Concordance between amount of information provided by refugee and amount
-      initially required by accepting government
-
-Implementations that meet these needs center around the process of
-enrollment. In other words, how does an identity for a person become
-instantiated in a technical system? For example, Deloitte has a document that
-outlines the enrollment processes needed to comply with HSPD-12:
 
 
-    - Person presents - doesn't have an ID in ID2020 system
+>> make sure definition of WoT and identities registered to it are clear >
+>consider using Kaliya's topologies of identity models > explain threat models
+>at each point of refugee's journey > make sure biometrics can be later disabled
+>or deleted as desired (ask christopher) > explain how motes of refugee's
+>identity can be maintained (while respecting privacy) by NGOs and governments
 
-    - What are they asked for? name etc...
-
-    - How is this record in a database/digital system linked to "them"
-
-     - Is a biometric captured to alow them to present themselves again in the
-       future and be authenticated. could this be voice?
-
-    - The digital root of this ID is rooted in a decentralized network - The
-      identifiers are "validated" by workers at the NGO and potentially also
-      family members enrolled in the same system.
+>> technical: blockchain(-like) structure, XDI for semantic interoperability,
+>provable claims, biometric-type identification, attestations (by refugee
+>workers for example)
 
 
->> make sure definition of WoT and identities registered to it are clear
->> consider using Kaliya's topologies of identity models
->> explain threat models at each point of refugee's journey
->> make sure biometrics can be later disabled or deleted as desired (ask christopher)
->> explain how motes of refugee's identity can be maintained (while respecting privacy) by NGOs and governments
-
->> technical: blockchain(-like) structure, XDI for semantic interoperability, provable claims, biometric-type identification, attestations (by refugee workers for example)
 
 ### Use Case 5 - Trafficking / Safe Houses ###
 
