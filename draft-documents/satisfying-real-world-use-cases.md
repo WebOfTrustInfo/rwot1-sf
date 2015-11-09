@@ -12,27 +12,36 @@ are a passive producer to be milked, with no control of their data, is a blunt
 one that only scratches the surface of what is possible with networks of
 information and identity.
 
-Distributed, self-sovereign, or [why is this OR and not AND?] cryptographic
-protocols and structures offer potential guarantees and applications that offer
-significantly more robustness, portability, and versatility than centralized,
-escrowed, or less-secure conventional processes. The first instantiations of
-technologies to do this emerged 25 years ago and the peer-2-peer architecture
-was called a Web of Trust and usage was confined to highly technical
-communities. Now is the time to extend them to be usable by all who have access
-to digital networks and in particular ensure that marginalized populations can
-benifit.  A decentralized system engineered *not* to accumulate power as it
-grows in size avoids this; web of trust networks in fact increase their
-credibility as more users provide their assessments as input.
+Over the long term, there are limits to the amount of 'trust' (in almost any
+sense of the word) a centralized authority can garner: democracies come with the
+expectation that citizens be forever watchful of their government, and the
+imbalance of power between consumers and corporations is offset by class action
+suits and regulatory bureaus--both punitive postures. A decentralized system
+engineered *not* to accumulate power as it grows in size avoids this; web of
+trust networks in fact increase their credibility as more users provide their
+assessments as input. A decentralized system engineered *not* to concentrate
+power as it grows in size avoids this; web of trust networks in fact increase
+their credibility as more users provide their assessments as input.
 
+Distributed, self-sovereign, cryptographic protocols and structures offer
+potential guarantees and applications that offer significantly more robustness,
+portability, and versatility than centralized, escrowed, or less-secure
+conventional processes.
 
+One of the first technologies to offer this kind of promise emerged 25 years
+ago: the "Web of Trust" that grew out of the decentralized, cryptographically
+verified attestations of PGP users. Due to failures of UX design, the spread of
+PGP was was confined to highly technical communities. Now is the time to extend
+them to be usable by all who have access to digital networks and in particular
+ensure that marginalized populations can benefit.
 
-We are considering use cases with stringent demands that require such robust
-systems, and a fortunate tragedy that there is no shortage of real-life examples
-of those in the world today. A large spectrum of individuals, from marginalized
-persons like stateless refugees, victims of human trafficking, to members of the
-informal or unregulated economy, urgently need to participate in otherwise
-privileged economic and political fora, but they face technical, economic, and
-political barriers to entry.
+In light of light, we consider use cases with stringent demands that require
+such robust systems. It is a fortunate tragedy that there is no shortage of
+real-life examples of those in the world today. A large spectrum of individuals,
+from marginalized persons like stateless refugees, victims of human trafficking,
+to members of the informal or unregulated economy, urgently need to participate
+in otherwise privileged economic and political fora, but they face technical,
+economic, and political barriers to entry.
 
 The essential problem is to connect burgeoning new technological developments
 with unmet consumer needs, and vice-versa. In this paper, we present five use
@@ -42,10 +51,8 @@ stateless refugee.
 
 Basic technical/implementation needs are identified for each case, and a brief
 solution sketch is offered. The potential user-experience for each use case is
-also outlined. It should be noted that often this "last mile" of any solution
-requires intensive research and field testing to ensure the sucessful adoption
-by real people and institutions. Finally, we examine common themes in
-discussion, and summarize future prospects.
+also outlined. Finally, we examine common themes in discussion, and summarize
+future prospects.
 
 ## Use Cases
 
