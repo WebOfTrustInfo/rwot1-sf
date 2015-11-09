@@ -202,9 +202,10 @@ secure digital device however, and through it, she can sign up for an account
 (whose marginal cost is close to zero). She would like to be able to store money
 with a bank or other institution (credit union, etc.) and build a credit rating,
 but can't meet current minimum requirements set by the bank through conventional
-channels. In other words, she needs to cross a
-['gap' of credibility](https://en.wikipedia.org/wiki/100_point_check) needed to
-enter the conventional world of credentials.
+channels
+[The 100 point scale is a common one - https://en.wikipedia.org/wiki/100_point_check ]. In
+other words, she needs to cross a 'gap' of credibility needed to enter the
+conventional world of credentials.
 
 In this case, the technical solution is similar to previous cases, excepting
 that the desired result is a private credential, a reusable link to a
