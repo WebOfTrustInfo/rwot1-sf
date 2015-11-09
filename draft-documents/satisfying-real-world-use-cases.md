@@ -90,15 +90,6 @@ fact over 21. The club owner need only check that the claim is valid.
 
 A simple sketch of one process satisfying this requirement works as follows:
 
-```
-DRAFT--THIS SKETCH WILL BE REVISED REPEATEDLY
-- [ ] Needs decentralization
-- [x] define selective disclosure canonically
-- [ ] also define directed disclosures
-- [ ] mention BC case as needed (DPKI paper links, reference)
-```
-Basic technical/implementation needs / Solution
-
 1. Beth receives a request from the club owner, containing a random unique
    number generated only for this purpose (a 'nonce').
 2. Beth signs this number with a private key associated with her driver's
@@ -114,6 +105,11 @@ Basic technical/implementation needs / Solution
    as a new digest available to Beth.
 5. Beth provides the new digest to the club owner, who can then verify that the
    result was signed by the right authority.
+
+Of course, the actual user experience of this is simple: Beth could scan a QR
+code provided by the club owner, and approve the verification request through an
+app on her phone. The result is then a different QR code the club owner can scan
+to verify. All of the above technical back and forth happens in the background.
 
 Note that at the end of this process, each of the third parties involved know
 very little about Beth:
