@@ -17,11 +17,9 @@ sense of the word) a centralized authority can garner: democracies come with the
 expectation that citizens be forever watchful of their government, and the
 imbalance of power between consumers and corporations is offset by class action
 suits and regulatory bureaus--both punitive postures. A decentralized system
-engineered *not* to accumulate power as it grows in size avoids this; web of
-trust networks in fact increase their credibility as more users provide their
-assessments as input. A decentralized system engineered *not* to concentrate
-power as it grows in size avoids this; web of trust networks in fact increase
-their credibility as more users provide their assessments as input.
+engineered *not* to concentrate power as it grows in size avoids this; web of
+trust networks can in fact increase their credibility as more users provide
+their assessments as input.
 
 Distributed, self-sovereign, cryptographic protocols and structures offer
 potential guarantees and applications that offer significantly more robustness,
