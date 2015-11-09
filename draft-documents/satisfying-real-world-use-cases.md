@@ -386,7 +386,7 @@ social relations create webs of human connection. This can be made rigorous and
 verifiable with self-sovereign identities held by each person, documented
 digitally by mutual verification asserted cryptographically through a secure
 digital medium. Creating this type of network to socially validate an identity
-is why this aspect of the technology is called a **web of trust.**
+is why this aspect of the technology what has been called a **web of trust.**
 
 This network of connection that can be documented securely between individual's
 sovereign source identities could serve as another seed to bootstrap an identity
