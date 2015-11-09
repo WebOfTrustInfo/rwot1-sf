@@ -337,6 +337,16 @@ manner. Phone numbers are rented from the phone companies and are re-assigned
 
 ### Use Case 4 - Starting From Zero: Refugee ###
 
+
+Despite what is sometimes assumed, an individual's identity does not necessarily
+derive from the state, despite the effects of practice and policy. Individuals
+may receive identity documents from the state that enable/empower them to
+iteract with states over the lifecycles of the identities those documents
+signify--in other words, identifying documents exist in a context. One way to
+"prove" an identity is to present identity documents from a state, but what
+happens when there isn't a functioning state to issue such documents, or an
+individual is kept from obtaining them?
+
 Yevgeni is a member of a persecuted or targeted class in his nation of
 citizenship and residence. He does not feel safe carrying identity documents
 with him when he flees--information asserting his grounds for asylum must bypass
@@ -364,28 +374,20 @@ identity to enter.
 
 Commentary
 
-
-Despite what is sometimes assumed the identity of people does not from
-states. People get identity documents from the state that enable/empower them to
-iteract with states over their life cycles. States issue to/provide for the
-citizen identifiers that is for that context. One way to "prove" an identity is
-to present identity documents from a state but what happens when there isn't a
-functioning state to issue such documents or an individual is not privileged
-enough to get access getting these documents.
-
-
-People share social contexts the are in community with each other and through
-social relations we create webs of human connection. It is possible with
-self-sovereign identities for different people - each with their own
-self-soverign identities.  It is possible for this web of connection to be
-documented digitally by people vouching for each other and establishing this web
-of connection digitally.  Creating this type of network to socially validate an
-identity is why this aspect of the technology is called a Web of Trust.
+People share social contexts; they are in community with each other, and through
+social relations create webs of human connection. This can be made rigorous and
+verifiable with self-sovereign identities held by each person, documented
+digitally by mutual verification asserted cryptographically through a secure
+digital medium. Creating this type of network to socially validate an identity
+is why this aspect of the technology is called a **web of trust.**
 
 This network of connection that can be documented securely between individual's
 sovereign source identities could serve as another seed to bootstrap an identity
-with a new jurisdiction and document circumstance.
-
+with a new jurisdiction and document circumstance. In other words, it is only
+through a web of trust linking self-sovereign identities that someone in as dire
+straits as a refugee can be credentialed to a degree acceptable by Global North
+governments, while maintaining strong guarantees of security and privacy to all
+stakeholders involved.
 
 
 ### Use Case 5 - Trafficking / Safe Houses ###
