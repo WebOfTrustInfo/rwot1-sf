@@ -369,8 +369,17 @@ requirements. Yevgeni is able to leave his country on the accepting government's
 terms without excessive risk, and at immigration uses his self-sovereign
 identity to enter.
 
+In this case, a technical solution does not proceed in a simple step-by-step
+fashion, but we can identify the chief needs:
 
-
+- Safe onboarding of a potential refugee at xer current location (Humanitarian
+  organizations can aid in this)
+- Authentication methods that 'survive the trip' along with the refugee:
+  passphrases if possible; at a minimum, not solely biometrics
+- Partnerships with refugee-hosting governments and independent organizations
+  maintaining the data store, backed by a policy-compliant API
+- Functionality allowing refugee users to progress toward an independent status
+  where they are hosted, along the lines of the previously introduced use cases
 
 Commentary
 
