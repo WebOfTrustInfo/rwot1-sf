@@ -238,13 +238,9 @@ essential to maintaining accessibility.
 
 Technology Possibilities
 
->> XDI feature: link contracts are p2p agreements about disclosure, sharing, and
->time of data > in this particular case, user is covered by protective
->stipulations without 'right to be forgotten' > XDI (if well-implemented by bank
->and rating agencies) will enable user's ability to dispute erroneous or
->malicious financial rating or activity associated with her account--tool that
->empowers user and enables efficient detection of possibly fraudulent activity:
->sunshine+transparency
+See
+https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues/51#issuecomment-154932665
+for talking points.
 
 #### Concerns in Non-G20 Nations
 
@@ -389,23 +385,6 @@ identity is why this aspect of the technology is called a Web of Trust.
 This network of connection that can be documented securely between individual's
 sovereign source identities could serve as another seed to bootstrap an identity
 with a new jurisdiction and document circumstance.
-
- 
- 
-
->> double-check government terms-labels > explain self-sovereign identity
-
-
-
->> make sure definition of WoT and identities registered to it are clear >
->consider using Kaliya's topologies of identity models > explain threat models
->at each point of refugee's journey > make sure biometrics can be later disabled
->or deleted as desired (ask christopher) > explain how motes of refugee's
->identity can be maintained (while respecting privacy) by NGOs and governments
-
->> technical: blockchain(-like) structure, XDI for semantic interoperability,
->provable claims, biometric-type identification, attestations (by refugee
->workers for example)
 
 
 
