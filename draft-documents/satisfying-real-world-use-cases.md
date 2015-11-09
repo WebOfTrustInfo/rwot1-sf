@@ -247,14 +247,13 @@ Everywhere Else, Peruvian economist Hernando de Soto highlights a fundamental
 difference between Western liberal democracies and other regions: such
 democracies have functioning systems that enable the abstract representation of
 value. For example, land is not simply owned territory--it is private property
-registered with the state and represented by land deeds; the representation
-having the force of law in disputes.
+registered with the state and represented by land deeds; This abstrct representation of the value of the land that is owned, the deed, is the instramental tool used to access capital. The west also has functioning state institutions and systems of law that imbue the deeds with cultural and legal power. They have what could be considered high levels of social trust - as described by Steven M.R. Covey in The Speed of Trust and summarized by one of the co-authors oof this document - Kaliya Identity Woman http://www.identitywoman.net/the-trouble-with-trust-the-case-for-accountability-frameworks
 
-Millions of individuals do not have such representative records (birth
+Millions of individuals do not have such representative records of themselves (birth
 certificates etc.) registered with government entities, and such entities may
 not be reliable enough to serve this role. Worse, many marginalized people may
 either be prohibited from creating records that might enfranchise them, either
-through legal exclusion or threats of violence. The Gates Foundation considers
+through legal exclusion or threats of violence. Without these types of records their access to state and commercial services (such as banking) is limited. The Gates Foundation considers
 this issue
 [one of their 8 global priorities](http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor):
 
@@ -386,7 +385,7 @@ social relations create webs of human connection. This can be made rigorous and
 verifiable with self-sovereign identities held by each person, documented
 digitally by mutual verification asserted cryptographically through a secure
 digital medium. Creating this type of network to socially validate an identity
-is why this aspect of the technology is called a **web of trust.**
+is why this aspect of the technology has been called a **web of trust.**
 
 This network of connection that can be documented securely between individual's
 sovereign source identities could serve as another seed to bootstrap an identity
@@ -436,7 +435,7 @@ Thus, the main technical needs for Marsha's case are:
 
 The key to meeting these needs is to provide an individual services across time
 and space, in a way that avoids duplication and provides for continuity of care
-(medically)--in other words, persistent correlatable claims.  An independent
+(medically)--in other words, persistent correlatable identifier - along with records associated with it.  An independent
 organization can issue these with the consent of the individual client,
 achieving this result for the client without compromising her privacy. Thus
 avoiding touching the formal state systems that she mistrusts.
