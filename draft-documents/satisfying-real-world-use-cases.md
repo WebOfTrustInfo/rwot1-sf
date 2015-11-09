@@ -478,6 +478,33 @@ divisions: add remaining issues from above
 
 >> list unsolved problems
 
+
+Basic needs:
+    - Public-facing interfaces for initial identity creation (no hardware
+      requirements imposed on refugee)
+    - No storage/infrastructure requirements imposed on refugee (cost of
+      storage/transactions subsidized)
+    - No risk creation by a central data store that could be comprimised
+      creating physical risk (Citizens religion identified through hospital
+      records, to then be traced and exterminated due to clash with dominant
+      powers religion)
+    - Concordance between amount of information provided by refugee and amount
+      initially required by accepting government
+
+Implementations that meet these needs center around the process of
+enrollment. In other words, how does an identity for a person become
+instantiated in a technical system?
+
+    - Person presents - doesn't have an ID in ID2020 system
+    - What are they asked for? name etc...
+    - How is this record in a database/digital system linked to "them"
+     - Is a biometric captured to alow them to present themselves again in the
+       future and be authenticated. could this be voice?
+    - The digital root of this ID is rooted in a decentralized network - The
+      identifiers are "validated" by workers at the NGO and potentially also
+      family members enrolled in the same system.
+
+
 Although the demands illustrated by the use cases we present are quite serious,
 we note that there have never been so many legally unencumbered technical and
 expert resources for this application as there are at present. We believe that
@@ -488,22 +515,22 @@ wording here later.
 
 >> unprecedented historical opportunity--evolution not only of internet as
 >infrastructure but turning point of human culture: first time in history
->identity can be represented and communicated in a fashion that transcends any
+>identities can be represented and communicated in a fashion that transcends any
 >centralized authority, empowering every actor in the system to be a unique
 >person, community, company or government, obtaining the assurances they need to
->operate and engage in trusted interactions, including the underprivileged and
->marginalized to realize an incredibly economically and socially beneficial
->improvement for humankind.
+>operate and engage in interactions that require peristance across time and
+>space - a trust of sameness, including the underprivileged and marginalized to
+>realize an incredibly economically and socially beneficial improvement for
+>humankind.
 
-Privacy-respecting, secure (in the senses defined above) distributed systems
-areuniquely able to both accurately chart this experience, as well as empower us
-to foster or develop identities that have never been possible before. While this
-is great news from a technological standpoint, the same systems can certainly
-also be employed in a coercive manner. At worst, large-scale information
+Privacy-respecting, secure (in the senses defined above) distributed systems are
+uniquely able to both accurately chart this experience, as well as empower us to
+foster or develop identities that have never been possible before. While this is
+great news from a technological standpoint, the same systems can certainly also
+be employed in a coercive manner. At worst, large-scale information
 systems,whether centralized databases with essentially unlimited storage
 ordecentralized append-only structures, could near-permanently foreclose the
 disjoint, varied, and possibly contradictory nascent identities of masses
 ofpeople going forward. (Imagine if a government ID system was coupled with an
 undeniable append-only log, fed by a ubiquitous surveillance system--then
 placeit at different points in history.)
-
