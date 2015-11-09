@@ -193,68 +193,43 @@ that regard the user as the initial and final arbiter of information exchange.
 
 ### Use Case 3 - Bootstrapping Long-Term Identity: Creating a Record of Credit
 
-Darla is a citizen of a G20 nation, but has limited credit history and possibly
-a fixed address. She can afford a secure digital device however, and through it,
-she can sign up for an account (whose marginal cost is close to zero). She would
-like to be able to store money with a bank or other institution and build a
-credit rating, but can't meet current minimum requirements set by the bank
-through conventional channels.
+Darla is a citizen of a G20 nation, but lacks a deposit account, extensive
+credit history or reputable documentation of local residence. She can afford a
+secure digital device however, and through it, she can sign up for an account
+(whose marginal cost is close to zero). She would like to be able to store money
+with a bank or other institution (credit union, etc.) and build a credit rating,
+but can't meet current minimum requirements set by the bank through conventional
+channels. In other words, she needs to cross a 'gap' of credibility needed to
+enter the conventional world of credentials.
 
-    - To increase her network reputation
-      [why does this increase her network reputation?], she voluntarily verifies
-      her legal identity to comply with anti money laundering and know your
-      customer laws (AML/KYC). Note that this ideally comes after storing money
-      in the account. Also, the mechanism for verification of legal identity
-      should be the subject of several separate use cases.
+In this case, the technical solution is similar to previous cases, excepting
+that the desired result is a private credential, a reusable link to a
+conventional financial record, held by the account holder, of validity (in this
+context) equal to a fixed address. A sketch:
 
-    - She makes payments for services at local merchants
-      [won't she be paying in person if they are local?] and online.
-
-    - Her balance of funds and payment history information is stored in a way
-      that is associated with the account.
-
-    - A Creditor can ask her if her account history meets certain criteria. All
-      of her purchase history should not be exposed. Creditor needs to be sure
-      that the relevant information is not fraudulent.
-
-    - Local thieves and internet hackers are interested in knowing who in has
-      funds - but they are not able to determine who in the community has funds.
-
-    - Creditor grants her access to use additional funds.
-
-    - She uses the funds for purchases and makes payments.
-
-    - No one knows what she has purchased, how much she paid, or who she
-      purchased it from (e.g. all of her transaction history is not revealed to
-      the merchant).
-
-    - She misses several repayments.
-
-    - Creditor adjusts the amount of available funds down and increases the
-      interest on the credit.
-
-    - She makes payments on her credit consistently for some period of
-      time. Creditor decreases the interest rate and increases her available
-      credit.
-
-    - Creditor wants to offer credit to many individuals and needs to know the
-      interest rates which will cover defaults. Creditor makes a mass query of
-      loan default rates. The network gives summary information without
-      revealing individual purchases or credit information of specific
-      individuals who have not requested credit from Creditor.
-
-The systemic approach is to check first the Know Your Client and Anti-Money
-Laundering regulations of the jurisdiction or country that one aims to
-approach. The once the regulatory compliance identity criteria are established,
-establish the delta between the existing quality of identity and the required
-quality of identity. Then build common processes for improving identity to a
-level that passes the KYC/AML tests; which are the barriers to accessing
-established financial services.
-
-Preserving low cost of access and progressive reputation are essential to
-maintaining accessibility.
+1. An independent organization sets up a data store for storing verifiable
+   claims submitted either by the state or Darla.
+2. The independent organization onboards Darla and ensures she understands the
+   guarantees of privacy offered, and that her credentials do not fundamentally
+   depend on the state.
+3. The state, in concert with the independent organization, signs Darla's
+   initial claim, deeming it to be of sufficient strength to accomplish tasks
+   like the above.
+4. Darla submits proof of the state's approval of her established identity and
+   any attributes (cf. use case 1) additionally required by the bank, and
+   establishes a conventional account.
 
 
+The systemic approach in this case is to check first the Know Your Client and
+Anti-Money Laundering regulations of the jurisdiction or country that one aims
+to approach. The once the regulatory compliance identity criteria are
+established, establish the delta between the existing quality of identity and
+the required quality of identity. Then build common processes for improving
+identity to a level that passes the KYC/AML tests; which are the barriers to
+accessing established financial services.
+
+Preserving low cost of access and progressive establishment of reputation are
+essential to maintaining accessibility.
 
 Technology Possibilities
 
@@ -265,8 +240,6 @@ Technology Possibilities
 >malicious financial rating or activity associated with her account--tool that
 >empowers user and enables efficient detection of possibly fraudulent activity:
 >sunshine+transparency
-
->> delete this, mention cumulative quality of this next use cases
 
 #### Concerns in Non-G20 Nations
 
