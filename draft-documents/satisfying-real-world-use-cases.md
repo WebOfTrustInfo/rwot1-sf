@@ -407,11 +407,10 @@ her by the state - however she does not trust the local state actors/office
 enough to present to them using it to access benefits (she may be re-victimized
 by them if she does). An aid organization and/or government is willing to
 provide resources (financial, food, education) to her and others like her, so
-that she can re-normalize her life.
-
->> reference MVC article:
->https://modelviewculture.com/pieces/sex-work-and-surveillance quote or
->explicitly reference reality
+that she can re-normalize her life. We note that this is not a speculative
+scenario; the 'digital quarantines' and surveillance pressures undergone by
+women in shelters or sex work are
+[documented in the reporting](https://modelviewculture.com/pieces/sex-work-and-surveillance).
 
 A caseworker provides Marsha with portable, manageable equipment for storing and
 protecting identity attributes, and assists her with setting up core
@@ -421,16 +420,21 @@ then able to account for the aid provided. When Marsha finally leaves the safe
 house and resumes independent life, she is sure that her private information
 leaves with her.
 
+Marsha has the same technical needs as those explained in the previous use
+cases. The unique challenge here is in handling existing 'toxic' components of
+her existing identity: her traffickers may have access to a slew of credentials
+up to and including digital ones, which may also link to friends or family. She
+might like to reconnect with people or obtain access to stores of value in
+existing accounts without risking further harm.
 
-
-Basic needs:
-    - A protocol for establishing a set of 'core' initial attributes
-    - Strong guarantees of selective-only disclosure
-    - Desirable: A way to 'reconstruct' still-valued components of a previously
-      poisoned or toxic identity (i.e. friends or relatives prior to event)
-      without risking attack or subsequent victimization
-    - Clear threat models at every step of the process
-
+Thus, the main technical needs for Marsha's case are:
+- A protocol for establishing a set of 'core' initial attributes
+- Data stored in a completely independent location robust against threats
+- Strong guarantees of only selective disclosure
+- Desirable: A way to 'reconstruct' still-valued components of a previously
+  poisoned or toxic identity (i.e. friends or relatives prior to event) without
+  risking attack or subsequent victimization
+- Clear threat models at every step of the process
 
 The key to meeting these needs is to provide an individual services across time
 and space, in a way that avoids duplication and provides for continuity of care
@@ -444,20 +448,6 @@ issuance of identity documents/identifiers. This is useful when a local state
 actor/office is mistrusted by Marsha. She is willing to have the independent
 organization mediate the provision of support services to her via government aid
 from a different department of level of government.
-
->> issues to explain
-- DELEGATION (in initiating record, obtaining attestations)
-- STEWARDSHIP (of vulnerable or short identity record)
-- Limited Liability Persona
-  - http://bgidps.typepad.com/bgidps/2007/10/llp-in-the-new-.html
-  - https://www.youtube.com/watch?v=Lazg31TN8FE
-  - http://www.slideshare.net/Kaliya/identification-and-social-justice-
-
->> issues: possible spouse with financial access to old accounts > not just a
->"fresh" identity; selectively expunging old identity > avoiding "stepping on
->land mines" by reconnecting old identity components > technical: code
->establishing new identity needs to provide *extremely* robust bridge to old
->identity attributes as desired
 
 ## Discussion
 
