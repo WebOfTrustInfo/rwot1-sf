@@ -35,4 +35,4 @@ The Watcher Service is where all of the action occurs:
 4. When a transaction with a watched address as an input is found, the Watcher Service checks if that transaction was also submitted to it by the Signer Service.
    * If it was, no problem.  
    * If it  was not, an alert is sent, notifying the user or system administrator that a private key may have been compromised.  
- 5. When a transaction is included in a block, that transaction is removed from the list held by the Watcher Service, as there should be no further submissions of that transaction to the blockchain.
+5. When a transaction is included in a block, that transaction is removed from the list held by the Watcher Service, as there should be no further submissions of that transaction to the blockchain.
