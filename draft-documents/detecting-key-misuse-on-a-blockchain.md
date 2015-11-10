@@ -17,8 +17,8 @@ In PGP's classic Web of Trust system, misuse of keys is difficult to monitor bec
 
 This specification focuses on building a system that incorporates the Watcher Service into a standard Signing Service:
 
-1. The _Signing Service_ signs legitimate transactions and submits them to the blockchain. This is the job performed by _wallets_ in the blockchain ecosystem. 
-2. The _Watcher Service_ watches both transactions submitted to the blockchain by the signer and all other transactions occurring on the blockchain. It then compares these two lists to ensure that no transactions on the blockchain were signed by the user's private key without being submitted through the user's Signing Service.
+* The _Signing Service_ signs legitimate transactions and submits them to the blockchain. This is the job performed by _wallets_ in the blockchain ecosystem. 
+* The _Watcher Service_ watches both transactions submitted to the blockchain by the signer and all other transactions occurring on the blockchain. It then compares these two lists to ensure that no transactions on the blockchain were signed by the user's private key without being submitted through the user's Signing Service.
 
 ## How It Works
 
