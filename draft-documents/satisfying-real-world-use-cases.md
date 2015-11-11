@@ -455,7 +455,7 @@ Thus, the main technical needs for Marsha's case are:
 
 The key to meeting these needs is to provide an individual services across time
 and space, in a way that avoids duplication and provides for continuity of care
-(medically)--in other words, persistent correlatable claims.  An independent
+(medically)--in other words, persistent correlatable identifier for a particular context - along with associated records.  An independent
 organization can issue these with the consent of the individual client,
 achieving this result for the client without compromising her privacy. Thus
 avoiding touching the formal state systems that she mistrusts.
