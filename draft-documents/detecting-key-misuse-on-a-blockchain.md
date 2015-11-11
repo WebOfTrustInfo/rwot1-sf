@@ -1,4 +1,4 @@
-# Detecting Key Miuse on a Blockchain
+# Detecting Key Misuse on a Blockchain
 #### *by Justin Newton*
 
 ## Summary
