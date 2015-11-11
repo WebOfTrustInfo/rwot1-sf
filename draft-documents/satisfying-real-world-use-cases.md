@@ -1,16 +1,9 @@
-Rebooting the Web of Trust
-
-# Opportunities Created by WoT to Control and Leverage Personal Data
+# Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data
+#### _by [bylines?]_
 
 ## Overview
 
-This month (Nov 2015), Facebook's share price broke 100USD/share, for a total
-valuation of 290 billion USD. This is evidence that both Facebook and the market
-understand the value of controlling and leveraging personal data. On the other
-hand, the now-conventional, absorb-everything design of Facebook in which users
-are a passive producer to be milked, with no control of their data, is a blunt
-one that only scratches the surface of what is possible with networks of
-information and identity.
+In November 2015 Facebook's share price broke $100 USD/share, for a total valuation of $290 billion USD. This is evidence that both Facebook and the market understand the value of controlling and leveraging personal data. However, the now-conventional, absorb-everything design of Facebook is a blunt one. in which users are a passive producer to be milked, with no control of their data,  that only scratches the surface of what is possible with networks of information and identity.
 
 Over the long term, there are limits to the amount of 'trust' (in almost any
 sense of the word) a centralized authority can garner: democracies come with the
