@@ -492,14 +492,14 @@ throughout the process.
 Moreover, we recognize that we are presented with an unprecedented historical
 opportunity--the evolution not only of the internet as infrastructure but a
 turning point of human culture. Development of self-sovereign identities rooted
-in a decentralized, distributed, verifiable data store will bring us to the
-first time in history identities can be represented and communicated in a
-fashion that transcends any centralized authority, enfranchising every actor in
-the system as a unique person, community, company or government, obtaining the
-assurances they need to operate and engage in interactions that require
-peristance across time and space - a trust of sameness, including the
-underprivileged and marginalized to realize incredible economic and social
-improvements for humankind.
+in a decentralized, distributed, verifiable data store can usher in a world
+where, for the first time in history, identities can be represented and
+communicated in a fashion that transcends any centralized authority,
+enfranchising every actor in the system as a unique person, community, company
+or government. Through these identities, any actor, regardless of origin, can
+obtain the assurances they need to operate and engage in interactions that
+require persistance across time and space--a record of continuous commitments
+that will underlie incredible economic and social improvements for humankind.
 
 Privacy-respecting, secure (in the senses defined above) distributed systems are
 uniquely able to both accurately chart this experience, as well as empower us to
@@ -512,4 +512,6 @@ interest group, could near-permanently foreclose the disjoint, varied, and
 possibly contradictory nascent identities of masses of people going
 forward. (Imagine if a government ID system was coupled with an undeniable
 append-only log, fed by a ubiquitous surveillance system--then place it at
-different points in history.)
+different points in history.) We have a grave responsibility to implemement
+these systems in an ethical and forward-thinking manner--doing so will preserve
+the largest possible potential to future generations.
