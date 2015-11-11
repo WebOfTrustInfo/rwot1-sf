@@ -23,7 +23,7 @@ Each case identifies basic technical implementation needs, presents a brief solu
 1. Selective Disclosure: Proof of Age
 2. Short-term Contracts with Memory: Distributed AirBnB
 3. Bootstrapping Long-Term Identity: Creating A Record of Credit
-    4. Concerns in Non-G20 Nations
+   4. Concerns in Non-G20 Nations
 5. Starting From Zero: Refugee
 6. Human Trafficking: Exiting Safe Houses
 
@@ -82,68 +82,31 @@ Users are both ready and willing to protect their identities in this fashion dur
 
 Contracts as described here are a common application for decentralized verifiable data stores; implementations targeting this area include the "smart" contracts of [Eris Industries](https://erisindustries.com/) and [Ethereum](https://www.ethereum.org/), and the "link" contracts of [XDI](http://xdi.org/). Both of these types of contracts include expirable permissions and context-limited pseudonyms.
 
-### Use Case 3 - Bootstrapping Long-Term Identity: Creating a Record of Credit
+### 3. Bootstrapping Long-Term Identity: Creating a Record of Credit
 
-Darla is a citizen of a G20 nation, but lacks a deposit account, extensive
-credit history or reputable documentation of local residence. She can afford a
-secure digital device however, and through it, she can sign up for an account
-(whose marginal cost is close to zero). She would like to be able to store money
-with a bank or other institution (credit union, etc.) and build a credit rating,
-but can't meet current minimum requirements set by the bank through conventional
-channels--[The 100 point scale is a common one](https://en.wikipedia.org/wiki/100_point_check). In
-other words, Darla needs to cross a 'gap' of credibility needed to enter the
-conventional world of credentials.
+Darla is a citizen of a G20 nation, but lacks a deposit account, extensive credit history, or reputable documentation of local residence. She can afford a secure digital device however, and through it, she can sign up for an account, whose marginal cost is close to zero. She would like to be able to store money with a bank, credit union, or other institution and build a credit rating, but she can't meet current minimum requirements set by the bank through conventional
+channels such as [the 100 point scale](https://en.wikipedia.org/wiki/100_point_check). In other words, Darla needs to cross a "gap" of credibility in order to enter the conventional world of credentials.
 
-In this case, the technical solution is similar to previous cases, excepting
-that the desired result is the creation of a private credential whose main
-purpose is to be a reusable link to a conventional financial record, held by the
-account holder, of validity (in this context) equal to a fixed address. A
-sketch:
+This is similar to the previous cases, except that the goal is the creation of private credentials that are a reusable link to a conventional financial record. The credentials will be held by the account holder and have validity (in this context) equal to a fixed address.
 
-1. An independent organization sets up a data store for storing verifiable
-   claims submitted either by the state or Darla.
-2. The independent organization onboards Darla and ensures she understands the
-   guarantees of privacy offered, and that her credentials do not fundamentally
-   depend on the state.
-3. The state, in concert with the independent organization, signs Darla's
-   initial claim, deeming it to be of sufficient strength to accomplish tasks
-   like the above.
-4. Darla submits proof of the state's approval of her established identity and
-   any attributes (cf. use case 1) additionally required by the bank, and
-   establishes a conventional account.
+The following process could satisfy these requiremenst:
 
-The systemic approach in this case is to check first the Know Your Client and
-Anti-Money Laundering regulations of the jurisdiction or country that one aims
-to approach. Once the regulatory compliance identity criteria are established,
-identify the delta between the existing quality of identity and the required
-quality of identity. Then build common processes for improving identity to a
-level that passes the KYC/AML tests which are the chief barriers to accessing
-established financial services.
+1. An independent organization sets up a data store for collecting verifiable claims submitted either by the state or Darla.
+2. The independent organization onboards Darla, ensures she understands the guarantees of privacy offered, and verifies that her credentials do not fundamentally depend on the state.
+3. The state, in concert with the independent organization, signs Darla's initial claim, deeming it to be of sufficient strength to accomplish tasks like the above.
+4. Darla submits proof of the state's approval of her established identity,  _selectively discloses_ any attributes  additionally required by the bank, and establishes a conventional account.
 
-Preserving low cost of access and progressive establishment of reputation are
-essential to maintaining accessibility.
+Systemtically, this system requires a check of the Know Your Client and Anti-Money Laundering regulations (KYC/AML) of the jurisdiction or country that is being approached. Once the regulatory compliance identity criteria are established, the delta between the existing quality of identity and the required quality of identity must be established. Common processes can then be built for improving identity to a level that passes the KYC/AML tests which are the chief barriers to accessing established financial services.
 
-Technology Possibilities
+Preserving low cost of access and progressive establishment of reputation are both essential to maintaining accessibility to services.
 
-In this use case, Darla is without any 'right to be forgotten', as her credit
-history and financial activity are inevitably stored in conventional centralized
-structures. Thus, the best she can do is provide verifiable stipulations
-governing the exchange between herself and financial institutions. One
-appropriate structure for this use case is a
-[link contract](https://en.wikipedia.org/wiki/Link_contract). Link contracts are
-semantic structures intended for peer-to-peer communications for describing
-agreements governning the disclosure, sharing, and lifetime of information made
-available through networked channels. [XDI](http://xdi.org/), a non-profit
-organization, maintains one standard for such link contracts.
+#### Commentary: Technology Possibilities
 
-If well-implemented by banks and credit rating agencies, link contracts could
-enable users of financial systems to both efficiently detect possibly fraudulent
-activity, as well as to dispute and address erroneous or malicious activity
-associated with an account in a way that avoids information asymmetry. Link
-contracts express stipulations of information governance in a transparent
-fashion, appropriate for a system that intends to guard credit and credibility.
+In this use case, Darla is without any "right to be forgotten", as her credit history and financial activity are inevitably stored in conventional centralized structures. Thus, the best she can do is provide verifiable stipulations governing the exchange between herself and financial institutions. One appropriate structure for this use case is a [link contract](https://en.wikipedia.org/wiki/Link_contract). Link contracts are semantic structures intended for peer-to-peer communications. They express stipulations of information governance in a transparent fashion, appropriate for a system that intends to guard credit and credibility. This can include rules governing the disclosure, sharing, and lifetime of information made available through networked channels. [XDI](http://xdi.org/), a non-profit organization, maintains one standard for such link contracts.
 
-#### Concerns in Non-G20 Nations
+If well-implemented by banks and credit rating agencies, link contracts could enable users of financial systems to  efficiently detect possibly fraudulent activity and to dispute or address erroneous or malicious activity associated with an account, all in a way that avoids information asymmetry. 
+
+#### 3.1 Concerns in Non-G20 Nations
 
 In the The Mystery of Capital: Why Capitalism Triumphs in the West and Fails
 Everywhere Else, Peruvian economist Hernando de Soto highlights a fundamental
