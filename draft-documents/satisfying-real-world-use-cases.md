@@ -108,21 +108,10 @@ If well-implemented by banks and credit rating agencies, link contracts could en
 
 #### 3.1 Concerns in Non-G20 Nations
 
-In the The Mystery of Capital: Why Capitalism Triumphs in the West and Fails
-Everywhere Else, Peruvian economist Hernando de Soto highlights a fundamental
-difference between Western liberal democracies and other regions: such
-democracies have functioning systems that enable the abstract representation of
-value. For example, land is not simply owned territory--it is private property
-registered with the state and represented by land deeds; the representation
-having the force of law in disputes.
+In the _The Mystery of Capital: Why Capitalism Triumphs in the West and Fails Everywhere Else_, Peruvian economist Hernando de Soto highlights a fundamental difference between Western liberal democracies and the rest of the world: the West has functioning systems that enable the abstract representation of value. For example, land is not simply owned territory — it is private property registered with the state and represented by land deeds, which have the force of law in disputes.
 
-Millions of individuals do not have such representative records (birth
-certificates etc.) registered with government entities, and such entities may
-not be reliable enough to serve this role. Worse, many marginalized people may
-either be prohibited from creating records that might enfranchise them, either
-through legal exclusion or threats of violence. The Gates Foundation considers
-this issue
-[one of their 8 global priorities](http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor):
+Millions of individuals do not have such representative records (e.g., birth certificates) registered with government entities, and some governments may not be reliable enough to serve this role. Worse, many marginalized people are prohibited from creating records that might enfranchise them, either through legal exclusion or threats of violence. The Gates Foundation considers this issue
+[one of their eight global priorities](http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor):
 
 > Worldwide, more than 2.5 billion adults do not have an account at a financial
 > institution, according to the World Bank's Global Financial Inclusion
@@ -132,72 +121,26 @@ this issue
 > financial system. In developing countries, only 37 percent of women have
 > accounts, compared to 46 percent of men.
 
-They also highlight research showing that "the most effective way to
-significantly expand poor people's access to formal financial services is
-through digital means."
+They also highlight research showing that "the most effective way to significantly expand poor people's access to formal financial services is through digital means." With this in mind, consider the following use case:
 
-With that in mind, consider the following use case:
+Farhad is a migrant worker at a mine. He has no fixed address and receives a regular wage in cash, which he would like to store in a secure account. He has no recurring bills or credit bureau profile, but he turns up for work on time every day, six days a week, 50 weeks a year. He's known in multiple locations by the same name and travels in the same geographies. He needs to be able to turn this accumulated consistency into a portable, self-sovereign record of  economic reliability that others can assess and verify, so he can store fiat currency, pay bills, and gain access to credit.
 
-Farhad is a migrant worker at a mine in, with no fixed address, yet receives a
-regular wage in cash, which he would like to store in a secure account. He has
-no recurring bills or credit bureau profile; yet turns up for work on time over
-day, 6 days a week, 50 weeks a year, is known by multiple locations by the same
-name and travels in the same geographies. He needs to be able to turn this
-accumulated consistency into a portable, self-sovereign record of this economic
-reliability that others can assess and verify, so he can store fiat currency,
-pay bills, and gain access to credit.
+Farhad is without state or financial institutional support, which changes the dynamic from the case in a G20 nation. On the other hand, this should cause the regulatory burden to be lower. What Farhad needs is a way to take the same semi-informal exchanges mentioned in previous use cases and bundle them up into a highly-available, privacy-respecting, verifiable record of credible activity, which is the basic information required for a consumer-facing financial market.
 
-Farhad is without state or financial institutional support, which changes the
-dynamic from the previous case. On the other hand, the regulatory burden is
-expected to be lower by the same token. What Farhad needs is a way to take the
-same semi-informal exchanges mentioned in previous use cases and bundle them up
-into a highly-available, privacy-respecting, verifiable record of credible
-activity--the basic information required for a consumer-facing financial market.
+The following process could satisfy these requiremenst:
 
-A sketch of this is as follows:
+1. An independent organization sets up a distributed data store that can be reached by users like Farhad with minimal equipment (e.g., a low-grade smartphone with data).
+2. Farhad bootstraps his financial record with verifiable records of work and other met commitments, in conjunction with clients, employers, and other financial actors in his sphere (cf. use case 2).
+3. With this record (and possibly an associated cryptocurrency where needed), Farhad can now make both local and electronic purchases with increased leverage.
+4. Financial service companies can now make anonymous queries a la Craigslist, sending offers to users who meet a raft of criteria. Farhad can choose to submit anonymous claims that he meets different criteria, allowing him to receive these offers or apply directly for loans and other financial agreements.
 
-1. An independent organization sets up a distributed store of data that can be
-   reached by users like Farhad with minimal equipment (say, a low-grade
-   smartphone with data).
-2. Farhad bootstraps his financial record with verifiable records of work and
-   other met commitments, in conjunction with clients, employers, and other
-   financial actors in his sphere (cf. use case 2).
-3. With this record (and possibly an associated cryptocurrency where needed),
-   Farhad can now make both local and electronic purchases with increased
-   leverage.
-4. Financial service companies can now make anonymous queries a la Craigslist,
-   sending offers to users who meet a raft of criteria. Farhad can choose to
-   submit anonymous claims that he meets different criteria, allowing him to
-   receive these offers or apply directly for loans and other financial
-   aggreements directly.
+This system is empowered by distributed computing, which makes it possible to support individuals like Farhad in representing themselves — allowing them at last a self-sovereign identity that they create and control. Through it, they can link together their interactions and transactions and leverage them to create an abstract representation of themselves. This type of identity can empower unenfranchised people like Farhad by creating the "secure kernel" of identity that is taken for granted by holders of state-issued identity documents. Such a secure kernel can then give people like Farhad access to basic social needs like health insurance and credit — privileges in the Global North that are considered dire needs of citizens in the Global South.
 
-With the rise of distributed computing, it is possible to use it to support
-individuals like Farhad in representing themselves--allowing them at last a
-self-sovereign identity that they create and control. Through it, they can link
-together their interactions/transactions and leverage it to create an abstract
-representation of themselves. This type of identity can empower unbanked people,
-beginning with a 'secure kernel' of identity that is taken for granted by
-holders of state-issued identity documents. Such a 'secure kernel' can allow the
-accounting of, and provision for, basic social needs like health insurance and
-credit--privileges in the Global North that are considered dire needs of
-citizens in the Global South.
+This system also ensures that Farhad's records are not exposed to surveillance, nor to (financial) corruption. Transaction history is not revealed to merchants or financial service providers, nor is activity. What is available is a verifiable record of commitments on contracts and their fulfillment status. This can include both positive and negative claims to reputation. Note that mechanisms of [differential privacy](http://research.microsoft.com/pubs/64346/dwork.pdf) may be needed in this case, to prevent semi-aggregated queries from permanently reducing the privacy of users whose data is contained in the store.
 
-Under such a system, Farhad's records are not exposed to surveillance, nor to
-(financial) corruption. At the same time, claims issued in that space, whether
-negatively or positively affecting his reputation, are as verifiable as any
-other transaction, preferably by any user. Transaction history is not revealed
-to merchants or financial service providers, nor is activity. What is available
-is a verifiable record of commitments--contracts and their fulfillment
-status. NB: Mechanisms of
-[differential privacy](http://research.microsoft.com/pubs/64346/dwork.pdf) may
-be needed in this case, to prevent semi-aggregated queries from permanently
-reducing the privacy of users whose data is contained in the store.
+#### Commentary: Self-Sovereign Identity
 
-```[FOOTNOTE]: It is critical to understand the difference between this type of
-self-sovereign identity is different then just anchoring transactions to a phone
-number. Individuals DO NOT have control over phone number in the same
-manner. Phone numbers are rented from the phone companies and are re-assigned
-(given to someone new) when one stops paying one's bill.)```
+It is critical to understand that this type of self-sovereign identity is different then just anchoring transactions to a phone number. Individuals _do not_ have control over phone number in the same manner. Phone numbers are rented from the phone companies and are even re-assigned to someone else when one stops paying one's bill!
 
 ### Use Case 4 - Starting From Zero: Refugee ###
 
