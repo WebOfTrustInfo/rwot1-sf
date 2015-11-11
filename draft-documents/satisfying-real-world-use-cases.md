@@ -353,15 +353,16 @@ manner. Phone numbers are rented from the phone companies and are re-assigned
 
 ### Use Case 4 - Starting From Zero: Refugee ###
 
-
 Despite what is sometimes assumed, an individual's identity does not necessarily
 derive from the state, despite the effects of practice and policy. Individuals
 may receive identity documents from the state that enable/empower them to
-iteract with states over the lifecycles of the identities those documents
+interact with states over the lifecycles of the identities those documents
 signify--in other words, identifying documents exist in a context. One way to
 "prove" an identity is to present identity documents from a state, but what
 happens when there isn't a functioning state to issue such documents, or an
-individual is kept from obtaining them?
+individual is kept from obtaining them? Can an individual establish and maintain
+a "self-sovereign" identity that can survive these circumstances and serve as a
+conduit of interaction with public and private institutions?
 
 Yevgeni is a member of a persecuted or targeted class in his nation of
 citizenship and residence. He does not feel safe carrying identity documents
