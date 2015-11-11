@@ -5,45 +5,18 @@
 
 In November 2015 Facebook's share price broke $100 USD/share, for a total valuation of $290 billion USD. This is evidence that both Facebook and the market understand the value of controlling and leveraging personal data. However, the now-conventional absorb-everything design of Facebook is a blunt one. Employing users as passive producers with no control of their own data only scratches the surface of what is possible with networks of information and identity.
 
-Over the long term, there are limits to the amount of 'trust' (in almost any
-sense of the word) a centralized authority can garner: democracies come with the
-expectation that citizens be forever watchful of their government, and the
-imbalance of power between consumers and corporations is offset by class action
-suits and regulatory bureaus--both punitive postures. A decentralized system
-engineered *not* to concentrate power as it grows in size avoids this; web of
-trust networks can in fact increase their credibility as more users provide
-their assessments as input.
+Some of these constraints raise from Facebook's centralization, something that tends to worsen as an organization grows in size. There are limits to the amount of trust this sort of centralized authority can garner. This often results in punitive postures: democracies come with the expectation that citizens be forever watchful of their government; while corporations are watched over by regulatory bureaus and further deterred by class-action suits. 
 
-Distributed, self-sovereign, cryptographic protocols and structures offer
-potential guarantees and applications that offer significantly more robustness,
-portability, and versatility than centralized, escrowed, or less-secure
-conventional processes.
+Decentralized systems engineered to _not_ concentrate power as it grows avoid this. They can in fact increase their credibility as more users provide their assessments as input. Protocols and structures that are distributed and self-sovereign also offer significantly improved robustness, portability, and versatility than conventional centralized or escrowed processes — especially when combined with secure cryptography.
 
-One of the first technologies to offer this kind of promise emerged 25 years
-ago: the "Web of Trust" that grew out of the decentralized, cryptographically
-verified attestations of PGP users. Due to failures of UX design, the spread of
-PGP was was confined to highly technical communities. Now is the time to extend
-them to be usable by all who have access to digital networks and in particular
-ensure that marginalized populations can benefit.
+One of the first technologies to offer the advantages of decentralization emerged 25 years ago when PGP created the Web of Trust, which contains decentralized, cryptographically verified attestations of its users. Unfortunately, failures of UX design confined the spread of PGP to highly technical communities. 
 
-In light of light, we consider use cases with stringent demands that require
-such robust systems. It is a fortunate tragedy that there is no shortage of
-real-life examples of those in the world today. A large spectrum of individuals,
-from marginalized persons like stateless refugees, victims of human trafficking,
-to members of the informal or unregulated economy, urgently need to participate
-in otherwise privileged economic and political fora, but they face technical,
-economic, and political barriers to entry.
+Today, decentralized Webs of Trust remain as important as ever. Now is the time to extend them to be usable by everyone who has access to digital networks, in particular to marginalized populations that can benefit from the technology. It is a fortunate tragedy that there is no shortage of real-life examples of the need for decentralized Webs of Trust in the world today. A large spectrum of individuals — from marginalized persons like stateless refugees and victims of human trafficking,
+to members of the informal or unregulated economy — urgently need to participate in otherwise privileged economic and political fora, but they face technical, economic, and political barriers to entry.
 
-The essential problem is to connect burgeoning new technological developments
-with unmet consumer needs, and vice-versa. In this paper, we present five use
-cases, from two relatively simple cases of selective disclosure, to the most
-extreme case of establishing government-verifiable credentials from zero for a
-stateless refugee.
+The essential problem is to connect burgeoning new technological developments with unmet consumer needs, and vice-versa. In this paper, we present five use cases: from two relatively simple cases of managing selective disclosure to the most extreme case of establishing government-verifiable credentials from nothing for a stateless refugee.
 
-Basic technical/implementation needs are identified for each case, and a brief
-solution sketch is offered. The potential user-experience for each use case is
-also outlined. Finally, we examine common themes in discussion, and summarize
-future prospects.
+Each case identifies basic technical implementation needs, presents a brief solution sketch, and outlines potential user experience. Afterward, we discuss common themes and summarize future prospects.
 
 ## Use Cases
 
