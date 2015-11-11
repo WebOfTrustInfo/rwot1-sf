@@ -240,9 +240,23 @@ essential to maintaining accessibility.
 
 Technology Possibilities
 
-See
-https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues/51#issuecomment-154932665
-for talking points.
+In this use case, Darla is without any 'right to be forgotten', as her credit
+history and financial activity are inevitably stored in conventional centralized
+structures. Thus, the best she can do is provide verifiable stipulations
+governing the exchange between herself and financial institutions. One
+appropriate structure for this use case is a
+[link contract](https://en.wikipedia.org/wiki/Link_contract). Link contracts are
+semantic structures intended for peer-to-peer communications for describing
+agreements governning the disclosure, sharing, and lifetime of information made
+available through networked channels. [XDI](http://xdi.org/), a non-profit
+organization, maintains one standard for such link contracts.
+
+If well-implemented by banks and credit rating agencies, link contracts could
+enable users of financial systems to both efficiently detect possibly fraudulent
+activity, as well as to dispute and address erroneous or malicious activity
+associated with an account in a way that avoids information asymmetry. Link
+contracts express stipulations of information governance in a transparent
+fashion, appropriate for a system that intends to guard credit and credibility.
 
 #### Concerns in Non-G20 Nations
 
