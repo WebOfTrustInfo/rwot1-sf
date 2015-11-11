@@ -40,7 +40,7 @@ age.
 
 **_Selective disclosure_** can meet all these goals. It's a process by which a credential holder like Beth offers _only_ the information needed by a service provider, for _only_ the scope (the amount of time) needed to serve its purpose. Typically, this involves the substitution of a *verifiable claim* for the actual credential itself; in the case of "proof of age", Beth could submit a one-time claim that her age is in fact over 21 in response to a request from the club. The club owner need only check that the claim is valid.
 
-The following process could satisfy this requirement:
+The following process could satisfy these requiremenst:
 
 1. Beth receives a request from the club owner, containing a unique random number generated for this purpose ("nonce").
 2. Beth supplements the nonce with a description of the claim she wants to make (i.e., "birthdate earlier than 21 years prior to now") and signs it, creating a "digest".
@@ -57,73 +57,30 @@ Note that at the end of this process, both of the third parties involved know  v
 
 Because that mechanisms that provide "ground truth" or "trust" are located in different parts of the system, it is highly resistant to malicious action at any single point or even across a collection of points. Expiry dates can be added to the data during each of the steps, ensuring that data generated at any step is only meaningful in a certain time-limited context, subject to the regulatory and social needs of stakeholders. Beth may also make adjustments to the request to ensure that the club owner and government are not in collusion to deanonymize her from either direction. 
 
+#### Commentary: Academic Literature
+
 Variations on this theme have been published in academic literature for decades, beginning with the "blind signatures" of David Chaum et al. (1983) and the "zero knowledge proofs" of Goldwasser et al. (1985).
 
 ### 2. Short-term Contracts with Memory: Distributed AirBnB ###
 
-Tisha wants to rent an apartment from Joe for 2 weeks. They each need enough
-validated information (such as a home address) about each other, to establish
-identity, credit status, legal accountability, and some sort of letters of
-reference that are relevant to the proposed transaction. They do not belong to
-AirBnB, but would like to be able to create a similar level of assurance.
+Tisha wants to rent an apartment from Joe for 2 weeks. They each need enough validated information (e.g., a home address) about each other to establish identity, credit status, and legal accountability, as well as some sort of letter of reference that is relevant to the proposed transaction. They do not belong to AirBnB, but would like to be able to create a similar level of assurance. Tisha generates proof of name, legal residence, and good credit as well as letters of reference  that Joe can judge, which may be anonymous or otherwise opaquely identified.
 
-Tisha generates proof of:
-    - Name
-    - Legal residence
-    - Good credit
-    
-...as well as (possibly anonymous or otherwise opaquely identified) letters of
-reference that Joe can judge.
+If Joe accepts Tisha's proofs, they establish a contract that sets out the terms of Tisha's stay.The result of that contract (fulfilled or broken) can later be used as a reference for subsequent stays with others.
 
-If Joe accepts Tisha's proofs, they establish a contract (possibly private
-between them, at least initially) that sets out the terms of Tisha's stay. The
-result of that contract (fulfilled or broken) can later be used in a similar
-fashion for subsequent stays with others.
+The following process could satisfy these requiremenst:
 
-A simple sketch of a system that could satisfy these requirements is as follows:
+1. Tisha maintains basic demographic identifiers securely in distributed, cryptographically verifiable, append-only repository, as per Use Case 1.
+2. Tisha and other users can "bootstrap" some limited reputability by having friends issue "letters of reference" on her behalf. These could be as simple as ratings or they could actual letters, submitted to the repository attached to their accounts.
+3. When Tisha arranges a short-term contract between herself and a relative stranger, she invites them to submit proof of the contract and its result, with a rating or comment, to the same repository. Contracts created in this fashion are linked in the data repository by incorporating the signatures (or signature transactions) of all parties — once at establishment, and (optionally) once on fulfillment.
 
-1. Tisha maintains basic demographic identifiers securely as in Use Case 1, in a
-   distributed, cryptographically verifiable, append-only repository.
-2. Tisha and other users can 'bootstrap' some limited degree of reputability by
-   having friends issue 'letters of reference' on her behalf, which could be as
-   simple as ratings or actual letters submitted to the repository attached to
-   their accounts.
-3. Anytime Tisha arranges a short-term contract herself and relative strangers,
-   she invites them to submit proof of the contract and its result, with a
-   rating or comment, to the same repository. Contracts created in this fashion
-   are linked in the data repository by incorporating signatures (or signature
-   transactions) of all parties, once at establishment, and (optionally) once on
-   fulfillment.
-
-Note at throughout each of these exchanges, Joe and Tisha's respective privacy
-is protected from each other until they are both ready to meet in person (if
-they choose to do so), and then protected afterward. As a rule, personal private
-information should never be shared directly--once data is copied to a location
-out of its owner's control, no guarantees can be made of its security, and
+Note that throughout these exchanges, Joe and Tisha's respective privacy is protected until they are both ready to meet in person, if they choose to do so. It's then protected afterward. As a rule, personal private information should never be shared directly; once data is copied to a location out of its owner's control, no guarantees can be made of its security, and
 mandated deletion is unfeasible.
 
-Technology Possibilities
+#### Commentary: Technology Possibilities
 
-Contracts as mentioned above are a common application for decentralized
-verifiable data stores: implementations targeting this area include the 'smart'
-contracts of [Eris Industries](https://erisindustries.com/) and
-[Ethereum](https://www.ethereum.org/), and the 'link' contracts of
-[XDI](http://xdi.org/). Both of these types of offerings include expirable
-permissions, and context-limited pseudonyms.
+Users are both ready and willing to protect their identities in this fashion during short-term arrangements. The AirBnB app collects an [inordinate](http://www.theguardian.com/money/blog/2014/nov/14/airbnb-wont-let-book-room-facebook-friends) and [unacceptable amount](http://www.huffingtonpost.ca/kris-constable/airbnb-privacy-security-id-jumio_b_4887509.html) of [personally identifying information](http://www.smh.com.au/business/turbulence-for-airbnb-over-privacy-concerns-20150216-13g8tm.html) from its users. On the other hand, craigslist has included per-listing email obfuscation for years now, and the Berkman Center for Internet & Society at Harvard maintains [a massive list of services and frameworks](http://blogs.law.harvard.edu/vrm/development/) that regard the user as the initial and final arbiter of information exchange.
 
-Users are both ready and willing to protect their identities in this fashion
-during short-term arrangements: the AirBnB app collects an
-[inordinate](http://www.theguardian.com/money/blog/2014/nov/14/airbnb-wont-let-book-room-facebook-friends)
-and
-[unacceptable amount](http://www.huffingtonpost.ca/kris-constable/airbnb-privacy-security-id-jumio_b_4887509.html)
-of
-[personally identifying information](http://www.smh.com.au/business/turbulence-for-airbnb-over-privacy-concerns-20150216-13g8tm.html)
-from its users. On the other hand, craigslist has included per-listing email
-obfuscation for years now, and the Berkman Center for Internet & Society at
-Harvard maintains
-[a massive list of services and frameworks](http://blogs.law.harvard.edu/vrm/development/)
-that regard the user as the initial and final arbiter of information exchange.
-
+Contracts as described here are a common application for decentralized verifiable data stores; implementations targeting this area include the "smart" contracts of [Eris Industries](https://erisindustries.com/) and [Ethereum](https://www.ethereum.org/), and the "link" contracts of [XDI](http://xdi.org/). Both of these types of contracts include expirable permissions and context-limited pseudonyms.
 
 ### Use Case 3 - Bootstrapping Long-Term Identity: Creating a Record of Credit
 
