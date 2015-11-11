@@ -1,5 +1,5 @@
 # Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data
-#### _by [bylines?]_
+#### _by [[bylines?]]_
 
 ## Overview
 
@@ -27,77 +27,39 @@ Each case identifies basic technical implementation needs, presents a brief solu
 5. Starting From Zero: Refugee
 6. Human Trafficking: Exiting Safe Houses
 
-### Use Case 1 - Selective Disclosure: Proof of Age ###
+### 1. Selective Disclosure: Proof of Age
 
-Beth wants to go to the club with her friends, but lately they've been
-photographing all IDs at entry for 'reasons of liability.' Both club owners and
-privacy-minded individuals like Beth are understandably concerned about how that
-data will be stored and used. The current system requires that the individual
-share an ID that gives not only their exact age but their name, address and
-additional information unneeded in that context. Beth would like to provide the
-minimum information needed to get in (proof that she is over 21 years of
-age). The club owner would like to be able to prove later that all attendees
-were over 21 years of age if needed, without incurring the liability of securing
-the irrelevant personally identifying information (PII). The local government
-would like to establish a minimum degree of verifiability of the club's records
-without creating an undue liability issue for the club owner.
+Beth wants to go to the club with her friends, but lately the clubs have been photographing all IDs at entry for "reasons of liability." Both club owners and privacy-minded individuals like Beth are understandably concerned about how this data will be stored and used. The current system requires that the individual share an ID that gives not only their exact age but also their name, address and other information that's unneeded in this context. 
 
-*Selective disclosure* refers to the process by which a credential holder like
-Beth offers *only* the information actually needed by a service provider, for
-only the scope (i.e., the amount of time) required for that information to serve
-its purpose. Typically, this involves the substitution of a *verifiable claim*
-for the actual credential itself; in the case of "proof of age", Beth could
-submit a one-time claim responding to a request from the club that her age is in
-fact over 21. The club owner need only check that the claim is valid.
+The involved parties have the following goals:
+* Beth wants to get into the club while providing the minimum information required: proof that she is over 21 years of
+age. 
+* The club owner wants to be able to later prove that all attendees were over 21 years of age if needed.
+* The club owner _doesn't_ want to incur the liability of securing  irrelevant personally identifying information (PII).
+* The local government wants to establish a minimum degree of verifiability of the club's records without creating undue liability issue for the club owner.
 
-A simple sketch of one process satisfying this requirement works as follows:
+**_Selective disclosure_** can meet all these goals. It's a process by which a credential holder like Beth offers _only_ the information needed by a service provider, for _only_ the scope (the amount of time) needed to serve its purpose. Typically, this involves the substitution of a *verifiable claim* for the actual credential itself; in the case of "proof of age", Beth could submit a one-time claim that her age is in fact over 21 in response to a request from the club. The club owner need only check that the claim is valid.
 
-1. Beth receives a request from the club owner, containing a random unique
-   number generated only for this purpose (a 'nonce').
-2. Beth signs this number with a private key associated with her driver's
-   license as well as a description of the claim she wants to make (i.e.,
-   "birthdate earlier than 21 years prior to now"), creating a 'digest'.
-3. Beth submits the resulting digest through secure channels to a decentralized
-   store whose record of truth (and therefore credibility) is out of the control
-   of any one actor, whether government or business. The only guarantee the
-   store needs externally provisioned is availability (i.e., uptime).
-4. The state checks the request from its end (perhaps by polling for requests)
-   to see if it is valid (that it came from Beth and makes sense as a request),
-   then signs the result and the nonce, inserting them both into the data store
-   as a new digest available to Beth.
-5. Beth provides the new digest to the club owner, who can then verify that the
-   result was signed by the right authority.
+The following process could satisfy this requirement:
 
-Of course, the actual user experience of this is simple: Beth could scan a QR
-code provided by the club owner, and approve the verification request through an
-app on her phone. The result is then a different QR code the club owner can scan
-to verify. All of the above technical back and forth happens in the background.
+1. Beth receives a request from the club owner, containing a unique random number generated for this purpose ("nonce").
+2. Beth supplements the nonce with a description of the claim she wants to make (i.e., "birthdate earlier than 21 years prior to now") and signs it, creating a "digest".
+3. Beth submits the digest through secure channels to a decentralized store whose record of truth (and therefore credibility) is out of the control of any one actor, whether government or business. The only guarantee the store needs externally provided is availability (i.e., uptime).
+4. A state agency connects with the store from its end (perhaps by polling for requests), sees if the request is valid (that it came from Beth and makes sense as a request), and then signs the result and the nonce, inserting them both into the data store as a new digest available to Beth.
+5. Beth provides the new digest to the club owner, who can verify that the result was signed by the right authority.
 
-Note that at the end of this process, each of the third parties involved know
-very little about Beth:
+Of course, the actual user experience of this is simple: Beth could scan a QR code provided by the club owner and approve the verification request through an app on her phone. The result could then be a different QR code, which the club owner can scan to verify. All of the technical back and forth happens in the background.
 
-- The state agency storing Beth's driver's license data only knows that Beth
-  needed to claim she was older than 21--not where that request came from
-  (assuming communications metadata has been dealt with).
-- The club owner only knows that the state agency agrees or disagrees with
-  Beth's claim, and perhaps which state agency it is.
+Note that at the end of this process, both of the third parties involved know  very little about Beth:
 
-Expiry dates can be added to the data during each of the steps, ensuring that
-data generated at any step is only meaningful in a certain time-limited context,
-subject to the regulatory and social needs of stakeholders. Beth may make
-adjustments to the request to ensure that the club owner and government are not
-in collusion to deanonymize her from either direction. In this way, each of the
-mechanisms that provide 'ground truth' or 'trust' are located in different parts
-of the system, making it highly resistant to malicious action at any single
-point or even a collection of points.
+* The state agency storing Beth's driver's license data only knows that Beth needed to claim she was older than 21 — not where that request came from (assuming that communications metadata has been dealt with).
+* The club owner only knows that the state agency agrees or disagrees with Beth's claim, and perhaps which state agency it is.
 
-Variations on this theme have been published in academic literature for decades,
-beginning with the "blind signatures" of David Chaum et al. (1983) and the "zero
-knowledge proofs" of Goldwasser et al. (1985).
+Because that mechanisms that provide "ground truth" or "trust" are located in different parts of the system, it is highly resistant to malicious action at any single point or even across a collection of points. Expiry dates can be added to the data during each of the steps, ensuring that data generated at any step is only meaningful in a certain time-limited context, subject to the regulatory and social needs of stakeholders. Beth may also make adjustments to the request to ensure that the club owner and government are not in collusion to deanonymize her from either direction. 
 
+Variations on this theme have been published in academic literature for decades, beginning with the "blind signatures" of David Chaum et al. (1983) and the "zero knowledge proofs" of Goldwasser et al. (1985).
 
-
-### Use Case 2 - Short-term Contracts with Memory: Distributed AirBnB ###
+### 2. Short-term Contracts with Memory: Distributed AirBnB ###
 
 Tisha wants to rent an apartment from Joe for 2 weeks. They each need enough
 validated information (such as a home address) about each other, to establish
