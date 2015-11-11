@@ -415,7 +415,6 @@ straits as a refugee can be credentialed to a degree acceptable by Global North
 governments, while maintaining strong guarantees of security and privacy to all
 stakeholders involved.
 
-
 ### Use Case 5 - Trafficking / Safe Houses ###
 
 Marsha is a victim of human trafficking who has been rescued by a local group
@@ -445,6 +444,7 @@ might like to reconnect with people or obtain access to stores of value in
 existing accounts without risking further harm.
 
 Thus, the main technical needs for Marsha's case are:
+
 - A protocol for establishing a set of 'core' initial attributes
 - Data stored in a completely independent location robust against threats
 - Strong guarantees of only selective disclosure
@@ -470,14 +470,40 @@ from a different department of level of government.
 
 ### Opportunities/Unsolved problems
 
-See talking points at
-https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues/51#issuecomment-154965991.
+The use cases presented above share a host of common themes and characteristics:
+portability, security, privacy, autonomy, and universality, among others. Any
+identity system that exemplifies these will almost inevitably become the basis
+for an unprecedented expansion in economic and social activity. In order to
+realize such a system, challenges in technical, political, and human spheres
+must be surmounted. Each of these challenges, of course, provides an opportunity
+to create value.
 
 #### Technical
 
+- Manageable and portable equipment for storing identity information and making
+  strong claims with precise scope and context-limited disclosure
+- Decentralized data stores and secure APIs that share a minimal set of
+  operations and content types
+- API implementations in an open, auditable form in well-maintained,
+  cross-platform languages (targeting mobile and desktop OSes)
+- Repudiable biometrics
+  
 #### Political
 
+- A negotiated concordance between amount of information provided by
+  uncredentialed persons, and the amount initially required by conventional
+  institutions
+- Partnerships with local authorities for education, implementation, and
+  outreach
+- Support structures for independent data providers, independent audits, and
+  user onboarding (hardware) across the world
+
 #### Human
+
+- Behavioral protcols that swap in 'proof of X' for 'X' in (all) transactions
+  where someone's identifiers are requested, as a rule
+- Bootstrapping/onboarding/enrollment from self-affirmed identity attributes,
+  expressed in a fashion intelligible to all potential users
 
 ### Near-term prospects
 
