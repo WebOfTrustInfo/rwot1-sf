@@ -167,6 +167,13 @@ A simple sketch of a system that could satisfy these requirements is as follows:
    transactions) of all parties, once at establishment, and (optionally) once on
    fulfillment.
 
+Note at throughout each of these exchanges, Joe and Tisha's respective privacy
+is protected from each other until they are both ready to meet in person (if
+they choose to do so), and then protected afterward. As a rule, personal private
+information should never be shared directly--once data is copied to a location
+out of its owner's control, no guarantees can be made of its security, and
+mandated deletion is unfeasible.
+
 Technology Possibilities
 
 Contracts as mentioned above are a common application for decentralized
@@ -198,15 +205,15 @@ secure digital device however, and through it, she can sign up for an account
 (whose marginal cost is close to zero). She would like to be able to store money
 with a bank or other institution (credit union, etc.) and build a credit rating,
 but can't meet current minimum requirements set by the bank through conventional
-channels
-[The 100 point scale is a common one - https://en.wikipedia.org/wiki/100_point_check ]. In
-other words, she needs to cross a 'gap' of credibility needed to enter the
+channels--[The 100 point scale is a common one](https://en.wikipedia.org/wiki/100_point_check). In
+other words, Darla needs to cross a 'gap' of credibility needed to enter the
 conventional world of credentials.
 
 In this case, the technical solution is similar to previous cases, excepting
-that the desired result is a private credential, a reusable link to a
-conventional financial record, held by the account holder, of validity (in this
-context) equal to a fixed address. A sketch:
+that the desired result is the creation of a private credential whose main
+purpose is to be a reusable link to a conventional financial record, held by the
+account holder, of validity (in this context) equal to a fixed address. A
+sketch:
 
 1. An independent organization sets up a data store for storing verifiable
    claims submitted either by the state or Darla.
@@ -220,14 +227,13 @@ context) equal to a fixed address. A sketch:
    any attributes (cf. use case 1) additionally required by the bank, and
    establishes a conventional account.
 
-
 The systemic approach in this case is to check first the Know Your Client and
 Anti-Money Laundering regulations of the jurisdiction or country that one aims
-to approach. The once the regulatory compliance identity criteria are
-established, establish the delta between the existing quality of identity and
-the required quality of identity. Then build common processes for improving
-identity to a level that passes the KYC/AML tests; which are the barriers to
-accessing established financial services.
+to approach. Once the regulatory compliance identity criteria are established,
+identify the delta between the existing quality of identity and the required
+quality of identity. Then build common processes for improving identity to a
+level that passes the KYC/AML tests which are the chief barriers to accessing
+established financial services.
 
 Preserving low cost of access and progressive establishment of reputation are
 essential to maintaining accessibility.
