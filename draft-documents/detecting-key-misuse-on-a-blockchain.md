@@ -20,6 +20,8 @@ This specification focuses on building a system that incorporates the Watcher Se
 * The _Signing Service_ signs legitimate transactions and submits them to the blockchain. This is the job performed by _wallets_ in the blockchain ecosystem. 
 * The _Watcher Service_ watches both transactions submitted to the blockchain by the signer and all other transactions occurring on the blockchain. It then compares these two lists to ensure that no transactions on the blockchain were signed by the user's private key without being submitted through the user's Signing Service.
 
+![Solution Diagram](/event-documents/graphic-recording/07_Final%20Report%20Out_Rebrand%20WOT_2of2.jpg?raw=true)
+
 ## How It Works
 
 In a traditional blockchain system the Signing Sevice ("wallet") simply signs transactions and submits them to the blockchain. In this system the Signing Service is responsible for two other things: 
