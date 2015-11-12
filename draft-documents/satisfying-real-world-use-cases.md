@@ -166,56 +166,32 @@ People share social contexts; they exist in community with each other and create
 
 The network of connections securely documented between individuals' sovereign source identities could also serve as the seed to bootstrap an identity within a new jurisdiction and under new document circumstances. In other words, it is only through a Web of Trust linking self-sovereign identities that someone in dire traits as a refugee can be credentialed to a degree acceptable by Global North governments while maintaining strong guarantees of security and privacy to all the stakeholders involved.
 
-### Use Case 5 - Trafficking / Safe Houses ###
+### Use Case 5 - Trafficking / Safe Houses
 
-Marsha is a victim of human trafficking who has been rescued by a local group
-and conveyed to a safe house. She may have an identity card/identifier issued to
-her by the state - however she does not trust the local state actors/office
-enough to present to them using it to access benefits (she may be re-victimized
-by them if she does). An aid organization and/or government is willing to
-provide resources (financial, food, education) to her and others like her, so
-that she can re-normalize her life. We note that this is not a speculative
+Marsha is a victim of human trafficking who has been rescued by a local group and conveyed to a safe house. She may have an identity card issued to her by the state, but she does not trust the _local_ state office enough to present her identifier to access benefits because she may be re-victimized by them if she does. An aid organization and/or the main government office is willing to provide resources such as money, food, and education to Marsha so that she can re-normalize her life, but she needs a way to access them.
+
+Marsha has the same technical needs for bootstrapping an identity as those explained in the previous use cases. The unique challenge here is in handling existing "toxic" components of Marsha's existing identity: her traffickers may have access to a slew of physical and digital credentials, which may also link to friends or family. Marsha might want to reconnect with people or obtain access to stores of value in existing accounts without risking further harm.
+
+The main government or aid agency also has needs of its own. It needs Marsha to establish core attributes of identity and to submit repeated proofs of that identity and (changing) status for compliance purposes, so that it can account for the aid provided. However, when Marsha finally leaves the safe house and resumes independent life, she must be sure that her private information leaves with her.
+
+These needs can be outlined as follows:
+
+* A protocol for establishing a set of "core" initial attributes.
+* Data storage at a completely independent location that has robust protection against threats.
+* Strong guarantees of selective disclosure.
+* If possible, reconstruction of still-valued components of a previously toxic identity.
+* Clear threat models at every step of the process.
+
+The key to meeting these needs is to provide an individual services across time and space in a way that avoids duplication and provides for continuity of care. In other words, it requires persistent correlatable claims. An independent organization can issue these claims with the consent of the  client, achieving this result for the client without compromising her privacy. Thus, she avoids touching the local government systems that she mistrusts.
+
+By taking on this role, the independent organization is dis-intermediating the state issuance of identity documents. This is useful because of Marsha's mistrust of the local state office. She is now able to have the independent organization mediate the provision of support services to her via government aid from a different department or a different level of government.
+
+#### Commentary: Digital Quarantines
+
+We note that this is not a speculative
 scenario; the 'digital quarantines' and surveillance pressures undergone by
 women in shelters or sex work are
 [documented in the reporting](https://modelviewculture.com/pieces/sex-work-and-surveillance).
-
-A caseworker provides Marsha with portable, manageable equipment for storing and
-protecting identity attributes, and assists her with setting up core
-attributes. Marsha then submits repeated proofs of her identity and (changing)
-status for compliance purposes to the aid organization or government, which is
-then able to account for the aid provided. When Marsha finally leaves the safe
-house and resumes independent life, she is sure that her private information
-leaves with her.
-
-Marsha has the same technical needs as those explained in the previous use
-cases. The unique challenge here is in handling existing 'toxic' components of
-her existing identity: her traffickers may have access to a slew of credentials
-up to and including digital ones, which may also link to friends or family. She
-might like to reconnect with people or obtain access to stores of value in
-existing accounts without risking further harm.
-
-Thus, the main technical needs for Marsha's case are:
-
-- A protocol for establishing a set of 'core' initial attributes
-- Data stored in a completely independent location robust against threats
-- Strong guarantees of only selective disclosure
-- Desirable: A way to 'reconstruct' still-valued components of a previously
-  poisoned or toxic identity (i.e. friends or relatives prior to event) without
-  risking attack or subsequent victimization
-- Clear threat models at every step of the process
-
-The key to meeting these needs is to provide an individual services across time
-and space, in a way that avoids duplication and provides for continuity of care
-(medically)--in other words, persistent correlatable claims.  An independent
-organization can issue these with the consent of the individual client,
-achieving this result for the client without compromising her privacy. Thus
-avoiding touching the formal state systems that she mistrusts.
-
-In other words, the independent organization is dis-intermediating the state
-issuance of identity documents/identifiers. This is useful when a local state
-actor/office is mistrusted by Marsha. She is willing to have the independent
-organization mediate the provision of support services to her via government aid
-from a different department of level of government.
 
 ## Discussion
 
