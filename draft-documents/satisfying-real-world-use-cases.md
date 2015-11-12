@@ -106,7 +106,7 @@ In this use case, Darla is without any "right to be forgotten", as her credit hi
 
 If well-implemented by banks and credit rating agencies, link contracts could enable users of financial systems to  efficiently detect possibly fraudulent activity and to dispute or address erroneous or malicious activity associated with an account, all in a way that avoids information asymmetry. 
 
-#### 3.1 Concerns in Non-G20 Nations
+#### 3.1. Concerns in Non-G20 Nations
 
 In the _The Mystery of Capital: Why Capitalism Triumphs in the West and Fails Everywhere Else_, Peruvian economist Hernando de Soto highlights a fundamental difference between Western liberal democracies and the rest of the world: the West has functioning systems that enable the abstract representation of value. For example, land is not simply owned territory — it is private property registered with the state and represented by land deeds, which have the force of law in disputes.
 
@@ -142,69 +142,29 @@ This system also ensures that Farhad's records are not exposed to surveillance, 
 
 It is critical to understand that this type of self-sovereign identity is different then just anchoring transactions to a phone number. Individuals _do not_ have control over phone number in the same manner. Phone numbers are rented from the phone companies and are even re-assigned to someone else when one stops paying one's bill!
 
-### Use Case 4 - Starting From Zero: Refugee ###
+### 4. Starting From Zero: Refugee
 
-Despite what is sometimes assumed, an individual's identity does not necessarily
-derive from the state, despite the effects of practice and policy. Individuals
-may receive identity documents from the state that enable/empower them to
-interact with states over the lifecycles of the identities those documents
-signify--in other words, identifying documents exist in a context. One way to
-"prove" an identity is to present identity documents from a state, but what
-happens when there isn't a functioning state to issue such documents, or an
-individual is kept from obtaining them? Can an individual establish and maintain
-a "self-sovereign" identity that can survive these circumstances and serve as a
-conduit of interaction with public and private institutions?
+One way to "prove" an identity is to present identity documents from a state, but what happens when there isn't a functioning state to issue such documents, or an individual is kept from obtaining them? Can an individual establish and maintain a self-sovereign identity that can survive these circumstances and serve as a conduit of interaction with public and private institutions?
 
-Yevgeni is a member of a persecuted or targeted class in his nation of
-citizenship and residence. He does not feel safe carrying identity documents
-with him when he flees--information asserting his grounds for asylum must bypass
-local centralized data stores, as it could be used to harm him (i.e., records
-identifying or locating individuals could be seized by a new hostile regime).
+Yevgeni is a member of a persecuted or targeted class in his nation of citizenship and residence. When he flees his nation, he does not feel safe carrying identity documents with him. Information asserting his grounds for asylum must also bypass local centralized data stores, as it could be used to harm him (e.g., records identifying or locating individuals could be seized by a new hostile regime).
 
-In order to meet this need, a secure, privacy-respecting data store must be made
-available to the legal jurisdiction of the host government. Since refugees often
-move through multiple state territories, and would prefer to avoid setting out
-new permanent personal records in a new nation under complete surveillance, said
-data store should be maintained independently (as in the previous use cases)
-from the states themselves.
- 
-Such a technology can empower Yevgeni to create a self-sovereign 'anchor' of
-identity--whatever documentation or information he has can be stored as
-statements or photographs to be used for claims later. A prospective host
-government can poll the store, obtaining proof of identity attributes that only
-he can access directly, satisfying the host government's documentation
-requirements. Yevgeni is able to leave his country on the accepting government's
-terms without excessive risk, and at immigration uses his self-sovereign
-identity to enter.
+In order to meet this goal, a secure, privacy-respecting data store must be made available to the legal jurisdiction of the host government that Yevgeni flees to. However, refugees often move through multiple state territories and would prefer to avoid creating permanent personal records under complete surveillance. This requires the data store be maintained independently from the states themselves.
 
-In this case, a technical solution does not proceed in a simple step-by-step
-fashion, but we can identify the chief needs:
+Such a technology can empower Yevgeni to create a self-sovereign "anchor" of identity: whatever documentation or information he has can be stored as statements or photographs to be used for claims later. Yevgeni is now able to leave his country without excessive risk, and to use his self-sovereign identity at immigration, on the host government's terms. The prospective host government can poll the store to satisfy their documentation requirements, obtaining proof of identity attributes that only Yevgeni can access directly. 
 
-- Safe onboarding of a potential refugee at xer current location (Humanitarian
-  organizations can aid in this)
-- Authentication methods that 'survive the trip' along with the refugee:
-  passphrases if possible; at a minimum, not solely biometrics
-- Partnerships with refugee-hosting governments and independent organizations
-  maintaining the data store, backed by a policy-compliant API
-- Functionality allowing refugee users to progress toward an independent status
-  where they are hosted, along the lines of the previously introduced use cases
+In this case, a technical solution does not proceed in a simple step-by-step fashion, but we can identify the chief needs:
 
-Commentary
+* Safe onboarding of a potential refugee at their current location, likely with the help of humanitarian organizations.
+* Authentication methods that "survive the trip" along with the refugee, preferably passphrases, not just biometrics.
+* Partnerships with refugee-hosting governments.
+* Partnerships with independent organizations maintaining the data store, backed by a policy-compliant API.
+* Functionality allowing refugee  to progress toward an independent status, along the lines of the previous use cases.
 
-People share social contexts; they are in community with each other, and through
-social relations create webs of human connection. This can be made rigorous and
-verifiable with self-sovereign identities held by each person, documented
-digitally by mutual verification asserted cryptographically through a secure
-digital medium. Creating this type of network to socially validate an identity
-is why this aspect of the technology is called a **web of trust.**
+#### Commentary: Webs of Trust
 
-This network of connection that can be documented securely between individual's
-sovereign source identities could serve as another seed to bootstrap an identity
-with a new jurisdiction and document circumstance. In other words, it is only
-through a web of trust linking self-sovereign identities that someone in as dire
-straits as a refugee can be credentialed to a degree acceptable by Global North
-governments, while maintaining strong guarantees of security and privacy to all
-stakeholders involved.
+People share social contexts; they exist in community with each other and create webs of human connection through social relations. This can be made rigorous and verifiable with self-sovereign identities held by each person; these identities can be documented digitally by mutual verification asserted cryptographically using a secure digital medium. Creating this type of contextual social network to validate an identity is why this aspect of the technology is called a _Web of Trust_.
+
+The network of connections securely documented between individuals' sovereign source identities could also serve as the seed to bootstrap an identity within a new jurisdiction and under new document circumstances. In other words, it is only through a Web of Trust linking self-sovereign identities that someone in dire traits as a refugee can be credentialed to a degree acceptable by Global North governments while maintaining strong guarantees of security and privacy to all the stakeholders involved.
 
 ### Use Case 5 - Trafficking / Safe Houses ###
 
