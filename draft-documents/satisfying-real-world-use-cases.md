@@ -166,7 +166,7 @@ People share social contexts; they exist in community with each other and create
 
 The network of connections securely documented between individuals' sovereign source identities could also serve as the seed to bootstrap an identity within a new jurisdiction and under new document circumstances. In other words, it is only through a Web of Trust linking self-sovereign identities that someone in dire traits as a refugee can be credentialed to a degree acceptable by Global North governments while maintaining strong guarantees of security and privacy to all the stakeholders involved.
 
-### Use Case 5 - Trafficking / Safe Houses
+### 5. Trafficking / Safe Houses
 
 Marsha is a victim of human trafficking who has been rescued by a local group and conveyed to a safe house. She may have an identity card issued to her by the state, but she does not trust the _local_ state office enough to present her identifier to access benefits because she may be re-victimized by them if she does. An aid organization and/or the main government office is willing to provide resources such as money, food, and education to Marsha so that she can re-normalize her life, but she needs a way to access them.
 
@@ -188,83 +188,39 @@ By taking on this role, the independent organization is dis-intermediating the s
 
 #### Commentary: Digital Quarantines
 
-We note that this is not a speculative
-scenario; the 'digital quarantines' and surveillance pressures undergone by
-women in shelters or sex work are
-[documented in the reporting](https://modelviewculture.com/pieces/sex-work-and-surveillance).
+We note that this is not a speculative scenario; the 'digital quarantines' and surveillance pressures undergone by women in shelters or sex work are [documented in the reporting](https://modelviewculture.com/pieces/sex-work-and-surveillance).
 
 ## Discussion
 
-### Opportunities/Unsolved problems
+### Opportunities/Unsolved Problems
 
-The use cases presented above share a host of common themes and characteristics:
-portability, security, privacy, autonomy, and universality, among others. Any
-identity system that exemplifies these will almost inevitably become the basis
-for an unprecedented expansion in economic and social activity. In order to
-realize such a system, challenges in technical, political, and human spheres
-must be surmounted. Each of these challenges, of course, provides an opportunity
-to create value.
+The use cases presented here share a host of common themes and characteristics, including portability, security, privacy, autonomy, and universality. Any identity system that exemplifies these characteristics will almost inevitably become the basis for an unprecedented expansion in economic and social activity. However, such a system must surmount challenges in technical, political, and human spheres. Each of these challenges, of course, provides an opportunity to create value.
 
-#### Technical
+#### Technical Challenges
 
-- Manageable and portable equipment for storing identity information and making
-  strong claims with precise scope and context-limited disclosure
-- Decentralized data stores and secure APIs that share a minimal set of
-  operations and content types
-- API implementations in an open, auditable form in well-maintained,
-  cross-platform languages (targeting mobile and desktop OSes)
-- Repudiable biometrics
+- Manageable and portable equipment for storing identity information and making strong claims with precise scope and context-limited disclosure.
+- Decentralized data stores and secure APIs that share a minimal set of operations and content types.
+- API implementations in an open, auditable form in well-maintained, cross-platform languages that target mobile and desktop OSes.
+- Repudiable biometrics.
   
-#### Political
+#### Political Challenges
 
-- A negotiated concordance between amount of information provided by
-  uncredentialed persons, and the amount initially required by conventional
-  institutions
-- Partnerships with local authorities for education, implementation, and
-  outreach
-- Support structures for independent data providers, independent audits, and
-  user onboarding (hardware) across the world
+- A negotiated concordance between amount of information provided by uncredentialed persons and the amount initially required by conventional institutions.
+- Partnerships with local authorities for education, implementation, and outreach.
+- Support structures for independent data providers, independent audits, and user onboarding (hardware) across the world.
 
-#### Human
+#### Human Challenges
 
-- Behavioral protcols that swap in 'proof of X' for 'X' in (all) transactions
-  where someone's identifiers are requested, as a rule
-- Bootstrapping/onboarding/enrollment from self-affirmed identity attributes,
-  expressed in a fashion intelligible to all potential users
+- Behavioral protcols that swap in 'proof of X' for 'X' in (all) transactions where someone's identifiers are requested.
+- Bootstrapping/onboarding/enrollment from self-affirmed identity attributes, expressed in a fashion intelligible to all potential users.
 
 ### Near-term prospects
 
-Although the demands illustrated by the use cases we present are quite serious,
-we note that there have never been so many legally unencumbered technical and
-expert resources for this application as there are at present. We believe that
-the main challenges ahead are those of systems integration and widespread
-adoption, for which the prospects are good. Given adequate funding, we are
-certain that the challenges illustrated above can be met, with good outcomes
-throughout the process.
+Although the demands illustrated by the use cases we present are quite serious, we note that there have never been so many legally unencumbered technical and expert resources for these applications as there are at present. We believe that the main challenges ahead are those of system integration and widespread adoption, for which the prospects are good. Given adequate funding, we are certain that the challenges illustrated above can be met, with good outcomes throughout the process.
 
-Moreover, we recognize that we are presented with an unprecedented historical
-opportunity--the evolution not only of the internet as infrastructure but a
-turning point of human culture. Development of self-sovereign identities rooted
-in a decentralized, distributed, verifiable data store can usher in a world
-where, for the first time in history, identities can be represented and
-communicated in a fashion that transcends any centralized authority,
-enfranchising every actor in the system as a unique person, community, company
-or government. Through these identities, any actor, regardless of origin, can
-obtain the assurances they need to operate and engage in interactions that
-require persistance across time and space--a record of continuous commitments
-that will underlie incredible economic and social improvements for humankind.
+Moreover, we recognize that we are presented with an unprecedented historical opportunity — the evolution not only of the internet as infrastructure but a turning point of human culture. Development of self-sovereign identities rooted in a decentralized, distributed, verifiable data store can usher in a world where, for the first time in history, identities can be represented and communicated in a fashion that transcends any centralized authority, enfranchising every actor in the system as a unique person, community, company, or government. Through these identities, any actor, regardless of origin, can
+obtain the assurances they need to operate and engage in interactions that require persistance across time and space — a record of continuous commitments that will underlie incredible economic and social improvements for humankind.
 
-Privacy-respecting, secure (in the senses defined above) distributed systems are
-uniquely able to both accurately chart this experience, as well as empower us to
-foster or develop identities that have never been possible before. While this is
-great news from a technological standpoint, the same systems can certainly also
-be employed in a coercive manner. At worst, large-scale information systems,
-whether centralized databases with essentially unlimited storage or
-decentralized append-only structures, if mobilized at the will of a single
-interest group, could near-permanently foreclose the disjoint, varied, and
-possibly contradictory nascent identities of masses of people going
-forward. (Imagine if a government ID system was coupled with an undeniable
-append-only log, fed by a ubiquitous surveillance system--then place it at
-different points in history.) We have a grave responsibility to implemement
-these systems in an ethical and forward-thinking manner--doing so will preserve
-the largest possible potential to future generations.
+Privacy-respecting, secure (in the senses defined above), distributed systems are uniquely able to both accurately chart this experience and to empower us to foster or develop identities that have never been possible before. While this is great news from a technological standpoint, the same systems could also be employed in a coercive manner. At worst, large-scale information systems — whether centralized databases with essentially unlimited storage or decentralized append-only structures — could near-permanently foreclose the disjoint, varied, and possibly contradictory nascent identities of masses of people if mobilized at the will of a single interest group. (Imagine if a government ID system was coupled with an undeniable append-only log, fed by a ubiquitous surveillance system ... then place it at different points in history.) We have a grave responsibility to implemement these systems in an ethical and forward-thinking manner.
+
+Doing so will preserve the largest possible potential to future generations.
