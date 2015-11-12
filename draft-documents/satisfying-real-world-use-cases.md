@@ -11,7 +11,7 @@ blunt one. Employing users as passive producers with no control of their own
 data only scratches the surface of what is possible with networks of information
 and identity.
 
-Some of these constraints raise from Facebook's centralization, something that
+Some of these constraints arise from Facebook's centralization, something that
 tends to worsen as an organization grows in size. There are limits to the amount
 of trust this sort of centralized authority can garner. This often results in
 punitive postures: democracies come with the expectation that citizens be
@@ -22,11 +22,11 @@ Decentralized systems engineered to _not_ concentrate power as it grows avoid
 this. They can in fact increase their credibility as more users provide their
 assessments as input. Protocols and structures that are distributed and
 self-sovereign also offer significantly improved robustness, portability, and
-versatility than conventional centralized or escrowed processes — especially
+versatility than conventional centralized or escrowed processes — especially
 when combined with secure cryptography.
 
 One of the first technologies to offer the advantages of decentralization
-emerged 25 years ago when PGP created the Web of Trust, which contains
+emerged 25 years ago when PGP created a Web of Trust, which contains
 decentralized, cryptographically verified attestations of its
 users. Unfortunately, failures of UX design confined the spread of PGP to highly
 technical communities.
