@@ -266,9 +266,14 @@ In the _The Mystery of Capital: Why Capitalism Triumphs in the West and Fails
 Everywhere Else_, Peruvian economist Hernando de Soto highlights a fundamental
 difference between Western liberal democracies and the rest of the world: the
 West has functioning systems that enable the abstract representation of
-value. For example, land is not simply owned territory — it is private property
+value. For example, land is not simply owned territory -- it is private property
 registered with the state and represented by land deeds, which have the force of
-law in disputes.
+law in disputes. The West also has functioning state institutions and systems of
+law that imbue the deeds with cultural and legal power. They have what could be
+considered high levels of social trust -- as described by Steven M.R. Covey in
+_The Speed of Trust_ and
+[summarized by one of the co-authors oof this document](http://www.identitywoman.net/the-trouble-with-trust-the-case-for-accountability-frameworks).
+
 
 Millions of individuals do not have such representative records (e.g., birth
 certificates) registered with government entities, and some governments may not
