@@ -1,5 +1,9 @@
 # Table Seven Topics
 
+These were topics that were dot rated - and selectd but no engagement with the core topics was had and no paper was generated. 
+* What do webs of "trust" do when trust begins to frey/is broken? What is the role of ecmotional literacy & resiliance? [23]
+* Are we actaully creating a web of shame? Waht is the role of reconing and forgivenes? [20]
+
 These are possible topics that got rated and dotted, but not selected.
 
 * Code Signing via WoT/Blockchain [22: 6B, 6G, 1R]
