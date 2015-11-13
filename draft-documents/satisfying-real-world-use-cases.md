@@ -18,7 +18,7 @@ punitive postures: democracies come with the expectation that citizens be
 forever watchful of their government; while corporations are watched over by
 regulatory bureaus and further deterred by class-action suits.
 
-Decentralized systems engineered to _not_ concentrate power as it grows avoid
+Decentralized systems engineered _not_ to concentrate power as it grows avoid
 this. They can in fact increase their credibility as more users provide their
 assessments as input. Protocols and structures that are distributed and
 self-sovereign also offer significantly improved robustness, portability, and
@@ -26,8 +26,8 @@ versatility than conventional centralized or escrowed processes — especially
 when combined with secure cryptography.
 
 One of the first technologies to offer the advantages of decentralization
-emerged 25 years ago when PGP created a Web of Trust, which contains
-decentralized, cryptographically verified attestations of its
+emerged 25 years ago when the advent of PGP realized a Web of Trust, which
+contains decentralized, cryptographically verified attestations of its
 users. Unfortunately, failures of UX design confined the spread of PGP to highly
 technical communities.
 
@@ -126,8 +126,8 @@ single point or even across a collection of points. Expiry dates can be added to
 the data during each of the steps, ensuring that data generated at any step is
 only meaningful in a certain time-limited context, subject to the regulatory and
 social needs of stakeholders. Beth may also make adjustments to the request to
-ensure that the club owner and government are not in collusion to deanonymize
-her from either direction.
+ensure that the club owner and government cannot collude to deanonymize her from
+either direction.
 
 #### Commentary: Academic Literature
 
@@ -142,9 +142,10 @@ validated information (e.g., a home address) about each other to establish
 identity, credit status, and legal accountability, as well as some sort of
 letter of reference that is relevant to the proposed transaction. They do not
 belong to AirBnB, but would like to be able to create a similar level of
-assurance. Tisha generates proof of name, legal residence, and good credit as
-well as letters of reference that Joe can judge, which may be anonymous or
-otherwise opaquely identified.
+assurance without giving up the same degree of information to a centralized
+service. Tisha generates proof of name, legal residence, and good credit as well
+as letters of reference that Joe can judge, which may be anonymous or otherwise
+opaquely identified.
 
 If Joe accepts Tisha's proofs, they establish a contract that sets out the terms
 of Tisha's stay.The result of that contract (fulfilled or broken) can later be
@@ -226,16 +227,17 @@ The following process could satisfy these requirements:
    _selectively discloses_ any attributes additionally required by the bank, and
    establishes a conventional account.
 
-Systemtically, this system requires a check of the Know Your Client and
-Anti-Money Laundering regulations (KYC/AML) of the jurisdiction or country that
-is being approached. Once the regulatory compliance identity criteria are
-established, the delta between the existing quality of identity and the required
-quality of identity must be established. Common processes can then be built for
-improving identity to a level that passes the KYC/AML tests which are the chief
-barriers to accessing established financial services.
+Systematically speaking, implementing this protocol requires reference to the
+Know Your Client and Anti-Money Laundering regulations (KYC/AML) of the
+jurisdiction or country that is being approached. Once the regulatory compliance
+identity criteria are established, the delta between the existing quality of
+identity and the required quality of identity must be established. Common
+processes can then be built for improving identity to a level that passes the
+KYC/AML tests, which are the chief barriers to accessing established financial
+services.
 
-Preserving low cost of access and progressive establishment of reputation are
-both essential to maintaining accessibility to services.
+In any case, preserving low cost of access and progressive establishment of
+reputation are both essential to maintaining accessibility to services.
 
 #### Commentary: Technology Possibilities
 
@@ -255,7 +257,8 @@ maintains one standard for such link contracts.
 If well-implemented by banks and credit rating agencies, link contracts could
 enable users of financial systems to efficiently detect possibly fraudulent
 activity and to dispute or address erroneous or malicious activity associated
-with an account, all in a way that avoids information asymmetry.
+with an account, all in a way that avoids information asymmetry and the
+associated power inequalities that arise from it.
 
 #### 3.1. Concerns in Non-G20 Nations
 
@@ -297,11 +300,12 @@ reliability that others can assess and verify, so he can store fiat currency,
 pay bills, and gain access to credit.
 
 Farhad is without state or financial institutional support, which changes the
-dynamic from the case in a G20 nation. On the other hand, this should cause the
-regulatory burden to be lower. What Farhad needs is a way to take the same
-semi-informal exchanges mentioned in previous use cases and bundle them up into
-a highly-available, privacy-respecting, verifiable record of credible activity,
-which is the basic information required for a consumer-facing financial market.
+dynamic from the case of Darla residing in a G20 nation. On the other hand, this
+may result in a lower regulatory burden. What Farhad needs is a way to take the
+same semi-informal exchanges mentioned in previous use cases and bundle them up
+into a highly-available, privacy-respecting, verifiable record of credible
+activity, which is the basic information required for a consumer-facing
+financial market.
 
 The following process could satisfy these requirements:
 
@@ -389,8 +393,8 @@ fashion, but we can identify the chief needs:
 * Partnerships with refugee-hosting governments.
 * Partnerships with independent organizations maintaining the data store, backed
   by a policy-compliant API.
-* Functionality allowing refugee to progress toward an independent status, along
-  the lines of the previous use cases.
+* Functionality allowing refugees to progress toward an independent status,
+  along the lines of the previous use cases.
 
 #### Commentary: Webs of Trust
 
@@ -440,7 +444,7 @@ These needs can be outlined as follows:
 * Data storage at a completely independent location that has robust protection
   against threats.
 * Strong guarantees of selective disclosure.
-* If possible, reconstruction of still-valued components of a previously toxic
+* If possible, reconstruction of still-valued components of a now-toxic previous
   identity.
 * Clear threat models at every step of the process.
 
@@ -455,7 +459,10 @@ By taking on this role, the independent organization is dis-intermediating the
 state issuance of identity documents. This is useful because of Marsha's
 mistrust of the local state office. She is now able to have the independent
 organization mediate the provision of support services to her via government aid
-from a different department or a different level of government.
+from a different department or a different level of government. She is not
+dependent on any particular part of government infrastructure to maintain her
+records throughout negotiation, be it a database targeted by criminals, or a
+mandated program with a limited lifespan.
 
 #### Commentary: Digital Quarantines
 
