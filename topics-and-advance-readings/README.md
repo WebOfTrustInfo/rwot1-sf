@@ -25,6 +25,7 @@ The topic papers submitted were:
 * **[Distributed Trust Systems and the Kenyesian Beauty Contest](Distributed-Trust-Systems-and-the-Kenyesian-Beauty-Contest.md)** - by Joel Dietz *[@fractastical](https://twitter.com/fractastical) \<jdietz@gmail.com\>*
 * **[First Encounters with PGP](FirstEncountersWithPGP.md)** - by Kiara Robles *[@anarchoass](https://twitter.com/anarchoass) \<kiara.robles@gmail.com\>*
 * **[Hierarchical Deterministic Keys: BIP32 & Beyond](hierarchical-deterministic-keys--bip32-and-beyond.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>* & Shannon Appelcline *[@Appelcline](https://twitter.com/Appelcline) \<ShannonA@skotos.net\>*
+* **[How not to build an Orwellian reputation system](How-not-to-build-an-orwellian-reputation-system)** - by Juan S. Galt *[@juansgalt](https://twitter.com/juansgalt) \<juans.galt@tuta.io\>*
 * **[Identity, Guidance and Situational Awareness](Identity_Guidance_and_Situational_Awareness.md)** - by Matthew Schutte *[@MatthewJosef](https://twitter.com/matthewjosef) \<matt@calabs.org\>*
 *  **[Identity, Property and Simulation](Identity-Property-Simulation.md)** - by Patrick Deegan *\<pdeegan@gmail.com\>*
 * **[Key revocation of lost and stolen keys](Key-revokation-of-lost-and-stolen-keys.md)** - by Martin Koeppelmann *[@koeppelmann](https://twitter.com/koeppelmann) \<martin.koeppelmann@consensys.net \>*
