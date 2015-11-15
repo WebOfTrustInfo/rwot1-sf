@@ -67,7 +67,7 @@ Kevin Mitnick, famous hacker, Infosec expert and speaker demonstrated how to get
 
 “To find a social security number, Mitnick first navigated to the website of a leading provider of billions of public records and typed in the volunteer’s name. Approximately 50 results came up with different ages and locations. He quickly narrowed the search down by age and a few simple questions such as ‘Which state do you live in?’ The legal site sells access to its database. The volunteer’s entry cost 50 cents, and on purchase, prominently displayed the social security number in bold red font. The number was confirmed as correct while several attendees photographed the screen.”
 
-Add to that the massive hack of the USA’s OPM department, which comprised over 21 million Americans’ deeply personal information,including biometric data. Most of them worked for the Government at some point, and or were still part of agencies like the NSA. This information is now somewhere floating in cyberspace.
+Add to that the Add to that the [massive hack of the USA’s OPM department] (http://cointelegraph.com/news/115129/kyc-compliance-could-get-you-hacked), which comprised over 21 million Americans’ deeply personal information,including biometric data. Most of them worked for the Government at some point, and or were still part of agencies like the NSA. This information is now somewhere floating in cyberspace.
 
 Bob, of course, would never run or base his reputation as a sticky-icky merchant, associating his business identity with his legal name and data. If those two were ever correlated he’d quickly be on a one way trip to a “big and crowded cage, somewhere in the abyss of humanity’s medieval habits”- as he would put it.
 
@@ -93,7 +93,7 @@ There’s a real value in the niche, complex and unique way in which humans orga
 
 Ideally, I think it would be great to make sure only the people who have some user defined alignment with our values, and have proven it sufficiently, are able to find us on the vast and eternal web.
 
-Step Five: People can change
+## Step Five: People can change
 
 Andreas Antonopoulos has warned about the dangers of blockchain based reputation systems, particularly their incapacity to forget information. Human beings are often enough more forgiving and compassionate then the cold mathematics of a cryptographic signature.
 
