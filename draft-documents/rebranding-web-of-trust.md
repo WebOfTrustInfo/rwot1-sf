@@ -76,7 +76,7 @@ Together these rules for reporting reputation and for massaging feedback can do 
 
 After the feedback systems have massaged reputation data, it’s fed back into the appropriate Entity as a new, updated, or expanded attribute. Such attributes are usually of the loosely held type, because they’re not directly controlled by the Entity.
 
-<table>
+<table bgcolor="#666666">
   <tr>
     <td>How Does Blockchain Relate to the Web of Trust?
 Blockchain has recently become an important player in the contemporary Web of Trust, but it’s not actually core to the definition of the term. That’s because blockchain is fundamentally a tool. One of its core functions is to create dated certifications of existence in a (hopefully) decentralized way. With that functionality, Blockchain can (and has) become central to the creation of a number of proposed Web of Trust technologies. However it’s ultimately just a component that might be used, not an ends in itself.</td>
