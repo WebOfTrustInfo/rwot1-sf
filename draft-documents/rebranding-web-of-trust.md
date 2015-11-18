@@ -40,7 +40,7 @@ The modelling of both of these elements focuses on simplicity: an Entity appears
 
 An **_Entity_** is an objective representation of some person, place, or thing. It’s defined by up to three concentric circle: information attributes are built on a validated authentication which encompasses a core identity.
 
-**_Identity_** refers to the core concept of what an Entity is. It’s represented by a *token* that usually has an externally visible network *identifier* such as a Domain Name or an IP Address.
+**_Identity_** refers to the core concept of what an Entity is. It’s represented by a *token* that usually has an externally visible network *identifier* such as an email address or a phone number.
 
 **_Validation_** is the step where an identity is said to be true and correct — not a fake.
 
