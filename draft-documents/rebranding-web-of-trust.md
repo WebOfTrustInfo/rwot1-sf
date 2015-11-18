@@ -90,6 +90,13 @@ When combined, Entities and Actions create a pictorial model of the contemporary
 
 Defining the modern Web of Trust makes it clear that there’s real linguistic trouble with the term as it’s currently used — especially in its relation to tricky word, "trust". That raises the question of whether the term actually can be reclaimed as part of the modern rubric, or if the field needs to be renamed entirely.
 
+
 The authors of this paper produced a handful of alternate names for a roomful of crypto, privacy, and decentralization experts. They included: Acknowledgement (ACK) Network, Distributed Identity, Identity Network, Trust Network, Trust Nexus, Web of Characters, Web of Identity, Web of Insights, Web of Names, Web of Recognition, and Web of Validity. By a show of hands, the original Web of Trust was twice as popular as any other option — and the most popular alternatives like Trust Nexus and Trust Network still had the word Trust in them, in any case!
 
-Rather than renaming the Web of Trust, we thus suggest **_Rebranding_** it, with the new, broader definition found in this paper. Entities and Actions. Decentralization. Identity, validation, privacy, reputation, and behavior. These are the many topics encompassed by the modern Web of Trust — a movement that’s even now expanding and growing.
+Rather than renaming the Web of Trust, we (who is the we? the whole conference, just the authors) thus suggest **_Rebranding_** it, with the new, broader definition found in this paper. 
+
+
+Entities and Actions. Decentralization. Identity, validation, privacy, reputation, and behavior. These are the many concepts encompasse by the modern Web of Trust.
+
+
+
