@@ -24,7 +24,7 @@ Using the term "decentralized" instead of “peer-to-peer” helps to move the W
 
 To be truly decentralized, a system should have neither a central authority for any aspect of the service *nor *a central coordination. Because of its coordination and authority alike, ICANN thus prevents DNS from being decentralized, while the competitive nature of blockchain ensures that it remains within the definition.
 
-The **_Trust _** in Web of Trust is harder to define. That’s in part because even PGP’s Web of Trust was never about* trust*. A decentralized key validation system does support a promise of recognition: you can be relatively sure that someone is the same person they were before. But, that’s a far cry from actually trusting the people that you’re interacting with.
+The **_Trust_** in Web of Trust is harder to define. That’s in part because even PGP’s Web of Trust was never about* trust*. A decentralized key validation system does support a promise of recognition: you can be relatively sure that someone is the same person they were before. But, that’s a far cry from actually trusting the people that you’re interacting with.
 
 The scope of the Web of Trust has expanded a lot since the early days of PGP. Modern Web of Trust projects include the validation of keys, the validation of signatures, the validation of identities, the protection of privacy, the calculation of reputation, the expectation of behaviors, and much more. There is certainly some *trusti-ness** *in all these projects: you’re trusting that a key is valid, that a signer is authentic, that an identity is true, that a messages will remain private, that someone is an honest trader, or at least that they’ll do what they have in the past. But does this trust match the dictionary definition of a "reliance on … integrity" or a “confident expectation of something”? Sort of yes and sort of no; these projects muddle the standard definition in part because they’re all over the place, approaching trust in a lot of different ways. 
 
@@ -42,11 +42,11 @@ An **_Entity_** is an objective representation of some person, place, or thing. 
 
 **_Identity_** refers to the core concept of what an Entity is. It’s represented by a *token* that usually has an externally visible network *identifier* such as a Domain Name or an IP Address.
 
-**_Validation _** is the step where an identity is said to be true and correct — not a fake.
+**_Validation_** is the step where an identity is said to be true and correct — not a fake.
 
 **_Authentication_** is the process by which a person proves that he is in control of an identifier, usually by means of authentication such as a password or private key. 
 
-**_Attributes _** are extensible data that define (but do not identify) an entity. This might include physical attributes like age, hair color, shoe size; mental attributes like IQ, Myers-Briggs type, or accumulated knowledge; historical attributes like transaction history, voting record, or criminal record; or entirely ephemeral attributes like aspirations, fears, or plans.
+**_Attributes_** are extensible data that define (but do not identify) an entity. This might include physical attributes like age, hair color, shoe size; mental attributes like IQ, Myers-Briggs type, or accumulated knowledge; historical attributes like transaction history, voting record, or criminal record; or entirely ephemeral attributes like aspirations, fears, or plans.
 
 Attributes are created and evaluated through objective, mechanical methods. Some of these attributes might be inherently objective, such as hair color. Others might be the objective encoding of subjective analysis by other Entities. For example, deciding whether an entity is a good or bad credit risk might involve a somewhat subjective decision, but that result is then recorded as an objective fact via a mechanical means.
 
@@ -58,7 +58,7 @@ Entities define the identity side of the Web of Trust, but in order for them to 
 
 An **_Action_** is something that occurs outside of the solar system of Entity, when he connects with another Entity. Where an Entity is an objective representation, an Action is instead a subjective interaction. It’s defined by up to five sequential steps: decision of privacy, creation of expectations, experience of activity, interpretation of activity, and statement of reputation. Then the rules of the community (or if you prefer the Web) may introduce one final step: manipulation of feedback.
 
-**_Decision of Privacy _** requires for Entities to decide what they’re going to reveal to each other as part of the Action. They must each decide how much of their Identity, their Validation, their Authentication, and their Attributes to expose, if any; the Entities might decide to reveal nothing, creating a totally anonymous Action.
+**_Decision of Privacy_** requires for Entities to decide what they’re going to reveal to each other as part of the Action. They must each decide how much of their Identity, their Validation, their Authentication, and their Attributes to expose, if any; the Entities might decide to reveal nothing, creating a totally anonymous Action.
 
 **_Creation of Expectations_** allows each Entity to look at exposed Identity, Validation, Authentication, and Attributes and to compare that to the context of the Action. Then each Entity decides what will he believes will happen over the course of the Action.
 
@@ -66,11 +66,11 @@ An **_Action_** is something that occurs outside of the solar system of Entity, 
 
 **_Interpretation of Activity_** requires each Entity to subjectively view the results of the Action and decide what they mean.
 
-**_Statement of Reputation _** combines an Entity’s expectations of an activity and his interpretation of the experience. He then proclaims what it says about the other entity.
+**_Statement of Reputation_** combines an Entity’s expectations of an activity and his interpretation of the experience. He then proclaims what it says about the other entity.
 
 From the point of view of each Entity, the Action is now complete. They’ve made their decisions about the Action, they’ve conducted the Action, they’ve seen the results of the Action, they’ve interpreted those results, and they’ve reported those results. However, a Web of Trust doesn’t tend to blindly accept input from the Entities that compose it. Instead, it usually adjusts data before sending it back into the system — just like PGP’s Web of Trust validated keys across the Web using very specific rules.
 
-**_Manipulation of Feedback _** is the final step, where an automated system takes any reputation data stated by an Entity and adjusts it according to specific rules defined by the Web of Trust that the Entities are members of.
+**_Manipulation of Feedback_** is the final step, where an automated system takes any reputation data stated by an Entity and adjusts it according to specific rules defined by the Web of Trust that the Entities are members of.
 
 Together these rules for reporting reputation and for massaging feedback can do a lot to control the feel of the entire Web. They can discourage negative feedback by bridging problems between Entities; or they could do the opposite. The end result helps to describe what sort of Web is actually being created: is it a true Web of Trust, or is it a Web of Shame?
 
