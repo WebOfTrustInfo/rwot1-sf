@@ -43,6 +43,8 @@ An **_Entity_** is an objective representation of some person, place, or thing. 
 **_Identity_** refers to the core concept of what an Entity is. It’s represented by a *token* that usually has an externally visible network *identifier* such as a Domain Name or an IP Address.
 
 **_Validation_** is the step where an identity is said to be true and correct — not a fake.
+ I am very confused by what you are proposing this actually involve - how does this truth and correctness become deterimined.  The term verification in an entrollment proces soften refers to the process of idnetity prooffing where someone presents docucuments (at a DMV for example) and some times those documents are checked to see if they are valid (like did the state that issued your birth certificate actually issue "that" birthcertificate (with that serial number and your name no it). 
+  Do you mean that peer signing is something that supports peer validation that indeed the person they know usually uses the e-mail address they are associating with a particular public-privat key (this seems to me to be an accurate descriptin of current key signing in PGP)
 
 **_Authentication_** is the process by which a person proves that he is in control of an identifier, usually by means of authentication such as a password or private key. 
 
