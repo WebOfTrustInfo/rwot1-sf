@@ -2,13 +2,13 @@
 
 #### *by Shannon Appelcline, Dave Crocker, Randall Farmer, and Justin Newton*
 
-The *_Web of Trust_*. It’s the buzzword for a new model of decentralized identity. However, it’s also a phrase that dates back almost twenty-five years and has been heavily overloaded with meaning during that time. The classic definition of Web of Trust derives from PGP, but the top Google results refer to a website reputation rating system created by a Finnish internet company. Meanwhile, some use it as a big tent that includes internet validation, authentication, and reputation, while the vibrant blockchain community is also drawing new attention to the classic concept.
+The *_Web of Trust_*. It’s the buzzword for a new model of decentralized identity. However, it’s also a phrase that dates back almost twenty-five years and has been heavily overloaded with meaning during that time. The classic definition of Web of Trust derives from PGP, but the top Google results refer to a website reputation rating system created by a Finnish internet company. Meanwhile, some use it as a big tent that includes identity authentication & verification, certificate validation, and reputation assessment, while the vibrant blockchain community is also drawing new attention to the classic concept.
 
 To build a contemporary Web of Trust, we need to better define it. To do so, we must both understand what the classic Web of Trust was and create a model for the elements of trust that are contained within a more modern definition.
 
 ## What is the Historic Web of Trust?
 
-Phil Zimmerman originated the phrase "Web of Trust" in PGP 2.0 (1992). However, his Web had a *very* limited meaning, focused on community validation for the use of public keys. This community validation occurs when a user identifies certain public key as belonging to certain people. However, it goes a step beyond that: the owners of some of those trusted keys might in turn identify other public keys as belonging to other people.
+Phil Zimmerman originated the phrase "Web of Trust" in PGP 2.0 (1992). However, his Web had a *very* limited meaning, focused on peer validation of public keys. This process occurs when a user identifies certain public keys as belonging to certain people. However, it goes a step beyond that: the owners of some of those trusted keys might in turn identify other public keys as belonging to other people.
 
 These multiple levels of validation form an interlinked network that creates trust metrics for the correlation between a public key and a person’s identifier — which came to be called the *Web of Trust*. A more accurate term for the original Web of Trust might be: a *decentralized key validation system. *
 
@@ -26,23 +26,23 @@ To be truly decentralized, a system should have neither a central authority for 
 
 The **_Trust_** in Web of Trust is harder to define. That’s in part because even PGP’s Web of Trust was never about* trust*. A decentralized key validation system does support a promise of recognition: you can be relatively sure that someone is the same person they were before. But, that’s a far cry from actually trusting the people that you’re interacting with.
 
-The scope of the Web of Trust has expanded a lot since the early days of PGP. Modern Web of Trust projects include the validation of keys, the validation of signatures, the validation of identities, the protection of privacy, the calculation of reputation, the expectation of behaviors, and much more. There is certainly some *trusti-ness** *in all these projects: you’re trusting that a key is valid, that a signer is authentic, that an identity is true, that a messages will remain private, that someone is an honest trader, or at least that they’ll do what they have in the past. But does this trust match the dictionary definition of a "reliance on … integrity" or a “confident expectation of something”? Sort of yes and sort of no; these projects muddle the standard definition in part because they’re all over the place, approaching trust in a lot of different ways. 
+The scope of the Web of Trust has expanded a lot since the early days of PGP. Modern Web of Trust projects include the validation of keys, the validation of signatures, the verification of identities, the protection of privacy, the calculation of reputation, the expectation of behaviors, and much more. There is certainly some _trusti-ness_ in all these projects: you’re trusting that a key is valid, that a signer is authentic, that an identity is true, that a messages will remain private, that someone is an honest trader, or at least that they’ll do what they have in the past. But does this trust match the dictionary definition of a "reliance on … integrity" or a “confident expectation of something”? Sort of yes and sort of no; these various projects muddle the standard definition of turst in part because they’re all over the place: they approach trust in a lot of different ways. 
 
-Nonetheless, these "trusty" systems form a coherent and understood group and are a strong basis for the understanding of contemporary Web of Trust systems.
+Nonetheless, these "trusty" systems form a coherent and well-understood group and are a strong basis for defining contemporary Web of Trust systems.
 
 ## How Do We Model a Web of Trust?
 
-The contemporary Web of Trust can be drawn as a graph of Entities who come together to engage in Actions. Together these two parts encompass all of the elements included in the contemporary Web of Trust — including identity, validation, privacy, and reputation. 
+The contemporary Web of Trust can be drawn as a graph of Entities who come together to engage in Actions. Together these two parts encompass all of the elements included in the contemporary Web of Trust — including identity, validation, verification, privacy, and reputation. 
 
 The modelling of both of these elements focuses on simplicity: an Entity appears as concentric circles, while an Action appears as sequential steps. Outer levels of the Entity or certain steps in the Action may be left out, to produce simpler and more accessible sub-models.
 
 ### A Proposed Entity Model
 
-An **_Entity_** is an objective representation of some person, place, or thing. It’s defined by up to three concentric circle: information attributes are built on a validated authentication which encompasses a core identity.
+An **_Entity_** is an objective representation of some person, place, or thing. It’s defined by up to four concentric circle: information attributes are built on a core identity, which may be verified and which may be authenticated.
 
 **_Identity_** refers to the core concept of what an Entity is. It’s represented by a *token* that usually has an externally visible network *identifier* such as an email address or a phone number.
 
-**_Validation_** is the step where an identity is said to be true and correct — not a fake.
+**_Verification_** is the process by which an identity is said to be true and correct, not a fake, via some proof of that identity. This is not the same thing as _validation_, which is a mechanical process that shows whether an identity is properly formed.
 
 **_Authentication_** is the process by which a person proves that he is in control of an identifier, usually by means of authentication such as a password or private key. 
 
@@ -58,9 +58,9 @@ Entities define the identity side of the Web of Trust, but in order for them to 
 
 An **_Action_** is something that occurs outside of the solar system of Entity, when he connects with another Entity. Where an Entity is an objective representation, an Action is instead a subjective interaction. It’s defined by up to five sequential steps: decision of privacy, creation of expectations, experience of activity, interpretation of activity, and statement of reputation. Then the rules of the community (or if you prefer the Web) may introduce one final step: manipulation of feedback.
 
-**_Decision of Privacy_** requires for Entities to decide what they’re going to reveal to each other as part of the Action. They must each decide how much of their Identity, their Validation, their Authentication, and their Attributes to expose, if any; the Entities might decide to reveal nothing, creating a totally anonymous Action.
+**_Decision of Privacy_** requires for Entities to decide what they’re going to reveal to each other as part of the Action. They must each decide how much of their Identity, their Verification, their Authentication, and their Attributes to expose, if any; the Entities might decide to reveal nothing, creating a totally anonymous Action.
 
-**_Creation of Expectations_** allows each Entity to look at exposed Identity, Validation, Authentication, and Attributes and to compare that to the context of the Action. Then each Entity decides what will he believes will happen over the course of the Action.
+**_Creation of Expectations_** allows each Entity to look at exposed Identity, Verification, Authentication, and Attributes and to compare that to the context of the Action. Then each Entity decides what will he believes will happen over the course of the Action.
 
 **_Experience of Activity_** is when the Action actually occurs, and each Entity sees the results.
 
@@ -84,7 +84,7 @@ Blockchain has recently become an important player in the contemporary Web of Tr
   </tr>
 </table>
 
-When combined, Entities and Actions create a pictorial model of the contemporary Web of Trust that encompasses the many elements found in its big tent. Questions of identity and validation are addressed by Entities, while privacy, expectations, and reputation all appear in Actions.
+When combined, Entities and Actions create a pictorial model of the contemporary Web of Trust that encompasses the many elements found in its big tent. Questions of identity and verification are addressed by Entities, while privacy, expectations, and reputation all appear in Actions.
 
 ## Should We Rename or Reclaim the Web of Trust?
 
@@ -92,4 +92,4 @@ Defining the modern Web of Trust makes it clear that there’s real linguistic t
 
 The authors of this paper produced a handful of alternate names for a roomful of crypto, privacy, and decentralization experts. They included: Acknowledgement (ACK) Network, Distributed Identity, Identity Network, Trust Network, Trust Nexus, Web of Characters, Web of Identity, Web of Insights, Web of Names, Web of Recognition, and Web of Validity. By a show of hands, the original Web of Trust was twice as popular as any other option — and the most popular alternatives like Trust Nexus and Trust Network still had the word Trust in them, in any case!
 
-Rather than renaming the Web of Trust, we thus suggest **_Rebranding_** it, with the new, broader definition found in this paper. Entities and Actions. Decentralization. Identity, validation, privacy, reputation, and behavior. These are the many topics encompassed by the contemporary Web of Trust — a movement that’s even now expanding and growing.
+Rather than renaming the Web of Trust, we thus suggest **_Rebranding_** it, with the new, broader definition found in this paper. Entities and Actions. Decentralization. Identity, validation, verification, privacy, reputation, and behavior. These are the many topics encompassed by the contemporary Web of Trust — a movement that’s even now expanding and growing.
