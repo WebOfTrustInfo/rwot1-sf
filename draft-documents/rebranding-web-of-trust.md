@@ -79,7 +79,7 @@ After the feedback systems have massaged reputation data, it’s fed back into t
 <table style="background-color:LightGray">
   <tr>
     <td>
-    #### How Does Blockchain Relate to the Web of Trust?
+    <h4>How Does Blockchain Relate to the Web of Trust?</h4>
 Blockchain has recently become an important player in the contemporary Web of Trust, but it’s not actually core to the definition of the term. That’s because blockchain is fundamentally a tool. One of its core functions is to create dated certifications of existence in a (hopefully) decentralized way. With that functionality, Blockchain can (and has) become central to the creation of a number of proposed Web of Trust technologies. However it’s ultimately just a component that might be used, not an ends in itself.</td>
   </tr>
 </table>
