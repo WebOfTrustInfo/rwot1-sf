@@ -40,9 +40,10 @@ The modelling of both of these elements focuses on simplicity: an Entity appears
 
 An **_Entity_** is an objective representation of some person, place, or thing. It’s defined by up to three concentric circle: information attributes are built on a validated authentication which encompasses a core identity.
 
-**_Identity_** refers to the core concept of what an Entity is. It’s represented by a *token* that usually has an externally visible network *identifier* such as a Domain Name or an IP Address.
+**_Identity_** refers to the core concept of what an Entity is. It’s represented by a *token* that usually has an externally visible network *identifier* such as a Domain Name or an IP Address {IP addresses are re-assignable and typically never the basis of any identity system for individuals to be persistance across time and space, Domain names are not particularly easy to authenticate against either - so why are these the examples of identifiers of identities? an E-mail address and phone number are better end point identiifers and isn't the whole point of the DPKI to make public-private key pairs as sort of equivalent type of identifier - but with stronger security and authentication characteristics along with the ability to do "more things" then just terminate an phone call or text or recieve an e-mail. .
 
 **_Validation_** is the step where an identity is said to be true and correct — not a fake.
+                   
 
 **_Authentication_** is the process by which a person proves that he is in control of an identifier, usually by means of authentication such as a password or private key. 
 
