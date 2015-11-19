@@ -18,7 +18,7 @@ punitive postures: democracies come with the expectation that citizens be
 forever watchful of their government; while corporations are watched over by
 regulatory bureaus and further deterred by class-action suits.
 
-Decentralized systems engineered _not_ to concentrate power as it grows avoid
+Decentralized systems that are engineered _not_ to concentrate power as it grows avoid
 this. They can in fact increase their credibility as more users provide their
 assessments as input. Protocols and structures that are distributed and
 self-sovereign also offer significantly improved robustness, portability, and
@@ -37,7 +37,7 @@ particular to marginalized populations that can benefit from the technology. It
 is a fortunate tragedy that there is no shortage of real-life examples of the
 need for decentralized Webs of Trust in the world today. A large spectrum of
 individuals — from marginalized persons like stateless refugees and victims of
-human trafficking, to members of the informal or unregulated economy — urgently
+human trafficking to members of the informal or unregulated economy — urgently
 need to participate in otherwise privileged economic and political fora, but
 they face technical, economic, and political barriers to entry.
 
@@ -89,7 +89,7 @@ club. The club owner need only check that the claim is valid.
 
 The following process could satisfy these requirements:
 
-1. Beth receives a request from the club owner, containing a unique random
+1. Beth receives a request from the club owner containing a unique random
    number generated for this purpose ("nonce").
 2. Beth supplements the nonce with a description of the claim she wants to make
    (i.e., "birthdate earlier than 21 years prior to now") and signs it, creating
@@ -144,11 +144,11 @@ letter of reference that is relevant to the proposed transaction. They do not
 belong to AirBnB, but would like to be able to create a similar level of
 assurance without giving up the same degree of information to a centralized
 service. Tisha generates proof of name, legal residence, and good credit as well
-as letters of reference that Joe can judge, which may be anonymous or otherwise
-opaquely identified.
+as letters of reference, which may be anonymous or otherwise opaquely identified.
+Joe can then judge these submissions.
 
 If Joe accepts Tisha's proofs, they establish a contract that sets out the terms
-of Tisha's stay.The result of that contract (fulfilled or broken) can later be
+of Tisha's stay. The result of that contract (fulfilled or broken) can later be
 used as a reference for subsequent stays with others.
 
 The following process could satisfy these requiremenst:
@@ -157,7 +157,7 @@ The following process could satisfy these requiremenst:
    cryptographically verifiable, append-only repository, as per Use Case 1.
 2. Tisha and other users can "bootstrap" some limited reputability by having
    friends issue "letters of reference" on her behalf. These could be as simple
-   as ratings or they could actual letters, submitted to the repository attached
+   as ratings or they could be actual letters, submitted to the repository attached
    to their accounts.
 3. When Tisha arranges a short-term contract between herself and a relative
    stranger, she invites them to submit proof of the contract and its result,
@@ -197,7 +197,7 @@ permissions and context-limited pseudonyms.
 
 ### 3. Bootstrapping Long-Term Identity: Creating a Record of Credit
 
-Darla is a citizen of a G20 nation, but lacks a deposit account, extensive
+Darla is a citizen of a G20 nation but lacks a deposit account, extensive
 credit history, or reputable documentation of local residence. She can afford a
 secure digital device however, and through it, she can sign up for an account,
 whose marginal cost is close to zero. She would like to be able to store money
@@ -236,7 +236,7 @@ processes can then be built for improving identity to a level that passes the
 KYC/AML tests, which are the chief barriers to accessing established financial
 services.
 
-In any case, preserving low cost of access and progressive establishment of
+Preserving low cost of access and progressive establishment of
 reputation are both essential to maintaining accessibility to services.
 
 #### Commentary: Technology Possibilities
@@ -266,14 +266,13 @@ In the _The Mystery of Capital: Why Capitalism Triumphs in the West and Fails
 Everywhere Else_, Peruvian economist Hernando de Soto highlights a fundamental
 difference between Western liberal democracies and the rest of the world: the
 West has functioning systems that enable the abstract representation of
-value. For example, land is not simply owned territory -- it is private property
+value. For example, land is not simply owned territory — it is private property
 registered with the state and represented by land deeds, which have the force of
 law in disputes. The West also has functioning state institutions and systems of
-law that imbue the deeds with cultural and legal power. They have what could be
-considered high levels of social trust -- as described by Steven M.R. Covey in
+law that imbue those deeds with cultural and legal power. They have what could be
+considered high levels of social trust — as described by Steven M.R. Covey in
 _The Speed of Trust_ and
-[summarized by one of the co-authors oof this document](http://www.identitywoman.net/the-trouble-with-trust-the-case-for-accountability-frameworks).
-
+[summarized by one of the co-authors of this document](http://www.identitywoman.net/the-trouble-with-trust-the-case-for-accountability-frameworks).
 
 Millions of individuals do not have such representative records (e.g., birth
 certificates) registered with government entities, and some governments may not
@@ -389,7 +388,7 @@ can poll the store to satisfy their documentation requirements, obtaining proof
 of identity attributes that only Yevgeni can access directly.
 
 In this case, a technical solution does not proceed in a simple step-by-step
-fashion, but we can identify the chief needs:
+fashion, but we can identify the chief requirements:
 
 * Safe onboarding of a potential refugee at their current location, likely with
   the help of humanitarian organizations.
@@ -432,18 +431,18 @@ re-normalize her life, but she needs a way to access them.
 Marsha has the same technical needs for bootstrapping an identity as those
 explained in the previous use cases. The unique challenge here is in handling
 existing "toxic" components of Marsha's existing identity: her traffickers may
-have access to a slew of physical and digital credentials, which may also link
+have access to many physical and digital credentials, which may also link
 to friends or family. Marsha might want to reconnect with people or obtain
 access to stores of value in existing accounts without risking further harm.
 
-The main government or aid agency also has needs of its own. It needs Marsha to
+The main government or aid agency also has requirements of its own. It needs Marsha to
 establish core attributes of identity and to submit repeated proofs of that
 identity and (changing) status for compliance purposes, so that it can account
 for the aid provided. However, when Marsha finally leaves the safe house and
 resumes independent life, she must be sure that her private information leaves
 with her.
 
-These needs can be outlined as follows:
+These requirements can be summarized as follows:
 
 * A protocol for establishing a set of "core" initial attributes.
 * Data storage at a completely independent location that has robust protection
