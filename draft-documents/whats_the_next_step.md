@@ -31,7 +31,7 @@ As we map out the topography of the new digital world, we hope to turn our Web o
 
 ## The Road to 2016
 
-The holidays make immediate movement toward 2016 goals difficult, but group hangouts in early December and early January could support the Rebuilding the Web of Trust group moving forward.
+The holidays make immediate movement toward 2016 goals difficult, but group hangouts in early December and early January could support the Rebooting the Web of Trust group moving forward.
 
 Those hangouts can also help us decide upon our next event. Possibilities include a hackathon, a workshop, another design shop, small working groups, or even fundraising events. As the first design workshop was held in the California Bay Area, the East Coast might be a good venue for a follow-up event, to help expand the Web of Trust group beyond the 40 or so people present in San Francisco in November.
 
@@ -41,4 +41,4 @@ These smaller events would ultimately lead to a large get-together in July 2016,
 
 How to fund these continued events and the creation of a compelling release for July 2016 remains an open question. VCs, donations, and grants offer the most obvious sources, but we might also be able to present pitches to the IETF, European DARPA, or even the UN.
 
-To pursue those possibilities, we first need to decide upon our focus. Hopefully that's what the upcoming hangouts will allow. From there we can adapt and expand the early design work we've already done to create proposals or write grants … and ultimately start rebuilding the Web of Trust.
+To pursue those possibilities, we first need to decide upon our focus. Hopefully that's what the upcoming hangouts will allow. From there we can adapt and expand the early design work we've already done to create proposals or write grants … and ultimately start rebooting the Web of Trust.
