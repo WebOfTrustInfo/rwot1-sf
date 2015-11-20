@@ -38,7 +38,7 @@ The modelling of both of these elements focuses on simplicity: an Entity appears
 
 ### A Proposed Entity Model
 
-An **_Entity_** is an objective representation of some person, place, or thing. It’s defined by up to four concentric circle: information attributes are built on a core identity, which may be verified and which may be authenticated.
+<img align="right" src="/supporting-files/rebranding-fig1-entity.jpg?raw=true">An **_Entity_** is an objective representation of some person, place, or thing. It’s defined by up to four concentric circle: information attributes are built on a core identity, which may be verified and which may be authenticated.
 
 **_Identity_** refers to the core concept of what an Entity is. It’s represented by a *token* that usually has an externally visible network *identifier* such as an email address or a phone number.
 
