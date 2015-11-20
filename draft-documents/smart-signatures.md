@@ -17,7 +17,7 @@ In this paper, we describe a cryptographic signature system that can be used to 
 
 Given the evident limitations of this design, we propose an alternative that is more powerful in its capabilities due to the fact that the conditions for verification are explicitly outlined and fully-programmable. This programmable authorization system allows for broad capabilities in specifying the conditions under which a signature or set of signatures can be considered valid.
 
-Our inspiration this authorization system is the Bitcoin scripting language, where the authorization to spend funds is explicitly defined within a script, rather than being implicitly defined through the reference to an authorized public key.
+Our inspiration for this authorization system is the Bitcoin scripting language, where the authorization to spend funds is explicitly defined within a script, rather than being implicitly defined through the reference to an authorized public key. The largest benefit of explicit specification of authorization conditions is that the system is fully extensible, so new operations can be defined at any time and the only limitation on the authorization system is the set of operations that the authorization interpreters understand.
 
 ### Background
 
