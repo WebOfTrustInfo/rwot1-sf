@@ -72,6 +72,8 @@ From the point of view of each Entity, the Action is now complete. They’ve mad
 
 **_Manipulation of Feedback_** is the final step, where an automated system takes any reputation data stated by an Entity and adjusts it according to specific rules defined by the Web of Trust that the Entities are members of.
 
+![Interaction Diagram](/supporting-files/rebranding-fig3-interaction.jpg?raw=true)
+
 Together these rules for reporting reputation and for massaging feedback can do a lot to control the feel of the entire Web. They can discourage negative feedback by bridging problems between Entities; or they could do the opposite. The end result helps to describe what sort of Web is actually being created: is it a true Web of Trust, or is it a Web of Shame?
 
 After the feedback systems have massaged reputation data, it’s fed back into the appropriate Entity as a new, updated, or expanded attribute. Such attributes are usually of the loosely held type, because they’re not directly controlled by the Entity.
