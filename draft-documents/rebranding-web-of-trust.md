@@ -54,7 +54,7 @@ Though attributes are connected to an Entity, they aren’t necessarily controll
 
 ## A Proposed Action Model
 
-Entities define the identity side of the Web of Trust, but in order for them to come together into a Web, they must perform Actions together.
+<img align="right" src="/supporting-files/rebranding-fig2-entity.jpg?raw=true">Entities define the identity side of the Web of Trust, but in order for them to come together into a Web, they must perform Actions together.
 
 An **_Action_** is something that occurs outside of the solar system of Entity, when he connects with another Entity. Where an Entity is an objective representation, an Action is instead a subjective interaction. It’s defined by up to five sequential steps: decision of privacy, creation of expectations, experience of activity, interpretation of activity, and statement of reputation. Then the rules of the community (or if you prefer the Web) may introduce one final step: manipulation of feedback.
 
