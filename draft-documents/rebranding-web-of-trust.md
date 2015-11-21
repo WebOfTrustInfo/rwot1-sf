@@ -54,9 +54,9 @@ Though attributes are connected to an Entity, they aren’t necessarily controll
 
 ## A Proposed Action Model
 
-<img align="right" src="/supporting-files/rebranding-fig2-action.jpg?raw=true">Entities define the identity side of the Web of Trust, but in order for them to come together into a Web, they must perform Actions together.
+Entities define the identity side of the Web of Trust, but in order for them to come together into a Web, they must perform Actions together.
 
-An **_Action_** is something that occurs outside of the solar system of Entity, when he connects with another Entity. Where an Entity is an objective representation, an Action is instead a subjective interaction. It’s defined by up to five sequential steps: decision of privacy, creation of expectations, experience of activity, interpretation of activity, and statement of reputation. Then the rules of the community (or if you prefer the Web) may introduce one final step: manipulation of feedback.
+<img align="right" src="/supporting-files/rebranding-fig2-action.jpg?raw=true">An **_Action_** is something that occurs outside of the solar system of Entity, when he connects with another Entity. Where an Entity is an objective representation, an Action is instead a subjective interaction. It’s defined by up to five sequential steps: decision of privacy, creation of expectations, experience of activity, interpretation of activity, and statement of reputation. Then the rules of the community (or if you prefer the Web) may introduce one final step: manipulation of feedback.
 
 **_Decision of Privacy_** requires for Entities to decide what they’re going to reveal to each other as part of the Action. They must each decide how much of their Identity, their Verification, their Authentication, and their Attributes to expose, if any; the Entities might decide to reveal nothing, creating a totally anonymous Action.
 
