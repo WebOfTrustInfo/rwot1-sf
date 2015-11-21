@@ -54,7 +54,7 @@ Though attributes are connected to an Entity, they aren’t necessarily controll
 
 ## A Proposed Action Model
 
-<img align="right" src="/supporting-files/rebranding-fig2-entity.jpg?raw=true">Entities define the identity side of the Web of Trust, but in order for them to come together into a Web, they must perform Actions together.
+<img align="right" src="/supporting-files/rebranding-fig2-action.jpg?raw=true">Entities define the identity side of the Web of Trust, but in order for them to come together into a Web, they must perform Actions together.
 
 An **_Action_** is something that occurs outside of the solar system of Entity, when he connects with another Entity. Where an Entity is an objective representation, an Action is instead a subjective interaction. It’s defined by up to five sequential steps: decision of privacy, creation of expectations, experience of activity, interpretation of activity, and statement of reputation. Then the rules of the community (or if you prefer the Web) may introduce one final step: manipulation of feedback.
 
@@ -76,6 +76,8 @@ Together these rules for reporting reputation and for massaging feedback can do 
 
 After the feedback systems have massaged reputation data, it’s fed back into the appropriate Entity as a new, updated, or expanded attribute. Such attributes are usually of the loosely held type, because they’re not directly controlled by the Entity.
 
+When combined, Entities and Actions create a pictorial model of the contemporary Web of Trust that encompasses the many elements found in its big tent. Questions of identity and verification are addressed by Entities, while privacy, expectations, and reputation all appear in Actions.
+
 <table style="background-color:LightGray">
   <tr>
     <td>
@@ -83,8 +85,6 @@ After the feedback systems have massaged reputation data, it’s fed back into t
 Blockchain has recently become an important player in the contemporary Web of Trust, but it’s not actually core to the definition of the term. That’s because blockchain is fundamentally a tool. One of its core functions is to create dated certifications of existence in a (hopefully) decentralized way. With that functionality, Blockchain can (and has) become central to the creation of a number of proposed Web of Trust technologies. However it’s ultimately just a component that might be used, not an ends in itself.</td>
   </tr>
 </table>
-
-When combined, Entities and Actions create a pictorial model of the contemporary Web of Trust that encompasses the many elements found in its big tent. Questions of identity and verification are addressed by Entities, while privacy, expectations, and reputation all appear in Actions.
 
 ## Should We Rename or Reclaim the Web of Trust?
 
