@@ -550,3 +550,29 @@ history.) We have a grave responsibility to implemement these systems in an
 ethical and forward-thinking manner.
 
 Doing so will preserve the largest possible potential to future generations.
+
+## Appendix: Why 'Decentralized'?
+
+An identifiable chronology can be observed through network infrastructure
+trends:
+
+1. Centralized - referring to the simple 'conventional model' where all users
+   connect (or even 'dial into' in the 80s and early 90s) to a single server
+   which handles all communication for clients. Clients are completely dependent
+   on single servers to be both available and trustworthy.
+2. Distributed - encompassing both high-availability clusters, load-balanced
+   servers, content delivery networks, and cloud services. This design is
+   primarily concerned with performance and robustness, leaving independence out
+   of the picture.
+3. Federated - systems like Diaspora, where small-scale 'centralized' services
+   coordinate traffic between each other, allowing for a measure of independence
+   (usually anyone technically literate can establish a service), while avoiding
+   islanding or balkanization of networks.
+4. Decentralized - (ideally completely) flat systems wherein essentially every
+   user is also a 'provider' of the service. Provider activity usually consists
+   of relaying traffic and participating in cryptographic computation to
+   maintain the health or security of the network. 
+
+Decentralized systems, if well-implemented, have the best future outlook--they
+are highly robust, incredibly scalable, and offer a great deal of flexibility as
+the basis for an application stack.
