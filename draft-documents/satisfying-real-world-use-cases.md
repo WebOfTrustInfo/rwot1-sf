@@ -575,4 +575,11 @@ trends:
 
 Decentralized systems, if well-implemented, have the best future outlook--they
 are highly robust, incredibly scalable, and offer a great deal of flexibility as
-the basis for an application stack.
+the basis for an application stack. Moreover, their basic design assumptions
+mitigate issues with national privacy regulations--the data storage location is
+typically not allowed to view the stored data *en masse* (i.e., the data is
+encrypted in storage and in transit). Instead, they are tasked only to transport
+the data to a trusted location or temporary environment where it can serve its
+purpose (such as issuing or verifying claims). Systems that exemplify this
+feature include [Tahoe-LAFS](https://en.wikipedia.org/wiki/Tahoe-LAFS),
+[Twister](http://twister.net.co/), and [Freenet](https://freenetproject.org/).
