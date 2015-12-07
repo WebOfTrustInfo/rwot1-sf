@@ -418,6 +418,19 @@ dire traits as a refugee can be credentialed to a degree acceptable by Global
 North governments while maintaining strong guarantees of security and privacy to
 all the stakeholders involved.
 
+#### Commentary: Vetting Refugees
+
+In the wake of the November 2015 Paris attacks, multiple nations have cut back
+on refugee intake, ostensibly in response to increased fears over the vetting of
+refugees. While governmental immigration checks are typically quite extensive
+and deliberate, we believe a robust system like the one proposed here might
+allow for more trustworthy claims, as well as faster vetting and verifying in
+general, improving conditions for refugees and host countries alike. Most
+notably, such a system avoids the false tradeoff between
+['security and privacy'](bits.blogs.nytimes.com/2015/11/18/europe-shaken-by-paris-attacks-weighs-security-with-privacy-rights/),
+allowing claims about risk to be judged in a verifiable fashion while protecting
+the privacy of the majority of innocent refugees.
+
 ### 5. Trafficking / Safe Houses
 
 Marsha is a victim of human trafficking who has been rescued by a local group
