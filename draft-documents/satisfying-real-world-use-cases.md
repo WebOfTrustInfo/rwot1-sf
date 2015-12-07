@@ -553,8 +553,8 @@ Doing so will preserve the largest possible potential to future generations.
 
 ## Appendix: Why 'Decentralized'?
 
-An identifiable chronology can be observed through network infrastructure
-trends:
+Network service infrastructure, viewed broadly, has exhibited the following four
+trends in rough succession:
 
 1. Centralized - referring to the simple 'conventional model' where all users
    connect (or even 'dial into' in the 80s and early 90s) to a single server
@@ -576,10 +576,10 @@ trends:
 Decentralized systems, if well-implemented, have the best future outlook--they
 are highly robust, incredibly scalable, and offer a great deal of flexibility as
 the basis for an application stack. Moreover, their basic design assumptions
-mitigate issues with national privacy regulations--the data storage location is
-typically not allowed to view the stored data *en masse* (i.e., the data is
-encrypted in storage and in transit). Instead, they are tasked only to transport
-the data to a trusted location or temporary environment where it can serve its
-purpose (such as issuing or verifying claims). Systems that exemplify this
-feature include [Tahoe-LAFS](https://en.wikipedia.org/wiki/Tahoe-LAFS),
-[Twister](http://twister.net.co/), and [Freenet](https://freenetproject.org/).
+mitigate issues with transnational privacy regulations--the data storage
+location is typically not allowed to view the stored data *in situ* (i.e., the
+data is encrypted in storage and in transit). Instead, they are tasked only to
+transport the data to a trusted location or temporary environment where it can
+serve its purpose (such as issuing or verifying claims). Systems that exemplify
+this feature include [Tahoe-LAFS](https://en.wikipedia.org/wiki/Tahoe-LAFS) and
+[Freenet](https://freenetproject.org/).
