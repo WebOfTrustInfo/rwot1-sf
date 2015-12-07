@@ -435,12 +435,12 @@ have access to many physical and digital credentials, which may also link
 to friends or family. Marsha might want to reconnect with people or obtain
 access to stores of value in existing accounts without risking further harm.
 
-The main government or aid agency also has requirements of its own. It needs Marsha to
-establish core attributes of identity and to submit repeated proofs of that
-identity and (changing) status for compliance purposes, so that it can account
-for the aid provided. However, when Marsha finally leaves the safe house and
-resumes independent life, she must be sure that her private information leaves
-with her.
+The main government or aid agency also has requirements of its own. It needs
+Marsha to establish core attributes of identity and to submit repeated proofs of
+that identity and (changing) status for compliance purposes, so that it can
+account for the aid provided. However, when Marsha finally leaves the safe house
+and resumes independent life, she must be sure that her private information
+leaves with her.
 
 These requirements can be summarized as follows:
 
@@ -454,10 +454,27 @@ These requirements can be summarized as follows:
 
 The key to meeting these needs is to provide an individual services across time
 and space in a way that avoids duplication and provides for continuity of
-care. In other words, it requires persistent correlatable claims. An independent
-organization can issue these claims with the consent of the client, achieving
-this result for the client without compromising her privacy. Thus, she avoids
-touching the local government systems that she mistrusts.
+care. In other words, it requires persistent correlatable
+claims--cryptographically verified statements in support of personal
+information. An example might be:
+
+1. An aid organization, in conjunction with an independent provider (ideally an
+   NGO specializing in identity management), equips Marsha with a clean, fresh
+   device for securely handling her data and contacting aid workers.
+2. Marsha enters her personal demographic data into the device, without
+   publishing the information anywhere.
+3. The aid organization signs Marsha's claims to eligibility for government or
+   other assistance programs.
+4. Additionally, the aid organization can similarly serve as a proxy for
+   communications with relatives or friends Marsha needs to reach--since the aid
+   organization and Marsha have personally established a secure, verifiable
+   relationship, the aid organization can expand the sphere of private
+   communication.
+
+An independent organization can transmit these claims with the consent of the
+client, achieving this result for the client without compromising her
+privacy. Thus, she avoids direct contact with local government systems that she
+mistrusts.
 
 By taking on this role, the independent organization is dis-intermediating the
 state issuance of identity documents. This is useful because of Marsha's
