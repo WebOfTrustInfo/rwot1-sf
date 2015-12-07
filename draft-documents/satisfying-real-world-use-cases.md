@@ -550,3 +550,47 @@ history.) We have a grave responsibility to implemement these systems in an
 ethical and forward-thinking manner.
 
 Doing so will preserve the largest possible potential to future generations.
+
+## Appendix: Why 'Decentralized'?
+
+Network service infrastructure, viewed broadly, has exhibited the following four
+trends in rough succession:
+
+1. Centralized - referring to the simple 'conventional model' where all users
+   connect (or even 'dial into' in the 80s and early 90s) to a single server
+   which handles all communication for clients. Clients are completely dependent
+   on single servers to be both available and trustworthy.
+2. Distributed - encompassing both high-availability clusters, load-balanced
+   servers, content delivery networks, and cloud services. This design is
+   primarily concerned with performance and robustness, leaving independence out
+   of the picture.
+3. Federated - systems like Diaspora, where small-scale 'centralized' services
+   coordinate traffic between each other, allowing for a measure of independence
+   (usually anyone technically literate can establish a service), while avoiding
+   islanding or balkanization of networks.
+4. Decentralized - (ideally completely) flat systems wherein essentially every
+   user is also a 'provider' of the service. Provider activity usually consists
+   of relaying traffic and participating in cryptographic computation to
+   maintain the health or security of the network. 
+
+Decentralized systems, if well-implemented, have the best future outlook--they
+are highly robust, incredibly scalable, and offer a great deal of flexibility as
+the basis for an application stack. Moreover, their basic design assumptions
+mitigate issues with transnational privacy regulations--the data storage
+location is typically not allowed to view the stored data *in situ* (i.e., the
+data is encrypted in storage and in transit). Instead, they are tasked only to
+transport the data to a trusted location or temporary environment where it can
+serve its purpose (such as issuing or verifying claims). Systems that exemplify
+this feature include [Tahoe-LAFS](https://en.wikipedia.org/wiki/Tahoe-LAFS) and
+[Freenet](https://freenetproject.org/).
+
+Throughout the scenarios presented in this paper, we make repeated reference to
+an 'independent data store' or 'provider', whose main obligation is to make data
+available under a variety of regulatory and situational regimes. This data,
+combined with whatever authentication secret each use case's subject holds, is
+the source of 'truth' used to issue claims. As emphasized above, both of these
+components must be maintained independently from governments or organizations,
+both for reasons of practicality (financial and managerial outlay to maintain
+large-scale systems) as well as trustworthiness (governments, NGOs, businesses,
+and marginalized individuals have vastly differing incentives). A decentralized
+system is the most scalable way to ensure the independence of such a system.
