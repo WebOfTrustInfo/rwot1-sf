@@ -583,3 +583,14 @@ transport the data to a trusted location or temporary environment where it can
 serve its purpose (such as issuing or verifying claims). Systems that exemplify
 this feature include [Tahoe-LAFS](https://en.wikipedia.org/wiki/Tahoe-LAFS) and
 [Freenet](https://freenetproject.org/).
+
+Throughout the scenarios presented in this paper, we make repeated reference to
+an 'independent data store' or 'provider', whose main obligation is to make data
+available under a variety of regulatory and situational regimes. This data,
+combined with whatever authentication secret each use case's subject holds, is
+the source of 'truth' used to issue claims. As emphasized above, both of these
+components must be maintained independently from governments or organizations,
+both for reasons of practicality (financial and managerial outlay to maintain
+large-scale systems) as well as trustworthiness (governments, NGOs, businesses,
+and marginalized individuals have vastly differing incentives). A decentralized
+system is the most scalable way to ensure the independence of such a system.
