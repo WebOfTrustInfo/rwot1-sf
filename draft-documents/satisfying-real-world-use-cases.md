@@ -468,18 +468,18 @@ These requirements can be summarized as follows:
 The key to meeting these needs is to provide an individual services across time
 and space in a way that avoids duplication and provides for continuity of
 care. In other words, it requires persistent correlatable
-claims--cryptographically verified statements in support of personal
+claims — cryptographically verified statements in support of personal
 information. An example might be:
 
 1. An aid organization, in conjunction with an independent provider (ideally an
    NGO specializing in identity management), equips Marsha with a clean, fresh
    device for securely handling her data and contacting aid workers.
-2. Marsha enters her personal demographic data into the device, without
+2. Marsha enters her personal demographic data into the device without
    publishing the information anywhere.
 3. The aid organization signs Marsha's claims to eligibility for government or
    other assistance programs.
-4. Additionally, the aid organization can similarly serve as a proxy for
-   communications with relatives or friends Marsha needs to reach--since the aid
+4. The aid organization can now also serve as a proxy for
+   communications with relatives or friends that Marsha needs to reach; since the aid
    organization and Marsha have personally established a secure, verifiable
    relationship, the aid organization can expand the sphere of private
    communication.
@@ -495,7 +495,7 @@ mistrust of the local state office. She is now able to have the independent
 organization mediate the provision of support services to her via government aid
 from a different department or a different level of government. She is not
 dependent on any particular part of government infrastructure to maintain her
-records throughout negotiation, be it a database targeted by criminals, or a
+records throughout negotiation — be it a database targeted by criminals, or a
 mandated program with a limited lifespan.
 
 #### Commentary: Digital Quarantines
@@ -603,7 +603,7 @@ trends in rough succession:
    of relaying traffic and participating in cryptographic computation to
    maintain the health or security of the network. 
 
-Decentralized systems, if well-implemented, have the best future outlook--they
+Decentralized systems, if well-implemented, have the best future outlook; they
 are highly robust, incredibly scalable, and offer a great deal of flexibility as
 the basis for an application stack. Moreover, their basic design assumptions
 mitigate issues with transnational privacy regulations--the data storage
