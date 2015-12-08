@@ -18,7 +18,7 @@ punitive postures: democracies come with the expectation that citizens be
 forever watchful of their government; while corporations are watched over by
 regulatory bureaus and further deterred by class-action suits.
 
-Decentralized systems that are engineered _not_ to concentrate power as it grows avoid
+Decentralized systems that are engineered to _prevent_ concentrating power as they grow avoid
 this. They can in fact increase their credibility as more users provide their
 assessments as input. Protocols and structures that are distributed and
 self-sovereign also offer significantly improved robustness, portability, and
@@ -26,8 +26,8 @@ versatility than conventional centralized or escrowed processes — especially
 when combined with secure cryptography.
 
 One of the first technologies to offer the advantages of decentralization
-emerged 25 years ago when the advent of PGP realized a Web of Trust, which
-contains decentralized, cryptographically verified attestations of its
+emerged 25 years ago when the advent of PGP realized a Web of Trust that
+contained decentralized, cryptographically verified attestations of its
 users. Unfortunately, failures of UX design confined the spread of PGP to highly
 technical communities.
 
