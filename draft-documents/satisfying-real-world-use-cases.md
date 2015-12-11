@@ -267,18 +267,20 @@ Everywhere Else_, Peruvian economist Hernando de Soto highlights a fundamental
 difference between Western liberal democracies and the rest of the world: the
 West has functioning systems that enable the abstract representation of
 value. For example, land is not simply owned territory — it is private property
-registered with the state and represented by land deeds, which have the force of
-law in disputes. The West also has functioning state institutions and systems of
-law that imbue those deeds with cultural and legal power. They have what could be
+registered with the state and represented by land deeds. These land deeds are an abstract representation of the land and as such can be used to leverage the ownership of the land when interacting with institutions like banks to secure capital. The West also has functioning state institutions and systems of
+law that imbue those deeds with cultural, financial and legal power. They have what could be
 considered high levels of social trust — as described by Steven M.R. Covey in
 _The Speed of Trust_ and
 [summarized by one of the co-authors of this document](http://www.identitywoman.net/the-trouble-with-trust-the-case-for-accountability-frameworks).
 
 Millions of individuals do not have such representative records (e.g., birth
-certificates) registered with government entities, and some governments may not
-be reliable enough to serve this role. Worse, many marginalized people are
+certificates) registered with government entities. and some governments may not
+be reliable enough to serve this role.  Worse, many marginalized people are
 prohibited from creating records that might enfranchise them, either through
-legal exclusion or threats of violence. The Gates Foundation considers this
+legal exclusion or threats of violence. 
+
+Without such abstract representation of themselves their ability to interact with institutions such as businesses, governments and NGO's is limited. 
+The Gates Foundation considers this
 issue
 [one of their eight global priorities](http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor):
 
