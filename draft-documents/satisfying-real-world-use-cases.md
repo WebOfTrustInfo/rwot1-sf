@@ -135,6 +135,8 @@ Variations on this theme have been published in academic literature for decades,
 beginning with the "blind signatures" of David Chaum et al. (1983) and the "zero
 knowledge proofs" of Goldwasser et al. (1985).
 
+Aspects of this use case are in practice in the commercialization of U-Prove (Microsoft) Technology in the German Identity System.  British Columbia's eID system was decisned to provides for the selective disclosure of just name and photo and an asserion of being above the drinking age when purchasing liquor (thus preventing the disclosure of name, address, exact birth date to the store clerk).
+
 ### 2. Short-term Contracts with Memory: Distributed AirBnB ###
 
 Tisha wants to rent an apartment from Joe for 2 weeks. They each need enough
