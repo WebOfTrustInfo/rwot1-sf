@@ -372,7 +372,7 @@ asylum must also bypass local centralized data stores, as it could be used to
 harm him (e.g., records identifying or locating individuals could be seized by a
 new hostile regime).
 
-In order to meet this goal, a secure, decentralized,privacy-respecting datastore must be made
+In order to meet this goal, a secure, decentralized,privacy-respecting data store must be made
 available to the legal jurisdiction of the host government that Yevgeni flees
 to. However, refugees often move through multiple state territories and would
 prefer to avoid creating permanent personal records under complete
