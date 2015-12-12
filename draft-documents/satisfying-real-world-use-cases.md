@@ -94,7 +94,7 @@ The following process could satisfy these requirements:
 2. Beth supplements the nonce with a description of the claim she wants to make
    (i.e., "birthdate earlier than 21 years prior to now") and signs it, creating
    a "digest".
-3. Beth submits the digest through secure channels to a decentralized store
+3. Beth submits the digest through secure channels to an independent, decentralized store
    whose record of truth (and therefore credibility) is out of the control of
    any one actor, whether government or business. The only guarantee the store
    needs externally provided is availability (i.e., uptime).
@@ -153,7 +153,7 @@ used as a reference for subsequent stays with others.
 
 The following process could satisfy these requiremenst:
 
-1. Tisha maintains basic demographic identifiers securely in distributed,
+1. Tisha maintains basic demographic identifiers securely in independent, decentralized,
    cryptographically verifiable, append-only repository, as per Use Case 1.
 2. Tisha and other users can "bootstrap" some limited reputability by having
    friends issue "letters of reference" on her behalf. These could be as simple
@@ -215,7 +215,7 @@ this context) equal to a fixed address.
 
 The following process could satisfy these requirements:
 
-1. An independent organization sets up a data store for collecting verifiable
+1. An independent organization sets up a decentralized data store for collecting verifiable
    claims submitted either by the state or Darla.
 2. The independent organization onboards Darla, ensures she understands the
    guarantees of privacy offered, and verifies that her credentials do not
@@ -243,7 +243,7 @@ reputation are both essential to maintaining accessibility to services.
 
 In this use case, Darla is without any "right to be forgotten", as her credit
 history and financial activity are inevitably stored in conventional centralized
-structures. Thus, the best she can do is provide verifiable stipulations
+structures, such as those held by a bank. Thus, the best she can do is provide verifiable stipulations
 governing the exchange between herself and financial institutions. One
 appropriate structure for this use case is a
 [link contract](https://en.wikipedia.org/wiki/Link_contract). Link contracts are
@@ -313,7 +313,7 @@ financial market.
 
 The following process could satisfy these requirements:
 
-1. An independent organization sets up a distributed data store that can be
+1. An independent organization sets up a decentralized data store that can be
    reached by users like Farhad with minimal equipment (e.g., a low-grade
    smartphone with data).
 2. Farhad bootstraps his financial record with verifiable records of work and
@@ -328,8 +328,8 @@ The following process could satisfy these requirements:
    receive these offers or apply directly for loans and other financial
    agreements.
 
-This system is empowered by distributed computing, which makes it possible to
-support individuals like Farhad in representing themselves — allowing them at
+This system is empowered by decentralized computing, which makes it possible to
+support individuals like Farhad in representing themselves — allowing them at
 last a self-sovereign identity that they create and control. Through it, they
 can link together their interactions and transactions and leverage them to
 create an abstract representation of themselves. This type of identity can
@@ -372,7 +372,7 @@ asylum must also bypass local centralized data stores, as it could be used to
 harm him (e.g., records identifying or locating individuals could be seized by a
 new hostile regime).
 
-In order to meet this goal, a secure, privacy-respecting data store must be made
+In order to meet this goal, a secure, decentralized,privacy-respecting datastore must be made
 available to the legal jurisdiction of the host government that Yevgeni flees
 to. However, refugees often move through multiple state territories and would
 prefer to avoid creating permanent personal records under complete
@@ -565,7 +565,7 @@ obtain the assurances they need to operate and engage in interactions that
 require persistance across time and space — a record of continuous commitments
 that will underlie incredible economic and social improvements for humankind.
 
-Privacy-respecting, secure (in the senses defined above), distributed systems
+Privacy-respecting, secure (in the senses defined above), decentralized systems
 are uniquely able to both accurately chart this experience and to empower us to
 foster or develop identities that have never been possible before. While this is
 great news from a technological standpoint, the same systems could also be
