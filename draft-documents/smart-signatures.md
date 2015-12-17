@@ -16,11 +16,11 @@ In traditional message signing systems, one generates two mathematically-linked 
 
 To produce a signature for a given message, a signature generation function takes as inputs a private key and the message to be signed. A reader can verify the signature with a known public key, which is linked to that unknown private key. This is done by a signature verification function that uses the public key, the signature, and the signed message as inputs.
 
-Traditional signature systems are very powerful on their own, as one can verify a signature without being able to produce it. However, these longstanding cryptographic systems are very limited in scope.
+Traditional signature systems are very powerful on their own, as one can verify a signature without being able to produce it. However, these longstanding cryptographic systems are also limited in scope.
 
 ### Bitcoin Scripting
 
-Bitcoin contains a fairly advanced authorization system. Every transaction in Bitcoin has a set of recipients, where each of the recipients is actually a script that outlines the conditions under which the coins can be spent at a future date. These scripts are the equivalent of challenges. Anyone who can meet the conditions outlined by the script is granted access to spend the funds.
+Bitcoin contains a fairly advanced authorization system. Every transaction in bitcoin has a set of recipients, where each of the recipients is actually a script that outlines the conditions under which the coins can be spent at a future date. These scripts are the equivalent of challenges. Anyone who can meet the conditions outlined by the script is granted access to spend the funds.
 
 These scripts can be very powerful and support various levels of complexity:
 
@@ -34,7 +34,7 @@ The following examples shows a standard bitcoin script:
 OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-Here, authorization would be granted if a user could provide a smart signature that contains a standard signature and a public key that together could be used as input for a bitcoin script-compatible verification function in order to produce a "true" output.
+Here, authorization would be granted if a user could provide a smart signature that contains a standard signature and a public key that together could be used as input for a bitcoin script-compatible verification function and that together produce a "true" output.
 
 ## Proposal
 
@@ -50,7 +50,7 @@ A smart signature system could begin with the standard bitcoin script referenced
 OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-However, this script would be embeedded inside a smart certificate that is used outside of the blockchain context. When provided with a signature, certificate validation code would verify the authenticity of the script, as follows:
+This script would be embedded inside a smart certificate that is used outside of the blockchain context. When provided with a signature, certificate validation code would verify the authenticity of the script, as follows:
 
 1. The user's signature is pushed onto the stack, producing `[SIG1]`
 1. The user's public key is pushed onto the stack, producing `[SIG1][PUB1]`
@@ -113,4 +113,4 @@ Some possible implementation concepts:
 + __Asynchronous Oracles__ - A number of use cases may require connecting to an third-party oracle to evaluate certain conditions such as a proof-of-existence as of a certain date, proof-of-uniqueness, specific financial information, or revocation status. It could be that these oracles are pre-fetched and added to the script's context before execution. If so, how does a script tell the virtual machine what to pre-fetch? It could be that certain oracles are distributed on DHT or blockchain and thus are always static. In any case, any asynchrony has security implications including the possibility of denial of service. How do we minimize these risks?
 + __Revocation__ - There was some discussion by the team about how to do revocation. Revocation is not as simple as a failed authentication; revoking a key is distinct from all other signature operations as it implies a desire for proof of non-revocation. It could be that revocation scripts need to be separate and distinct from a validation script. Possibly a proof-of-publication oracle can support this by providing a signature attesting to the fact that a specific revocation does not exist as of some timestamp. Finally, we could only use short-lived keys and not rely on revocation at all.
 * __Hierarchical Deterministic Keys__ - A number of use cases (in particular short-lived keys) may require scripts to evaluate validity of HD keys. Can we do this securely in script? What additional operands may be required?
-+ __Choice of Language__ - The team has focused on a variant of Bitcoin's Forth-like scripting language. The advantage here is that we can leverage the security reviews and understanding of a widely deployed existing system. However, at some point if we add enough features to the language that are unique to smart signatures, the benefits of being derived from bitcoin's script become less valuable. Other language approaches may offer superior features without compromising security, or offer superior tools. This team agrees that a simplified language should be a requirement, but where to draw the line is unclear.
++ __Choice of Language__ - The team has focused on a variant of bitcoin's Forth-like scripting language. The advantage here is that we can leverage the security reviews and understanding of a widely deployed existing system. However, at some point if we add enough features to the language that are unique to smart signatures, the benefits of being derived from bitcoin's script become less valuable. Other language approaches may offer superior features without compromising security, or offer superior tools. This team agrees that a simplified language should be a requirement, but where to draw the line is unclear.
