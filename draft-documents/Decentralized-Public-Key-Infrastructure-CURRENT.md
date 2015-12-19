@@ -1,20 +1,14 @@
-TODO:
+# Decentralized Public Key Infrastructure
 
-* Finish adding correct and alphabetized authors/attributions for sections.
+#### _by Christopher Allen, Arthur Brock, Vitalik Buterin, Jon Callas, Duke Dorje, Christian Lundkvist,  Pavel Kravchenko, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak, Noah Thorp, and Harlan T Wood_
 
-* Full Acknowledgements: *Christopher Allen, Arthur Brock, Vitalik Buterin, Jon Callas, Duke Dorje, Christian Lundkvist,  Pavel Kravchenko, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak, Noah Thorp, Harlan T Wood*
-
-**_Switch to "Suggesting" when editing other people’s sections, and use “Editing” for modifying your own._**
-
-Decentralized Public Key Infrastructure (ROUGH DRAFT)
-
-**Abstract**
+## Abstract
 
 Today’s Internet places control of online identities into the hands of third-parties. Email addresses, usernames, and website domains are borrowed or "rented" through DNS, X.509, and social networks. This results in severe usability and security challenges Internet-wide. This paper describes a possible alternate approach called *decentralized public key infrastructure (DPKI)*, which returns control of online identities to the entities they belong to. By doing so, DPKI addresses many usability and security challenges that plague traditional public key infrastructure (PKI). DPKI has advantages at each stage of the PKI life cycle. It makes permissionless bootstrapping of online identities possible and provides for the simple creation of stronger SSL certificates. In usage, it can help [“Johnny” to finally encrypt](http://arxiv.org/abs/1510.08555) thanks to its relegation of public key management to secure decentralized datastores. Finally, it includes mechanisms to recover lost or compromised identifiers.
 
 ## 1. Introduction — Why DPKI
 
-**_Section Contributors Alphabetical By Last Name:_*** Christopher Allen, Christian Lundkvist, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak*
+#### _Section Contributors Alphabetical By Last Name: Christopher Allen, Christian Lundkvist, Jude Nelson, Drummond Reed, Markus Sabadello, and Greg Slepak_
 
 The Internet facilitates communications and transactions between individuals worldwide. This is conducted through the use of identifiers such as email addresses, domains, and usernames. But who controls these identifiers? How are they managed? And how is secure communication facilitated between them?
 
@@ -60,7 +54,7 @@ As a result of conventional PKI’s usability challenges, much of Web traffic to
 
 ## 2. DPKI’s Answer To The Web’s Trust Problems
 
-**_Section Contributors Alphabetical By Last Name:_*** Drummond Reed, Greg Slepak*
+#### _Section Contributors Alphabetical By Last Name: Drummond Reed, and Greg Slepak_
 
 The answer is not to abandon PKI, but to find an alternative: DPKI, a future specification for a *decentralized* public-key infrastructure.
 
@@ -78,7 +72,7 @@ A complete description of blockchains and their consensus protocols is beyond th
 
 ## 3. DPKI’s Threat Model
 
-**_Section Contributors Alphabetical By Last Name:_*** Jude Nelson*
+#### _Section Contributors Alphabetical By Last Name: Jude Nelson_
 
 Like conventional PKI systems, DPKI assumes that a persistent active adversary Mal constantly tries to trick one principal Alice into trusting the wrong key for another principal Bob. This can take the form of discovering the wrong identifier for Bob (e.g., finding the wrong account at twitter.com) or caching the wrong key once the identifier is known.
 
@@ -94,7 +88,7 @@ As already suggested, DPKI achieves these design principles through use of secur
 
 ## 4. Registration and Identifiers
 
-**_Section Contributors Alphabetical By Last Name:_*** **Christopher Allen, **Christian Lundkvist, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak*
+#### _Section Contributors Alphabetical By Last Name: Christopher Allen, **Christian Lundkvist, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak_
 
 As described in the previous sections, the core of DPKI are decentralized key-value datastores that can serve as identifier registries, allowing a principal’s public keys to become securely associated with their identifier. As long as this registration remains valid and the principal is able to maintain control of their private key, no third-party can take ownership of that identifier without resorting to direct coercion of the principal. 
 
@@ -108,7 +102,7 @@ For DPKI to use a decentralized key-value store it must have the following prope
 
 These needs can be met through blockchains such as Namecoin, Ethereum, and potentially even Bitcoin (through technologies such as Blockstore).
 
-#### The Requirements of DPKI Registration
+### The Requirements of DPKI Registration
 
 The way identifier registration is handled in DPKI is different from DNS. Although registrars may exist in DPKI, they must adhere to several requirements born out of DPKI’s goal to ensure that *identities belong to the entities they represent:*
 
@@ -134,7 +128,7 @@ We recommend that DPKI infrastructure also strive to ensure the existence of:
 
 DPKI should not discriminate against any party that wishes to use it, and registries should be considered a commons; their design and operation guided by principles of openness, neutrality, and inclusion (NOTE:  Ostrom, Elinor (1990). Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge, UK: Cambridge University Press. ISBN 9780521405997. or Allen, Christopher (2015). A Revised "Ostrom’s Design Principles for Collective Governance of the Commons" http://www.lifewithalacrity.com/2015/11/a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-.html).
 
-#### The Mechanics of DPKI Registration
+### The Mechanics of DPKI Registration
 
 Registered identifiers are likely to have two types of keys associated with them: the keypair that’s used for registering and for updating the data associated with the identifier, and the public keys associated with the identifier (*subkeys*).
 
@@ -146,7 +140,7 @@ It is recommended that the *subkeys* be used by the principal to sign messages. 
 
 ## 5. Security of Identifiers And Public Keys
 
-**_Section Contributors Alphabetical By Last Name:_*** Vitalik Buterin, Jude Nelson, Greg Slepak*
+#### _Section Contributors Alphabetical By Last Name: Vitalik Buterin, Jude Nelson, and Greg Slepak_
 
 In DPKI, identifiers are typically lookup keys that map to values that can only be modified by the entity (or entities) with the corresponding private key(s). In such a system, the worst that can happen is:
 
@@ -210,7 +204,7 @@ A separate but related concern is censorship of the data that’s referenced by 
 
 ## 6. Recovering Lost Identifiers - Private Key Management
 
-**_Section Contributors Alphabetical By Last Name:_*** Vitalik Buterin, Christian Lundkvist,  Pavel Kravchenko, Jude Nelson, Duke Dorje, Arthur Brock, Greg Slepak, Noah Thorp, Harlan T Wood*
+#### _Section Contributors Alphabetical By Last Name: Vitalik Buterin, Christian Lundkvist,  Pavel Kravchenko, Jude Nelson, Duke Dorje, Arthur Brock, Greg Slepak, Noah Thorp, and Harlan T Wood_
 
 Strong, reliable ownership of identifiers can make those identifiers highly valuable. Identifiers could be used to authenticate a user to the door of their house, their car, etc. These identifiers begin to represent the "keys to one’s kingdom". It would be catastrophic if these identifiers were lost or compromised. Addressing that problem is therefore of paramount importance to DPKI’s success.
 
@@ -240,7 +234,9 @@ In the event of loss, the principal would ask for N shards of the master key fro
 
 This technique does little to protect principals in the event of master key compromise, however.
 
-#### ![image alt text](image_0.jpg)Protecting Against Compromise
+![Sharding Diagram](/supporting-files/dpki-keysharding.jpg?raw=true)
+
+#### Protecting Against Compromise
 
 The danger of compromise comes about from a single entity having the master key in their possession any point in time. We can address this issue by ensuring that *no single entity possess the master key at any single point in time.*
 
@@ -272,7 +268,8 @@ Our future work is to develop a full specification for DPKI through an Internet 
 
 ## References
 
-[Government Innovation in eID + Citizen Engagement](http://www.identitywoman.net/bc-government-innovation-in-eid-citizen-engagement)[BC Identity Citizen Consultation Results](http://www.identitywoman.net/bc-identity-citizen-consultation-results)
+[Government Innovation in eID + Citizen Engagement](http://www.identitywoman.net/bc-government-innovation-in-eid-citizen-engagement)
+[BC Identity Citizen Consultation Results](http://www.identitywoman.net/bc-identity-citizen-consultation-results)
 
 Namecoin’s UNO Commitments by Daniel Kraft
 
@@ -358,11 +355,11 @@ The main challenge with this mechanism is simple: what if the network connection
 
 After a thin client has successfully received a small piece of data that is "trusted" it must be able to verify claims about the rest of the data in the chain. This relies on Merkle trees. A Merkle tree is a hashing algorithm where a large number of “chunks” of data are hashed a few pieces at a time, and then the resulting hashes are themselves put into small groups and hashed and so on recursively until the process results in one single hash, called the **root**. A simple depiction of this is as follows:
 
-![image alt text](image_1.png)
+![Sharding Diagram](/supporting-files/dpki-merkle.jpg?raw=true)
 
 The benefit of this method is that the membership of any single chunk of data in the tree can be proven via a Merkle branch, which is the subset of nodes in the tree whose values are used in the process of computing the root hash.
 
-![image alt text](image_2.png)
+![Sharding Diagram](/supporting-files/dpki-merkle-subset.jpg?raw=true)
 
 With just this set of nodes, a thin client can verify that a particular chunk is in the tree has a particular proof. The scheme is secure up to collision resistance; in order for an attacker to cheat the scheme, the attacker would need to break the underlying hash function. There are many different kinds of Merkle trees, including simple binary trees and more advanced designs such as Merkle Patricia trees that allow for efficient insert and delete operations, but the basic principle is the same.
 
