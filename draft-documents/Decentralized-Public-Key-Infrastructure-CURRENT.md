@@ -172,7 +172,9 @@ We can roughly define a metric for measuring the decentralization of most blockc
 
 Since compromise of any one of those groups leads to compromise of the system, we define the *decentralization of a blockchain* as:
 
-	**Decentralization(Blockchain) = MIN("Devs", “Nodes”, “Validators”)**
+```
+Decentralization(Blockchain) = MIN("Devs", “Nodes”, “Validators”)
+```
 
 More informally, users can infer the decentralization of a datastore by the Quality of Service (QoS) that it provides. If, for example, users notice that they are suddenly unable to update their identifiers, then this could indicate censorship due to centralization.
 
