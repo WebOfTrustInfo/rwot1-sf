@@ -357,11 +357,11 @@ The main challenge with this mechanism is simple: what if the network connection
 
 After a thin client has successfully received a small piece of data that is "trusted" it must be able to verify claims about the rest of the data in the chain. This relies on Merkle trees. A Merkle tree is a hashing algorithm where a large number of “chunks” of data are hashed a few pieces at a time, and then the resulting hashes are themselves put into small groups and hashed and so on recursively until the process results in one single hash, called the **root**. A simple depiction of this is as follows:
 
-![Sharding Diagram](/supporting-files/dpki-merkle.jpg?raw=true)
+![Sharding Diagram](/supporting-files/dpki-merkle.png?raw=true)
 
 The benefit of this method is that the membership of any single chunk of data in the tree can be proven via a Merkle branch, which is the subset of nodes in the tree whose values are used in the process of computing the root hash.
 
-![Sharding Diagram](/supporting-files/dpki-merkle-subset.jpg?raw=true)
+![Sharding Diagram](/supporting-files/dpki-merkle-subset.png?raw=true)
 
 With just this set of nodes, a thin client can verify that a particular chunk is in the tree has a particular proof. The scheme is secure up to collision resistance; in order for an attacker to cheat the scheme, the attacker would need to break the underlying hash function. There are many different kinds of Merkle trees, including simple binary trees and more advanced designs such as Merkle Patricia trees that allow for efficient insert and delete operations, but the basic principle is the same.
 
