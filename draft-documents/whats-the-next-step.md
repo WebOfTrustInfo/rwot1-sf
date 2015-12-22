@@ -3,7 +3,7 @@
 
 On November 3rd and 4th, the Rebuilding the Web of Trust design workshop looked at the future of decentralized trust on the internet with the goal of producing 3-5 white papers and specs. Those papers were polished for release in December, leaving the question: what's next?
 
-Our major goal is to produce something notable for the 25th anniversary of PGP, in July 2016. This should be a working proof-of-concept that can help the Web of Trust to reach a broader audience. It should be something that's both _usable_ and _used_ and it needs to be _compelling_.
+Our major goal is to produce something notable for the 25th anniversary of PGP, in July 2016. This should be a working proof-of-concept that can help the Web of Trust to reach a broader audience. It should be something that's both _usable_ and _used_, it needs to be _compelling_ and _inclusive_.
 
 If we can meet this goal, we can make our design ideas into reality.
 
@@ -30,6 +30,10 @@ Whatever project we decide upon, we should keep in mind the following general pr
 * The most successful project will probably include both a platform _and_ an app, supporting the big picture _and_ the public perception.
 
 As we map out the topography of the new digital world, we hope to turn our Web of Trust into a whole World of Trust.
+
+(((What is the basis of this statment? What do you/we think we mean by trust - at what scale for what purpose? )))
+
+
 
 ## The Road to 2016
 
