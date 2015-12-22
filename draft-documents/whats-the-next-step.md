@@ -19,7 +19,7 @@ Beyond that, our design workshop highlighted two projects that were popular and 
 
 The first is DPKI, a decentralized PKI system that received an extensive white paper at the design workshop. Figuring out how to fund and ship it was the most popular suggestion for our next step among design workshop participants.
 
-The second is a solution for refugee identity as discussed in "Starting from Zero", one of five use cases in the "Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data" white paper. This use case evolved to discuss the ongoing plight of Syrian refugees but has only increased in importance sine the 11/13 terrorist attacks on Paris.
+The second is a solution for refugee identity as discussed in "Starting from Zero", one of five use cases in the "Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data" white paper. This use case evolved to discuss the ongoing plight of Syrian refugees but has only increased in importance since the 11/13 terrorist attacks on Paris.
 
 It might be that neither of these projects is right for 2016. The correct answer might be a subset of one of them or something else entirely. But these were the projects that received the most attention at the design workshop, making them a good starting point for discussions.
 
