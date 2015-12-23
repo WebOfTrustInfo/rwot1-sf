@@ -40,6 +40,8 @@ In X.509 PKIX, web services are secured through the creation of the keys signed 
 
 The design of X.509 PKIX also permits any of [~1200 CAs](http://www.ietf.org/mail-archive/web/therightkey/current/msg00745.html) around the world to impersonate any website. This is further complicated by the risk of coercion or compromise of a CA. Because of these dangers, users cannot be certain that their communications are not being compromised by a fraudulent certificate allowing a MITM (Man-in-the-Middle) attack. These attacks are extremely difficult to detect; companies like Google that produce web browsers can sometimes recognize attacks on their own websites, but they cannot prevent attacks on arbitrary websites. 
 
+![CA Diagram](/supporting-files/dpki-mitm.jpg?raw=true)
+
 Workarounds have been proposed. HPKP is an IETF standard that lets websites tell visitors to "pin" the public key they receive for a period of time (ignoring any other key). However, such mechanisms are difficult for website administrators to use and therefore might not be used much in practice. HPKP is vulnerable to [“Hostile Pinning”](https://tools.ietf.org/html/rfc7469#section-4.5), and in cases where the pin is legitimate it comes with a risk of breaking websites if key(s) need to be legitimately replaced. Worse still, some implementations of HPKP make it trivial for [a third-party to override arbitrary pins](https://blog.okturtles.com/2015/11/dells-tumble-googles-fumble-and-how-government-sabotage-of-internet-security-works/) without user consent.
 
 ### The Usability of PKI
@@ -357,11 +359,11 @@ The main challenge with this mechanism is simple: what if the network connection
 
 After a thin client has successfully received a small piece of data that is "trusted" it must be able to verify claims about the rest of the data in the chain. This relies on Merkle trees. A Merkle tree is a hashing algorithm where a large number of “chunks” of data are hashed a few pieces at a time, and then the resulting hashes are themselves put into small groups and hashed and so on recursively until the process results in one single hash, called the **root**. A simple depiction of this is as follows:
 
-![Sharding Diagram](/supporting-files/dpki-merkle.png?raw=true)
+![Merkle Trees](/supporting-files/dpki-merkle.png?raw=true)
 
 The benefit of this method is that the membership of any single chunk of data in the tree can be proven via a Merkle branch, which is the subset of nodes in the tree whose values are used in the process of computing the root hash.
 
-![Sharding Diagram](/supporting-files/dpki-merkle-subset.png?raw=true)
+![Merkle Subsets](/supporting-files/dpki-merkle-subset.png?raw=true)
 
 With just this set of nodes, a thin client can verify that a particular chunk is in the tree has a particular proof. The scheme is secure up to collision resistance; in order for an attacker to cheat the scheme, the attacker would need to break the underlying hash function. There are many different kinds of Merkle trees, including simple binary trees and more advanced designs such as Merkle Patricia trees that allow for efficient insert and delete operations, but the basic principle is the same.
 
