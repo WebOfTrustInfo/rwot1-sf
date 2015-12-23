@@ -30,7 +30,7 @@ For all these reasons, the foundational precept of DPKI is that *identities belo
 
 ### The Security of Online Communication
 
-Online communications are secured through the safe delivery of *public keys*. These keys correspond to identities. The entity these identities represent, called the *principal, *uses a corresponding secret *private key* to both decrypt messages sent to them, and to prove they sent a message (by signing it with the private key).
+Online communications are secured through the safe delivery of *public keys*. These keys correspond to identities. The entity these identities represent, called the *principal*, uses a corresponding secret *private key* to both decrypt messages sent to them, and to prove they sent a message (by signing it with the private key).
 
 PKI systems are responsible for the secure delivery of public keys. However, the commonly used X.509 PKI, PKIX, undermines both the creation and the secure delivery of these keys.
 
@@ -84,7 +84,7 @@ In light of Mal’s powers, two design principles for DPKI become apparent:
 
 2. The system must make all-or-nothing forward progress: either every principal must witness every other principal’s updates to their identifier/public-key bindings, or else no one may observe any updates. This is required to protect against Mal’s possible network-level attacks by alerting the entire network to her presence if she censors updates to certain principals.  This makes targeted attacks against certain users or key-pairs extremely costly, because it ensures that the only way Mal can attack anyone is to attack everyone at once.
 
-As already suggested, DPKI achieves these design principles through use of secure decentralized key-value datastores to host the bindings between identifiers and public-key hashes. See *§5, "Security of Identifiers and Public-Keys" *provides details.
+As already suggested, DPKI achieves these design principles through use of secure decentralized key-value datastores to host the bindings between identifiers and public-key hashes. See *§5, "Security of Identifiers and Public-Keys"* for details.
 
 ## 4. Registration and Identifiers
 
@@ -134,9 +134,9 @@ Registered identifiers are likely to have two types of keys associated with them
 
 It is recommended that the *subkeys* be used by the principal to sign messages. They can be stored directly or indirectly in the datastore:
 
-* **Direct storage **means that the public key itself is stored directly in the DPKI datastore. For most blockchains, this is unlikely since some keys are quite large and most blockchains make storing them impossible or very expensive.
+* **Direct storage** means that the public key itself is stored directly in the DPKI datastore. For most blockchains, this is unlikely since some keys are quite large and most blockchains make storing them impossible or very expensive.
 
-* **Indirect storage **means that a pointer (e.g. a URI) is stored alongside with—or itself containing—the fingerprint for the public key.
+* **Indirect storage** means that a pointer (e.g. a URI) is stored alongside with—or itself containing—the fingerprint for the public key.
 
 ## 5. Security of Identifiers And Public Keys
 
@@ -164,11 +164,11 @@ While blockchains may start out decentralized, they do not necessarily end up th
 
 We can roughly define a metric for measuring the decentralization of most blockchains by counting the following entities (each of whom act a single point of failure for the entire system when centralized):
 
-* **"Devs" — **The number of parties who have control over the behavior (source code) of the blockchain.
+* **"Devs"** — The number of parties who have control over the behavior (source code) of the blockchain.
 
-* **"Nodes" — **The number of blockchain replicas, measured by the number of full nodes.
+* **"Nodes"** — The number of blockchain replicas, measured by the number of full nodes.
 
-* **"Validators" — **The number of blockchain miners/validator, who are responsible for creating new blocks and authorizing transactions.
+* **"Validators"** — The number of blockchain miners/validator, who are responsible for creating new blocks and authorizing transactions.
 
 Since compromise of any one of those groups leads to compromise of the system, we define the *decentralization of a blockchain* as:
 
@@ -212,7 +212,7 @@ Strong, reliable ownership of identifiers can make those identifiers highly valu
 
 ### Two Forms of Loss
 
-Because of its importance, use of the *master key* must be minimized by any identity system that’s built on top of DPKI. Indeed, this is the approach already taken by identity systems like [Blockchain ID](https://github.com/blockstack/blockchain-id/wiki). Instead of using the master key to sign messages,* subkeys* are created for each new service that the identifier is used with.
+Because of its importance, use of the *master key* must be minimized by any identity system that’s built on top of DPKI. Indeed, this is the approach already taken by identity systems like [Blockchain ID](https://github.com/blockstack/blockchain-id/wiki). Instead of using the master key to sign messages, *subkeys* are created for each new service that the identifier is used with.
 
 This means there are two types of keys that can be lost or compromised:
 
@@ -230,7 +230,7 @@ There are various mechanisms that can be used to recover a *master key* in a dec
 
 #### Recombining Shards of the Master Key
 
-Principals can protect themselves against* master key* loss by distributing *shards* of the master key to trusted entities. Shamir Secret Sharing and Threshold Signatures are two techniques that can be used to generate and recombine these shards.
+Principals can protect themselves against *master key* loss by distributing *shards* of the master key to trusted entities. Shamir Secret Sharing and Threshold Signatures are two techniques that can be used to generate and recombine these shards.
 
 In the event of loss, the principal would ask for N shards of the master key from M entities. N is the number of distinct shards required for recovery. Upon receiving the N shards, the master key would be successfully recovered.
 
@@ -256,7 +256,7 @@ As a trivial example, a company like Google could secure their control over a bl
 
 Subkey compromise or loss is less of a concern than loss or compromise of a *master key*, because verification is typically done using the current set of subkeys for an identifier. If a subkey is lost or compromised, the master key can simply be used to securely generate and replace the old subkey(s) in a blockchain. However, depending on how they are used, old subkeys might still require recovery or revocation.
 
-As mentioned previously, the importance of the master key implies that identifiers will be authenticated through messages signed by the *subkeys* of an identifier, and not messages signed by the *master key. *However, since those messages are typically associated with the identifier itself, they are in effect being signed by the master key (since the *master key* is directly tied to the identifier). Therefore, the master key can still be used to sign and disseminate messages revoking one or more historical subkeys.
+As mentioned previously, the importance of the master key implies that identifiers will be authenticated through messages signed by the *subkeys* of an identifier, and not messages signed by the *master key*. However, since those messages are typically associated with the identifier itself, they are in effect being signed by the master key (since the *master key* is directly tied to the identifier). Therefore, the master key can still be used to sign and disseminate messages revoking one or more historical subkeys.
 
 Recovery of lost subkeys can be done using the sharding mechanisms described previously. Alternatively, as with the group-based recovery schemes described above, a principal can choose to designate authority over their identifier to a group. This group could have the ability to sign new subkeys as belonging to the identifier, as well as the ability to sign messages that indicate an old key was compromised and therefore revoked.
 
@@ -291,7 +291,7 @@ Ethereum Related Documents On Thin Client Relevant Material
 
 ## Appendix: Thin Client Details
 
-**_Section Contributors Alphabetical By Last Name:_*** Vitalik Buterin, Greg Slepak*
+**_Section Contributors Alphabetical By Last Name:_** *Vitalik Buterin, Greg Slepak*
 
 ### Types of Information
 
