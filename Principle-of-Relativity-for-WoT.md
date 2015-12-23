@@ -1,3 +1,12 @@
+#### _by David Strayhorn_
+
+## Abstract
+
+By way of an analogy to Einstein's theory of relativity, I propose a principle of relativity for reputation in the context of the web of trust (WoT). This principle states that reputation can only be properly understood relative to a specific end-user. In other words, reputation is in the eye of the beholder. By this principle, we should shift focus from global reputation (e.g. Bob's trust score in absolute terms) to local reputation (e.g., Alice's evaluation of Bob's trustworthiness). Indeed, any attempt to construct WoT in a manner that enables the calculation of global reputation necessarily exacts a cost to privacy and in so doing will be detrimental to the overall utility of the WoT.
+
+**STATUS: UNFINISHED FIRST DRAFT**
+
+## 1. Body
 
 Most widely used systems for reputation and ratings calculate a single composite score out of a large number of individually submitted ratings. Examples include 1-5 star rating systems on Amazon or Yelp, feedback on eBay, or karma on reddit. These scores are global in the sense that the same score is viewed by all users. I would like to put forth the argument that global scores must be abandoned and replaced by local scoring systems, where composite scores depend not only on the user or entity being observed, but also on the user doing the observing. I call this the principle of relativity for ratings and reputation. Violation of this principle necessarily comes at the cost of privacy, because calculation of a global score assumes from the outset that certain pieces of data, such as individual ratings, must be visible to everybody if they are to have any meaningful existence at all.
 
