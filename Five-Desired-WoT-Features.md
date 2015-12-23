@@ -6,7 +6,7 @@ by David Strayhorn
 
 ## Abstract
 
-I provide a brief description of five features that should be envisioned for the WoT of the future.
+I provide a brief description of five desirable features for a web of trust-based ratings and reputation system of the future.
 
 ## Introduction 
 
