@@ -88,7 +88,7 @@ As already suggested, DPKI achieves these design principles through use of secur
 
 ## 4. Registration and Identifiers
 
-#### _Section Contributors Alphabetical By Last Name: Christopher Allen, **Christian Lundkvist, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak_
+#### _Section Contributors Alphabetical By Last Name: Christopher Allen, Christian Lundkvist, Jude Nelson, Drummond Reed, Markus Sabadello, Greg Slepak_
 
 As described in the previous sections, the core of DPKI are decentralized key-value datastores that can serve as identifier registries, allowing a principal’s public keys to become securely associated with their identifier. As long as this registration remains valid and the principal is able to maintain control of their private key, no third-party can take ownership of that identifier without resorting to direct coercion of the principal. 
 
