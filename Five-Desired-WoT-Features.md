@@ -6,13 +6,13 @@ by David Strayhorn
 
 ## Abstract
 
-I provide a brief description of five desirable features for a web of trust-based ratings and reputation system of the future.
+I propose five desirable features for a web of trust-based ratings and reputation system of the future: flexibility, simplicity of the user interface, privacy, monetizability, and portability.
 
 ## Introduction 
 
-Ratings and reputation systems of contemporary social networks like eBay, Reddit, Amazon, Yelp, etc leave much to be desired. In this article I present five highly desired features that are lacking in the current state of the art but which must be envisioned in the next generation WoT. For the sake of illustration, I will discuss how each feature might be implemented in the specific case of a Reddit-style bulletin board to address one of the most vexing problems of many social networks: ***trolls***. For the sake of this article, this hypothetical bulletin board will be named "arranarr," short for R 'n' R (ratings and reputation).
+Ratings and reputation systems of contemporary social networks like eBay, Reddit, Amazon, Yelp, etc leave much to be desired. In this article I present five highly desired features that are lacking in the current state of the art but which must be envisioned in the next generation WoT. 
 
-These five features -- flexibility, simplicity of the user interface, privacy, monetizability, and portability -- can be understood as flowing from and being inspired by the single organizing principle: **The end-user must be the ultimate steward and owner of his or her own data.** 
+These five features -- flexibility, simplicity of the user interface, privacy, monetizability, and portability -- can be understood as flowing from and being inspired by the single organizing principle: **The end-user must be the ultimate steward and owner of his or her own data.** One of the best tools to design and envision putting this principle into practice is to imagine recreating contemporary social networks so that they exist on a purely peer-to-peer network, eg the reincarnation of eBay as OpenBazaar where no centralized authority exists who could take control of user data. However, there is no reason that these five features could not be implemented by an old fashioned centralized website. For the sake of illustration, I will discuss how each feature might be implemented in the specific case of a (centralized) Reddit-style bulletin board to address one of the most vexing problems of many social networks: ***trolls***. For the sake of this article, this hypothetical bulletin board will be named "arranarr," short for R 'n' R (ratings and reputation).
 
 ## Features
 
