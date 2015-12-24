@@ -28,13 +28,24 @@ One may think it will be impossible to make a WoT both simple and flexible, beca
 
 ***Bulletin board example:*** One of the most important jobs of the creaters of arranarr will be to do their best to populate default settings of new users with useful concepts like those of the troll system described above. New users can start using the network without necessarily having any idea that making new concepts is even possible. For those users who are interested, they can make new concepts which other users can incorporate into their default settings. New users have the option of adopting either the default settings, adopting from a list of "most popular" settings, or adopting the settings used by someone they know or trust. ***Casual users inherit default settings. Only the sophisticated and interested users need get under the hood.***
 
-#### 3. Privacy: *The end user must have exquisite control over privacy settings.*
-
-#### 4. Monetizability: *The end user will be the one to monetize his or her data, and will have a myriad of strategies to do so.*
+#### 3. Monetizability: *The end user will be the one to monetize his or her data, and will have a myriad of strategies to do so.*
 
 The primary business model for many if not most online social networks (Facebook, LinkedIn, eBay) depends in one way or another on the centralized control of your data. LinkedIn offers a more detailed view of connected user profiles, more details about local WoT topology, and more in exchange for a paid membership. Product rating sites including Amazon, eBay, Netflix, Yelp, AngiesList make use of user-supplied ratings to enhance the overall utility of their site and attract users. Facebook mines your personal data to make money through targeted advertising. The WoT of the future must turn this business model on its head. By giving the end user control over their data, it will be only natural that the end user should make money from that. Based on market caps, we should expect that to be worth quite a lot. The question is how *exactly* that will come about.
 
-***Bulletin board example:*** A Troll Spotter should have the option of giving his ratings away or selling them, perhaps for a microfee. Suppose a bulletin board has 20 million unique users per month (which is what Reddit reports). A Troll Spotter charges 10 cents per week for up-to-the-minute access to his ratings. Assuming that only 10 percent of users subscribe, this market could support 1000 Troll Spotters working full time to ferret out trolls, each one making on average 2000 dollars per week, 100k per year.
+***Bulletin board example:*** A Troll Spotter should have the option of giving his ratings away or selling them, perhaps for a microfee. Suppose a bulletin board has 20 million unique users per month (which is what Reddit reports). A Troll Spotter on arranarr could charge 10 cents per week in bitcoin for up-to-the-minute access to his ratings; any user who requests data . Assuming that only 10 percent of users subscribe, this market could support 1000 Troll Spotters working full time to ferret out trolls, each one making on average 2000 dollars per week, 100k per year.
+
+#### 4. Privacy: *The end user must have exquisite control over privacy settings.*
+
+In order to monetize data, the end user must have exquisite control over which data gets sent to which users and under what circumstances.
 
 #### 5. Portability: *Identity and reputation must be readily portable between one social network and the next.*
 
+Many pieces of data generated on one social network will be useful on other social networks. For example, a troll on another social network will probably be a troll on arranarr. A useful script will be one that amalgamates multiple ratings of a given user across multiple networks and come up with a single composite score. However, a major barrier is that there is a lack of uniformity between networks. One network may rate products on a 0-5 scale called "Quality"; another, on a 1-5 scale called something else. 
+
+User identities can be ported across networks using cryptographic identifiers provided by services like OneName. If a user makes use of the same identifier across multiple networks (and many users will want to do this), then it becomes possible for reputational data to follow that identity across networks. 
+
+***Bulletin board example:*** When a concept such as Troll, Troll Spotter, etc is generated on arranarr, a complete specification of each concept will be constructed (eg in json format) and it will be given a cryptographic identifier, will be signed by its author, and (if desired) will be posted to a public data repository. This will allow the concept to be imported into another network (by the creator of that network or by a user within that network), so that there can be uniformity across networks. Other pieces of data, including statements of individual ratings ("Bob says Alice is not a Troll") will also be given cryptographic identifiers. 
+
+#### ? 6. Automatability: *There must be methods to calculate composite scores.*
+
+It is too cumbersome for the user to wade through individual ratings one at a time. 
