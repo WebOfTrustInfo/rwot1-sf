@@ -12,7 +12,7 @@ I provide a brief description of five desirable features for a web of trust-base
 
 Ratings and reputation systems of contemporary social networks like eBay, Reddit, Amazon, Yelp, etc leave much to be desired. In this article I present five highly desired features that are lacking in the current state of the art but which must be envisioned in the next generation WoT. For the sake of illustration, I will discuss how each feature might be implemented in the specific case of a Reddit-style bulletin board to address one of the most vexing problems of many social networks: ***trolls***. For the sake of this article, this hypothetical bulletin board will be named "arranarr," short for R 'n' R (ratings and reputation).
 
-These five features -- flexibility, simplicity of the user interface, privacy, monetizability, and portability -- can be understood as flowing from and being inspired by the single organizing principle: **The end-user must be the ultimate steward and owner of his or her own data.**
+These five features -- flexibility, simplicity of the user interface, privacy, monetizability, and portability -- can be understood as flowing from and being inspired by the single organizing principle: **The end-user must be the ultimate steward and owner of his or her own data.** 
 
 ## Features
 
@@ -31,6 +31,10 @@ One may think it will be impossible to make a WoT both simple and flexible, beca
 #### 3. Privacy: *The end user must have exquisite control over privacy settings.*
 
 #### 4. Monetizability: *The end user will be the one to monetize his or her data, and will have a myriad of strategies to do so.*
+
+The primary business model for many if not most online social networks (Facebook, LinkedIn, eBay) depends in one way or another on the centralized control of your data. LinkedIn offers a more detailed view of connected user profiles, more details about local WoT topology, and more in exchange for a paid membership. Product rating sites including Amazon, eBay, Netflix, Yelp, AngiesList make use of user-supplied ratings to enhance the overall utility of their site and attract users. Facebook mines your personal data to make money through targeted advertising. The WoT of the future must turn this business model on its head. By giving the end user control over their data, it will be only natural that the end user should make money from that. Based on market caps, we should expect that to be worth quite a lot. The question is how *exactly* that will come about.
+
+***Bulletin board example:*** A Troll Spotter should have the option of giving his ratings away or selling them, perhaps for a microfee. Suppose a bulletin board has 20 million unique users per month (which is what Reddit reports). A Troll Spotter charges 10 cents per week for up-to-the-minute access to his ratings. Assuming that only 10 percent of users subscribe, this market could support 1000 Troll Spotters working full time to ferret out trolls, each one making on average 2000 dollars per week, 100k per year.
 
 #### 5. Portability: *Identity and reputation must be readily portable between one social network and the next.*
 
