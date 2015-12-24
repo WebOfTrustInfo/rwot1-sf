@@ -6,7 +6,7 @@ by David Strayhorn
 
 ## Abstract
 
-I propose five desirable features for a web of trust-based ratings and reputation system of the future: flexibility, simplicity of the user interface, privacy, monetizability, and portability.
+I propose five desirable features for a web of trust-based ratings and reputation system of the future: flexibility, simplicity of the user interface, privacy, monetizability, and portability. These features are unified by the single organizing principle that **the end-user must be the ultimate steward and owner of his or her own data.**
 
 ## Introduction 
 
