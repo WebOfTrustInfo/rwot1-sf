@@ -12,11 +12,11 @@ I provide a brief description of five desirable features for a web of trust-base
 
 Ratings and reputation systems of contemporary social networks like eBay, Reddit, Amazon, Yelp, etc leave much to be desired. In this article I present five highly desired features that are lacking in the current state of the art but which must be envisioned in the next generation WoT. For the sake of illustration, I will discuss how each feature might be implemented in the specific case of a Reddit-style bulletin board to address one of the most vexing problems of many social networks: ***trolls***.
 
-Organizing principle: The end-user will be the ultimate steward of his or her own data.
+These five features can be understood as flowing from the single organizing principle: **The end-user must be the ultimate steward and owner of his or her own data.**
 
 ## Features
 
-#### 1. Flexibility / Customizability: *The end-user must have exquisite control over the details of design elements of the ratings and reputation system.*
+#### 1. Flexibility / Customizability: *The end-user must have exquisite control over the cagorizations, labels, algorithms for generation of composite scores, and other aspects of the ratings and reputation system.*
 
 Reputation systems of today are defined centrally, are inflexible, and are frequently opaque. Needs will vary over time, from community to community, from user to user, and even within the same user but different contexts. In the WoT of the future, the end-user will have the ability to create new ways to rate products/users/content – new ’labels’ – as well as new ways to analyze the data.
 
