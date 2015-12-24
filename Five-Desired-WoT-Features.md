@@ -12,7 +12,7 @@ I provide a brief description of five desirable features for a web of trust-base
 
 Ratings and reputation systems of contemporary social networks like eBay, Reddit, Amazon, Yelp, etc leave much to be desired. In this article I present five highly desired features that are lacking in the current state of the art but which must be envisioned in the next generation WoT. For the sake of illustration, I will discuss how each feature might be implemented in the specific case of a Reddit-style bulletin board to address one of the most vexing problems of many social networks: ***trolls***.
 
-These five features can be understood as flowing from the single organizing principle: **The end-user must be the ultimate steward and owner of his or her own data.**
+These five features -- flexibility, simplicity of the user interface, privacy, monetizability, and portability -- can be understood as flowing from and being inspired by the single organizing principle: **The end-user must be the ultimate steward and owner of his or her own data.**
 
 ## Features
 
