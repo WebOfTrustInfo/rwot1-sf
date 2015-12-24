@@ -42,7 +42,7 @@ The primary business model for many if not most online social networks (Facebook
 
 #### 4. Privacy: *The end user must have exquisite control over privacy settings.*
 
-In order to monetize data, the end user must have exquisite control over which data gets sent to which users and under what circumstances.
+Self-explanatory.
 
 #### 5. Portability: *Identity and reputation must be readily portable between one social network and the next.*
 
@@ -52,7 +52,4 @@ User identities can be ported across networks using cryptographic identifiers pr
 
 ***Bulletin board example:*** When a concept such as Troll, Troll Spotter, etc is generated on arranarr, a complete specification of each concept will be constructed (eg in json format) and it will be given a cryptographic identifier, will be signed by its author, and (if desired) will be posted to a public data repository. This will allow the concept to be imported into another network (by the creator of that network or by a user within that network), so that there can be uniformity across networks. Other pieces of data, including statements of individual ratings ("Bob says Alice is not a Troll") will also be given cryptographic identifiers. 
 
-## 6. Summary and Future Directions
-
-unfinished.
 
