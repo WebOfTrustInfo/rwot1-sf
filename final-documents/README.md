@@ -1,13 +1,13 @@
 # Rebooting the Web of Trust
 
-These white papers were produced as part of the Rebooting the Web of Trust design workshop. On November 3rd and 4th 2015, over 40 tech visionaries came together in San Francisco, California to talk about the future of decentralized trust on the internet with the goal of writing 3-5 white papers and specs. This is one of them.
+These white papers were produced as part of the Rebooting the Web of Trust design workshop. On November 3rd and 4th 2015, over 40 tech visionaries came together in San Francisco, California to talk about the future of decentralized trust on the internet with the goal of writing 3-5 white papers and specs.
 
 * **Workshop Sponsors:** Respect Network, PricewaterhouseCoopers, Open Identity Exchange and Alacrity Software
 * **Workshop Producer:** Christopher Allen
 * **Workshop Facilitators:** Christopher Allen and Brian Weller with graphic facilitation by Sonia Sawhney and additional paper editorial & layout by Shannon Appelcline
 
 ## What’s Next?
-The design workshop and this paper are just starting points for Rebooting the Web of Trust. If you have any comments, thoughts, or expansions on this paper, please post them to our GitHub issues page: https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues We are also planning for more gatherings on this topic in the near future, with the object being to have something notable ready for release on the 25th anniversary of PGP, in July 2016. If you’d like to be involved or would like to help sponsor these events, email: ChristopherA@LifeWithAlacrity.com
+The design workshop and these papers are just starting points for Rebooting the Web of Trust. If you have any comments, thoughts, or expansions on these papers, please post them to our GitHub issues page: https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues We are also planning for more gatherings on this topic in the near future, with the object being to have something notable ready for release on the 25th anniversary of PGP, in July 2016. If you’d like to be involved or would like to help sponsor these events, email: ChristopherA@LifeWithAlacrity.com
 
 ## Final Whitepapers
 
@@ -56,7 +56,7 @@ by (alphabetical by last name) Christopher Allen, Arthur Brock, Vitalik Buterin,
 
 Today’s Internet places control of online identities into the hands of third-parties. Email addresses, usernames, and website domains are borrowed or "rented" through DNS, X.509, and social networks. This results in severe usability and security challenges Internet-wide. This paper describes a possible alternate approach called decentralized public key infrastructure (DPKI), which returns control of online identities to the entities they belong to. By doing so, DPKI addresses many usability and security challenges that plague traditional public key infrastructure (PKI). DPKI has advantages at each stage of the PKI life cycle. It makes permissionless bootstrapping of online identities possible and provides for the simple creation of stronger SSL certificates. In usage, it can help “Johnny” to finally encrypt thanks to its relegation of public key management to secure decentralized datastores. Finally, it includes mechanisms to recover lost or compromised identifiers.
 
-* Lead Paper Editor: Greg Slepak
+* Lead Paper Editor: Greg Slepak, Drummond Reed
 
 ### Smart Signatures
 _A White Paper from Rebooting the Web of Trust_
@@ -65,6 +65,7 @@ by Christopher Allen, Greg Maxwell, Peter Todd, Ryan Shea, Pieter Wuille, Joseph
 Abstract
 
 Traditional cryptographic signature systems are based on strictly-defined authentication and authorization mechanisms that assume a single private key can be used to produce a given signature and that a single public key can be used to verify it. Given the evident limitations of this design, we propose an alternative with more powerful capabities, based on the ability to explicitly outline and fully program conditions for verification. These conditions would then be used to determine when a signature or set of signatures can be considered valid.
+
 Our inspiration for this authorization system is the bitcoin scripting language, where the authorization to spend funds is explicitly defined within a script, rather than being implicitly defined through the reference to an authorized public key. The largest benefit of explicit specification of authorization conditions is that the system is fully extensible, so new operations can be defined at any time, with the only limitation being the set of operations that the authorization interpreters understand.
 
 * Lead Paper Editors: Christopher Allen, Ryan Shea
@@ -73,7 +74,9 @@ Our inspiration for this authorization system is the bitcoin scripting language,
 _Final Notes from Rebooting the Web of Trust_
 
 What's Next? On November 3rd and 4th, the Rebuilding the Web of Trust design workshop looked at the future of decentralized trust on the internet with the goal of producing 3-5 white papers and specs. Those papers were polished for release in December, leaving the question: what's next?
+
 Our major goal is to produce something notable for the 25th anniversary of PGP, in July 2016. This should be a working proof-of-concept that can help the Web of Trust to reach a broader audience. It should be something that's both usable and used and it needs to be compelling.
+
 If we can meet this goal, we can make our design ideas into reality.
 
 * Lead Paper Editor: Shannon Appelcline
