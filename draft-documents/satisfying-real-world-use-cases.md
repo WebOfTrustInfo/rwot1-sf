@@ -1,5 +1,5 @@
 # Opportunities Created by the Web of Trust for Controlling and Leveraging Personal Data
-#### _by [du5t](mailto::du5t@hitono.info), [Kaliya "Identity Woman" Young (@identitywoman)](http://www.identitywoman.net/), [John Edge](http://www.id2020.org/), [Drummond Reed](http://www.respect.network/), [Noah Thorp](http://www.citizencode.io/)_
+#### _by [du5t](mailto::du5t@hitono.info), [Kaliya "Identity Woman" Young](http://www.identitywoman.net/), [John Edge](http://www.id2020.org/), [Drummond Reed](http://www.respect.network/), [Noah Thorp](http://www.citizencode.io/)_
 
 ## Overview
 
@@ -69,6 +69,8 @@ data will be stored and used. The current system requires that the individual
 share an ID that gives not only their exact age but also their name, address and
 other information that's unneeded in this context.
 
+(Image of Beth having her ID out and getting it photographed by the bouncer at the Door...all of Beth's real info Name, ADdress, birthdate ... all in the phone/mind of the bouncer) 
+
 The involved parties have the following goals:
 * Beth wants to get into the club while providing the minimum information
 required: proof that she is over 21 years of age.
@@ -111,6 +113,10 @@ app on her phone. The result could then be a different QR code, which the club
 owner can scan to verify. All of the technical back and forth happens in the
 background.
 
+(Some kind of Image that has a QR code being shared ...and a screen that shows 
+Over 21 and a big check box and maybe also a photo) not all beth's info. 
+
+
 Note that at the end of this process, both of the third parties involved know
 very little about Beth:
 
@@ -135,7 +141,7 @@ Variations on this theme have been published in academic literature for decades,
 beginning with the "blind signatures" of David Chaum et al. (1983) and the "zero
 knowledge proofs" of Goldwasser et al. (1985).
 
-Aspects of this use case are in practice in the commercialization of U-Prove (Microsoft) Technology in the German Identity System.  Similarly, British Columbia's eID system was designed to provide for the selective disclosure of just a name and photo and the assertion of being above the drinking age when purchasing liquor (thus preventing the disclosure of name, address, and exact birth date to the seller).
+Aspects of this use case are in practice in the commercialization of U-Prove (Microsoft) Technology in the German Identity System.  Similarly, British Columbia's Citizen Services Card system is designed to provide for the selective disclosure of just a name and photo and the assertion of being above the drinking age when purchasing liquor (thus preventing the disclosure of name, address, and exact birth date to the seller).
 
 ### 2. Short-term Contracts with Memory: Distributed AirBnB ###
 
@@ -174,6 +180,9 @@ so. It's then protected afterward. As a rule, personal private information
 should never be shared directly; once data is copied to a location out of its
 owner's control, no guarantees can be made of its security, and mandated
 deletion is unfeasible.
+
+(some kind of image of people trading houses and trading information digitally between them - image sketch in slack)
+
 
 #### Commentary: Technology Possibilities
 
