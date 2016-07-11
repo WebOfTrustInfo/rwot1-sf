@@ -19,54 +19,63 @@ content. Instead though, they're forced to sit through ads.
 
 To address these problems a group called COALA IP (Coalition Of Automated Legal Applications, Intellectual Property)
 formed to design and implement a free and open specification for handling digital licensing of intellectual property. It's
-goals are to establish open, free and easy ways to claim attribution, add meta data, license works, to mediate IP disputes
+goals are to establish open, free and easy ways to claim attribution, add meta data, license works, mediate IP disputes
 and authenticate claims of others, all in a way where there is a global agreement at the data level, without centralized
 control.
 
 A recent, more concrete, endeavor of the group has been to write a specification for a protocol handling digital licensing of
 intellectual property on immutable ledgers. It's an effort to transform the implementation-agnostic [Rights Reference Model](http://doi.org/10.1000/284)
 of the [Linked Content Coalition](http://www.linkedcontentcoalition.org/index.php) into a free and open guideline,
-outlining technologies that could be leveraged for implementation as well as structurization on how canonicalize an easily
+outlining technologies that could be leveraged for implementation as well as structuration on how canonicalize an easily
 approachable specification for all involved parties (creators, rights holders, consumers, developers, ...). The protocol is
 ought to be technology-opinionated, while being ledger-unopinionated.
 
 
 ## The COALA IP Protocol
 
-The COALA IP Protocol defines six main entities that form an ontology by connecting to other respective entities. The
+The COALA IP protocol is essentially two concurrent technical efforts:
+
+1. It's a community-driven effort to find and define a minimal-viable set of data for licensing intellectual property
+   (using RDF schema definitions)
+2. It's a free and open messaging/communication protocol for license-transactions
+
+
+At its core, the RDF schema defines six main entities that form an ontology by connecting to other respective entities. The
 ontology as well as all entities have been derived from the LCC's RRM:
 
 - **Place:** A localizable, physical place (e.g. an address, a city, a country, ...)
 - **(digital/physical) Manifestation:** A perceivable creation (e.g. a print of a photograph of a certain scene)
 - **Creation:** A distinct, abstract creation whose existence is revealed through one or more manifestations (e.g. The idea
   to photograph a certain scene)
-- **Right:** A transferable entity that entitles the owner to do something in relation to a Creation (e.g. A permission
-  to display a Manifestation publicly)
+- **Right:** A transferable entity connected to a manifestation that entitles the owner to do something in relation
+  to a Creation (e.g. a permission to display a Manifestation publicly)
 - **RightsAssignment:** A transfer of a Right (e.g. Transferring the permission to display a Manifestation publicly)
 - **Assertion:** A claim made about the truth or falsehood of assertions made in the ontology (e.g. A statement vouching
-  for the validity that a certain Party is the original author of a Creation); and a
-- **Party:** An individual or a group of individuals representing right holders, licensors and users (e.g. a human being
+  for the validity that a certain Party is the original author of a Creation); and last but not least
+- **Party:** An individual or a group of individuals representing right holders, licensors, users and so on...(e.g. a human being
   or a group of human beings)
 
 
 Since finding a minimal viable set of properties that describe each of the entities' features is difficult without having
 domain-specific industry knowledge, COALA IP's plan is to open this process up to the community, by letting it define
-RDF schemata. As soon as saturation for changes in schemata emerge, further formalization is planed to take the them to
-an international standards organization appropriate.
+and derive domain-specific RDF schemata. As soon as saturation for changes in schemata emerge, further formalization is planed
+to take the them to an international standards organization appropriate.
 
 Key technologies used to achieve this endeavor are:
 
 
-- **[JSON-LD](https://www.w3.org/TR/json-ld/):** A recently emerged RDF serialization format, with the unique feature of being fun to use
-- **[IPLD](https://github.com/ipfs/specs/tree/master/ipld):** A data structure to merkle-link JSON objects in order to retrieve them with merkle-paths, providing
-  cryptographic integrity-checking of the data as well as content-addressable storage
-- **[ILP](https://github.com/interledger/rfcs):** A set of specifications for sending digital assets across different
-  ledgers and connectors
+- **[JSON-LD](https://www.w3.org/TR/json-ld/):** A recently emerged RDF serialization format, with the unique feature of
+  being fun to use for developers
+- **[IPLD](https://github.com/ipfs/specs/tree/master/ipld):** A data structure to merkle-link JSON objects in order to
+  retrieve them with merkle-paths, providing cryptographic integrity-checking of the data as well as content-addressable
+  storage
+- **[ILP](https://github.com/interledger/rfcs):** A set of specifications for sending (at this point only: fungible) digital
+  assets across different ledgers
 
 
 ## The Missing Link: Identity
 
-At the point of writing this position paper all pieces of the specification are in place, except for a crucial one:
+At the point of writing this position paper (almost) all pieces of the specification are in place, except for a crucial one:
 Identity (the so called "Party" entity mentioned in the previous section).
 
 Members of the COALA IP working group would like to actively participate in design-workshops of the Web of Trust working
@@ -74,7 +83,7 @@ group to discuss identity solutions that fulfill the following systematic requir
 
 - An Identity's identifier must be resolvable within the Internet
 - An Identity's properties must enable other Identities to validate the cryptographic integrity of an Identity's signed data
-- An Identity should have at least one persistent unique public identifier that is both human- and machine-readable
+- An Identity must have at least one persistent unique public identifier that is both human- and machine-readable
 - An Identity's identifier should have multiple designations (e.g. compare to [IBAN designations](http://www.isbn.org/about_isbn_standard))
 - An Identity participates in a global trust network, having it's trustworthiness continuously evaluated by other
   participating Identities
@@ -82,7 +91,7 @@ group to discuss identity solutions that fulfill the following systematic requir
 
 In order to be compliant with the current state of the COALA IP protocol, the following requirements should be fulfilled:
 
-- Is an Identity resolved within the Internet, then it's data can be integrity-checked cryptographically (content-addressed
+- Is an Identity resolved within the Internet, then it's data can be integrity-checked cryptographically (compare: content-addressed
   storage provided by IPFS and IPLD is favored)
 - Preferred serialization formats of an Identity object are JSON, JSON-LD or IPLD
 - A resulting specification regarding Identity management respects the immutability of data
