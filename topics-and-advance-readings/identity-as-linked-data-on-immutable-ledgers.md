@@ -2,8 +2,8 @@
 
 By
 
-- Tim Daubenschuetz, @timdaub, <tim.daubenschuetz@gmail.com, tim@bigchaindb.com>
-- Trent McConaghy, @trentmc0, <gtrent@gmail.com, trent@bigchaindb.com>
+- Tim Daubenschuetz, @timdaub, \<tim.daubenschuetz@gmail.com, tim@bigchaindb.com\>
+- Trent McConaghy, @trentmc0, \<gtrent@gmail.com, trent@bigchaindb.com\>
 
 
 ## Motivation
