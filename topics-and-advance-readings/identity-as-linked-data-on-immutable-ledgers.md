@@ -22,7 +22,7 @@ goals are to establish open, free, and easy ways to claim attribution, add meta 
 and authenticate claims of others. Furthermore, there should be global agreement at the data level without the need for centralized
 control.
 
-A recent, more concrete, endeavor of the group has been to write a specification for a protocol handling digital licensing of
+A recent, more concrete, endeavor of the group has been to write a specification for handling digital licensing of
 intellectual property on immutable ledgers. It's an effort to transform the implementation-agnostic [Rights Reference Model](http://doi.org/10.1000/284)
 of the [Linked Content Coalition](http://www.linkedcontentcoalition.org/index.php) into a free and open guideline,
 outlining technologies that could be leveraged for implementation as well as structuration on how canonicalize an easily
