@@ -37,7 +37,7 @@ The COALA IP protocol is essentially two parallel technical efforts:
 2. It's a free and open messaging/communication protocol for license-transactions
 
 
-At its core, the RDF schema defines six main entities that form an ontology by connecting to other respective entities. The
+At its core, the RDF schema defines ontology over six main entities that form and their interconnections. The
 ontology as well as all entities have been derived from the LCC's RRM:
 
 - **Place:** A localizable, physical place (e.g. an address, a city, a country, ...)
