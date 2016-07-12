@@ -73,7 +73,7 @@ Key technologies used to achieve this endeavor are:
 ## The Missing Link: Identity
 
 As of the writing of this position paper, all pieces of the specification are in place except one:
-Identity (the so called "Party" entity mentioned in the previous section).
+**Identity** (the so called "Party" entity mentioned in the previous section).
 
 Members of the COALA IP working group would like to actively participate in design-workshops of the Web of Trust working
 group to discuss identity solutions that fulfill the following systematic requirements:
