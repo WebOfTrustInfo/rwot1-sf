@@ -30,7 +30,7 @@ outlines technologies that could be leveraged for implementation and structure o
 
 ## The COALA IP Protocol
 
-The COALA IP protocol is essentially two concurrent technical efforts:
+The COALA IP protocol is essentially two parallel technical efforts:
 
 1. It's a community-driven effort to find and define a minimal-viable set of data for licensing intellectual property
    (using RDF schema definitions)
