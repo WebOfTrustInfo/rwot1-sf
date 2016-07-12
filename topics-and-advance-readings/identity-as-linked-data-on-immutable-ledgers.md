@@ -48,7 +48,7 @@ ontology as well as all entities have been derived from the LCC's RRM:
   to a Creation (e.g. a permission to display a Manifestation publicly)
 - **RightsAssignment:** A transfer of a Right (e.g. Transferring the permission to display a Manifestation publicly)
 - **Assertion:** A claim made about the truth or falsehood of assertions made in the ontology (e.g. A statement vouching
-  for the validity that a certain Party is the original author of a Creation); and last but not least
+  for the validity that a certain Party is the original author of a Creation)
 - **Party:** An individual or a group of individuals representing right holders, licensors, users and so on...(e.g. a human being
   or a group of human beings)
 
