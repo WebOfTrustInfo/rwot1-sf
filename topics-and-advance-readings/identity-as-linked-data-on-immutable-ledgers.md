@@ -16,7 +16,7 @@ content. Instead, they're forced to sit through ads or miss out on income due to
 
 ## The COALA IP Working Group
 
-To address these problems a group called COALA IP (Coalition Of Automated Legal Applications, Intellectual Property)
+To address these problems, COALA IP (Coalition Of Automated Legal Applications, Intellectual Property) was
 formed to design and implement a free and open specification for handling digital licensing of intellectual property. It's
 goals are to establish open, free and easy ways to claim attribution, add meta data, license works, mediate IP disputes
 and authenticate claims of others, all in a way where there is a global agreement at the data level, without centralized
