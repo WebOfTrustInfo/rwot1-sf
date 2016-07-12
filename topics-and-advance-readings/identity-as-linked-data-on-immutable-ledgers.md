@@ -25,7 +25,7 @@ control.
 A recent, more concrete, endeavor of the group has been to write a specification for handling digital licensing of
 intellectual property on immutable ledgers. It's an effort to transform the implementation-agnostic [Rights Reference Model](http://doi.org/10.1000/284)
 of the [Linked Content Coalition](http://www.linkedcontentcoalition.org/index.php) into a free and open guideline. It
-outlines technologies that could be leveraged for implementation and structure of a specification for all involved parties: creators, rights holders, consumers, developers, etc. The protocol is to be technology-opinionated, while being ledger-agnostic.
+outlines technologies that could be leveraged for implementation and structure of a specification for all involved parties: creators, rights holders, consumers, developers, etc. The protocol is to be technology-opinionated, but ledger-agnostic.
 
 
 ## The COALA IP Protocol
