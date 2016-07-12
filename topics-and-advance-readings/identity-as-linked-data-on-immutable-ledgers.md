@@ -9,7 +9,7 @@ By
 ## Motivation
 
 Content creators on the Web are getting a raw deal. They get a fraction of a cent for an ad played on YouTube, and nothing on Facebook, for filling these sites with traffic-driving content. It’s hard to make a living when you’re
-a creative. Licensing is hard. The UX is terrible, so lawyers and middlemen extract the most value. In the music
+a creative. Licensing is hard; the UX is terrible, so lawyers and middlemen extract the most value. In the music
 industry, more money flows in the hands of distributors rather than creatives. Consumers are often happy to pay for their
 content. Instead though, they're forced to sit through ads or miss out on income due to ad-blockers.
 
