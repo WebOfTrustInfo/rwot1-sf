@@ -88,7 +88,7 @@ group to discuss identity solutions that fulfill the following systematic requir
 
 In order to be compliant with the current state of the COALA IP protocol, the following requirements should be fulfilled:
 
-- If an Identity can be resolved within the Internet, then it's data can be integrity-checked cryptographically (compare: content-addressed
+- If an Identity can be resolved within the Internet, then its data can be integrity-checked cryptographically (compare: content-addressed
   storage provided by IPFS and IPLD is favored)
 - Preferred serialization formats of an Identity object are JSON, JSON-LD or IPLD
 - A resulting specification regarding Identity management respects the immutability of data
