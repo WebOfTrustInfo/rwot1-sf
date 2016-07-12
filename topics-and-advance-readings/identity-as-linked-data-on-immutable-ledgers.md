@@ -12,7 +12,7 @@ Content creators on the Web are getting a raw deal. They get a fraction of a cen
 on Facebook, nothing in most places, yet consumers get more utility when watching. It’s hard to make a living when you’re
 a creative. Licensing is hard. The UX is terrible, so lawyers and middlemen extract the most value. In the music
 industry, more money flows in the hands of distributors rather than creatives. Consumers are often happy to pay for their
-content. Instead though, they're forced to sit through ads.
+content. Instead though, they're forced to sit through ads or miss out on income due to ad-blockers.
 
 
 ## The COALA IP Working Group
@@ -28,7 +28,7 @@ intellectual property on immutable ledgers. It's an effort to transform the impl
 of the [Linked Content Coalition](http://www.linkedcontentcoalition.org/index.php) into a free and open guideline,
 outlining technologies that could be leveraged for implementation as well as structuration on how canonicalize an easily
 approachable specification for all involved parties (creators, rights holders, consumers, developers, ...). The protocol is
-ought to be technology-opinionated, while being ledger-unopinionated.
+ought to be technology-opinionated, while being ledger-agnostic.
 
 
 ## The COALA IP Protocol
@@ -58,14 +58,14 @@ ontology as well as all entities have been derived from the LCC's RRM:
 
 Since finding a minimal viable set of properties that describe each of the entities' features is difficult without having
 domain-specific industry knowledge, COALA IP's plan is to open this process up to the community, by letting it define
-and derive domain-specific RDF schemata. As soon as saturation for changes in schemata emerge, further formalization is planed
+and derive domain-specific RDF schemata. As soon as saturation for changes in schemata emerge, further formalization is planned
 to take the them to an international standards organization appropriate.
 
 Key technologies used to achieve this endeavor are:
 
 
-- **[JSON-LD](https://www.w3.org/TR/json-ld/):** A recently emerged RDF serialization format, with the unique feature of
-  being fun to use for developers
+- **[JSON-LD](https://www.w3.org/TR/json-ld/):** A recently emerged RDF serialization format, that brings Linked Data to the
+  JSON data structure
 - **[IPLD](https://github.com/ipfs/specs/tree/master/ipld):** A data structure to merkle-link JSON objects in order to
   retrieve them with merkle-paths, providing cryptographic integrity-checking of the data as well as content-addressable
   storage
