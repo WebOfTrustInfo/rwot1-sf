@@ -32,7 +32,7 @@ outlines technologies that could be leveraged for implementation and structure o
 
 The COALA IP protocol is essentially two parallel technical efforts:
 
-1. It's a community-driven effort to find and define a minimal-viable set of data for licensing intellectual property
+1. It's a community-driven effort to find and define a minimally-viable set of data for licensing intellectual property
    (using RDF schema definitions)
 2. It's a free and open messaging/communication protocol for license-transactions
 
