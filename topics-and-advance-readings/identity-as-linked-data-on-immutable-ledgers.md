@@ -55,7 +55,7 @@ ontology as well as all entities have been derived from the LCC's RRM:
 
 Since finding a minimal viable set of properties that describe each of the entities' features is difficult without having
 domain-specific industry knowledge, COALA IP's plan is to open this process up to the community, thereby letting the community define
-and derive domain-specific RDF schema. As soon as saturation for changes in schemata emerge, further formalization is planned
+and derive domain-specific RDF schema. As soon as saturation for changes in schema emerge, further formalization is planned
 to take the them to an international standards organization appropriate.
 
 Key technologies used to achieve this endeavor are:
