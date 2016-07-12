@@ -18,7 +18,7 @@ content. Instead, they're forced to sit through ads or miss out on income due to
 
 To address these problems, COALA IP (Coalition Of Automated Legal Applications, Intellectual Property) was
 formed to design and implement a free and open specification for handling digital licensing of intellectual property. Its
-goals are to establish open, free, and easy ways to claim attribution, add meta data, license works, mediate IP disputes,
+goals are to establish open, free, and easy ways to claim attribution, add metadata, license works, mediate IP disputes,
 and authenticate claims of others. Furthermore, there should be global agreement at the data level without the need for centralized
 control.
 
