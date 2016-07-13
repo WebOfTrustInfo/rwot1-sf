@@ -8,10 +8,11 @@ By
 
 ## Motivation
 
-Content creators on the Web are getting a raw deal. They get a fraction of a cent for an ad played on YouTube, and nothing on Facebook, for filling these sites with traffic-driving content. It’s hard to make a living when you’re
-a creative. Licensing is hard; the UX is terrible, so lawyers and middlemen extract the most value. In the music
-industry, more money flows into the pockets of distributors than creatives. Consumers are often happy to pay for their
-content. Instead, they're forced to sit through ads or miss out on income due to ad-blockers.
+Content creators on the Web are getting a raw deal. They get a fraction of a cent for an ad played on YouTube, and nothing
+on Facebook, for filling these sites with traffic-driving content. It’s hard to make a living when you’re a creative.
+Licensing is hard; the UX is terrible, so lawyers and middlemen extract the most value. In the music industry, more money
+flows into the pockets of distributors than creatives. Consumers are often happy to pay for their content. Instead, they're
+forced to sit through ads or miss out on income due to ad-blockers.
 
 
 ## The COALA IP Working Group
@@ -19,13 +20,14 @@ content. Instead, they're forced to sit through ads or miss out on income due to
 To address these problems, COALA IP (Coalition Of Automated Legal Applications, Intellectual Property) was
 formed to design and implement a free and open specification for handling digital licensing of intellectual property. Its
 goals are to establish open, free, and easy ways to claim attribution, add metadata, license works, mediate IP disputes,
-and authenticate claims of others. Furthermore, there should be global agreement at the data level without the need for centralized
-control.
+and authenticate claims of others. Furthermore, the group believes that there should be global agreement at the data
+level without the need for centralized control.
 
 A recent, more concrete, endeavor of the group has been to write a specification for handling digital licensing of
 intellectual property on immutable ledgers. It's an effort to transform the implementation-agnostic [Rights Reference Model](http://doi.org/10.1000/284)
 of the [Linked Content Coalition](http://www.linkedcontentcoalition.org/index.php) into a free and open guideline. It
-outlines technologies that could be leveraged for implementation and structure of a specification for all involved parties: creators, rights holders, consumers, developers, etc. The protocol is to be technology-opinionated, but ledger-agnostic.
+outlines technologies that could be leveraged for implementation and structure of a specification for all involved parties:
+creators, rights holders, consumers, developers, etc. The protocol is to be technology-opinionated, but ledger-agnostic.
 
 
 ## The COALA IP Protocol
@@ -37,8 +39,8 @@ The COALA IP protocol is essentially two parallel technical efforts:
 2. It's a free and open messaging/communication protocol for license-transactions
 
 
-At its core, the RDF schema defines ontology over six main entities that form and their interconnections. The
-ontology as well as all entities have been derived from the LCC's RRM:
+At its core, the RDF schema defines ontology over six main entities and their interconnections. The ontology as well as
+all entities have been derived from the LCC's RRM:
 
 - **Place:** A localizable, physical place (e.g. an address, a city, a country, ...)
 - **(digital/physical) Manifestation:** A perceivable creation (e.g. a print of a photograph of a certain scene)
@@ -53,13 +55,12 @@ ontology as well as all entities have been derived from the LCC's RRM:
   or a group of human beings)
 
 
-Since finding a minimal viable set of properties that describe each of the entities' features is difficult without having
-domain-specific industry knowledge, COALA IP's plan is to open this process up to the community, thereby letting the community define
-and derive domain-specific RDF schema. As soon as saturation for changes in schema emerge, further formalization is planned
-to take them to an appropriate international standards organization.
+Since finding a minimally-viable set of properties that describe each of the entities' features is difficult without having
+domain-specific industry knowledge, COALA IP's plan is to open this process up to the community, thereby letting the
+community define and derive domain-specific RDF schema. As soon as saturation for changes in schema emerge, further
+formalization is planned to take them to an appropriate international standards organization.
 
 Key technologies used to achieve this endeavor are:
-
 
 - **[JSON-LD](https://www.w3.org/TR/json-ld/):** A recently emerged RDF serialization format, that brings Linked Data to the
   JSON data structure
@@ -72,8 +73,8 @@ Key technologies used to achieve this endeavor are:
 
 ## The Missing Link: Identity
 
-As of the writing of this position paper, all pieces of the specification are in place except one:
-**Identity** (the so called "Party" entity mentioned in the previous section).
+As of the writing of this position paper, all pieces of the specification are in place except one: **Identity** (the so
+called "Party" entity mentioned in the previous section).
 
 Members of the COALA IP working group would like to actively participate in design-workshops of the Web of Trust working
 group to discuss identity solutions that fulfill the following systematic requirements:
@@ -88,8 +89,8 @@ group to discuss identity solutions that fulfill the following systematic requir
 
 In order to be compliant with the current state of the COALA IP protocol, the following requirements should be fulfilled:
 
-- If an Identity can be resolved within the Internet, then its data can be integrity-checked cryptographically (compare: content-addressed
-  storage provided by IPFS and IPLD is favored)
+- If an Identity can be resolved within the Internet, then its data can be integrity-checked cryptographically (compare:
+  content-addressed storage provided by IPFS and IPLD is favored)
 - Preferred serialization formats of an Identity object are JSON, JSON-LD or IPLD
 - A resulting specification regarding Identity management respects the immutability of data
 
