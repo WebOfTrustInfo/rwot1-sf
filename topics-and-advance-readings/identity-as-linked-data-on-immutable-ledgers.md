@@ -10,9 +10,9 @@ By
 
 Content creators on the Web are getting a raw deal. They get a fraction of a cent for an ad played on YouTube, and nothing
 on Facebook, for filling these sites with traffic-driving content. It’s hard to make a living when you’re a creative.
-Licensing is hard; the UX is terrible, so lawyers and middlemen extract the most value. In the music industry, more money
+Licensing is hard; the user experience is bad, so lawyers and middlemen extract the most value. In the music industry, more money
 flows into the pockets of distributors than creatives. Consumers are often happy to pay for their content. Instead, they're
-forced to sit through ads or miss out on income due to ad-blockers.
+forced to sit through ads.
 
 
 ## The COALA IP Working Group
@@ -39,11 +39,11 @@ The COALA IP protocol is essentially two parallel technical efforts:
 2. It's a free and open messaging/communication protocol for license-transactions
 
 
-At its core, the RDF schema defines ontology over six main entities and their interconnections. The ontology as well as
+At its core, the RDF schema defines ontology over seven main entities and their interconnections. The ontology as well as
 all entities have been derived from the LCC's RRM:
 
 - **Place:** A localizable, physical place (e.g. an address, a city, a country, ...)
-- **(digital/physical) Manifestation:** A perceivable creation (e.g. a print of a photograph of a certain scene)
+- **Manifestation (digital or physical):** A perceivable creation (e.g. a print of a photograph of a certain scene)
 - **Creation:** A distinct, abstract creation whose existence is revealed through one or more manifestations (e.g. The idea
   to photograph a certain scene)
 - **Right:** A transferable entity connected to a manifestation that entitles the owner to do something in relation
@@ -82,7 +82,6 @@ group to discuss identity solutions that fulfill the following systematic requir
 - An Identity's identifier must be resolvable within the Internet
 - An Identity's properties must enable other Identities to validate the cryptographic integrity of an Identity's signed data
 - An Identity must have at least one persistent unique public identifier that is both human- and machine-readable
-- An Identity's identifier should have multiple designations (e.g. compare to [IBAN designations](http://www.isbn.org/about_isbn_standard))
 - An Identity participates in a global trust network, having it's trustworthiness continuously evaluated by other
   participating Identities
 
@@ -102,11 +101,12 @@ Additionally, some philosophical requirements the COALA IP group would like to a
 
 ## Attribution
 
-This paper couldn't not have been written without the tremendous efforts from collaborators and employees of the following projects:
+This paper couldn't not have been written without the tremendous efforts from collaborators and employees of the following
+projects:
 
 - The Linked Content Coalition
 - IPFS
 - The Interledger Protocol
 - RDF, JSON-LD and all related Semantic Web and Linked Data standards and implementations
 - The COALA IP working group
-- BigchainDB
+- BigchainDB (special thanks go to Ryan Henderson, Alberto Granzotto, Dimitri De Jonghe)
