@@ -35,7 +35,7 @@ Here we address the technical components implied by the features listed above, a
 Trust Exchange aims for maximum extensibility and ecosystem compatibility:
 
 1. Pluggable datastores: the reference implementation currently supporting a graph database, a document database, and partially supporting IPFS
-1. Data architecture supports interoperability with JSON-LD, RDF, XDI](http://xdi.org/), [IPLD](https://github.com/ipfs/ipfs/issues/36), among others
+1. Data architecture supports interoperability with [JSON-LD](http://json-ld.org), RDF, [XDI](http://xdi.org/), [IPLD](https://github.com/ipfs/ipfs/issues/36), among others
 1. Open architecture for multiple cryptographic hashing, signing, and encryption  algorithms
 
 ### Flexible Trust Atom Format
