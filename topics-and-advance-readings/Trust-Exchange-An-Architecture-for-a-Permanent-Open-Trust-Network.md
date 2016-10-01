@@ -95,10 +95,10 @@ Claims are cryptographically signed by a private key belonging to the claimant. 
 }
 ```
 
-In order to compute the `+hash`, and from that the `+signature`, we must first determine the `canonical JSON`. For the example above, that is:
+In order to compute the `+hash`, and from that the `+signature`, we must first determine the _canonical JSON_: minified and sorted by keys. For the example above, that is:
 
 ```json
-{"content":"content addressable graph infrastructure","value":0.9,"source":"multihash-QmWdprFxhCWzjJ6D9Tw9tj5FyWFauhYuGtDQigVvwfteNv","target":"http://ipfs.io/"}
+{"content":"content addressable graph infrastructure","source":"multihash-QmWdprFxhCWzjJ6D9Tw9tj5FyWFauhYuGtDQigVvwfteNv","target":"http://ipfs.io/","timestamp":"2015-08-11T22:32:23Z","value":0.9}
 ```
 
 The `+hash` is created by applying a hashing function to the `canonical JSON`, which provides a permanent identifier (address) of this Trust Atom, eg:
