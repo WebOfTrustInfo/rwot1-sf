@@ -9,7 +9,7 @@ In advance of the design workshop, all participants produced a one-or-two page t
 * A specific problem that they wanted to solve with a web-of-trust solution, and why current solutions (PGP or CA-based PKI) can't address the problem?
 *  A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
-Please see the [Advanced Readings README](topics-and-advance-readings/README.md) for a listing of all of the papers.
+Please see the [Advance Readings README](topics-and-advance-readings/README.md) for a listing of all of the papers.
 
 ## Completed Papers
 
@@ -35,8 +35,8 @@ The design workshop successfully completed its five papers, which are now all av
 
 > A system to explicitly outline and fully program conditions for verification, inspired by Bitcoin Script.
 
-#### [*Creating the New World of Trust*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/whats-the-next-step.pdf)
-##### by Shannon Appelcline
+### [*Creating the New World of Trust*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/whats-the-next-step.pdf)
+#### by Shannon Appelcline
 
 > A summary of the next step for the Rebooting the Web of Trust group.
 
