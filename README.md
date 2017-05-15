@@ -35,8 +35,8 @@ The design workshop successfully completed its five papers, which are now all av
 
 > A system to explicitly outline and fully program conditions for verification, inspired by Bitcoin Script.
 
-### [*Creating the New World of Trust*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/whats-the-next-step.pdf)
-#### by Shannon Appelcline
+#### [*Creating the New World of Trust*](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/whats-the-next-step.pdf)
+##### by Shannon Appelcline
 
 > A summary of the next step for the Rebooting the Web of Trust group.
 
@@ -53,9 +53,3 @@ A different repository is available for each of the Rebooting the Web of Trust d
 ## License
 
 All of the contents of this directory are licensed [Creative Commons CC-BY](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/blob/master/final-documents/LICENSE-CC-BY-4.0.md) their contributors.
-
-
-## [*DID (Decentralized Identifier) Data Model and Generic Syntax 1.0 Implementer’s Draft 01*](did-implementer-draft-10.pdf)
-#### by Drummond Reed, Les Chasen, Christopher Allen, and Ryan Grant
-
-> The complete draft of the Decentralized IDentifier (DID) model and syntac, a project that has run through the RWOT workshops to date.
