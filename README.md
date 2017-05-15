@@ -1,5 +1,5 @@
 # Rebooting the Web of Trust I
-## San Francisco (November 2015)
+*San Francisco (November 2015)*
 
 This repository contains documents related to RWOT1, the first Rebooting the Web of Trust design workshop, which ran in San Francisco, CA, on November 3rd & 4th, 2015. The goal of the workshop was to generate five technical white papers and/or proposals on topics decided by the group that would have the greatest impact on the future.
 
