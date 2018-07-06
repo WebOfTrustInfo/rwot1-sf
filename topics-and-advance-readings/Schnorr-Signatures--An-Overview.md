@@ -4,7 +4,7 @@ By Christopher Allen - <ChristopherA@LifeWithAlacrity.com> & Shannon Appelcline 
 
 Digital signatures have been around since Whitfield Diffie and Martin Hellman first described them in 1976. Early implementations based on the prime-number based RSA algorithm were dominant in the ‘90s. In recent years discrete logarithm and elliptic curve approaches have become more popular because they allow for improved computational efficiency and smaller key size without diminishing security.
 
-In the discrete logarithm space, ElGamal-based signature schemes have been the most deployed — thanks in large part to the National Institute of Standards and Technology (NIST) releasing their patented DSA under a royalty-free license when implementing the FIPS 186 standard in '93. Even Bitcoin as adopted a variant of DSA: the elliptic-curve based ECDSA, which uses the secp256k1 elliptic curve.
+In the discrete logarithm space, ElGamal-based signature schemes have been the most deployed — thanks in large part to the National Institute of Standards and Technology (NIST) releasing their patented DSA under a royalty-free license when implementing the FIPS 186 standard in '93. Even Bitcoin has adopted a variant of DSA: the elliptic-curve based ECDSA, which uses the secp256k1 elliptic curve.
 
 However, DSA isn’t the only answer for modern digital signatures. Schnorr signatures are an alternative that’s less widely used — primarily because they were under patent until 2008. Schnorr signatures offer numerous benefits over traditional methodologies, including:
 
