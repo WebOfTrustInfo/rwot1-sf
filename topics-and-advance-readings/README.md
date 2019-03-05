@@ -51,7 +51,23 @@ The topic papers submitted were:
 * **[White Papers, Specifications & Proofs of Concept](white-papers--specifications---and-proof-of-concept-code.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[XDI Link Contracts: An Overview](xdi-link-contracts.md)** - by Drummond Reed *[@DrummondReed](https://twitter.com/DrummondReed) \<drummond@respect.network\>*
 
+---
+
+* **[How Not to build and Orwellian reputation system](How-Not-to-build-an-Orwellian-reputation-system.md)** -by [Juan S. Galt](http://twitter.com/juansgalt)
+* **[Notes on the IPFS Keychain (or the Web Keychain)](ipfs-keychain.md)** 
+* **[IPFS - The Permanent Web](ipfs-links.md)**
+* **[multiplexed: a 'slightly radical' framing of identity](multiplexed--a-slightly-radical-framing-of-identity.md)** - \<[du5t@multiplexed.be](mailto:du5t@multiplexed.be)\>
+* **[RLPx: Cryptographic Network & Transport Protocol - Version 0.3](rlpx.md)** - by Alex Leverington
+* **[Self-certifying File System](sfs.md)**
+* **[Trust Models, Accountability, LIfeCycle and Social Context](Trust%20Models%2C%20Accountability%2C%20LIfeCycle%20and%20Social%20Context.md)** - by Kaliya "[Identity Woman](http://www.identitywoman.net/)" Young (formerly Hamlin)
+
+
+
 We ask that participants use this repository's [Issues](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/issues) pages for comments and questions. We also invite [Pull Requests](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/pulls) with clarifications and additional links.
+
+
+
+
 
 ### LICENSE
 
