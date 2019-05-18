@@ -2,8 +2,8 @@
 
 These PDF are the same as the following images:
 
-* [Day1-RWoT1-2015-11-03.pdf](Day1-RWoT-2015-11-03.pdf)
-* [Day1-RWoT1-2015-11-04.pdf](Day2-RWoT-2015-11-04.pdf)
+* [Day-One-of-RebootingWebOfTrust-2015-11-03.pdf](Day-One-of-RebootingWebOfTrust-2015-11-03.pdf)
+* [Day-Two-of-RebootingWebOfTrust-2015-11-04.pdf](Day-Two-of-RebootingWebOfTrust-2015-11-04.pdf)
 
 
 ![](01_Day-1-Welcome-and-Intro.jpg)
