@@ -48,7 +48,7 @@ The topic papers submitted were:
 * **[Thin Clients](thin-clients.md)** - by Greg Slepak *[@TaoEffect](https://twitter.com/TaoEffect) \<hi@okturtles.com\>*
 * **[Trust Exchange: An Architecture for a Permanent Open Trust Network](Trust-Exchange-An-Architecture-for-a-Permanent-Open-Trust-Network.md)** - by Harlan T. Wood *[@HarlanTWood](https://twitter.com/harlantwood) \<h@rlan.me \>*
 * **[Web of Trust with Blockchain IDs](Web-of-Trust-with-Blockchain-IDs.md)** - by Ryan Shea *[@ryaneshea](https://twitter.com/ryaneshea) \<ryan@onename.com\>*
-* **[White Papers, Specifications & Proofs of Concept](white-papers-specifications-and-proof-of-concept-code.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
+* **[White Papers, Specifications & Proofs of Concept](white-papers--specifications---and-proof-of-concept-code.md)** - by Christopher Allen *[@ChristopherA](https://twitter.com/ChristopherA) \<ChristopherA@LifeWithAlacrity.com\>*
 * **[XDI Link Contracts: An Overview](xdi-link-contracts.md)** - by Drummond Reed *[@DrummondReed](https://twitter.com/DrummondReed) \<drummond@respect.network\>*
 * **[Notes on the IPFS Keychain (or the Web Keychain)](ipfs-keychain.md)** 
 * **[IPFS - The Permanent Web](ipfs-links.md)**
