@@ -1,4 +1,4 @@
-## Graphic Recording
+# Graphic Recording
 
 These PDF are the same as the following images:
 
