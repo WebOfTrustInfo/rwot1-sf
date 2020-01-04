@@ -507,7 +507,7 @@ Government–Saving Privacy in the Digital Age, Diane Pub Co, 356pp, ISBN: 0-756
 
 [MAURER]	Ueli Maurer, Modeling a Public-Key Infrastructure, Proceedings of the 1996 European Symposium on Research in Computer Security (ESORICS’ 96), Lecture Notes in Computer Science, Springer-Verlag, vol. 1146, pp. 325-350, Sep 1996.
 
-<http://citeseer.ist.psu.edu/maurer96modelling.html
+<http://citeseer.ist.psu.edu/maurer96modelling.html>
 
 [MCBURNETT]	Neal McBurnett, PGP Web of Trust Statistics,
 
@@ -573,9 +573,9 @@ C. Ellison, B. Frantz, B. Lampson, R. Rivest, SPKI Certificate Theory. RFC 2693,
 
 [xkcd]	Randall Munroe, Responsible Behavior,
 
-<http://xkcd.com/364/>. Used under a Creative Commons
+<http://xkcd.com/364/>. Used under a Creative Commons License.
 
-License.
+---
 
 [^1]: Crypto Expert LLC, jon@crypto.expert\
 [^2]: Philip Zimmermann and Associates LLC, prz@mit.edu\
