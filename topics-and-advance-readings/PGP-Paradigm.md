@@ -477,8 +477,6 @@ As time goes on, the systems tend to grow to each other. In the PEM days, it was
 
 <http://downlode.org/etext/alicebob.html>.
 
-
-
 [BEAUTIFUL]	Andy Oram, John Viega, Beautiful Security : Leading Security
 
 Experts Explain How They Think, O’Reilly Media, 302pp, Print ISBN:978-0-596-52748-8, Ebook ISBN:978-0-596-80205-9,
@@ -487,15 +485,11 @@ Experts Explain How They Think, O’Reilly Media, 302pp, Print ISBN:978-0-596-52
 
 <http://www.amazon.com/dp/0596527489/>
 
-
-
 [CROWELL]	In separate personal communications with each Callas and Zimmermann, William Crowell, then deputy director of the NSA, stated that he was consulted before the investigation started, and opined that an investigation was warranted, but that he also pressed to cancel the investigation, and claimed credit for its being canceled.
 
 [DKIM]	Eric Allman, Jon Callas, Miles Libbey, Jim Fenton, and Mike
 
 Thomas, DomainKeys Identified Mail (DKIM) Signatures, RFC 4871, <http://www.ietf.org/rfc/rfc4871.txt>
-
-
 
 [DOBBERTIN]	Hans Dobbertin, Cryptanalysis of MD5 Compress, Announcement on the Internet, 1996.
 
@@ -503,13 +497,9 @@ Thomas, DomainKeys Identified Mail (DKIM) Signatures, RFC 4871, <http://www.ietf
 
 <http://www.toehold.com/robotca/>
 
-
-
 [KH1]	Kyle Hasselbacher, Robot CA: toward zero-UI crypto,
 
 <http://www.kuro5hin.org/story/2002/11/18/135727/66>
-
-
 
 [LEVY]	Steven Levy, Crypto: How the Code Rebels Beat the
 
@@ -517,21 +507,15 @@ Government–Saving Privacy in the Digital Age, Diane Pub Co, 356pp, ISBN: 0-756
 
 [MAURER]	Ueli Maurer, Modeling a Public-Key Infrastructure, Proceedings of the 1996 European Symposium on Research in Computer Security (ESORICS’ 96), Lecture Notes in Computer Science, Springer-Verlag, vol. 1146, pp. 325-350, Sep 1996.
 
-<http://citeseer.ist.psu.edu/maurer96modelling.html
-
-
+<http://citeseer.ist.psu.edu/maurer96modelling.html>
 
 [MCBURNETT]	Neal McBurnett, PGP Web of Trust Statistics,
 
-< http://bcn.boulder.co.us/~neal/pgpstat/>
-
-
+<http://bcn.boulder.co.us/~neal/pgpstat/>
 
 [MAILMAN]	Mailman, the GNU Mailing List Manager,
 
 <http://www.list.org/>
-
-
 
 [PEM]	PEM was originally defined by John Linn and Steve Kent in RFC
 
@@ -541,25 +525,17 @@ Government–Saving Privacy in the Digital Age, Diane Pub Co, 356pp, ISBN: 0-756
 
 <http://www.ietf.org/rfc/rfc1991.txt>.
 
-
-
 [RFC2440]	Jon Callas, Lutz Donnerhacke, Hal Finney, and Rodney Thayer, OpenPGP Message Format, RFC2440
 
 <http://www.ietf.org/rfc/rfc2440.txt>.
-
-
 
 [RFC3156]	M. Elkins, D. Del Torto, R. Levien, T. Roessler, MIME Security
 
 with OpenPGP, <http://www.ietf.org/rfc/rfc3156.txt>
 
-
-
 [RFC4880]	Jon Callas, Lutz Donnerhacke, Hal Finney, David Shaw, and
 
 Rodney Thayer, OpenPGP Message Format, RFC4880 <http://www.ietf.org/rfc/rfc4880.txt>.
-
-
 
 [ORPGP]	S. Garfinkel, PGP: Pretty Good Privacy, O’Reilly & Associates, 1995, 393pp, ISBN 1-56592-098-8.
 
@@ -573,17 +549,11 @@ Rodney Thayer, OpenPGP Message Format, RFC4880 <http://www.ietf.org/rfc/rfc4880.
 
 <http://www.pgp.com/company/pgpassurance.html>.
 
-
-
 [PS1]	M. Reiter and S. Stubblebine. Path independence for authentication in large-scale systems. In Proceedings of the 4th ACM Conference on Computer and Communications Security, Zurich, Switzerland, April, 1997, pp. 57-66.
 
 <http://stubblebine.com/97ccs.pdf>.
 
-
-
 [PS2]	M. Reiter and S. Stubblebine. Resilient Authentication Using Path Independence. IEEE Transactions on Computers, Vol. 47, No. 12, December 1998.
-
-
 
 [RIVEST]	Rivest, R., Can We Eliminate CertiÞcate Revocation Lists? Proceedings of Financial Cryptography Õ98; Springer Lecture Notes in Computer Science No. 1465 (Rafael Hirschfeld, ed.), February 1998, pages 178Ð183.
 
@@ -593,8 +563,6 @@ Rodney Thayer, OpenPGP Message Format, RFC4880 <http://www.ietf.org/rfc/rfc4880.
 
 [SCHOEN]	Seth Schoen, Casual PKI and making e-mail encryption easy, <http://www.advogato.org/article/391.html>.
 
-
-
 [SPKI]	C. Ellison, SPKI Requirements. RFC 2692, September 1999,
 
 <http://www.ietf.org/rfc/rfc2692.txt>.
@@ -603,24 +571,22 @@ C. Ellison, B. Frantz, B. Lampson, R. Rivest, SPKI Certificate Theory. RFC 2693,
 
 <http://www.ietf.org/rfc/rfc2693.txt>.
 
-
-
 [xkcd]	Randall Munroe, Responsible Behavior,
 
-<http://xkcd.com/364/>. Used under a Creative Commons
+<http://xkcd.com/364/>. Used under a Creative Commons License.
 
-License.
+---
 
-[^1]: Crypto Expert LLC, jon@crypto.expert
-[^2]: Philip Zimmermann and Associates LLC, prz@mit.edu
-[^3]: This was Senate Bill 266 of 1991. SB266 never passed into law.
-[^4]: One of us (Callas) was at Digital Equipment Corporation at the time, and had a PEM certificate. Getting a PEM certificate involved a notary public and sending his passport to a certification authority by courier. He and his colleagues switched to PGP from PEM solely because it was impossible to get certificates to people who needed them in less than a month, or to people without passports.
-[^5]: In reviewing this section in 2015, we think that this paragraph still stands. The topic is suddenly, again
-[^6]: There is a bleed of scope from different types of trust. Strictly speaking, a drivers license is not an identity document at all, it is an authorization to use drive. But that authorization contains other information that is part of the accumulation. It is also interesting that some documents, such as drivers licenses are acquiring scope creep because of the scope bleed. In some places, drivers licenses are becoming identity documents, because they have been used as identity documents that people accept them in the different scope. The aspects of scope bleed, scope creep, and how unrelated trust paths might, can be, and are used is beyond the scope of this article.
-[^7]: Here the social value issue comes up again! Why should you get signatures from people you value rather than those who can make accurate statements?
-[^8]: Both of us authors are irked by seeing signatures appear on our key by people we don’t know.
-[^9]: This particular problem can, of course, be helped by a third-party notary signature or timestamp signature. If the document in question has another signature from a notary or timestamping service, that extra signature states that Alice’s signature in 2003 was a then-valid signature. In practice, however, no one ever does this.
-[^10]: Irrevocable signatures were created at the same time as designated revokers, because this form of delegation is ironically, irrevocable
-[^11]: Public and private might have been better terms; non-exportable is a mouthful. But all the good terms were taken.
+[^1]: Crypto Expert LLC, jon@crypto.expert\
+[^2]: Philip Zimmermann and Associates LLC, prz@mit.edu\
+[^3]: This was Senate Bill 266 of 1991. SB266 never passed into law.\
+[^4]: One of us (Callas) was at Digital Equipment Corporation at the time, and had a PEM certificate. Getting a PEM certificate involved a notary public and sending his passport to a certification authority by courier. He and his colleagues switched to PGP from PEM solely because it was impossible to get certificates to people who needed them in less than a month, or to people without passports.\
+[^5]: In reviewing this section in 2015, we think that this paragraph still stands. The topic is suddenly, again\
+[^6]: There is a bleed of scope from different types of trust. Strictly speaking, a drivers license is not an identity document at all, it is an authorization to use drive. But that authorization contains other information that is part of the accumulation. It is also interesting that some documents, such as drivers licenses are acquiring scope creep because of the scope bleed. In some places, drivers licenses are becoming identity documents, because they have been used as identity documents that people accept them in the different scope. The aspects of scope bleed, scope creep, and how unrelated trust paths might, can be, and are used is beyond the scope of this article.\
+[^7]: Here the social value issue comes up again! Why should you get signatures from people you value rather than those who can make accurate statements?\
+[^8]: Both of us authors are irked by seeing signatures appear on our key by people we don’t know.\
+[^9]: This particular problem can, of course, be helped by a third-party notary signature or timestamp signature. If the document in question has another signature from a notary or timestamping service, that extra signature states that Alice’s signature in 2003 was a then-valid signature. In practice, however, no one ever does this.\
+[^10]: Irrevocable signatures were created at the same time as designated revokers, because this form of delegation is ironically, irrevocable\
+[^11]: Public and private might have been better terms; non-exportable is a mouthful. But all the good terms were taken.\
 
 
