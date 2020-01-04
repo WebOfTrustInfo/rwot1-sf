@@ -473,107 +473,125 @@ As time goes on, the systems tend to grow to each other. In the PEM days, it was
 
 ## References
 
-[ALICE]	John Gordon, The Alice and Bob After Dinner Speech, given at the Zurich Seminar, April 1984,,
+[ALICE]
 
+John Gordon, The Alice and Bob After Dinner Speech, given at the Zurich Seminar, April 1984
 <http://downlode.org/etext/alicebob.html>.
 
-[BEAUTIFUL]	Andy Oram, John Viega, Beautiful Security : Leading Security
+[BEAUTIFUL]
 
-Experts Explain How They Think, O’Reilly Media, 302pp, Print ISBN:978-0-596-52748-8, Ebook ISBN:978-0-596-80205-9,
-
+Andy Oram, John Viega, Beautiful Security : Leading Security Experts Explain How They Think, O’Reilly Media, 302pp, Print ISBN:978-0-596-52748-8, Ebook ISBN:978-0-596-80205-9
 <http://shop.oreilly.com/product/9780596527488.do> or
-
 <http://www.amazon.com/dp/0596527489/>
 
-[CROWELL]	In separate personal communications with each Callas and Zimmermann, William Crowell, then deputy director of the NSA, stated that he was consulted before the investigation started, and opined that an investigation was warranted, but that he also pressed to cancel the investigation, and claimed credit for its being canceled.
+[CROWELL]
 
-[DKIM]	Eric Allman, Jon Callas, Miles Libbey, Jim Fenton, and Mike
+In separate personal communications with each Callas and Zimmermann, William Crowell, then deputy director of the NSA, stated that he was consulted before the investigation started, and opined that an investigation was warranted, but that he also pressed to cancel the investigation, and claimed credit for its being canceled.
 
-Thomas, DomainKeys Identified Mail (DKIM) Signatures, RFC 4871, <http://www.ietf.org/rfc/rfc4871.txt>
+[DKIM]
 
-[DOBBERTIN]	Hans Dobbertin, Cryptanalysis of MD5 Compress, Announcement on the Internet, 1996.
+Eric Allman, Jon Callas, Miles Libbey, Jim Fenton, and Mike Thomas, DomainKeys Identified Mail (DKIM) Signatures, RFC 4871, <http://www.ietf.org/rfc/rfc4871.txt>
 
-[KH]	Kyle Hasselbacher, ROBOT CA,
+[DOBBERTIN]
 
+Hans Dobbertin, Cryptanalysis of MD5 Compress, Announcement on the Internet, 1996.
+
+[KH]
+
+Kyle Hasselbacher, ROBOT CA,
 <http://www.toehold.com/robotca/>
 
-[KH1]	Kyle Hasselbacher, Robot CA: toward zero-UI crypto,
+[KH1]
 
+Kyle Hasselbacher, Robot CA: toward zero-UI crypto,
 <http://www.kuro5hin.org/story/2002/11/18/135727/66>
 
-[LEVY]	Steven Levy, Crypto: How the Code Rebels Beat the
+[LEVY]
 
-Government–Saving Privacy in the Digital Age, Diane Pub Co, 356pp, ISBN: 0-75675-774-6.
+Steven Levy, Crypto: How the Code Rebels Beat the Government–Saving Privacy in the Digital Age, Diane Pub Co, 356pp, ISBN: 0-75675-774-6.
 
-[MAURER]	Ueli Maurer, Modeling a Public-Key Infrastructure, Proceedings of the 1996 European Symposium on Research in Computer Security (ESORICS’ 96), Lecture Notes in Computer Science, Springer-Verlag, vol. 1146, pp. 325-350, Sep 1996.
+[MAURER]
 
+Ueli Maurer, Modeling a Public-Key Infrastructure, Proceedings of the 1996 European Symposium on Research in Computer Security (ESORICS’ 96), Lecture Notes in Computer Science, Springer-Verlag, vol. 1146, pp. 325-350, Sep 1996.
 <http://citeseer.ist.psu.edu/maurer96modelling.html>
 
-[MCBURNETT]	Neal McBurnett, PGP Web of Trust Statistics,
+[MCBURNETT]
 
-<http://bcn.boulder.co.us/~neal/pgpstat/>
+Neal McBurnett, PGP Web of Trust Statistics, <http://bcn.boulder.co.us/~neal/pgpstat/>
 
-[MAILMAN]	Mailman, the GNU Mailing List Manager,
+[MAILMAN]
 
-<http://www.list.org/>
+Mailman, the GNU Mailing List Manager, <http://www.list.org/>
 
-[PEM]	PEM was originally defined by John Linn and Steve Kent in RFC
+[PEM]
 
-1113, RFC 1114, and RFC 1115. These were revised with David Balenson and Burt Kaliski in RFC 1421, RFC 1422, RFC 1423, and RFC 1424.
+PEM was originally defined by John Linn and Steve Kent in RFC 1113, RFC 1114, and RFC 1115. These were revised with David Balenson and Burt Kaliski in RFC 1421, RFC 1422, RFC 1423, and RFC 1424.
 
-[RFC1991]	Derek Atkins, William Stallings, and Phillip Zimmermann, PGP Message Exchange Formats, RFC1991
+[RFC1991]
 
-<http://www.ietf.org/rfc/rfc1991.txt>.
+Derek Atkins, William Stallings, and Phillip Zimmermann, PGP Message Exchange Formats, RFC1991 <http://www.ietf.org/rfc/rfc1991.txt>.
 
-[RFC2440]	Jon Callas, Lutz Donnerhacke, Hal Finney, and Rodney Thayer, OpenPGP Message Format, RFC2440
+[RFC2440]
 
-<http://www.ietf.org/rfc/rfc2440.txt>.
+Jon Callas, Lutz Donnerhacke, Hal Finney, and Rodney Thayer, OpenPGP Message Format, RFC2440 <http://www.ietf.org/rfc/rfc2440.txt>.
 
-[RFC3156]	M. Elkins, D. Del Torto, R. Levien, T. Roessler, MIME Security
+[RFC3156]
 
-with OpenPGP, <http://www.ietf.org/rfc/rfc3156.txt>
+M. Elkins, D. Del Torto, R. Levien, T. Roessler, MIME Security with OpenPGP, <http://www.ietf.org/rfc/rfc3156.txt>
 
-[RFC4880]	Jon Callas, Lutz Donnerhacke, Hal Finney, David Shaw, and
+[RFC4880]
 
-Rodney Thayer, OpenPGP Message Format, RFC4880 <http://www.ietf.org/rfc/rfc4880.txt>.
+Jon Callas, Lutz Donnerhacke, Hal Finney, David Shaw, and Rodney Thayer, OpenPGP Message Format, RFC4880 <http://www.ietf.org/rfc/rfc4880.txt>.
 
-[ORPGP]	S. Garfinkel, PGP: Pretty Good Privacy, O’Reilly & Associates, 1995, 393pp, ISBN 1-56592-098-8.
+[ORPGP]
 
-[PGP2]	P. R. Zimmermann, The Official PGP User’s Guide, The MIT Press, 1995, 216pp, ISBN 0-262-74017-6.
+S. Garfinkel, PGP: Pretty Good Privacy, O’Reilly & Associates, 1995, 393pp, ISBN 1-56592-098-8.
 
-[PGP2S]	P. R. Zimmermann, PGP: Source Code and Internals, The MIT Press, 1997, 933pp, ISBN 0-262-24039-4.
+[PGP2]
 
-[PGPsource]	The sources for PGP can be downloaded from
+P. R. Zimmermann, The Official PGP User’s Guide, The MIT Press, 1995, 216pp, ISBN 0-262-74017-6.
 
-<http://www.pgp.com/downloads/sourcecode/>. This includes not only the sources to PGP Desktop, but the PGP Command Line sources and the PGP Universal GPL-modified sources. You can also find PGP’s policies on assurance and special build requirements at
+[PGP2S]
 
-<http://www.pgp.com/company/pgpassurance.html>.
+P. R. Zimmermann, PGP: Source Code and Internals, The MIT Press, 1997, 933pp, ISBN 0-262-24039-4.
 
-[PS1]	M. Reiter and S. Stubblebine. Path independence for authentication in large-scale systems. In Proceedings of the 4th ACM Conference on Computer and Communications Security, Zurich, Switzerland, April, 1997, pp. 57-66.
+[PGPsource]
 
+The sources for PGP can be downloaded from <http://www.pgp.com/downloads/sourcecode/>. This includes not only the sources to PGP Desktop, but the PGP Command Line sources and the PGP Universal GPL-modified sources. You can also find PGP’s policies on assurance and special build requirements at <http://www.pgp.com/company/pgpassurance.html>.
+
+[PS1]
+
+M. Reiter and S. Stubblebine. Path independence for authentication in large-scale systems. In Proceedings of the 4th ACM Conference on Computer and Communications Security, Zurich, Switzerland, April, 1997, pp. 57-66.
 <http://stubblebine.com/97ccs.pdf>.
 
-[PS2]	M. Reiter and S. Stubblebine. Resilient Authentication Using Path Independence. IEEE Transactions on Computers, Vol. 47, No. 12, December 1998.
+[PS2]
 
-[RIVEST]	Rivest, R., Can We Eliminate CertiÞcate Revocation Lists? Proceedings of Financial Cryptography Õ98; Springer Lecture Notes in Computer Science No. 1465 (Rafael Hirschfeld, ed.), February 1998, pages 178Ð183.
+M. Reiter and S. Stubblebine. Resilient Authentication Using Path Independence. IEEE Transactions on Computers, Vol. 47, No. 12, December 1998.
 
-[SAPKI]	Jon Callas, Improving Message Security With a Self-Assembling PKI, Proceedings of the 2nd Annual PKI Research Workshop, Gaithersburg, MD, April 2003.
+[RIVEST]
 
-[SCHNEIER]	Bruce Schneier, Applied Cryptography: Protocols, Algorithms, and Source Code in C, second edition, John Wiley & Sons, 1996; ISBN 0471117099.
+Rivest, R., Can We Eliminate CertiÞcate Revocation Lists? Proceedings of Financial Cryptography Õ98; Springer Lecture Notes in Computer Science No. 1465 (Rafael Hirschfeld, ed.), February 1998, pages 178Ð183.
 
-[SCHOEN]	Seth Schoen, Casual PKI and making e-mail encryption easy, <http://www.advogato.org/article/391.html>.
+[SAPKI]
 
-[SPKI]	C. Ellison, SPKI Requirements. RFC 2692, September 1999,
+Jon Callas, Improving Message Security With a Self-Assembling PKI, Proceedings of the 2nd Annual PKI Research Workshop, Gaithersburg, MD, April 2003.
 
-<http://www.ietf.org/rfc/rfc2692.txt>.
+[SCHNEIER]
 
-C. Ellison, B. Frantz, B. Lampson, R. Rivest, SPKI Certificate Theory. RFC 2693, September 1999,
+Bruce Schneier, Applied Cryptography: Protocols, Algorithms, and Source Code in C, second edition, John Wiley & Sons, 1996; ISBN 0471117099.
 
-<http://www.ietf.org/rfc/rfc2693.txt>.
+[SCHOEN]
 
-[xkcd]	Randall Munroe, Responsible Behavior,
+Seth Schoen, Casual PKI and making e-mail encryption easy, <http://www.advogato.org/article/391.html>.
 
-<http://xkcd.com/364/>. Used under a Creative Commons License.
+[SPKI]
+
+C. Ellison, SPKI Requirements. RFC 2692, September 1999, <http://www.ietf.org/rfc/rfc2692.txt>.
+C. Ellison, B. Frantz, B. Lampson, R. Rivest, SPKI Certificate Theory. RFC 2693, September 1999, <http://www.ietf.org/rfc/rfc2693.txt>.
+
+[xkcd]
+
+Randall Munroe, Responsible Behavior, <http://xkcd.com/364/>. Used under a Creative Commons License.
 
 ---
 
@@ -587,6 +605,6 @@ C. Ellison, B. Frantz, B. Lampson, R. Rivest, SPKI Certificate Theory. RFC 2693,
 [^8]: Both of us authors are irked by seeing signatures appear on our key by people we don’t know.\
 [^9]: This particular problem can, of course, be helped by a third-party notary signature or timestamp signature. If the document in question has another signature from a notary or timestamping service, that extra signature states that Alice’s signature in 2003 was a then-valid signature. In practice, however, no one ever does this.\
 [^10]: Irrevocable signatures were created at the same time as designated revokers, because this form of delegation is ironically, irrevocable\
-[^11]: Public and private might have been better terms; non-exportable is a mouthful. But all the good terms were taken.\
+[^11]: Public and private might have been better terms; non-exportable is a mouthful. But all the good terms were taken.
 
 
